@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Nanofiber Armor</title>
+	<section id="tech_26_desc" title='Description'>
+		Sir! Applying nanotechnologies to the military field our scientists have managed to produce nano-fiber armors for our ground troups. Since our soldiers will be better protected against rioters we'll need to send less of them on the ground to take control of a planet.
+	</section>
+	<section id="tech_26_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Military technology</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;100,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases G.A. ship efficiency</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_26_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_9'>Nanotechnologies</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_39">Exoskeleton</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

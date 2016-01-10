@@ -1,0 +1,120 @@
+td#mkppsel {
+	text-align: center;
+	padding: 5px 0px 5px 0px;
+}
+
+table#pubmain td.pubmap {
+	width: 270px;
+	padding: 10px 5px 0px 5px;
+	border-style: solid;
+	border-color: white;
+	border-width: 0px 0px 0px 1px;
+}
+
+table#sysmap {
+	width: 260px;
+	border-collapse: collapse;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+}
+
+table#sysmap td {
+	text-align: center;
+	vertical-align: middle;
+	padding: 0px;
+	border-width: 1px;
+	border-color: white;
+	border-style: solid;
+}
+table#sysmap td.vert { width: 32px; height: 192px; }
+table#sysmap td.horz { width: 192px; height: 32px; }
+
+table#mapctr { margin: 0px auto 0px auto; width:auto; }
+
+/* MAP TABLES */
+
+td#mapcnt table { width: 192px; height: 192px; border: 0; padding: 0; margin: 0; border-collapse: collapse; }
+td#mapcnt table tr { border: 0; padding: 0; margin: 0; }
+td#mapcnt table td { border: 0; padding: 0; margin: 0; }
+td.pimg img { border: 0; }
+table#sysstdprt {
+	background-color: #00274f
+}
+table#sysstd td, table#sysstdprt td { text-align: left; }
+table#sysstd td a, table#sysstdprt td a { text-decoration: none; font-style: normal; width: 100%; height: 100%; }
+table#sysstd td a:hover, table#sysstdprt td a:hover { text-decoration: underline; }
+td.pimg { width: 32px; }
+table#sysneb1 { background-image: url("__STATICURL__/beta5/pics/nebula1.png"); }
+table#sysneb2 { background-image: url("__STATICURL__/beta5/pics/nebula2.png"); }
+table#sysneb3 { background-image: url("__STATICURL__/beta5/pics/nebula3.png"); }
+table#sysneb4 { background-image: url("__STATICURL__/beta5/pics/nebula4.png"); }
+td.planetn, td.planetn a, td.planetn a:hover, td.planetn a:visited { color: #CFCFCF; }
+td.planeto, td.planeto a, td.planeto a:hover, td.planeto a:visited { color: #7FFF7F; font-weight: bold; }
+td.planeta, td.planeta a, td.planeta a:hover, td.planeta a:visited { color: #7F7FFF; font-weight: bold; }
+td.prem, td.prem a, td.prem a:hover, td.prem a:visited { color: #AFAF1F; font-weight: bold; }
+td.nebzone1 { color: #AF1F1F; }
+td.nebzone2 { color: #DF3F3F; }
+td.nebzone3 { color: #EF7F7F; }
+td.nebzone4 { color: #FF9F9F; }
+
+/* LISTINGS */
+
+.lstctrl { text-align:center; width: 50%; }
+
+table.flsaleitem { border-width: 0px 0px 1px 0px; border-color: white; border-style: solid; padding: 0px 0px 3px 0px; }
+table.flsaleitem .lspc { width: 32px; }
+table.flsaleitem .pname { text-align: left; }
+table.flsaleitem .coords { text-align: center; width: 7%; }
+table.flsaleitem .ships { text-align: center; width: 12%; }
+table.flsaleitem .seller { text-align: left; }
+table.flsaleitem .sexp { text-align: center; width: 24%; }
+table.flsaleitem .price { text-align: right; }
+table.flsaleitem .action { text-align: right; }
+
+table.plsaleitem { border-width: 0px 0px 1px 0px; border-color: white; border-style: solid; padding: 0px 0px 3px 0px; }
+table.plsaleitem .lspc { width: 32px; }
+table.plsaleitem .pname { text-align: left; }
+table.plsaleitem .coords { text-align: center; width: 7%; }
+table.plsaleitem .pdat { text-align: center; width: 11%; }
+table.plsaleitem .pflt { text-align: left; width: 19%; }
+table.plsaleitem .seller { text-align: left; }
+table.plsaleitem .sexp { text-align: center; }
+table.plsaleitem .price { text-align: right; }
+table.plsaleitem .action { text-align: right; }
+
+table.prpendingitem { border-width: 0px 0px 1px 0px; border-color: white; border-style: solid; padding: 5px 0px 5px 0px; }
+table.prpendingitem .lspc { width: 32px; }
+table.prpendingitem .rdate { width: 25%; text-align: center; }
+table.prpendingitem .seller { text-align: left; }
+table.prpendingitem .price { width: 20%; text-align: right; }
+table.prpendingitem .sexp { width: 25%; text-align: center; }
+table.prpendingitem .details { width: auto; text-align: left; }
+
+table.prhistoryitem { border-width: 0px 0px 1px 0px; border-color: white; border-style: solid; padding: 5px 0px 5px 0px; }
+table.prhistoryitem .lspc { width: 32px; }
+table.prhistoryitem .rdate { width: 20%; text-align: center; }
+table.prhistoryitem .hstat { width: 20%; text-align: center; }
+table.prhistoryitem .seller { text-align: left; }
+table.prhistoryitem .price { width: 20%; text-align: right; }
+table.prhistoryitem .sexp { width: 25%; text-align: center; }
+table.prhistoryitem .details { width: auto; text-align: left; }
+
+table.sopendingitem { border-width: 0px 0px 1px 0px; border-color: white; border-style: solid; padding: 5px 0px 5px 0px; }
+table.sopendingitem .lspc { width: 32px; }
+table.sopendingitem .rdate { width: 20%; text-align: center; }
+table.sopendingitem .otype { width: 15%; text-align: center; }
+table.sopendingitem .buyer { text-align: left; }
+table.sopendingitem .price { width: 15%; text-align: right; }
+table.sopendingitem .sexp { width: 20%; text-align: center; }
+table.sopendingitem .details { width: auto; text-align: left; }
+
+table.sohistoryitem { border-width: 0px 0px 1px 0px; border-color: white; border-style: solid; padding: 5px 0px 5px 0px; }
+table.sohistoryitem .lspc { width: 32px; }
+table.sohistoryitem .rdate { width: 20%; text-align: center; }
+table.sohistoryitem .otype { width: 10%; text-align: center; }
+table.sohistoryitem .hstat { width: 10%; text-align: center; }
+table.sohistoryitem .buyer { text-align: left; }
+table.sohistoryitem .price { width: 10%; text-align: right; padding: 0px 10px 0px 0px; }
+table.sohistoryitem .sexp { width: 20%; text-align: center; }
+table.sohistoryitem .details { width: auto; text-align: left; }

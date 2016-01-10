@@ -1,0 +1,11 @@
+Legacy Worlds > Lost password
+Dear _USER_,
+
+You have requested your password on the Legacy Worlds web site to be changed. You will need to enter an authentication code before the site actually changes your password to a new, random password and sends you another mail containing the new password.
+
+The confirmation code is _CODE_
+
+If you didn't request this, you can safely ignore this message.
+
+Best regards,
+The Legacy Worlds staff

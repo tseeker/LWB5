@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Civilian Transportation Act</title>
+	<section id="tech_7_desc" title='Description'>
+		This law grants our citizens the right to use military ships to move between planets. This increases happiness but reduces battle efficiency of our ships since they have civilians on board.
+	</section>
+	<section id="tech_7_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Law</li>
+			<li><b>Optional:</b> No</li>
+			<li><b>Cost:</b> &amp;euro;50,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases happiness</li>
+				<li>Decreases fleet power</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_7_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_6'>Cruisers</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

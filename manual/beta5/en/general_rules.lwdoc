@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<lwdoc>
+        <version>beta5</version>
+	<language>en</language>
+	<title>General Rules</title>
+	<section id="grule_intro" title="Introduction">
+		As in every game there are rules. Those rules are to be agreed upon and followed by both sides: players and people running the game. Those are the topic of this section.
+		<br/>
+		Some general elements that didn't fit in any other section of the manual are also presented here.
+	</section>
+	<section id="grule_gpract" title="Good Practices" linkto="good_practices">
+		As in every system where you have an account and where you interact with other people some general good practice rules apply or should apply. Those are presented in this manual section.
+	</section>
+	<section id="grule_acc" title="Accounts" linkto="accounts">
+		Along with the above good practices, some rules apply to your account in Legacy Worlds. Those are summed up in this accounts section of the manual.
+	</section>
+	<section id="grule_game" title="Game Rules" linkto="game_rules">
+		As in every game there are rules. Those rules are detailes in the Game Rules section of the manual.
+	</section>
+	<section id="grule_fmod" title="Forum moderation rules" linkto="mod_rules">
+		In order for players to get to know each others and to play better as members of an alliance or simply of the LegacyWorlds community the game is set with some internal forums. Those forums are a tool for you to use and as all tools allowing people to say what they have to say some simple rules apply.
+		<br/>
+		So far we've always had a policy of free speech but as everyone knows one's freedom ends where begins someone else's freedom.
+		<br/>
+		As a consequence:<ol>
+			<li>Public forums are moderated by the staff and a set of volunteers appointed by staff members</li>
+			<li>Alliance forums are to be moderated by the alliance's leader and eventually other alliance members appointed by the alliance leader. If posts / threads that don't comply with the moderation rules are brought to the staff's attention, the alliance's leader will be held personally responsible. This means the same punishment will be applied to the alliance's leader as to the offender</li>
+		</ol>
+	</section>
+	<section id="grule_legal" title="Legal issues" linkto="legal">
+		The server on which the game is hosted is located in France. As a consequence French law is applicable. For those not familiar with it here are a few reminders about what it implies in the context of the game are summed up in this manual section.
+	</section>
+
+	<section file="good_practices.lwdoc"/>
+	<section file="accounts.lwdoc"/>
+	<section file="game_rules.lwdoc"/>
+	<section file="mod_rules.lwdoc"/>
+	<section file="legal.lwdoc"/>
+</lwdoc>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Room Temperature Superconductors</title>
+	<section id="tech_8_desc" title='Description'>
+		Sir! Our scientists have worked on a new type of electronic circuitry that will allow us to greatly improve the efficiency of our factories, using those room temperature superconductors.
+	</section>
+	<section id="tech_8_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Civilian technology</li>
+			<li><b>Optional:</b> No</li>
+			<li><b>Cost:</b> &amp;euro;40,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases Industrial Factories productivity</li>
+				<li>Increases Military Factories Productivity</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_8_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_3'>Advanced Materials</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_15">Nano-scale Computers</mlink></li>
+			<li><mlink to="tech_18">Advanced Communications</mlink></li>
+			<li><mlink to="tech_36">Robotics</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<lwdoc>
+        <version>beta5</version>
+	<language>en</language>
+	<title>Good Practices</title>
+	<section id="gpract_intro" title="Introduction">
+		As in every system where you have an account and where you interact with other people some general good practice rules apply or should apply. Those are presented in this manual section.
+	</section>
+	<section id="gpract_pass" title="Password">
+		You'll find here a few advices about your password to access Legacy Worlds:<ul>
+			<li>Your password, as for everything requiring one, has to be complex enough if you don't want anyone to guess it and use your account without your knowledge. A short password is also easier to guess than a long one. The name of your dog is a very bad idea. A random combination of letters and digits along with special characters usually makes a good password</li>
+			<li>Don't use the same password as for a banking site, work or university login, email account and so on. If someone was to guess your Legacy Worlds account information he would then be able to access all those other accounts and might be able to do things that may cost a lot more than a few fleets or in game cash</li>
+			<li>Think about changing your password on a regular basis. This also helps reduce the risks of your account being used by someone else</li>
+			<li>Make sure you sign off before closing your browser's window. By doing so you prevent anyone who might have access to the same computer from using your account if they don't know your account information</li>
+		</ul>
+	</section>
+	<section id="gpract_resp" title="Respect towards other players">
+		The other players in the game aren't only nicks on the Internet. There are real persons with feelings beyond those nicks. As such you owe them the respect that is owed to every human being. Whatever their colour, their faith, their nationality, their religion, their opinions, their social behaviour and so on there is no point in saying anything that might hurt their feelings nor in exchanging insults.
+		<br/>
+		Your are also invited to avoid any offensive alliance or planet names. If the game administrators were to find any of those:<ul>
+			<li>The alliance would be disbanded by the game administrators</li>
+			<li>The planet would be taken from the player who owns it, neutralised and renamed as a P-* planet. Whatever fleets the former may have had orbiting the planet would be disbanded</li>
+		</ul>
+		<br/>
+		Keep in mind it's only a game and that there is no use in ressorting to degrading comments over a game.
+	</section>
+</lwdoc>

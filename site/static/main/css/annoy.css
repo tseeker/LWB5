@@ -1,0 +1,34 @@
+#intframe {
+	background-image: url(__STATICURL__/main/pics/mp-content.jpg);
+}
+
+#aframe {
+	position: absolute;
+	left: 15px;
+	top: 224px;
+	width: 921px;
+	height: 279px;
+	overflow: none;
+	background-color: transparent;
+}
+
+#aframe h1 {
+	width: 100%;
+	font-size: 20pt;
+	font-variant: small-caps;
+	text-align: center;
+}
+
+#aframe h1 span {
+	font-size: 20pt;
+}
+
+#aframe p, #aframe b {
+	color: #aaa;
+	font-size: 14pt;
+}
+
+#aframe p {
+	text-align: center;
+	margin: 10px 0px;
+}

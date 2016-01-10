@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Mass Anti-matter Production</title>
+	<section id="tech_72_desc" title='Description'>
+		Using newly acquired technologies our scientists have achieved mass production of anti-matter thus opening a brand new field of applications.
+	</section>
+	<section id="tech_72_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Fundamental research</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;2,500,000</li>
+			<li><b>Effects:</b> N/A</li>
+		</ul>
+	</section>
+	<section id='tech_72_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_25'>Experimental Anti-Matter Production</mlink></li>
+			<li><mlink to='tech_57'>Force fields</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_78">Anti-matter Generators</mlink></li>
+			<li><mlink to="tech_84">Matter Anti-matter Engines</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

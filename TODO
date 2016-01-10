@@ -1,0 +1,47 @@
+This file lists stuff that could be done to improve the current LWB5 source
+code. It's mostly stuff that I had the intention of doing at some point but
+didn't have the time to work on or finish. Of course, this is just a list of
+ideas - feel free to ignore it altogether.
+
+
+Back-end clean up:
+
+* A lot of the game and site functions use older APIs that are deprecated.
+** Calls to gameAction()
+** Calls to logText()
+** There's more, but I can't remember...
+
+* Some of the improvements to the core library found in the forums branch
+patch should be included - most importantly the SQL query stuff. Of course
+this also implies modifying a lot of the code that actually uses SQL queries.
+
+* While some of it has been removed, there is still a lot of SQL in the
+various web handlers; it should be moved to the library.
+
+* Internal messages are sent by inserting into the database directly in many
+of the game's functions; this should be changed as there is an API for that.
+
+
+Front-end clean up:
+
+* When LWB5 was first written, I hadn't planned on using that much JavaScript.
+In addition, JS libraries were not as common then as they are now. Therefore
+most of the JS code is a terrible, ugly heap of spaghetti code and copy pasta.
+It should be rewritten.
+
+
+Improvements and missing features:
+
+* Finishing the forums rewrite (started in the forums branch patch).
+
+* Rewrite fleet handling - the database structure is brain dead, normalisation
+is clearly required, and it'd reduce the various checks performed wherever
+fleets are accessed.
+
+* Fleet trajectory is buggy, it contains a relatively easily exploitable bug.
+Needs redesign.
+
+* Probes never made it into the final version.
+
+* The IRC bot's source code should be upgraded to the latest version of
+PHP-IRC.

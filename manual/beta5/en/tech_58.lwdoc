@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Lifeform Energy Manipulation</title>
+	<section id="tech_58_desc" title='Description'>
+		Sir! Our scientists have managed to engineer lifeforms capabable of manipulating energy. This new discovery lets us foresee some astonishing future breakthroughs.
+	</section>
+	<section id="tech_58_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Fundamental research</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;1,500,000</li>
+			<li><b>Effects:</b> N/A</li>
+		</ul>
+	</section>
+	<section id='tech_58_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_27'>Lifeform Engineering</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_71">Biological Propulsion Systems</mlink></li>
+			<li><mlink to="tech_77">Adaptive Plating</mlink></li>
+			<li><mlink to="tech_79">Biological Subspace Control</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

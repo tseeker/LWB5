@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Biosphere Protection Pact</title>
+	<section id="tech_32_desc" title='Description'>
+		Enforcing this law forces the industrial sector to use greener production methods that make the population happier but reduce productivity.
+	</section>
+	<section id="tech_32_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Law</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;60,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases happiness</li>
+				<li>Decreases Industrial Factories productivity</li>
+				<li>Decreases Military Factories productivity</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_32_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_31'>Green Production</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

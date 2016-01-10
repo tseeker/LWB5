@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<lwdoc>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Universe Overview Page</title>
+	<section id="uover_intro" title="Introduction">
+		This page provides you with a status of Legacy Worlds' <i>universe</i> at a glance along with <i>shortcuts</i> to the most important items you might be interested in viewing. It is split into several sections.
+	</section>
+	<section id="uover_gal" title="Galaxy">
+		This section provides you with general information about the <i>galaxy</i> in which the game takes place including:<ul>
+			<li><mlink to="emp_conc_plan">Planets</mlink>: total number of planets in the galaxy</li>
+			<li><mlink to="emp_conc_plan">Neutral planets</mlink>: number of neutral planets in the galaxy</li>
+			<li><mlink to="ipp_ot_neb">Systems occupied by nebulas</mlink>: number of systems which aren't occupied by stellar systems but by nebula squares</li>
+			<li><i>Average turrets/planet</i>: average number of <mlink to="ship_cat">turrets</mlink> on the <mlink to="emp_conc_plan">planets</mlink> in the galaxy</li>
+			<li><i>Average factories/planet</i>: average number of <mlink to="emp_conc_fact">factories</mlink> on the <mlink to="emp_conc_plan">planets</mlink> in the galaxy</li>
+		</ul>
+	</section>
+	<section id="uover_ticks" title="Ticks">
+		This part of the page informs you about the time at wich the next <mlink to="ticks">ticks</mlink> will occure:<ul>
+			<li>Next <mlink to="ticks_tick">Battle Tick</mlink></li>
+			<li>Next <mlink to="ticks_tick">Hour Tick</mlink></li>
+			<li>Next <mlink to="ticks_tick">Cash Tick</mlink></li>
+			<li>Next <mlink to="ticks_tick">Day Tick</mlink></li>
+		</ul>
+		It also provides a <i>More Details</i> link to the <mlink to="ticks">ticks page</mlink>.
+	</section>
+	<section id="uover_rank" title="Rankings">
+		This section sums up your current status in the game <mlink to="rankings">rankings</mlink>, presenting:<ul>
+			<li>your current <mlink to="rank_gen">general ranking</mlink> and the associated number of points</li>
+			<li>your current <mlink to="rank_det">financial ranking</mlink> and the associated number of points</li>
+			<li>your current <mlink to="rank_det">civilisation ranking</mlink> and the associated number of points</li>
+			<li>your current <mlink to="rank_det">military ranking</mlink> and the associated number of points</li>
+			<li> you current <mlink to="rank_idr">inflicted damage ranking</mlink> and the associated number of points</li>
+			<li>your <mlink to="rank_rnd">overall round ranking</mlink> and the associated number of points</li>
+			<li>the current <i>number of players</i> in the <mlink to="rankings">rankings</mlink></li>
+		</ul>
+		It also provides a <i>More Details</i> link to the <mlink to="rankings">Rankings page</mlink>.
+	</section>
+</lwdoc>

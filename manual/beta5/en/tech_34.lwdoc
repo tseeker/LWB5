@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Forced Human Cloning</title>
+	<section id="tech_34_desc" title='Description'>
+		Sir! We could enact a law that would allow our government to clone citizens and boost our population growth! Our people wouldn't be too happy about it though...
+	</section>
+	<section id="tech_34_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Law</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;80,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Decreases happiness</li>
+				<li>Increases population growth</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_34_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_29'>Cloning Vats</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

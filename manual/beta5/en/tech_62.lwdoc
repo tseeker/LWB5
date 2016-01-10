@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Interstellar University</title>
+	<section id="tech_62_desc" title='Description'>
+		Sir! Thanks to our recent improvements in communications and computing capacities we've brought education to a new scale. Our interstellar universities will allow us to better adapt education programs to students' needs and to improve cooperation between our research labs.
+	</section>
+	<section id="tech_62_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Civilian technology</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;2,500,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases research output</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_62_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_42'>Biological Computers</mlink></li>
+			<li><mlink to='tech_48'>Quantum Encryption</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_70">Wormhole Theory</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

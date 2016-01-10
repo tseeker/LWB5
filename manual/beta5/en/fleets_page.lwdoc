@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<lwdoc>
+        <version>beta5</version>
+	<language>en</language>
+	<title>Fleets Page</title>
+	<section id="fp_intro" title="Introduction">
+		The <i>Fleets page</i> is the main entry point to <i>manage fleets</i>. This part of the manual will present this page more deeply. The <i>fleet page</i> consists in <i>three different sections</i>:<ul>
+	 		<li><mlink to="fp_filter">Top part</mlink>: it includes a set of <mlink to="fp_filter">filters</mlink></li>
+			<li><mlink to="fp_list">Middle Part</mlink>: it's the actual <mlink to="fp_list">fleets list</mlink>. It's either a complete list or the result of the choices you've made with the <mlink to="fp_filter">filters</mlink></li>
+			<li><mlink to="fleets_actions">Bottom Part</mlink>: it's the <mlink to="fleets_actions">Action section</mlink> of the fleet page, where you can actually <i>act on the fleets</i></li>
+		</ul>
+		This manual section will describe the two first parts of the page. <mlink to="fleets_actions">Fleets actions</mlink> are the topic of another manual section that you can access <mlink to="fleets_actions">here</mlink>.
+	</section>
+	<section id="fp_filter" title="Filters">
+		<section id="fp_filter_intro" title="Introduction">
+			In order to <i>easily find a fleet</i> you're interested in, you can either use the <mlink to="fp_filter_search">search</mlink> feature or <i>combine whatever set of filters</i>. The <i>filters</i> and <mlink to="fp_filter_search">search</mlink> features are described below.
+		</section>
+		<section id="fp_filter_loc" title="Locations">
+			This filter allows you to <i>select fleets depending on the category of locations</i> there are on or moving to. You can choose to display <i>fleets located on</i>:<ul>
+				<li><i>All planets</i>: <i>no particular filter</i> is applied</li>
+				<li><i>Own planets</i>: only the fleets <i>located on planets you own</i> are displayed</li>
+				<li><i>Allied planets</i>: only the fleets <i>located on allied planets</i> are displayed</li>
+				<li><i>Other planets</i>: only the fleets <i>located on other planets</i> (that is to say planets or other stellar objects which don't fit in any other categories) are displayed</li>
+			</ul>
+		</section>
+		<section id="fp_filter_stat" title="Fleet status">
+			This filter allows you to <i>select fleets depending on their status</i>. You can choose to display <i>fleets which status is</i>:<ul>
+				<li><i>Any</i>: <i>no particular filter</i> is applied and all fleets are displayed</li>
+				<li><i>Idle</i>: only the fleets that <i>are orbiting a planet</i> and <i>can actually move</i> are displayed</li>
+				<li><i>Unavailable</i>: only the fleets that <i>are orbiting a planet</i> and <i>can't be moved</i> (because they are engaged in battle and so on) are displayed</li>
+				<li><i>Moving</i>: only the fleets that are currently <i>flying between planets</i> are displayed</li>
+				<li><i>H.S. Stand-By</i>: only the fleets that are currently <i>standing by in Hyperspace</i> are displayed</li>
+				<li><i>On Sale</i>: only the fleets that <i>you are currently selling</i> are displayed</li>
+				<li><i>Sold</i>: only the fleets that <i>you have sold</i> but <i>haven't been transfered to their new owner yet</i> are displayed</li>
+			</ul>
+		</section>
+		<section id="fp_filter_mode" title="Fleet mode">
+			This filter allows you to <i>select fleets according to the mode they are in</i>. You can either diplay <i>fleets whose mode is</i>:<ul>
+				<li><i>Any</i>: <i>no particular filter</i> is applied and all fleets are displayed</li>
+				<li><i>Defending</i>: only <i>defending fleets</i> are displayed</li>
+				<li><i>Attacking</i>: only attacking fleets are displayed</li>
+			</ul>
+		</section>
+		<section id="fp_filter_own" title="Fleet Owner">
+			This filters allows you to <i>select fleets according to their owner</i>. You can either display <i>fleets whose owner is</i>:<ul>
+				<li><i>Any</i>: <i>no particular filter</i> is applied and all fleets are displayed</li>
+				<li><i>Myself</i>: only the <i>fleets you own</i> are displayed</li>
+				<li><i>Trusted Allies</i>: only the <u>fleets belonging to players who have you in their <mlink to="allies">trusted allies</mlink> list</u> are displayed</li>
+				<li><i>Others</i>: only the <i>fleets of other players</i> (neither you nor those who have you as trusted allies) are displayed</li>
+			</ul>
+		</section>
+		<section id="fp_filter_search" title="Search">
+			The last "filtering" tool is in fact a <i>search facility</i>. In order <i>to search and display</i> only particular fleet you first of all have to <i>choose on what field you want to perform the search</i>. To do so you have to <i>select the relevant value</i> in the <i>Search form drop down list</i>. It can be either:<ul>
+				<li><i>Fleet</i>: the search is perfomed on the <i>name of the fleet</i></li>
+				<li><i>Location</i>: the search is perfomed on the <i>name of the location</i> (planet, nebula square, planetary remains) where the fleet is or is moving to</li>
+				<li><i>Player</i>: the search is performed on the <i>name of the player who owns the fleet</i></li>
+			</ul>
+			Then you have to <i>define the search string</i>. You have to <i>type it in the textfield</i> next to the drop down list. The selection on the fleets list is <i>performed automatically as you type</i> in the string in the textfield. A name containing the <i>search string wherever it may be in the name</i> is considered as a <i>positive match</i>.
+		</section>
+	</section>
+	<section id="fp_list" title="Fleets list">
+		<section id="fp_list_sec" title="Fleets list sections">
+			The <i>fleets list</i> part of the page is <i>divided into several sections</i>, depending on the <i>location the fleets</i> are at. Those sections consist in:<ul>
+				<li><i>Own planets</i>: you'll find here the list of all <i>fleets located on planets you own</i></li>
+				<li><i>Allied planets</i>: in this section are listed all <u>fleets located on planets belonging to players who have you as <mlink to="allies">trusted ally</mlink></u></li>
+				<li><i>Other planets</i>: you'll find here all <i>fleets located on other stellar objects</i>, be it planets, planetary remains or nebula squares</li>
+				<li><i>Moving Fleets</i>: in this section are displayed all <i>fleets moving between different stellar objects</i></li>
+				<li><i>Fleets standing by</i>: in this section are listed all <i>fleets standing-by in hyperspace</i></li>
+			</ul>
+		</section>
+		<section id="fp_list_detail" title="Fleets list details">
+			<section id="fp_list_detail_intro" title="Introduction">
+				For each of the <mlink to="fp_list_sec">previously described sections</mlink> you'll find a table proving <mlink to="fp_list_detail_flee">detailed fleets information</mlink> for each <mlink to="fp_list_detail_loc">location</mlink>. The table includes:<ul>
+					<li><mlink to="fp_list_detail_loc">Detailed information for the location</mlink></li>
+					<li><mlink to="fp_list_detail_flee">Detailed information for each fleet at this location</mlink></li>
+				</ul>
+				The next parapgraphs will describe both sections of the table.
+			</section>
+			<section id="fp_list_detail_loc" title="Location description">
+				<section id="fp_list_detail_loc_intro" title="Introduction">
+					The <i>location part of the table</i> provides a set of <i>data on the location</i>. Some are <i>common to all stellar objects</i> and others <i>depend on the type of stellar object</i>. All are listed in the next paragraphs.
+				</section>
+				<section id="fp_list_detail_loc_gen" title="General information">
+					For <i>all stellar objects</i>, the location description part of the table <i>includes</i>:<ul> 
+						<li><i>name</i>: the <i>name of the object</i></li>
+						<li><i>coordinates</i>: the <i>coordinates</i> of the object on the <mlink to="maps">map</mlink></li>
+					</ul>
+				</section>
+				<section id="fp_list_detail_loc_plan" title="For planets">
+					For <mlink to="planets">planets</mlink>, the location description also displays:<ul>
+						<li><i>alliance tag</i>: tag of the <mlink to="alliance">alliance</mlink> the <i>owner of the planet belongs to</i></li>
+						<li><i>owner</i>: the <i>name of the owner</i> if the <i>planet isn't yours</i> but <u>belongs to one of your <mlink to="allies">trusted allies</mlink></u></li>
+						<li><i>population</i>: the total <mlink to="emp_conc_pop">population</mlink> of the <mlink to="planet">planet</mlink></li>
+						<li><i>turrets</i>: the number of <mlink to="ship_cat_list">turrets</mlink> located on the <mlink to="planet">planet</mlink></li>
+						<li><i>turrets' power</i>: the total <mlink to="ship_cat_pow">power</mlink> of the <mlink to="ship_cat_list">turrets</mlink> on the <mlink to="planet">planet</mlink></li>
+					</ul>
+					<i>When attacking</i>, below the fleets present on the location, <i>one sentense</i> presents the <mlink to="battle_ownchange">level of control</mlink> over the <mlink to="emp_conc_pop">population</mlink> the <i>player with the more control has</i>. It can be either:<ul>
+						<li><i>"xxx could take the planet."</i>: <i>if all defenses were destroyed</i> the player would have <mlink to="ship_cat_ga">enough GA ships</mlink> to <mlink to="battle_ownchange">gain control over the planet</mlink></li>
+						<li><i>"xxx would need x more GA Ships to take this planet."</i>: <i>even if the defenses are destroyed</i> the player <mlink to="ship_cat_ga">doesn't have enough GA sps</mlink> to <mlink to="battle_ownchange">take over the planet</mlink></li>
+					</ul>
+				</section>
+				<section id="fp_list_detail_loc_oth" title="For other stellar objects">
+					For <i>other stellar objects</i>, that is to say <mlink to="ipp_ot_neb">nebulas</mlink> and <mlink to="ipp_ot_pre">planetary remains</mlink>, the <i>location description</i> includes:<ul>
+						<li><i>nature of the object</i>: it can be either a <mlink to="ipp_ot_neb">nebula</mlink> or <mlink to="ipp_ot_pre">planetary remains</mlink></li>
+						<li><i>opacity or class</i>: this represents the <i>level of opacity</i> of the object, which gives an idea of the <i>speed reduction of fleets going through it</i></li>
+					</ul>
+				</section>
+			</section>
+			<section id="fp_list_detail_flee" title="Fleets description">
+				<section id="fp_list_detail_flee_intro" title="Introduction">
+					Below the <mlink to="fp_list_detail_loc">description of the location</mlink> you'll find a <i>list of fleets present</i> at that location. The <i>data</i> included in this list are <i>described in the next paragraphs</i>.
+				</section>
+				<section id="fp_list_detail_flee_gen" title="General data">
+					The <i>fleet list</i> of a <i>particular location</i> first of all includes a set of <i>general items</i>:<ul>
+						<li>a <i>checkbox</i> that you have to <i>check in order to select the coresponding fleet</i> if you have the ability to do so</li>
+						<li><i>Owner</i>: <i>name</i> of the <i>owner of the fleet</i></li>
+						<li><i>Name</i>: <i>name</i> of the <i>fleet</i></li>
+					</ul>
+				</section>
+				<section id="fp_list_detail_flee_haul" title="Haul information">
+					This part of the list indicates the <mlink to="ship_cat_trans">haul status of the fleet</mlink>. The values can be of two kinds:<ul>
+						<li><i>N/A</i>: this means the fleet <u>doesn't include <mlink to="ship_cat_class">capital ships</mlink></u> and that it <i>can't carry any ship</i> through <mlink to="move_gen_hypnorm">hyperspace</mlink>. Such a fleet can only <i>travel to stellar objects located in the same stellar system</i> it is currently located in</li>
+						<li><i>a percentage</i>: this means the fleet <u>includes <mlink to="ship_cat_class">capital ships</mlink></u> that are <mlink to="move_gen_hypnorm">hyperspace</mlink> capable and the <i>percentage represents how filled the hauls of those capital ships are</i>. Two cases are then possible:<ul>
+							<li><i>the percentage is equal to or below 100%</i>: the fleet is <i>fully hyperspace capable</i> and can move to other stellar system as is</li>
+							<li><i>the percentage is above 100%</i>: there are <u>too many <mlink to="ship_cat_class">system ships</mlink> to carry</u> through <mlink to="move_gen_hypnorm">hyperspace</mlink> for the number of <mlink to="ship_cat_class">capital ships</mlink> you have in the fleet. You either have to <i>remove system ships</i> or <i>add capital ships</i> to the fleet so that the <i>percentage gets equal or lower than 100%</i> if you intend <i>to send the fleet through hyperspace</i></li>
+						</ul>
+						</li>
+					</ul>
+				</section>
+				<section id="fp_list_detail_flee_comp" title="Fleet composition">
+					The table also provides information about the <i>fleet's composition</i>, including:<ul>
+						<li><i>GA Ships</i>: the total <i>number of GA ships</i> in the fleet</li>
+						<li><i>Fighters</i>: the total <i>number of fighters</i> in the fleet</li>
+						<li><i>Cruisers</i>: the total <i>number of cruisers</i> in the fleet</li>
+						<li><i>Battle Cruisers</i>: the total <i>number of battle cruisers</i> in the fleet</li>
+						<li><i>Power</i>: the total <mlink to="ship_cat_pow">power</mlink> of all the <mlink to="ships">ships</mlink> in the fleet</li>
+					</ul>
+				</section>
+				<section id="fp_list_detail_flee_stat" title="Fleet status">
+					The table also indicates the current <i>status of the fleet</i>. This <i>status</i> is composed of <i>two parts, separated with a comma</i>:<ul>
+						<li><i>First item</i>: it indicates the <i>battle mode of the fleet</i>: either <i>Defense</i> or <i>Attack</i></li>
+						<li><i>Second item</i>: it indicates the <i>availability of the fleet</i>. You can either move it (<i>Avail.</i>) or have to wait before you can move it again (<i>Unavail.</i>)</li>
+					</ul>
+				</section>
+				<section id="fp_list_detail_flee_col" title="Colour code">
+					A <i>colour code</i> for each fleet line is used in the fleet list to help you easily <i>spot different categories of fleets</i>:<ul>
+						<li><i>green</i>: your <i>own fleets</i></li>
+						<li><i>blue</i>: fleets <i>belonging to any other player</i> and that are <i>in the same battle mode</i> as your own fleets (defending along with you or attacking along with you)</li>
+						<li><i>red</i>: <i>enemy fleets</i>, that is to say fleets that <i>aren't in the same battle mode as you</i>(defending while you're attacking or the other way around)</li>
+					</ul>
+				</section>
+			</section>
+		</section>
+		<section id="fp_list_op" title="Fleets list operations">
+			<i>Two operations</i> are possible on a particular fleet:<ul>
+				<li><i>checking the checkbox</i> at the beginning of the fleet's line allows to <i>select the fleet</i> and causes the list of <mlink to="fleets_actions">available actions</mlink> for the fleet to be <i>displayed</i></li>
+				<li><i>clicking on the name</i> of the fleet <i>opens an alert window</i> where you can <i>type in a new name</i> for the fleet and <i>change it</i></li>
+			</ul>
+		</section>
+	</section>
+</lwdoc>

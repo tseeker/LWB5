@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Biological Subspace Control</title>
+	<section id="tech_79_desc" title='Description'>
+		Sir! Our scientists have engineered some new astonishing lifeforms. These artificial creatures are capable of controlling subspace fields. This major discovery opens a new era for our future studies.
+	</section>
+	<section id="tech_79_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Fundamental research</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;4,000,000</li>
+			<li><b>Effects:</b> N/A</li>
+		</ul>
+	</section>
+	<section id='tech_79_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_41'>Space-time folding</mlink></li>
+			<li><mlink to='tech_58'>Lifeform Energy Manipulation</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_83">Self-sustained Arcologies</mlink></li>
+			<li><mlink to="tech_89">Biological Hyperspace Engines</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

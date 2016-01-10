@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Multiphasic Transmission</title>
+	<section id="tech_65_desc" title='Description'>
+		Applying temporal mechanics to communication, our scientists have managed to use it to transmit data in fluctuating phases. This further protects our communications from enemy jamming technologies.
+	</section>
+	<section id="tech_65_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Military technology</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;5,000,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases communications efficiency</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_65_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_40'>Temporal Mechanics</mlink></li>
+			<li><mlink to='tech_48'>Quantum Encryption</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_82">Subspace Data conduit</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

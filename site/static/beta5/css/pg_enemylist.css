@@ -1,0 +1,4 @@
+table.enlist { width: auto; }
+table.enlist td { width: 150px; }
+table.enlist td.spacer { width: 30px; }
+table.enlist td.lsbutton { text-align: center; }

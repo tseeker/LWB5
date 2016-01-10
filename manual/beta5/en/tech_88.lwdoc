@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Wormhole Supernova</title>
+	<section id="tech_88_desc" title='Description'>
+		Sir! With this technology we can initiate a chain reaction on a planetary wormhole that will cause it to flare up and destroy anything in the vicinity, including the planet and scaring the living hell out of the planet's neighbours.
+	</section>
+	<section id="tech_88_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Military technology</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;15,000,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Provides the ability to destroy planets</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_88_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_80'>Wormhole Collapsing</mlink></li>
+			<li><mlink to='tech_81'>Wormholes</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

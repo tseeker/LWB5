@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Intelligent Materials</title>
+	<section id="tech_74_desc" title='Description'>
+		Bringing sentience to the materials they use, our scientists provide us with wonderful new ways of building stuff.
+	</section>
+	<section id="tech_74_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Civilian technology</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;4,000,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases Industrial Factories productivity</li>
+				<li>Increases Military Factories productivity</li>
+				<li>Reduces battle losses</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_74_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_42'>Biological Computers</mlink></li>
+			<li><mlink to='tech_53'>Self-healing Materials</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_75">Automated Factories</mlink></li>
+			<li><mlink to="tech_77">Adaptive Plating</mlink></li>
+			<li><mlink to="tech_83">Self-sustained Arcologies</mlink></li>
+			<li><mlink to="tech_85">Biological Turrets</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

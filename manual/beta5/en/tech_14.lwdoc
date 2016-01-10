@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Cloning Techniques</title>
+	<section id="tech_14_desc" title='Description'>
+		Sir! Their stem cells analysis have finally brought our scientists a new breakthrough. Our researchers have succeeded in cloning various lifeforms. 
+	</section>
+	<section id="tech_14_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Fundamental research</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;100,000</li>
+			<li><b>Effects:</b> N/A</li>
+		</ul>
+	</section>
+	<section id='tech_14_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_10'>Advanced Hospitals</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_27">Lifeform Engineering</mlink></li>
+			<li><mlink to="tech_29">Cloning Vats</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

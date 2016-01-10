@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<lwdoc>
+        <version>beta5</version>
+	<language>en</language>
+	<title>Tutorial</title>
+	<section id="tuto_intro" title="Introduction">
+		This tutorial presents a few tips to help you getting started with the game. It's not the ultimate guide to Legacy Worlds and its scope is limited to your first days of gameplay. Becoming the best player in the game will then be up to you.
+	</section>
+	<section id="tuto_bas" title="Basic Concepts">
+		Legacy Worlds is a <mlink to="ticks">ticks</mlink> based text based galactic war game. As leader of a little group of suvivors from the earth annihilation you are expected to build up an <mlink to="empire">empire</mlink> among the stars, in a remote galaxy, for your followers. This <mlink to="empire">empire</mlink>, including only one <mlink to="planets">planet</mlink> at the begining of the game, can grow through <mlink to="battles">conquest</mlink> and <mlink to="marketplace">commerce</mlink>. Taking over new planets by force is achieved thanks to <mlink to="fleets">fleets</mlink> that you can move from planet to planet. <mlink to="ttechnology">Research</mlink> provides you new <mlink to="tech_list">technologies</mlink> to improve your <mlink to="fleets">fleets</mlink> and your <mlink to="empire">empire</mlink>. 
+	</section>
+	<section id="tuto_begin" title="In the beginning...">
+		<section id="tuto_begin_intro" title="Introduction">
+			When <mlink to="accga_gm_join">joining a Legacy Worlds game</mlink> you get provided with a single <mlink to="planets">planet</mlink>. Before expanding your newborn <mlink to="empire">empire</mlink> you first of all can improve that newly acquired property. 
+		</section>
+		<section id="tuto_begin_money" title="Making money">
+			In order to be able to <mlink to="ipp_own_bw">build fleets</mlink>, <mlink to="tech_topic_stat">implement technologies</mlink> or conduct <mlink to="marketplace">transactions with other players</mlink> you first of all need <mlink to="money">money</mlink>. Your <mlink to="planet">planet</mlink> provides you with a <mlink to="mon_ppl">base income</mlink> linked with its <mlink to="emp_conc_pop">population</mlink>. Building <mlink to="ipp_own_if">industrial factories</mlink> also generates <mlink to="mon_dp">income</mlink>. <mlink to="mon_dp">Income</mlink> is generated twice a day during the <mlink to="ticks_tick">Money tick</mlink>.
+		</section>
+		<section id="tuto_begin_fleet" title="Building fleets">
+			In order to protect your <mlink to="planet">planet</mlink> against potential <mlink to="battle_ownchange">invaders</mlink> you have to set up defenses. Static defenses are provided by <mlink to="ipp_own_po">turrets</mlink>. <mlink to="fleets">Fleets</mlink> stationned on a planet also defend it. You build both <mlink to="ipp_own_po">turrets</mlink> and <mlink to="ships">ships</mlink> with <mlink to="ipp_own_mf">military factories</mlink>. Items in the <mlink to="ipp_own_bw">military factories' build queue</mlink> get produced during <mlink to="ticks_tick">hour ticks</mlink>. In order to increase the construction speed of your <mlink to="ipp_own_po">turrets</mlink> and <mlink to="fleets">fleets</mlink> you can increase the number of <mlink to="ipp_own_mf">military factories</mlink> on your <mlink to="planet">planet</mlink>.
+		</section>
+		<section id="tuto_begin_happy" title="Keeping the population happy">
+			Be careful about the amount of <mlink to="emp_conc_fact">factories</mlink> you build on your <mlink to="planets">planets</mlink>. <mlink to="emp_conc_fact">Factories</mlink> have an influence on <mlink to="emp_conc_happ">happiness</mlink>. <mlink to="emp_conc_happ">Happiness</mlink> is a major factor in the game and represents the satisfaction of the citizens of your <mlink to="planet">planet</mlink>. If they are too unhappy they might <mlink to="emp_conc_rev">revolt</mlink> and destroy planetary improvements. <mlink to="emp_conc_happ">Happiness</mlink> calculation is dynamic and occurs each time you do anything influencing <mlink to="emp_conc_happ">happiness</mlink>. 
+		</section>
+		<section id="tuto_begin_pop" title="Increasing the population">
+			A high <mlink to="emp_conc_happ">happiness</mlink> is also important because of its influence on <mlink to="emp_conc_pop">population growth</mlink>. <mlink to="emp_conc_pop">Population</mlink> size increase happens once a day during <mlink to="ticks_tick">day ticks</mlink>. The bigger the <mlink to="emp_conc_pop">population</mlink> the more ressources of all kinds you have.
+		</section>
+		<section id="tuto_begin_tech" title="Acquiring new technologies">
+			<mlink to="tech_topic_graph_list">Technological advances</mlink> are provided through <mlink to="technology">research</mlink>. Each day at the <mlink to="ticks_tick">day tick</mlink> your amount of <mlink to="tech_topic_stat">research points</mlink> is calculated and automatically used to research <mlink to="tech_topic_stat">new technologies</mlink> in the three available <mlink to="tech_topic_cat">categories</mlink>: fundamental, civilian and military. The only influence you have on <mlink to="Research budget">research budget</mlink> is balancing the percentage of <mlink to="tech_topic_stat">research points</mlink> used in each <mlink to="tech_topic_cat">category</mlink>. Once a <mlink to="tech_topic_stat">new technology</mlink> has been discovered you have to <mlink to="tech_topic_stat">implement it</mlink>, which has a financial cost, before using it in your empire. <mlink to="tech_list">Technologies</mlink> have a wide variety of <mlink to="tech_topic_graph_intro">effects</mlink> on the game parameters and also provide you with new kinds of <mlink to="ships">ships</mlink>. 
+			<br/>
+			<mlink to="technology">Research</mlink> also provides you with <mlink to="tech_law">laws</mlink> that you can <mlink to="tech_law_status">enact</mlink> to temporarily influence some game parameters. 
+			<br/>
+			Keep a close eye on the <mlink to="technology">research page</mlink> in order to be able to <mlink to="tech_topic_stat">implement new technologies</mlink> and progress in the <mlink to="tech_list">technology graph</mlink>. 
+			<br/>
+			By default you only have access to about 2/5 of all <mlink to="tech_list">research topics</mlink> in the <mlink to="tech_list">technology graph</mlink>. The others have to be acquired from other players through <mlink to="tech_exchange">diplomacy</mlink>. In order to get a <mlink to="tech_list">new technology</mlink> from another player you have to have the <mlink to="tech_topic_graph_intro">technologies</mlink> it depends on. 
+		</section>
+		<section id="tuto_begin_emp" title="Keeping informed about your empire's status">
+			The general <mlink to="overview_page">overview page</mlink> provides you with all major information about your <mlink to="empire">empire</mlink>. Some overview pages are also provided for various major categories of informations like <mlink to="empire_overview">Empire</mlink>, <mlink to="diplomacy_page">Diplomacy</mlink>, <mlink to="universe_page">Universe</mlink> or <mlink to="communications_page">Communications</mlink>. All important events also generate specific messages in the <mlink to="msg_int">Internal Transmissions</mlink> folder of the <mlink to="messages">messaging system</mlink>.
+		</section>
+	</section>
+	<section id="tuto_expand" title="Expanding">
+		<section id="tuto_expand_plan" title="Getting new planets">
+			<section id="tuto_expand_plan_mean" title="Different means to get new planets">
+				There are several means to acquire new <mlink to="planets">planets</mlink>:<ul>
+					<li>Buying it: some planets might be offered for bidding in the <mlink to="marketplace">marketplace</mlink></li>
+					<li>Getting it as a <mlink to="marketplace">donation</mlink>: it is possible to give a planet to another player</li>
+					<li><mlink to="battle_ownchange">Taking it over</mlink>: it's the most common way which will we described in more details below</li>
+				</ul>
+			</section>
+			<section id="tuto_expand_plan_fleet" title="Sending fleets">
+				In order to <mlink to="battle_ownchange">take over a planet</mlink> you first of all have to <mlink to="move_pract">send fleets</mlink> to it. <mlink to="fleets_moving">Fleets movements</mlink> are regulated by a set of rules.
+				<br/>
+				<mlink to="ship_cat">System ships</mlink> (GA ships and fighters) can only travel in the same stellar system. If you want to send your fleets to another system your fleet has to include <mlink to="ship_cat">capital ships</mlink> (cruisers and battle cruisers) in a sufficient amount so that they can carry all your system ships in their hauls.
+				<br/>
+				The <mlink to="ship_cat">time</mlink> required for your <mlink to="fleets">fleet</mlink> to travel from one planet to another depends on the distance between the two planets of course but also on the <mlink to="ship_cat">type of ships</mlink> you are sending and <mlink to="tech_list">technological advances</mlink> you may have.
+			</section>
+			<section id="tuto_expand_plan_take" title="Taking over the planet">
+				Once you have <mlink to="move_arri">reached the target planet</mlink> you have to <mlink to="move_pract_order_change">attack</mlink> it in order to destroy its defenses. To do so you have to switch your fleet status to attack and have sufficient fire power compared to the defending forces. <mlink to="battles">Battle calculations</mlink> occur every 4h during <mlink to="ticks_tick">Battle ticks</mlink>.
+				<br/>
+				Once the defending fleets have been destroyed you will <mlink to="battle_ownchange">gain control</mlink> of the planet at the following hour tick if your fleet includes enough GA ships to control the planet's population. Depending on your technological advancement the number of GA ships required compared to the planet's population changes.
+			</section>
+		</section>
+		<section id="tuto_expand_all" title="Building up an alliance">
+			Fighting alone in the galaxy isn't easy and it's often best to <mlink to="alliance">team up</mlink> with other players. In game teaming up means <mlink to="ajoin_creat">creating</mlink> or <mlink to="ajoin_join">joining</mlink> an <mlink to="alliance">alliance</mlink>. Players in the same <mlink to="alliance">alliance</mlink> get provided with <mlink to="amanag_list">information</mlink> about their fellow comrades and their empires that are useful to help each others in case of attack. <mlink to="alliance">Alliances</mlink> can also set up <mlink to="amanag_forum">alliance specific forums</mlink> to ease <mlink to="communications">communication</mlink> among members. 
+			<br/>
+			The <mlink to="amanag_main_curr">leader</mlink> of the <mlink to="alliance">alliance</mlink> has advanced control over the <mlink to="alliance_manage">alliance configuration</mlink>. He can define various <mlink to="amanag_rank">ranks</mlink> with various privileges among the members to allow specific access to <mlink to="amanag_list">alliance listings</mlink> and <mlink to="amanag_forum">forums</mlink> depending on members' rank.
+		</section>
+	</section>
+	<section id="tuto_comm" title="Communicating">
+		The in-game <mlink to="communications">communication system</mlink> includes first of all a <mlink to="messages">messaging system</mlink>. This <mlink to="messages">messaging system</mlink> is very similar to a simple mail client. It allows you to <mlink to="msg_comp">send messages</mlink> to players, planets or alliances' diplomatic staff. You can also create <mlink to="msg_fold">folders</mlink> to <mlink to="msg_msg">manage your messages</mlink>.
+		<br/>
+		The second major <mlink to="communications">communication</mlink> mean is the <mlink to="forums">forums</mlink>. Those <mlink to="forums">forums</mlink> include <mlink to="for_nav">general forums, game specific forums and alliance forums</mlink>. The <mlink to="forums">forums</mlink> are the place to look for help, report bugs, request features, look for an alliance, keep informed about the game and so on... Those <mlink to="forums">forums</mlink> have a behaviour similar to that of a simple message board.
+		<br/>
+		Along inside communications an IRC network dedicated to the game has been set up. The server to connect to is irc.legacyworlds.com on the default port. Look at you IRC client manual to know more about IRC set-up and access.
+	</section>
+	<section id="tuto_advan" title="Advanced Features">
+		In order to learn more about more advanced features and progress in your use of those presented here you can read the various <mlink to="topics">manual topics</mlink>. 
+		<br/>
+		A help forum is also provided for you to ask questions. Before posting any new question though make sure it has not already been asked...
+	</section>
+</lwdoc>

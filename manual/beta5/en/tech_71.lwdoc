@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Biological Propulsion Systems</title>
+	<section id="tech_71_desc" title='Description'>
+		Sir! Our scientists have found a way to create and grow artificial lifeforms capable of basic space flight. These can be used to replace our most simple ships in order to gain efficiency.
+	</section>
+	<section id="tech_71_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Military technology</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;4,000,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases G.A. ships power</li>
+				<li>Increases fighters power</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_71_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_6'>Cruisers</mlink></li>
+			<li><mlink to='tech_38'>Cybernetic Interfaces</mlink></li>
+			<li><mlink to='tech_58'>Lifeform Energy Manipulation</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_89">Biological Hyperspace Engines</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

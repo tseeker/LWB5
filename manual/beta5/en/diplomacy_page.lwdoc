@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<lwdoc>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Main Diplomacy Page</title>
+	<section id="dpage_intro" title="Introduction">
+		This page provides an overview of your alliance if your part of one along with an overview of your allies and enemies and of your messaged. It includes shortcuts for the major elements in this area. The different sections of the page are the topic of the next paragraphs.
+	</section>
+	<section id="dpage_alliance" title="Alliance">
+		This overview provides a reminder of the alliance tag and name, its number of planets and coordinates, its rank and number of points. It also displays you status inside the alliance and a link to the alliance management page.
+		<br/>
+		It also includes a section about alliance specific forums. It lists them with links to each forum and number of threads in each.
+	</section>
+	<section id="dpage_allen" title="Allies and Enemies">
+		This overview presents the number of players that:<ul>
+			<li>you have in your trusted allies list</li>
+			<li>have you in their trusted allies list</li>
+			<li>you have on your enemies list</li>
+		</ul>
+		This section also provides links to allies and enemies management pages.
+	</section>
+	<section id="dpage_mess" title="Private Messages">
+		This section provides an overview of your messaging system including:<ul>
+			<li>Messages: total number of messages you have with a number of new ones; this title is a link to the message page</li>
+			<li>Internal Transmission: total number of internal transmissions you have with a number of new ones; this title is a link to the internal transmission folder</li>
+			<li>A link to the Compose a message page</li>
+		</ul>
+	</section>
+</lwdoc>

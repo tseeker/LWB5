@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<lwdoc>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Empire Overview Page</title>
+	<section id="ovp" title="Introduction">
+		The <i>empire overview page</i> provides you with a status of your <mlink to="empire">empire</mlink> at a glance along with shortcuts to the most important items you might be interested in viewing. It is split into several sections.
+	</section>
+	<section id="ovp_pla" title="Planets">
+		This section provides you with important facts about the <mlink to="planets">planets</mlink> which compose your <mlink to="empire">empire:</mlink><ul>
+			<li><mlink to="planets">Planets owned</mlink>: number of <mlink to="planets">planets</mlink> in your <mlink to="empire">empire</mlink></li>
+			<li><mlink to="emp_conc_happ">Average happiness</mlink>: average <mlink to="emp_conc_happ">happiness</mlink> calculated based on <mlink to="emp_conc_happ">happiness</mlink> on each of your <mlink to="planets">planets</mlink></li>
+			<li><mlink to="emp_conc_cor">Average corruption</mlink>: average <mlink to="emp_conc_cor">corruption</mlink> calculated based on <mlink to="emp_conc_cor">corruption</mlink> on each of your <mlink to="planets">planets</mlink></li>
+			<li><mlink to="emp_conc_pop">Total population</mlink>: sum of the <mlink to="emp_conc_pop">populations</mlink> of each of your <mlink to="planets">planets</mlink></li>
+			<li><mlink to="emp_conc_pop">Average population</mlink>: total <mlink to="emp_conc_pop">population</mlink> divided by the number of <mlink to="planets">planets</mlink> in your <mlink to="empire">empire</mlink></li>
+			<li><mlink to="emp_conc_fact">Total factories</mlink>: total number of <mlink to="emp_conc_fact">factories</mlink> on all your <mlink to="planets">planets</mlink></li>
+			<li><mlink to="emp_conc_fact">Average factories</mlink>: total number of <mlink to="emp_conc_fact">factories</mlink> divided by the number of <mlink to="planets">planets</mlink> in your <mlink to="empire">empire</mlink></li>
+			<li><mlink to="ship_cat">Total turrets</mlink>: total number of <mlink to="ship_cat">turrets</mlink> in your <mlink to="empire">empire</mlink></li>
+			<li><mlink to="ship_cat">Average turrets</mlink>: total number of <mlink to="ship_cat">turrets</mlink> divided by the number of <mlink to="planets">planets</mlink> you own</li>
+		</ul>
+		It also provided <i>links</i> to:<ul>
+			<li>The <mlink to="planets">Planets overview page</mlink></li>
+			<li><mlink to="planet">Individual planet pages</mlink></li>
+			</ul>
+	</section>
+	<section id="ovp_res" title="Research">
+		This section provides you with informations about your <mlink to="tech_budg">research budget</mlink>. For each <mlink to="tech_topic_cat">research category</mlink>, it displays the <i>percentage</i> of <i>research points</i> allocated along with the <i>number of points per day</i> this currently represents.
+		<br/>
+		It also provided you with a link to the <mlink to="technology">research management page</mlink>.
+	</section>
+	<section id="ovp_flt" title="Fleets">
+		<section id="ovp_flt_intro" title="Introduction">
+			This section is split into several paragraphs, each presenting one important aspect of your <mlink to="fleets">fleet</mlink> power.
+		</section>
+		<section id="ovp_flt_over" title="Overview">
+			This overview provides a general view of your <mlink to="fleets">fleets</mlink>, including:<ul>
+				<li><mlink to="ship_cat_pow">Total fleet power</mlink>: sum of the <mlink to="ship_cat_pow">power</mlink> of all the ships you possess</li>
+				<li><mlink to="mon_fue">Fleet upkeep</mlink>: total <mlink to="mon_fue">cost to sustain</mlink> all your <mlink to="fleets">fleets</mlink></li>
+				<li><mlink to="fleets">Number of fleets</mlink>: total number of <mlink to="fleets">fleets</mlink></li>
+				<li><mlink to="battle">Fleets engaged in battle</mlink>: number of <mlink to="fleets">fleets</mlink> currently engaged <mlink to="battle">in combat</mlink> situations</li>
+				<li><mlink to="fleets_page">View fleets</mlink>: link to the <mlink to="fleets_page">Fleets management page</mlink></li>
+			</ul>
+		</section>
+		<section id="ovp_flt_home" title="Fleets at home">
+			This section provides specific information about <mlink to="fleets">fleets</mlink> located on your <mlink to="ipp_pil">own planets</mlink>, including:<ul>
+				<li><mlink to="fleets">Number of fleets</mlink>: total number of <mlink to="fleets">fleets</mlink> located on your <mlink to="ipp_pil">own planets</mlink></li>
+				<li><mlink to="battle">Fleets engaged in battle</mlink>: total number of <mlink to="fleets">fleets</mlink> engaged <mlink to="battle">in combat</mlink> on your <mlink to="ipp_pil">own planets</mlink></li>
+			</ul>
+		</section>
+		<section id="ovp_flt_oth" title="Other fleets">
+			This part of the page provides informations about <mlink to="fleets">fleets</mlink> that <i>aren't</i> located <mlink to="ipp_pil">on your own planets</mlink>, including:<ul>
+				<li><mlink to="fleets">Fleets</mlink> on <mlink to="ipp_pil">foreign planets</mlink>: total number of <mlink to="fleets">fleets</mlink> located on <mlink to="ipp_pil">planets you don't own</mlink></li>
+				<li><mlink to="battle">Fleets engaged in battle</mlink>: total number of <mlink to="fleets">fleets</mlink> engaged in <mlink to="battle">battle</mlink> on <mlink to="ipp_pil">planets you don't own</mlink></li>
+				<li><mlink to="fleets_moving">Moving fleets</mlink>: total number of <mlink to="fleets_moving">fleets in movement</mlink></li>
+				<li><mlink to="fleets">Fleets</mlink> waiting in <mlink to="move_gen_hypnorm">Hyperspace</mlink>: total number of <mlink to="fleets">fleets</mlink> in <mlink to="move_gen_hypnorm">stand-by in hyperspace</mlink></li>
+			</ul>
+		</section>
+		<section id="ovp_flt_stat" title="Statistics">
+			This section provides important <i>statistics</i> about your <mlink to="fleets">fleets</mlink>, including:<ul>
+				<li><mlink to="ship_cat">GA ships</mlink>: total number of <mlink to="ship_cat">GA ships</mlink></li>
+				<li><mlink to="ship_cat">Fighters</mlink>: total number of <mlink to="ship_cat">Fighters</mlink></li>
+				<li><mlink to="ship_cat">Cruisers</mlink>: total number of <mlink to="ship_cat">Cruisers</mlink></li>
+				<li><mlink to="ship_cat">Battle cruisers</mlink>: total number of <mlink to="ship_cat">Battle Cruisers</mlink></li>
+				<li><mlink to="ships">Total ships</mlink>: total number of <mlink to="ships">ships</mlink></li>
+			</ul>
+		</section>
+	</section>
+</lwdoc>

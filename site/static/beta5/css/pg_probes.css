@@ -1,0 +1,21 @@
+td#prmenu {
+	text-align: center;
+	padding: 5px 0px 10px 0px;
+}
+
+table.polpl, table.polpl th, table.polpl td {
+	border: 1px solid #3F3F3F;
+	border-collapse: collapse;
+}
+table.polpl { margin: 0px 20px 10px 20px; }
+table.polpl th { text-align: left; width: 33%; }
+table.polpl th b { color: inherit; }
+table.polpl p { margin: 10px 0px 0px 0px; }
+
+table.plbcn, table.plbcn th, table.plbcn td {
+	border: 1px solid #3F3F3F;
+	border-collapse: collapse;
+}
+table.plbcn { margin: 0px 20px 20px 20px; }
+table.plbcn th.bcnpl { text-align: left; width: 33%; }
+table.plbcn th.bcnpl b { color: inherit; }

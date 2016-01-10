@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Matter Anti-matter Missiles</title>
+	<section id="tech_90_desc" title='Description'>
+		Using matter / anti-matter reactions in our warheads should greatly increase the damage caused by our ships.
+	</section>
+	<section id="tech_90_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Military technology</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;10,000,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases fleet power</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_90_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_63'>Battle Cruisers</mlink></li>
+			<li><mlink to='tech_78'>Anti-matter Generators</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

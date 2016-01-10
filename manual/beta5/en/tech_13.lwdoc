@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Legalize Space Weed</title>
+	<section id="tech_13_desc" title='Description'>
+		Yeah, maaan ... I mean, Sir ... Enacting this law will allow every citizen in our empire to smoke Space Weed as they see fit, without any harmful effect for their health. I mean... huh, What was I saying again? ... Ah, yes! Well, they might be a bit inefficient, because they'll still be stoned, but they'll be happy!
+	</section>
+	<section id="tech_13_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Law</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;15,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases happiness</li>
+				<li>Decreases Industrial Factories productivity</li>
+				<li>Decreases Military Factories productivity</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_13_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_12'>Safe Recreational Drugs</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

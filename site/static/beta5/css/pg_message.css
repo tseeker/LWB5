@@ -1,0 +1,226 @@
+/** MENU **/
+
+td.mmenu {
+	width: 20%;
+	padding: 0px 0px 0px 30px;
+}
+
+td.mmenu a, td.mmenu a:visited {
+	font-style: normal;
+	text-decoration: none;
+	color: #C0C0C0;
+}
+
+td.mmenu a:hover {
+	text-decoration: underline;
+}
+
+td.mmenu i { color: white; }
+
+td.mmenu table th {
+	text-align: left;
+}
+
+td.mmenu table td.mmspc {
+	width: 32px;
+}
+
+td.mmenu table th a, td.mmenu table th a:visited {
+	color: inherit;
+	font-weight: bold;
+	font-style: italic;
+}
+
+
+/** MESSAGE EDITOR **/
+
+table.mcomp { width: auto; }
+
+table.mcomp th {
+	text-align: right;
+	vertical-align: top;
+	width: 120px;
+}
+
+table.mcomp td.mbut {
+	text-align: center;
+}
+
+table.mcomp b.err { color: #FF4F3F; }
+
+
+/** FOLDER BROWSING **/
+
+table.fctrl {
+	margin: 15px 16px 0px 16px;
+}
+
+table.fctrl tr.topctrl td {
+	border-width: 0px 0px 1px 0px;
+	border-color: white;
+	border-style: solid;
+	padding: 5px 0px 5px 0px;
+	width: 30%;
+	vertical-align: middle;
+}
+
+td#mppcell { text-align: right; }
+td#fcpage { width: 40%; text-align: right; }
+
+table.fctrl td#msglist {
+	border-width: 0px 0px 1px 0px;
+	border-color: white;
+	border-style: solid;
+}
+
+b.msgmsg {
+	display: block;
+	margin: 10px 0px 10px 0px;
+	text-align: center;
+}
+
+table.msghdr {
+	padding: 0px 0px 0px 0px;
+	margin: 5px 0px 5px 0px;
+}
+
+table.msghdr th {
+	vertical-align: bottom;
+}
+
+.msgview {
+	text-align: center;
+}
+.mctst {
+	width: 5%;
+	text-align: center;
+}
+.mctsub {
+	width: 40%;
+	text-align: left;
+}
+.mctdate {
+	width: 20%;
+	text-align: left;
+}
+.mctfrom {
+	width: 16%;
+	text-align: left;
+}
+.mctto {
+	width: 16%;
+	text-align: left;
+}
+
+table.list {
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	width: 100%;
+}
+
+table.list a {
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+}
+
+td.mbody {
+	padding: 0px 0px 5px 0px;
+	border-width: 0px 0px 1px 0px;
+	border-style: solid;
+	border-color: white;
+}
+
+td.mbody a {
+	font-style: italic;
+	text-decoration: underline;
+	color: white;
+}
+
+td.mbody a.rlink {
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+}
+
+a.rlink:hover {
+	text-decoration: underline;
+}
+
+
+table.list table td {
+	vertical-align: top;
+}
+td.mctsub, td.mctdate {
+	cursor: pointer;
+}
+
+table.msgctrl {
+	padding: 5px 0px 0px 0px;
+}
+
+
+/** FOLDER MANAGEMENT **/
+
+tr.fldhdr td, tr.fldhdr th {
+	padding: 5px 0px 5px 0px;
+	border-width: 0px 0px 1px 0px;
+	border-style: solid;
+	border-color: white;
+	vertical-align: middle;
+}
+
+tr.fldlst td {
+	padding: 5px 0px 5px 0px;
+	border-width: 0px 0px 1px 0px;
+	border-style: solid;
+	border-color: white;
+}
+
+table.list td {
+	padding: 0px 0px 0px 0px;
+	border-width: 0px;
+	border-style: none;
+}
+
+table.list td:hover p { color: white }
+
+.fldspc {
+	width: 16px;
+	text-align: right;
+}
+
+.fldname {
+	width: auto;
+	text-align: left;
+}
+
+.msgcnt {
+	width: 80px;
+	text-align: center;
+}
+
+#addfld, #chgfld {
+	padding: 5px 0px 0px 0px;
+	width: 50%;
+	text-align: center;
+}
+
+td.fldname a {
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* BATTLE REPORTS */
+
+table.breport {
+	width: auto;
+	margin: 0px auto 10px auto;
+}
+
+table.breport th, table.breport td { padding: 0px 10px 0px 10px; }
+table.breport th.fown { color: #33CC33; }
+table.breport th.fally { color: #6666FF; }
+table.breport th.fenemy { color: #FF3300; }
+table.breport th.sname { text-align: right; }
+table.breport td { text-align: center; }

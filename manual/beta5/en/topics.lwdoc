@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<lwdoc>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Manual Topics</title>
+	<section id="topics_ggi" title="General Game Information" linkto="general_game">
+		This section of the manual presents some general information about the game including <mlink to="account_games">account creation and games management</mlink> along with a presentation of the <mlink to="game_interface">main interface</mlink> and <mlink to="overview_page">overview page</mlink>.
+	</section>
+	<section id="topics_emp" title="Empire" linkto="empire">
+		Your <mlink to="empire">empire</mlink> is composed of a set of <mlink to="planets">planets</mlink>. Starting at first with one it will grow through <mlink to="battles">conquest</mlink> of uninhabited planets or enemy ones. The overall <mlink to="technology">technological advance</mlink> of your <mlink to="empire">empire</mlink> can be improved through <mlink to="technology">research</mlink>. The <mlink to="fleets">fleets</mlink> you build will provide it with defenses against hostiles and help with its expansion. Of course all of this costs <mlink to="money">money</mlink>. But don't be too greedy because <mlink to="emp_conc_cor">corruption</mlink> might settle on your planets.
+		<br/>
+		What makes great <mlink to="empire">empires</mlink> is their citizens. <mlink to="emp_conc_pop">Population</mlink> growth is as such essential. One major factor in LegacyWorlds is <mlink to="emp_conc_happ">happiness</mlink>. It reflects the overall satisfaction of your citizens. Be careful to keep them happy or they might <mlink to="emp_conc_revo">revolt</mlink>.
+	</section>
+	<section id="topics_flt" title="Fleets" linkto="fleets">
+		<mlink to="fleets">Fleets</mlink> are sets of <mlink to="ships">ships</mlink> you can use either to defend yourself or attack other planets. Each <mlink to="fleets">fleet</mlink> can be composed of <mlink to="ships">ships</mlink> of several different <mlink to="ship_cat">categories</mlink>. Those <mlink to="fleets">fleets</mlink> can be <mlink to="fleets_moving">moved</mlink> from <mlink to="planet">planet</mlink> to <mlink to="planet">planet</mlink> according to a particular set of rules. When faced with enemy <mlink to="fleets">fleets</mlink> they of course engage in <mlink to="battles">battle</mlink>.
+		<br/>
+		In order to have <mlink to="fleets">fleets</mlink> you first of all have to <mlink to="ipp_own_bw">build them</mlink>. You also have to possess the required <mlink to="technology">technologies</mlink>.
+	</section>
+	<section id="topics_tech" title="Technology" linkto="technology">
+		<mlink to="technology">Technology</mlink> allows you to improve your <mlink to="empire">empire</mlink> as a whole. A certain amount of <mlink to="tech_budg">research points</mlink> is granted to you each <mlink to="ticks_tick">day tick</mlink> according to your <mlink to="empire">empire</mlink>'s <mlink to="emp_conc_pop">population</mlink>. Using those points in various <mlink to="ech_topic_cat">research fields</mlink> allows for <mlink to="tech_topic_stat">new scientific breakthroughs</mlink>. <mlink to="tech_topic_stat">Implementing</mlink> those newly discovered <mlink to="tech_list">technologies</mlink> allows your whole <mlink to="empire">empire</mlink> to benefit from them. <mlink to="technology">Scientific knowledge</mlink> also provides you access to <mlink to="tech_law">laws</mlink> that you can choose to <mlink to="tech_law_status">enact</mlink> or not. Those <mlink to="techl_laws">laws</mlink> and <mlink to="tech_list">technologies</mlink> apply modifiers to various parameters in the game, either positively or negatively.
+		<br/>
+		Not all <mlink to="tech_list">research topics</mlink> may be accessible to your <mlink to="empire">empire</mlink> and you might have to use <mlink to="diplo_res">diplomatic exchanges</mlink> to acquire some <mlink to="tech_list">technologies</mlink>.
+	</section>
+	<section id="topics_uni" title="Universe" linkto="universe">
+		Legacy Worlds' <mlink to="universe">universe</mlink> is a galaxy far far away where the suvivors from the Earth's annihilation are trying to rebuild their civilisation. <mlink to="maps">Maps</mlink> of the area are available.
+		<br/>
+		Legacy Worlds being a <mlink to="ticks">tick</mlink> based game, information about the <mlink to="ticks_tick">various ticks</mlink> is also part of the <mlink to="universe">universe</mlink>. The various <mlink to="rankings">rankings</mlink> of the players are also present along with the <mlink to="main">manual</mlink> you're reading now.
+	</section>
+	<section id="topics_dip" title="Diplomacy" linkto="diplomacy">
+		<mlink to="diplomacy">Diplomacy</mlink> covers a lot of concepts concerning in game interactions of players outside of the direct <mlink to="communications">communication</mlink> means. The  major element is the <mlink to="alliance">alliance</mlink> system which allows players to build up teams. The <mlink to="diplomacy">diplomatic</mlink> section of the game also allows you to manage list of <mlink to="enemies">enemy</mlink> and <mlink to="allies">trusted players</mlink>. <mlink to="diplomacy">Diplomacy</mlink> is also a way to <mlink to="diplo_res">acquire technologies</mlink> you can't research on your own.
+	</section>
+	<section id="topics_com" title="Communications" linkto="communications">
+		There are two major means of <mlink to="communications">communication</mlink> in LegacyWorlds: a <mlink to="messages">messaging system</mlink> and <mlink to="forums">forums</mlink>. Those allow you to keep in touch with other players both inside your own <mlink to="alliance">alliance</mlink> and outside of it. 
+	</section>
+	<section id="topics_prf" title="Preferences" linkto="preferences">
+		Various elements in Legacy Worlds can be customised. Some <mlink to="preferences">preferences</mlink> are <mlink to="pref_acc">specific to one account</mlink> and others are in-game features that are <mlink to="pref_game">defined on a per game basis</mlink>.
+	</section>
+	<section id="topics_gg" title="General Rules" linkto="general_rules">
+		As in every game there are <mlink to="general_rules">rules</mlink>. Those rules are to be agreed upon and followed by both sides: players and people running the game. Those are the topic of <mlink to="general_rules">this section</mlink>.
+		<br/>
+		Some general elements that didn't fit in any other section of the manual are also presented <mlink to="general_rules">here</mlink>.
+	</section>
+	<section id="topics_glos" title="Glossary" linkto="glossary">
+		A <mlink to="glossary">glossary</mlink>, that is a list of terms along with their definition, is provided so that you can grasp the meaning of a concept used in the LegacyWorlds' universe at a glace.
+	</section>
+
+	<section file="general_game.lwdoc" />
+	<section file="empire.lwdoc" />
+	<section file="fleets.lwdoc" />
+	<section file="technology.lwdoc" />
+	<section file="universe.lwdoc" />
+	<section file="diplomacy.lwdoc" />
+	<section file="communications.lwdoc" />
+	<section file="preferences.lwdoc" />
+	<section file="general_rules.lwdoc" />
+	<section file="glossary.lwdoc" />
+</lwdoc>

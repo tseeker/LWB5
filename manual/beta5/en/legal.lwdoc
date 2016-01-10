@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<lwdoc>
+        <version>beta5</version>
+	<language>en</language>
+	<title>Legal Issues</title>
+	<section id="legal_intro" title="Introduction">
+		The server on which the game is hosted is located in France. As a consequence French law is applicable. For those not familiar with it here are a few reminders about what it implies in the context of the game.
+	</section>
+	<section id="legal_access" title="About unauthorised access to automated data processing systems" linkto="law_unauthorised_access">
+		This legal topic covers both:<ul>
+			<li>Access to anyone's account without his knowledge: using whatever mean (guessing, brute force, keystroke logger and such) to acquire anyone's account information and use it without the legitimate owner's knowledge is prohibited</li>
+			<li>Unauthorised access to the server: using whatever mean to gain access to a server on which you don't have permissions is also prohibited by law</li>
+		</ul>
+		Legacy Worlds' accounts and Legacy World's server both fit into that legal category and you'll find <mlink to="law_unauthorised_access">here</mlink> the extracts of the french Code Penal wich concerns that kind of criminal offense.
+	</section>
+	<section id="legal_data" title="About stored personal data">
+		The law number 78-17, from the 6th january 1978 known in France as "Loi informatique et libertes" aims at ensuring that data privacy is applied to the collection, storage, and use of personal data. The main principles for regulation of personal data processing are as follows (list not inclusive):<ul>
+			<li>all illegal means of data collection are forbidden;</li>
+			<li>the aim of the data files must be explicitly stated;</li>
+			<li>people registered in files must be informed of their rights, for example, for rectification and deletion of data on demand;</li>
+			<li>finally, no decision about an individual can be decided by a computer.</li>
+		</ul>
+		The archival of sensitive information can result in 5-year prison term and a 300 000 euros fine.
+		<br/>
+		An official translation of the complete text can be found <a href="http://www.cnil.fr/fileadmin/documents/uk/78-17VA.pdf">here</a> in PDF format. You can also have a look at the CNIL (French governmental Commission in charge of data privacy related issued) <a href="http://www.cnil.fr/index.php?id=4">  website</a>. 
+		<br/>
+		The amount of personal data stored in Legacy Worlds is limited to e-mail addresses but you nevertheless have the rights described in this law. This e-mail addresses database is used for internal game related actions only and won't be sold nor offered to any third party for commercial purpose. The only persons who might access it are the game administrators. You can ask for access, rectification, deletion of your own personal data by contacting the game administrators.
+	</section>
+	<section id="legal_spam" title="About spam and commercial messages" linkto="law_spam">
+		The messaging system and the forums provided in Legacy Worlds are to be used for game related topics and to build up a players' community only. As a consequence no spam nor commercial messages can be tolerated.
+		<br/>
+		You may find <mlink to="law_spam">here</mlink> an extract of the French Consumer Code about unsolicited commercial messages.
+	</section>
+	<section id="legal_discri" title="About discrimination" linkto="law_discrimination">
+		French law is also very strict on any kind of discrimination and no behaviour of the kind can be tolerated in-game. This means that you can't dismiss any player for whatever particularity he may have, be it sex, age, physical characteristic, religion or whatever. The copy of the French Code Penal on this subject can be found <mlink to="law_discrimination">here</mlink>.
+	</section>
+	
+	<section file="law_discrimination.lwdoc"/>
+	<section file="law_spam.lwdoc"/>
+	<section file="law_unauthorised_access.lwdoc"/>
+</lwdoc>

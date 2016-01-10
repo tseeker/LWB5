@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<lwdoc>
+        <version>beta5</version>
+	<language>en</language>
+	<title>Communications Overview Page</title>
+	<section id="comp_intro" title="Introduction">
+		This page sums up your current status towards the messaging system and the forums. It allows to see at a glance where to read and where you attention is needed when things come to communications. This manual page describes the contents of this page.
+		<br/>
+		This page in split in two sections:<ul>
+			<li>Private Messages: this left part of the page presents an overview of the status of your messaging system</li>
+			<li>Forums: this right part of the part provides a summary about both general and alliance forums</li>
+		</ul>
+		The next parts of the manual page will describe each.
+	</section>
+	<section id="comp_msg" title="Private Messages">
+		<section id="comp_msg_intro" title="Introduction">
+			This left part of the page presents data related to the messaging system. 
+			<br/>
+			It first of all provides a Compose a Message which directs you to the message edition form where you can write a private message to send to either a player, a planet, or an alliance diplomatic staff.
+			<br/>
+			The next two sections of the page will be described in the next paragraphs.
+		</section>
+		<section id="comp_msg_def" title="Default Folders">
+			This part of the page presents the list of the three default folders that are available for all accounts:<ul>
+			 	<li>Inbox</li>
+				<li>Internal Transmissions</li>
+				<li>Outbox</li> 
+			 </ul>
+			 For each of those folder, the name of the folder is the link to the contents of the folder.
+			 <br/>
+			 Next to the folder name, the total number of message contained in the folder is displayed. If unread messages are located in one folder, the number of unread messages is presented between brackets.
+		</section>
+		<section id="comp_msg_cus" title="Custom Folders">
+			This part of the page present the list of all the custom folders you have created, if any. For each of those folder, the name of the folder is the link to the contents of the folder.
+			<br/>
+			Next to the folder name, the total number of message contained in the folder is displayed. If unread messages are located in one folder, the number of unread messages is presented between brackets.
+			<br/>
+			Below the list of custom folders a Manage Custom folders link directs you to the folder management page.
+		</section>
+	</section>
+	<section id="comp_for" title="Forums">
+		<section id="comp_for_lists" title="List">
+			The right part of the page presents a list of all available forums. This list is split into two sections:<ul>
+				<li>General forums: those forums are available to all players. They are organised in categories that are also displayed in the list</li>
+				<li>Alliance forums: if you're a member of an alliance and the leadership of the alliance has created forums, the forums you have access to are listed here. Only specific members of the alliance have access to each alliance forum, depending on the access rules set up on the alliance forum management page.</li>
+			</ul>
+		</section>
+		<section id="comp_for_dat" title="Displayed data">
+			For each forum or forum category in the list, the name is the a link to the forum page of this particular forum or forum category.
+			<br/>
+			Along the name is displayed the number of topics or threads in the forum. If there are unread topics, the number of unread threads is displayed after the number of topics between brackets.
+		</section>
+	</section>
+</lwdoc>
+

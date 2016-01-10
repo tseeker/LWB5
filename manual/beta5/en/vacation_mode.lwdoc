@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<lwdoc>
+        <version>beta5</version>
+	<language>en</language>
+	<title>Vacation mode</title>
+	<section id="vac_intro" title="Introduction">
+		While playing a LegacyWorlds' <mlink to="accga_gm">game</mlink> you might need to <i>take a break from the game for some time</i>, because you're on holidays, or in a place where no internet access (really that still actually exists) or simply because you're tired of playing. In such cases you might not want to lose all the hard work you've put in your <mlink to="empire">empire</mlink> because someone <mlink to="battles">attacks</mlink> it while you're not around for instance. The <i>vacation mode</i> is just for you.
+		<br/>
+		Basically <i>vacation mode</i> allows you to keep your assets protected while you're away but everything is slowed down in your <mlink to="empire">empire</mlink> and you can't perform any game actions except read your <mlink to="messages">messages</mlink> and the <mlink to="forums">forums</mlink>. The next sections of the manual will explain all <i>vacation mode related topics</i>.
+	</section>
+	<section id="vac_ent" title="Entering vacation mode">
+		<section id="vac_ent_intro" title="Introduction">
+			In order to enter <i>vacation mode</i> you first of all have to <mlink to="vac_ent_acc">access</mlink> the set of forms that allow you to <mlink to="vac_ent_act">activate vacation mode</mlink>. Those two topics will be covered in the next paragraphs.
+		</section>
+		<section id="vac_ent_acc" title="Accessing the page">
+			The page section where you can <i>activate vacation mode</i> is located on the <mlink to="home_cont_home_log_intro">home page of the game when you are logged in</mlink>. In order to access the page you have two options:<ul>
+				<li><i>if you're not logged in</i>, follow the <mlink to="home_cons_left_top">logging in procedure</mlink>. The middle section of the page displayed in the body of the home page should be about vacation mode. Below an introduction about the topic, Is displayed an <i>Enter vacation mode</i> button. Clicking the button opens the forms that lead to the path to vacation</li>
+				<li><i>if you are logged in</i> and playing a LegacyWorlds game, clicking on the <i>My Account</i> menu item gets you to the logged in home page of the game. As in the previous case below the introduction about the topic, is displayed the <i>Enter vacation mode</i> button. Clicking the button opens the forms that lead to the path to vacation</li>
+			</ul>
+		</section>
+		<section id="vac_ent_act" title="Activating vacation mode">
+			Clicking the <i>Enter vacation mode</i> button opens a new page displaying some information about the <i>vacation mode</i>. At the bottom of the page are displayed two buttons:<ul>
+				<li><i>Yes, start the countdown</i>: clicking the button <i>starts the countdown</i> to the beginning of the real <i>vacation period</i>. Until the countdown is finished that the game is still accessible normally</li>
+				<li><i>No, don't activate vacation mode</i>: clicking the button cancels the action and gets you back to the <mlink to="home_page">home page</mlink></li>
+			</ul>
+			Once you have clicked the <i>Yes, start the countdown</i> button the <mlink to="home_cont_home_log_intro">logged in home page</mlink> presents a <i>Cancel vacation mode</i> button instead of the <i>Enter vacation mode</i> one. The button will stay in place for the next 24 to 30h (until <i>vacation mode</i> actually starts).
+		</section>
+	</section>
+	<section id="vac_out" title="Getting out of vacation mode">
+		<section id="vac_out_intro" title="Introduction">
+			In order to get out of <i>vacation mode</i> you first of all have to access the set of forms that allow you to de-activate <i>vacation mode</i>. Those two topics will be covered in the next paragraphs.
+		</section>
+		<section id="vac_out_acc" title="Accessing the page">
+			The page section where you can de-activate vacation mode is located on the <mlink to="home_cont_home_log_intro">home page of the game when you are logged in</mlink>. In order to access the page you have two options:<ul>
+				<li><i>if you're not logged in</i>, follow the <mlink to="home_cons_left_top">logging in procedure</mlink>. The middle section of the page displayed in the body of the home page should be about vacation mode. Below an introduction about the topic, Is displayed a <i>Leave vacation mode</i> button. Clicking the button opens the forms that lead the to path out of vacation</li>
+				<li><i>if you are logged in</i> and looking at the data of a LegacyWorlds game, clicking on the <i>My Account</i> menu item gets you to the logged in home page of the game. As in the previous case below the introduction about the topic, is displayed the <i>Leave vacation mode</i> button. Clicking the button opens the forms that lead to the path out of vacation</li>
+			</ul>
+		</section>
+		<section id="vac_out_act" title="De-activating vacation mode">
+			Clicking the <i>Leave vacation mode</i> button opens a new page displaying some information about the <i>vacation mode</i>. At the bottom of the page are displayed two buttons:<ul>
+				<li><i>Yes, exit vacation mode</i>: clicking the button gets you out of the <i>vacation period</i></li>
+				<li><i>No, stay in vacation mode</i>: clicking the button cancels the action and gets you back to the <mlink to="home_page">home page</mlink>. You remain in vacation mode</li>
+			</ul>
+			Once you have clicked the <i>"Yes, exit vacation mode</i> button everything gets back to normal.
+		</section>
+	</section>
+	<section id="vac_ru" title="Vacation mode rules">
+		<section id="vac_ru_intro" title="Introduction">
+			<i>Vacation mode</i> is controlled through <mlink to="vac_ru_cred">vacation credits</mlink> which allow to keep track of the amount of vacation time you're entitled to. Being on vacation has various effects on both <mlink to="vac_ru_you">your game data</mlink> and <mlink to="vac_ru_oth">other players' actions</mlink>. All those topics will be covered in the next manual paragraphs.
+		</section>
+		<section id="vac_ru_cred" title="Vacation credits">
+			<i>Vacation credits</i> allow to keep track of the amount of <i>vacation time</i> you're entitled to. <i>Vacation credits</i> gain and usage obey a set of rules that are listed below:<ul>
+				<li><i>each account gains one vacation credit each day</i> of gameplay (no vacation credits are gained while you're on vacation or while your account is closed</li>
+				<li><i>one vacation credit</i> corresponds to <i>6h of vacation time</i></li>
+				<li>the <i>maximum number</i> of vacation credits you might have is <i>240</i> (that is up to <i>two months</i> of vacation period)</li>
+				<li>while you're <i>in vacation mode</i>, <i>one vacation credit is used every 6h</i> until you get out of vacation mode or get down to 0 vacation credit. In the last case your account gets automatically reverted back to "normal" mode</li>
+			</ul>
+		</section>
+		<section id="vac_ru_you" title="Effects on your account">
+			<section id="vac_ru_you_intro" title="Introduction">
+				While you're in <i>vacation mode</i> you can still <mlink to="home_cons_left_top">log in into your account</mlink> and access any <mlink to="accga_gm">game you're playing</mlink>. But some game features aren't accessible and other are altered. The next parapgraphs will list <mlink to="vac_ru_you_can">what you can do</mlink> and <mlink to="vac_run_cant">what you can't do</mlink> while on vacation mode along with the <mlink to="vac_run_oth">other effects</mlink> it might have on your <mlink to="empire">empire</mlink>. 
+			</section>
+			<section id="vac_ru_you_can" title="Available features">
+				While you're on vacation you can:<ul>
+					<li><mlink to="home_cons_left_top">Log in into your account</mlink></li>
+					<li><i>Access</i> any <mlink to="accga_gm">game you're playing</mlink></li>
+					<li><i>See</i> all in game pages</li>
+					<li><i>Use</i> the <mlink to="messages">messaging system</mlink></li>
+					<li><i>Browse and post</i> in the <mlink to="forums">forums</mlink> as usual</li>
+					<li><i>Change</i> your <mlink to="preferences">preferences</mlink></li>
+				</ul>
+			</section>
+			<section id="vac_run_cant" title="Disabled features">
+				All game related actions, that is to say actions which have a real effect on the game are disabled. A non exhaustive list of actions you can't accomplish while you're on vacation could be:<ul>
+					<li><i>Build or destroy</i> planetary improvements (<mlink to="emp_conc_fact">factories</mlink> or <mlink to="ship_cat">turrets</mlink>)</li>
+					<li><i>Build</i> <mlink to="ships">ships</mlink></li>
+					<li><i>Perform</i> any <mlink to="fleets">fleets</mlink> related actions</li>
+					<li><i>Upgrade</i> <mlink to="probes">beacons</mlink></li>
+					<li><i>Implement</i> <mlink to="technology">technologies</mlink></li>
+					<li><i>Give or receive</i> <mlink to="mon_cf">cash donations</mlink></li>
+					<li><i>Join or leave</i> an <mlink to="alliance">alliance</mlink></li>
+					<li><i>Manage</i> your <mlink to="alliance_manage">alliance</mlink> (create or modify ranks, add forums or even <mlink to="alliance_create">create a new alliance</mlink>)</li>
+					<li><i>Modify</i> your <mlink to="allies">Trusted Allies</mlink> and <mlink to="enemies">Enemies</mlink> lists</li>
+					<li><i>Sell, buy, give, accept as gift</i> an item in the <mlink to="marketplace">marketplace</mlink></li>
+				</ul>
+			</section>
+			<section id="vac_run_oth" title="Other effects on your empire">
+				<section id="vac_run_oth_intro" title="Introduction">
+					While you're in <i>vacation mode</i> several game parameters get altered and your assets get protected to a certain extent. The next parapgraphs will list all alterations in your in game data that aren't directly visible in the <mlink to="game_interface">game interface</mlink>.
+				</section>
+				<section id="vac_run_oth_prod" title="Production">
+					While you're in <i>vacation mode</i>, your citizen feel like they're on holidays, with their mighty leader away. As a consequence they don't work as hard a usual and this has quite an effect on <i>production</i>:<ul>
+						<li><mlink to="emp_conc_pop_grow">Population growth</mlink> is divided by 4</li>
+						<li><mlink to="mon_dp">Daily profit</mlink> is divided by 4</li>
+						<li><mlink to="emp_conc_fact_mil">Military production</mlink> is divided by 4</li>
+						<li><mlink to="technology">Research output</mlink> is divided by 4</li>
+					</ul>
+				</section>
+				<section id="vac_run_oth_pla" title="Planets">
+					While you're in <i>vacation mode</i> your <mlink to="planets">planets</mlink> are also <i>protected</i> to a certain extent. The specific rules around this protection feature are explained below.
+					<br/>
+					<i>If a planet you own was under attack when you enter vacation mode</i> the <mlink to="battles">battle</mlink> gets to its end as usual. 
+					<br/>
+					<i>If you lose control</i> over the planet it won't be given back to you because you've entered vacation mode at the time. 
+					<br/>
+					<i>If you keep control</i> of the planet when the <mlink to="battles">battle</mlink> is over, the <mlink to="planets">planet</mlink> then enters full protection.
+					<br/>
+					All <mlink to="planets">planets</mlink> you own <i>where no battle is occuring are fully protected</i>. This means that even if a <mlink to="battles">battle</mlink> occurs over the planet you can't lose control over the planet.
+				</section>
+				<section id="vac_run_oth_fleet" title="Fleets">
+					The protection status of your fleets depends on their location when you enter vacation mode.
+					<br/>
+					<mlink to="fleets_moving">Moving fleets</mlink> or <mlink to="move_gen_hypnorm">fleets in hyperspace stand-by</mlink> fly or drop out of hyperspace normally as if you weren't in vacation mode.
+					<br/>
+					For <mlink to="fleets">fleets</mlink> located on your own <mlink to="planets">planets</mlink> the system is the <mlink to="vac_run_oth_pla">same as for the planets</mlink>. This means that <mlink to="fleets">fleets</mlink> located on <mlink to="planets">planets</mlink> where <mlink to="battles">battles</mlink> are in progress when you enter <i>vacation mode</i> can get killed during <mlink to="ticks_tick">battle ticks</mlink> as usual. 
+					<br/>
+					The remaining <mlink to="fleets">fleets</mlink> (if any) get in full protection mode at the end of the <mlink to="battles">battle</mlink>. 
+					<br/>
+					<mlink to="fleets">Fleets</mlink> on your own <mlink to="planets">planets</mlink> where <i>no battle is in progress</i> are protected and are considered neutral during any future <mlink to="battle">battle</mlink> occuring at that location while you're on <i>vacation</i>. This means that they don't get killed during <mlink to="ticks_tick">battle ticks</mlink>.
+				</section>
+			</section>
+		</section>
+		<section id="vac_ru_oth" title="Effects for other players">
+			The influence an <mlink to="accga_acc">account</mlink> in <i>vacation mode</i> has on the rest of the players is very limited. The only elements to keep in mind are:<ul>
+				<li>You can't <mlink to="mon_cf">donate money</mlink> to players in <i>vacation mode</i></li>
+				<li>Players in vacation mode <i>won't be able to accept</i> your <mlink to="tech_exchange">technologies</mlink>, <mlink to="marketplace">planets or fleets exchanges</mlink></li>
+				<li>Your <mlink to="fleets_moving">fleets can fly</mlink> to <mlink to="planets">planets</mlink> whose owner is in <i>vacation mode</i></li>
+				<li>The <mlink to="fleets">fleets</mlink> belonging to a player in vacation mode <i>can get killed if they aren't located on his own planets</i></li>
+				<li>You <i>can't kill the fleets</i> of a player in vacation mode <i>if they are on his own planets</i> nor <i>take his planets</i> but <i>battles can occurr</i> in orbit. The only effect vacation mode has is that the owner's <mlink to="fleets">fleets</mlink> are considered neutral and no owner change can occur</li>
+			</ul>
+		</section>
+	</section>
+</lwdoc>

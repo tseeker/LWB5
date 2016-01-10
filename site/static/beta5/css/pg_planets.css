@@ -1,0 +1,67 @@
+table#planets table {
+	width: 100%;
+	empty-cells: show;
+	border-width: 0px 0px 1px 0px;
+	border-style: solid;
+}
+
+table#planets td {
+	padding: 0px 0px 3px 0px;
+}
+
+table#planets td {
+   vertical-align: top;
+   text-align: right;
+   width: 10%;
+}
+
+table#planets th {
+   text-align: right;
+   width: 10%;
+}
+
+table#planets table .pimg {
+   max-width: 30px;
+   width: 30px;
+   padding: 0px;
+   vertical-align: top;
+}
+
+table#planets table td.pimg {
+   height: 30px;
+   width: 30px;
+   max-width: 30px;
+   padding: 0px;
+}
+
+table#planets table .pname {
+   width: auto;
+   text-align: left;
+}
+table#planets table th.pname {
+   vertical-align: bottom;
+}
+table#planets table td.pname {
+   vertical-align: top;
+}
+
+table .bq {
+   text-align: left;
+   font-style: italic;
+   padding: 0px 0px 4px 0px;
+}
+
+table#qbuild td {
+	vertical-align: middle;
+	 padding: 1px 0px 1px 0px;
+}
+
+table#qbuild .dv {
+	width: 4%;
+	text-align: center;
+}
+
+.phapok { color: #33CC33; }
+.phapmed { color: #337FFF; }
+.phapdgr { color: #CCCC33; }
+.phapbad { color: #CC3333; }

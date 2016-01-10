@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Entropy Generator</title>
+	<section id="tech_49_desc" title='Description'>
+		By applying hyperspace theory to telecommunications we've found a new way to disrupt enemy communications, making it even harder for them to transmit accurate data to their allies.
+	</section>
+	<section id="tech_49_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Military technology</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;1,500,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases jamming capabilities</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_49_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_22'>Hyperspace Theory</mlink></li>
+			<li><mlink to='tech_44'>Wide Band Jamming</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_64">Phase Neutraliser</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

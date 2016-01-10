@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Medical Bays</title>
+	<section id="tech_51_desc" title='Description'>
+		Our engineers have modified the designs for our capital ships in order to include highly advanced medical bays, in which the pilots can be healed when they are wounded in combat. This improvement will reduce our losses, but our fleets and factories must be upgraded first.
+	</section>
+	<section id="tech_51_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Military technology</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;1,500,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Reduces battle losses</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_51_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_6'>Cruisers</mlink></li>
+			<li><mlink to='tech_50'>Surgical Robots</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_52">Resurrection tanks</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Advanced Communications</title>
+	<section id="tech_18_desc" title='Description'>
+		Having achieved major breakthroughs in electronic research, our scientists are now able to apply this research to the communications field, where some interesting developments are expected. 
+	</section>
+	<section id="tech_18_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Fundamental research</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;150,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases happiness</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_18_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_8'>Room Temperature Superconductors</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_21">Economy Globalisation</mlink></li>
+			<li><mlink to="tech_44">Wide Band Jamming</mlink></li>
+			<li><mlink to="tech_45">Fast Burst Transmission</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

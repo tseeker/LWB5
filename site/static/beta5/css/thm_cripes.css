@@ -1,0 +1,90 @@
+body {
+	background-image: none;
+	background-color: black;
+}
+
+/** MENU BAR **/
+
+table.crpmenu {
+	empty-cells: show;
+	width: auto;
+	padding: 0px;
+	margin: 0px;
+}
+
+table.crpmenu a {
+	color: inherit;
+	text-decoration: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+}
+
+table.crpmenu tr td {
+	vertical-align: middle;
+	text-align: center;
+	padding: 1px 0px 0px 1px; margin: 0px;
+	border-width: 0px;
+	border-style: none;
+}
+
+table.crpmenu h1 {
+	padding: 0px;
+	margin: 0px;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	background-color: #3f3f4f;
+}
+
+table.crpmenu h1:hover {
+	background-color: #4f4f5f;
+}
+
+table.crpmenu h1.crpsel {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+table.crpmenu td.stime {
+	text-align: right;
+}
+
+table.crpmenu td.crpmsg {
+	text-align: left;
+}
+
+td.crpmsg h1, td.crpcash h1, td.crpbt h1 {
+	background-color: #47473f;
+}
+
+table.crpmenu td.crpcash {
+	text-align: left;
+}
+
+
+/** PLAYER INFO **/
+
+table.player {
+	width: 99%;
+	margin: 5px auto 5px auto;
+}
+
+table.player td { vertical-align: middle; }
+table.player td.player {
+	width: 40%;
+	font-style: italic;
+	font-weight: bold;
+}
+table.player td.player b { font-style: normal; }
+td.funds {
+	width: 33%;
+	text-align: left;
+	font-style: italic;
+	font-weight: bold;
+	padding: 5px 0px 5px 5px;
+}
+td.funds b { font-style: normal; }
+table.player td.stime {
+	width: 50%;
+	text-align: right;
+}

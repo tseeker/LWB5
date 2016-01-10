@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Cloning Vats</title>
+	<section id="tech_29_desc" title='Description'>
+		Our scientists have perfected their cloning techniques, allowing them to grow real clones in vats. Our industrial production could be greatly improved using this technology!
+	</section>
+	<section id="tech_29_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Civilian technology</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;200,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases Industrial Factories production</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_29_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_14'>Cloning Techniques</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_33">Corpse Reanimation</mlink></li>
+			<li><mlink to="tech_34">Forced Human Cloning</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Biological Drones</title>
+	<section id="tech_55_desc" title='Description'>
+		This technology allows industry to use specifically designed lifeforms to replace workers in the factories. These lifeforms will be much more efficient than human beings, but our citizens might not like getting sacked in favour of their new replacements.
+	</section>
+	<section id="tech_55_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Civilian technology</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;2,000,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases Industrial Factories productivity</li>
+				<li>Increases Military Factories productivity</li>
+				<li>Decreases happiness</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_55_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_28'>Sentient Lifeform Engineering</mlink></li>
+			<li><mlink to='tech_36'>Robotics</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_56">Ban Biological Drones</mlink></li>
+			<li><mlink to="tech_75">Automated Factories</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

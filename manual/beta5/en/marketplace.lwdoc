@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<lwdoc>
+        <version>beta5</version>
+	<language>en</language>
+	<title>Marketplace</title>
+	<section id="mar_intro" title="Introduction">
+		They might not be diplomatic relations per se but economic relations might be considered as a first step towards establishing more solid agreements. As such the marketplace is the place where you can buy or accept and sell or give fleets and planets in LegacyWorlds.
+		<br/>
+		The marketplace page is split into three subpages:<ul>
+			<li>Public Offers: this page presents the planets and fleets that are publicly offered for bidding by their owners. That's also where you can make buying offers.</li>
+			<li>Firect Offers: this page lists the planets and fleets that are directly offered to you and no other players, along with a transaction history</li>
+			<li>Sent Offers: this page lists the sales and gifts offers you've made. Those may be still pending or part of the transactions history</li>
+		</ul>
+		Those subpages are accessible through the links at the top of the body of the page.
+		<br/>
+		The next sections of this manual page will go through those different pages while presenting the processes of selling and buying items.
+	</section>
+	<section id="mar_sell" title="Selling and Giving" linkto="market_sell">
+		In order for exchanges to take place it is obvious that some items for sale are necessary. This part of the manual will cover this topic. It will go through the process of putting planets and fleets on sale, be it publicly or privately, going through the offers you're making or have already made and making gifts.
+	</section>
+	<section id="mar_buy" title="Buying and accepting a gift" linkto="market_buy">
+		When items are on sale, salers need customers. This part of the manual explains how to make buying offers, how to accept gifts and so on.
+	</section>
+	<section id="mar_aft" title="After a sale or gift">
+		<section id="mar_aft_can" title="Cancelling the sale">
+			After a sale has been concluded two possibilities exist to cancel the sale:<ul>
+				<li>If the buyer doesn't have enough money to purchase the item when the sale is concluded the sale is automatically cancelled</li>
+				<li> If the seller loses the fleet for sale in battle or loses control over the planet for sale the sale is cancelled</li>
+				<li>The seller has 4 hours to cancel the transfer after the sale has been concluded. To cancel the transfer:<ul>
+					<li>For planets: go to the individual planet page of the planet and click on the Cancel sale link among the planetary controls links below the planet name</li>
+					<li>For fleets: go to the fleets page and select the fleet for which you want to cancel the sale with the corresponding checkbox. Then click on the Cancel sale link among the action links at the bottom of the page</li>
+				</ul></li>
+			</ul>
+		</section>
+		<section id="mar_aft_gar" title="Guarantees">
+			There are no guarantees surrounding sales except that the requested price is provided to the seller and the control over the item (planet or fleet) is transfered to the buyer. This means that there might be a fleet waiting to destroy the sold fleet or retake the sold planet.
+			<br/>
+			In the end everything is a matter of honesty and reputation. If a player has a habit of retaking planets he has just sold the word will spead and it his doubtful other players will buy items from him very often. Just keep that in mind...
+		</section>
+	</section>
+
+	<section file="market_sell.lwdoc"/>
+	<section file="market_buy.lwdoc"/>
+</lwdoc>
+

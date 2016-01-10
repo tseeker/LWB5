@@ -1,0 +1,153 @@
+/* Sidebox */
+#msidebox-top {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	width: 250px;
+	height: 90px;
+	overflow: none;
+}
+
+#msidebox-top ul, #msidebox-top li {
+	display: block;
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	height: 20px;
+	top: 0px;
+	left: 0px;
+	text-align: center;
+}
+
+ul#msb-nav { width: 250px; height: 40px }
+li#msb-top { top: 20px; width: 250px }
+li#msb-left { left: 0px; width: 83px }
+li#msb-up { left: 83px; width: 84px }
+li#msb-right { left: 167px; width: 83px }
+
+#msb-form {
+	display: block;
+	position: absolute;
+	height: 20px;
+	top: 40px;
+	left: 0px;
+	width: 250px
+}
+
+#msb-stext { width: 172px; }
+#msb-sbutton { width: 69px; }
+
+#msb-title {
+	display: block;
+	position: absolute;
+	left: 0px;
+	top: 70px;
+	height: 20px;
+	width: 250px;
+	font-weight: bold;
+}
+
+#msb-links {
+	position: absolute;
+	padding: 5px;
+	top: 90px;
+	left: 10px;
+	width: 218px;
+	height: 287px;
+	border: 1px solid #3f3f3f;
+	overflow: auto;
+}
+
+/* Main page title */
+#manpage h1 {
+	font-size: 20pt;
+	margin: 0px 0px 20px 0px
+}
+
+/* Table of contents: frame */
+#clist {
+	display: table;
+	font-size: 11pt;
+	margin: 0px 0px 0px 20px;
+	padding: 5px 50px 5px 5px;
+	border: 1px solid #7f7f7f;
+	background-color: #3f3f3f;
+	width: auto
+}
+
+/* Table of contents: list */
+#pcontents { margin: 8px 0px 0px 0px }
+#pcontents ul { margin: 0px 0px 0px 10px; }
+#pcontents li { margin: 0px 0px 0px 10px; }
+
+/* Table of contents: hide/show */
+#clist span {
+	display: none;
+	text-decoration: underline;
+	font-style: italic;
+	cursor: pointer;
+}
+
+
+/* Links to top of the page */
+.toplnk {
+	display: block;
+	float: right;
+	margin: 5px 10px 5px 0px;
+	padding: 3px;
+	border: 1px solid #7f7f7f;
+	text-decoration: none;
+	font-style: italic;
+	font-size: 11pt;
+}
+a.toplnk:hover {
+	border: 1px solid #ffffff;
+}
+
+/* Links */
+#manpage a {
+	background-color: #3f3f3f;
+	text-decoration: none
+}
+#manpage a:hover {
+	background-color: #7f7f7f;
+	text-decoration: underline
+}
+#manpage a.anchor { background-color: transparent; }
+#manpage a.mlink {
+	display: table;
+	margin: 0px 0px 15px 40px;
+}
+
+
+/* Sections */
+.mtopsec {
+	border-color: white;
+	border-style: solid;
+	border-width: 1px 0px 0px 0px;
+	margin: 25px 10px 0px 0px;
+}
+.msec {
+	margin: 20px 0px 0px 15px;
+}
+div.mancontents {
+	padding: 5px 0px 0px 10px;
+	text-align: justify;
+	font-size: 11pt;
+}
+
+div.mancontents table {
+	border-collapse: collapse;
+	border: 1px solid #ffffff;
+	margin: 10px 0px;
+}
+
+div.mancontents th, div.mancontents td {
+	border: 1px solid #7f7f7f;
+	text-align: center;
+	padding: 3px 1px;
+}
+div.mancontents th { vertical-align: bottom }
+div.mancontents td { vertical-align: top }
+
+div.mancontents tr:hover td { background-color: #3f3f3f }

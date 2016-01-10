@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<lwdoc>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Ticks</title>
+	<section id="ticks_intro" title="Introduction">
+		Legacy Worlds is a <i>tick based game</i>. Ticks are specific <i>instants in time</i> when <i>automated events are triggered</i>. They correspond to moments when game data are updated.
+		As such <mlink to="ticks_tick">different kinds of ticks</mlink> happen <i>at different time intervals</i> and <i>play a different role</i> in the game dynamics.
+	</section>
+	<section id="ticks_tick" title="Different ticks">
+		The <i>different ticks</i> involved are presented in the table below:
+		<table>
+			<tr>
+				<th>Tick</th>
+				<th>Time</th>
+				<th>Events</th>
+			</tr>
+			<tr>
+				<td>Battle</td>
+				<td>Every 4 hours</td>
+				<td><ul>
+					<li>Battle computations</li>
+					<li>Battle Unavaibility of fleets ends</li>
+				</ul></td>
+			</tr>
+			<tr>
+				<td>Hour</td>
+				<td>Every hour</td>
+				<td><ul>
+					<li>Fleets arrival Unavaibility ends</li>
+					<li>Hyperspace stand-by delay of fleets get reduced</li>
+				</ul></td>
+			</tr>
+			<tr>
+				<td>Movement</td>
+				<td>Ever Minute</td>
+				<td><ul>
+					<li>Fleet position calculation</li>
+				</ul></td>
+			</tr>
+			<tr>
+				<td>Cash</td>
+				<td>twice a day</td>
+				<td><ul>
+					<li>
+						Income calculation and distribution
+					</li>
+				</ul></td>
+			</tr>
+			<tr>
+				<td>Day</td>
+				<td>Once a day</td>
+				<td><ul>
+					<li>Population growth</li>
+					<li>Planet updates</li>
+					<li>Ranking updates</li>
+				</ul></td>
+			</tr>
+		</table>
+	</section>
+	<section id="ticks_page" title="Ticks page">
+		<section id="ticks_page_list" title="Diplayed ticks">
+			The Ticks page provides information about the major ticks involved in game:<ul>
+				<li>Battle Tick</li>
+				<li>Cash Tick</li>
+				<li>Day Tick</li>
+				<li>Hour Tick</li>
+			</ul>
+			No display is provides for the <i>Hour Tick</i>, given the occurence of the tick is almost instantaneous.
+		</section>
+		<section id="ticks_page_data" title="Provided data">
+			For each tick is provided:<ul>
+				<li><i>Description</i> of the tick</li>
+				<li>Date and time of the <i>previous tick</i> of the same category</li>
+				<li>Date and time of the <i>next tick</i> of the same category along with a <i>timer to the next tick</i></li>
+			</ul>
+		</section>
+	</section>
+</lwdoc>

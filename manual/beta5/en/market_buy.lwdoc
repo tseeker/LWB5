@@ -1,0 +1,191 @@
+<?xml version="1.0"?>
+<lwdoc>
+        <version>beta5</version>
+	<language>en</language>
+	<title>Buying and accepting a gift</title>
+	<section id="buy_intro" title="Introduction">
+		When items are on sale, salers need customers. This part of the manual explains how to make buying offers, how to accept gifts and so on.
+		<br/>
+		Two kinds of sales offers exist in Legacy Worlds:<ul>
+			<li>Public Offers: the sale offers are made publicly and all players can buy items offered for sale</li>
+			<li>Direct offers: the sale or gift offers are only made to one player (you) and noone else is aware of them except you a,d of course the seller</li> 
+		</ul>
+		Each category is managed from a particular subpage of the marketplace page through the corresponding link at the top of the page body. The next sections will describe each case.
+	</section>
+	<section id="buy_pub" title="Public Offers">
+		<section id="buy_pub_intro" title="Introduction">
+			Public sales offers are accessible through the Public Offers subpage of the marketplace page. The offers are displayed in a geograpical basis. This means that all offers aren't displayed at once. Only offers in a particular region of space are listed.
+			<br/>
+			As a consequence, the subpage is split in two sections:<ul>
+				<li>The left part of the page lists planets and fleets sales offers in the region of space that is currently in focus</li>
+				<li>The right part of the page provides a tool that allows to navigate the galaxy and change the area of space that is under focus</li>
+			</ul>
+			The next sections will describe each part of the subpage.
+		</section>
+		<section id="buy_pub_look" title="Looking for sales offers">
+			The right part of the page provides four different means to change the focus of the sales search:<ul>
+				<li>Minimap: this minimap is centered on the system in which is located your first planet and displays one stellar system at a time. Arrows are diplayed around the minimap. Using the arrows around the map allows you to change the focus of the minimap and move around that system</li>
+				<li>Centre on coordinates: you can center the minimap on a particular stellar system based on its coordinates. To do you you have to select the relevant radio button and the coordinates of the stellar system in the provided textfields. Clicking the Change Display button centers the map on this system</li>
+				<li>Centre on own planet: you can also center the minimap on one of your own planets. To do so, select the relevant radio button and choose the planet you're interested in in the drop down list. Clicking the Change Display button centers the minimap on the system the planet is located in</li>
+				<li>Centre on planet: you can also center the minimap on an stellar body based on its name. In that case select the corresponding radio button and type in the name of the stellar object in the provided textfield. Clicking the Change Display button centers the minimap on the system the stellar object is located in</li>
+			</ul>
+			You also have the possibility to define the size of the focus area. This size is represented by a distance around the stellar system displayed on the minimap. You can change this distance by using the Distance drop down list. Possible values are between 1 and 7. 
+			<br/>
+			For each change you make in the form (except using the arrows in the minimap) don't forget to click the Update Display button to validate your changes.
+		</section>
+		<section id="buy_pub_buy" title="Making buying offers">
+			<section id="buy_pub_buy_intro" title="Introduction">
+				All current planets and fleets sales offers in the selected area of space are listed on the left part of this subpage, if any. The rest of this section will detail both lists.
+			</section>
+			<section id="buy_pub_buy_plan" title="Planets for sale">
+				<section id="buy_pub_buy_plan_intro" title="Introduction">
+					The list of planet sales offers can be split into two parts:<ul>
+						<li>Top part: it includes a set of controls that allow you to easily navigate into the list</li>
+						<li>List per se: it's the actual list of pending offers</li>
+					</ul>
+					The next sections of the manual will cover both parts of the list.
+				</section>
+				<section id="buy_pub_buy_plan_cont" title="List controls">
+					On top of the list of pending offers a set of controls offer navigation means into the list.
+					<br/>
+					On the left side of the page, a drop down list allows to select a number of items to display on each page of the list. This number of items can be either 5, 10, 15, 20 or 25. If there are more items in total than this number, the list will be displayed onto several internal pages specific to the list without modifications of the rest of the Public Offers page.
+					<br/>
+					In the middle of the page is provided a search facility which allows you to search for particular planets. This search system consist in a textfield where you can type in a search string. Any planet which name contains the search string, wherever it may be located in the planet name, will match the search and be displayed.
+					<br/>
+					If there are more items in the list than have to be displayed on each list page, a drop down list appears on the right part of the page. This drop down list allows to select the list page to display.
+				</section>
+				<section id="buy_pub_buy_plan_list" title="Actual list">
+					Below the set of control are listed all planets sales offers. This list includes for each offer:<ul>
+						<li>Planet: the name of the planet on sale. This name is a link to the individual planet page</li>
+						<li>Coords.: the coordinates of the planet</li>
+						<li>Pop.: the total population of the planet</li>
+						<li>Turrets: the total number of turrets on the planet</li>
+						<li>Fact.: the total number of factories on the planet</li>
+						<li>Fleets: if a fleet is bundled with the planet, the number of ships of each category is displayed with the following code:<ul>
+							<li>G for GA ships</li>
+							<li>F for fighters</li>
+							<li>C for cruisers</li>
+							<li>B for battle cruisers</li>
+						</ul>If no fleet is bundled the No Fleet string is displayed</li>
+						<li>Owner: the name of the player currently owning the planet</li>
+						<li>Expiration: if the offer expires over time, an expiration time and date are displayed. Otherwise this field contains the Never string.</li>
+						<li>Price: for public sales, the price is the buying price, for auction the price is the last bid</li>
+						<li>Action: two actions are possible:<ul>
+							<li>For public sales: clicking the Buy link opens an alert confirmation window where you have to confirm to buy the planet at the displayed price</li>
+							<li>For Auctions sales: click the Place Bid link opens an alert window where you can type in your bid. That bid has to be higher than the previous one. The player who placed the higher bid when the expiration time is reached buys the planet</li>
+						</ul></li>
+					</ul>
+					Just as for most lists in game, clicking on the header of one column order the list items according to the value of this flied. Clicking again on the same header changes the ordering from ascending to descending and the other way around.
+				</section>
+			</section>
+			<section id="buy_pub_buy_fleet" title="Fleets for sale">
+				<section id="buy_pub_buy_fleet_intro" title="Introduction">
+					The list of fleets sales offers can be split into two parts:<ul>
+						<li>Top part: it includes a set of controls that allow you to easily navigate into the list</li>
+						<li>List per se: it's the actual list of pending offers</li>
+					</ul>
+					The next sections of the manual will cover both parts of the list.
+				</section>
+				<section id="buy_pub_buy_fleet_cont" title="List controls">
+					On top of the list of pending offers a set of controls offer navigation means into the list.
+					<br/>
+					On the left side of the page, a drop down list allows to select a number of items to display on each page of the list. This number of items can be either 5, 10, 15, 20 or 25. If there are more items in total than this number, the list will be displayed onto several internal pages specific to the list without modifications of the rest of the Public Offers page.
+					<br/>
+					In the middle of the page is provided a search facility which allows you to search for particular locations where flets are on sale. This search system consist in a textfield where you can type in a search string. Any location which name contains the search string, wherever it may be located in the location name, will match the search and be displayed.
+					<br/>
+					If there are more items in the list than have to be displayed on each list page, a drop down list appears on the right part of the page. This drop down list allows to select the list page to display.
+				</section>
+				<section id="buy_pub_buy_fleet_list" title="Actual list">
+					Below the set of control are listed all fleets sales offers. This list includes for each offer:<ul>
+						<li>Location: the name of the location where fleets are on sale. This name is a link to the individual page of this location</li>
+						<li>Coords.: the coordinates of the location</li>
+						<li>G.A.S.: the number of GA ships in the fleet</li>
+						<li>Fgt.: the number of fighters in the fleet</li>
+						<li>Cru.: the number of cruisers in the fleet</li>
+						<li>B.Cru.: the number of battle cruisers in the fleet</li>
+						<li>Owner: the name of the player currently owning the fleet</li>
+						<li>Expiration: if the offer expires over time, an expiration time and date are displayed. Otherwise this field contains the Never string.</li>
+						<li>Price: for public sales, the price is the buying price, for auction the price is the last bid</li>
+						<li>Action: two actions are possible:<ul>
+							<li>For public sales: clicking the Buy link opens an alert confirmation window where you have to confirm to buy the fleet at the displayed price</li>
+							<li>For Auctions sales: click the Place Bid link opens an alert window where you can type in your bid. That bid has to be higher than the previous one. The player who placed the higher bid when the expiration time is reached buys the fleet</li>
+						</ul></li>
+					</ul>
+					Just as for most lists in game, clicking on the header of one column order the list items according to the value of this flied. Clicking again on the same header changes the ordering from ascending to descending and the other way around.
+				</section>
+			</section>
+		</section>
+	</section>
+	<section id="buy_dir" title="Direct Offers">
+		<section id="buy_dir_intro" title="Introduction">
+			All current and past sales and gift offers that were made personally to you are listed on Direct Offers part of the marketplace page. This section is accessible through the Direct Offers link on top of the marketplace page. The rest of this section will detail both lists.
+		</section>
+		<section id="buy_dir_pend" title="Pending Offers">
+			<section id="buy_dir_pend_intro" title="Introduction">
+				The list of pending sale or gift offers can be split into two parts:<ul>
+					<li>Top part: it includes a set of controls that allow you to easily navigate into the list</li>
+					<li>List per se: it's the actual list of pending offers</li>
+				</ul>
+				The next sections of the manual will cover both parts of the list.
+			</section>
+			<section id="buy_dir_pend_cont" title="List controls">
+				On top of the list of pending offers a set of controls offer navigation means into the list.
+				<br/>
+				On the left side of the page, a drop down list allows to select a number of items to display on each page of the list. This number of items can be either 5, 10, 15, 20 or 25. If there are more items in total than this number, the list will be displayed onto several internal pages specific to the list without modifications of the rest of the Direct Offers page.
+				<br/>
+				In the middle of the page is provided a search facility which allows you to search for particular planets on sale or on which fleets are beeing sold. This search system consist in a textfield where you can type in a search string. Any planet which name contains the search string, wherever it may be located in the planet name, will match the search and be displayed.
+				<br/>
+				If there are more items in the list than have to be displayed on each list page, a drop down list appears on the right part of the page. This drop down list allows to select the list page to display.
+			</section>
+			<section id="buy_dir_pend_list" title="The list itself">
+				Below the set of control are listed all pending offers. This list includes for each offer:<ul>
+					<li>Received: the time and date when the offer was made</li>
+					<li>Sender: the name of the player who made the offer to you</li>
+					<li>Price: the price at which the offer has been made. This field is Free for gifts</li>
+					<li>To Player: the player to whom the offer has been made. This field is N/A for public and auction sales</li>
+					<li>Details: a sentense describing the item on sale:<ul>
+						<li>For planets: it includes planet name and coordinates, population, number of turrets and factories</li>
+						<li>For fleets: it includes the number of ships of each category along with the total fleet power</li>
+						<li>For planets with bundled fleets: it includes the information provided for both planet and fleets</li>
+					</ul></li>
+					<li>Accept offer link: clicking this link opens an alert box where you have to confirm you want to accept the offer and make the sale or gift effective</li>
+					<li>Decline offer link: clicking on this link opens a confirmation alert box. Confirming the action in this alert box rejects the offers.</li>
+				</ul>
+				Just as for most lists in game, clicking on the header of one column order the list items according to the value of this flied. Clicking again on the same header changes the ordering from ascending to descending and the other way around.
+			</section>
+		</section>
+		<section id="buy_dir_his" title="History">
+			<section id="buy_dir_his_intro" title="Introduction">
+				The sales or gift offers history can be split into two parts:<ul>
+					<li>Top part: it includes a set of controls that allow you to easily navigate into the list</li>
+					<li>List per se: it's the actual list of offers history</li>
+				</ul>
+				The next sections of the manual will cover both parts of the list.
+			</section>
+			<section id="buy_dir_his_cont" title="List controls">
+				On top of the list of offers history a set of controls offer navigation means into the list.
+				<br/>
+				On the left side of the page, a drop down list allows to select a number of items to display on each page of the list. This number of items can be either 5, 10, 15, 20 or 25. If there are more items in total than this number, the list will be displayed onto several internal pages specific to the list without modifications of the rest of the Direct Offers page.
+				<br/>
+				In the middle of the page is provided a search facility which allows you to search for particular planets or fleets offers. This search system consist in a textfield where you can type in a search string. Any planet which name contains the search string, wherever it may be located in the planet name, will match the search and be displayed.
+				<br/>
+				If there are more items in the list than have to be displayed on each list page, a drop down list appears on the right part of the page. This drop down list allows to select the list page to display.
+			</section>
+			<section id="buy_dir_his_list" title="The list itself">
+				Below the set of control are listed all offers in the history list. This list includes for each offer:<ul>
+					<li>Last Change: the time and date when the last change on the offer has occured. It might be a cancellation of someone accepting the offer for instance</li>
+					<li>Received: the time and date when the offer was received</li>
+					<li>Status: the outcome of the offer. The offer may have been cancelled or accepted or rejected</li>
+					<li>Sender: the name of the player who made the offer</li>
+					<li>Details: a sentense describing the item on sale:<ul>
+						<li>For planets: it includes planet name and coordinates, population, number of turrets and factories</li>
+						<li>For fleets: it includes the number of ships of each category along with the total fleet power</li>
+						<li>For planets with bundled fleets: it includes the information provided for both planet and fleets</li>
+					</ul></li>
+				</ul>
+				Just as for most lists in game, clicking on the header of one column order the list items according to the value of this field. Clicking again on the same header changes the ordering from ascending to descending and the other way around.
+			</section>
+		</section>
+	</section>
+</lwdoc>
+

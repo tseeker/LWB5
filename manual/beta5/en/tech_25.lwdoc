@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Experimental Anti-Matter Production</title>
+	<section id="tech_25_desc" title='Description'>
+		Recent advances in new alloy production and a better knowledge of quantum theory have allowed our scientists to produce anti-matter for the first time. Research should be continued in this area since the applications could be tremendous.
+	</section>
+	<section id="tech_25_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Fundamental research</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;500,000</li>
+			<li><b>Effects:</b> N/A</li>
+		</ul>
+	</section>
+	<section id='tech_25_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_16'>Quantum Gravitation</mlink></li>
+			<li><mlink to='tech_24'>Hardened Alloys</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_72">Mass Anti-matter Production</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

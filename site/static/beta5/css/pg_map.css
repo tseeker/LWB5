@@ -1,0 +1,130 @@
+/* Grid map */
+
+table.map {
+	border-style: solid;
+	border-width: 1px;
+	empty-cells: show;
+	border-collapse: collapse;
+	margin: 0 auto 0 auto;
+	width: auto;
+}
+
+table.map tr td {
+	border-style: solid;
+	border-width: 1px;
+}
+
+table.map td.idx {
+	width: 32px;
+	height: 32px;
+}
+
+table.map td.mgrcol {
+	width: 192px;
+}
+
+table.map tr.hd td, table.map tr td.hd {
+	font-size: 11pt;
+	vertical-align: middle;
+	text-align: center;
+}
+
+table.map tr td.system {
+	height: 192px;
+}
+
+
+table.map tr td.arrow {
+	text-align: center;
+	vertical-align: middle;
+}
+
+table.map tr td.arrow img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	width: 12px;
+	height: 12px;
+}
+
+
+table.sys, table.sysneb1,table.sysneb2,table.sysneb3,table.sysneb4,table.sysprot,table.sysunch {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	border-width: 0px;
+	border-style: none;
+	width: 100%;
+	height: 192px;
+}
+
+table.sysneb1 { background-image: url("__STATICURL__/beta5/pics/nebula1.png"); }
+table.sysneb2 { background-image: url("__STATICURL__/beta5/pics/nebula2.png"); }
+table.sysneb3 { background-image: url("__STATICURL__/beta5/pics/nebula3.png"); }
+table.sysneb4 { background-image: url("__STATICURL__/beta5/pics/nebula4.png"); }
+
+table.sysprot { font-style: italic; }
+table.sysunch td { font-size: smaller; text-align: center; }
+table.sysneb1 td, table.sysneb2 td, table.sysneb3 td, table.sysneb4 td { text-align: center; }
+
+table.map tr.srow {
+	height: 32px;
+	border-width: 0px;
+	border-style: none;
+}
+
+table.map tr.srow td {
+	border-width: 0px;
+	border-style: none;
+	vertical-align: middle;
+}
+
+table.map tr.srow td.pimg {
+	width: 32px;
+	text-align: center;
+}
+
+tr.srow a, tr.srow a:visited { text-decoration: none; font-style: normal; }
+tr.srow a:hover { text-decoration: underline; font-style: normal; }
+
+tr.srow td.planetn, td.planetn a, td.planetn a:hover, td.planetn a:visited { color: #CFCFCF; }
+tr.srow td.planeto, td.planeto a, td.planeto a:hover, td.planeto a:visited { color: #7FFF7F; font-weight: bold; }
+tr.srow td.planeta, td.planeta a, td.planeta a:hover, td.planeta a:visited { color: #7F7FFF; font-weight: bold; }
+tr.srow td.prem, td.prem a, td.prem a:hover, td.prem a:visited { color: #AFAF1F; }
+tr.srow td.nebzone1, tr.srow td.nebzone1 a, tr.srow td.nebzone1 a:hover, tr.srow td.nebzone1 a:visited { color: #AF1F1F; }
+tr.srow td.nebzone2, tr.srow td.nebzone2 a, tr.srow td.nebzone2 a:hover, tr.srow td.nebzone2 a:visited { color: #DF3F3F; }
+tr.srow td.nebzone3, tr.srow td.nebzone3 a, tr.srow td.nebzone3 a:hover, tr.srow td.nebzone3 a:visited { color: #EF7F7F; }
+tr.srow td.nebzone4, tr.srow td.nebzone4 a, tr.srow td.nebzone4 a:hover, tr.srow td.nebzone4 a:visited { color: #FF9F9F; }
+
+/* Listing */
+
+table.list#plist { margin: 0px 20px 0px 20px; }
+table#plist th {  width: 110px; }
+table#plist th.pname {  width: auto; text-align: left; }
+table.list#plist td { text-align: center; vertical-align: middle; }
+table.list#plist td.pimg { width: 32px; }
+table.list#plist td.pname { text-align: left; width: auto; height: 32px; }
+table.list#plist a, table.list#plist a:visited { text-decoration: none; font-style: normal; }
+table.list#plist a:hover { text-decoration: underline; font-style: normal; }
+tr.planetn td, tr.planetn b, tr.planetn a, tr.planetn a:hover, tr.planetn a:visited { color: #CFCFCF; }
+tr.planeto td, tr.planeto b, tr.planeto a, tr.planeto a:hover, tr.planeto a:visited { color: #7FFF7F; font-weight: bold; }
+tr.planeta td, tr.planeta b, tr.planeta a, tr.planeta a:hover, tr.planeta a:visited { color: #7F7FFF; font-weight: bold; }
+tr.prem td, tr.prem b, tr.prem a, tr.prem a:hover, tr.prem a:visited { color: #AFAF1F; }
+tr.nebzone1 td, tr.nebzone1 b, tr.nebzone1 a, tr.nebzone1 a:hover, tr.nebzone1 a:visited { color: #AF1F1F; }
+tr.nebzone2 td, tr.nebzone2 b, tr.nebzone2 a, tr.nebzone2 a:hover, tr.nebzone2 a:visited { color: #DF3F3F; }
+tr.nebzone3 td, tr.nebzone3 b, tr.nebzone3 a, tr.nebzone3 a:hover, tr.nebzone3 a:visited { color: #EF7F7F; }
+tr.nebzone4 td, tr.nebzone4 b, tr.nebzone4 a, tr.nebzone4 a:hover, tr.nebzone4 a:visited { color: #FF9F9F; }
+
+/* Map controls */
+
+table.mapctrl { width: 89%; margin: 0% 5% 0% 5%; }
+table.mapctrl th { text-align: right; padding: 0px 5px 0px 0px; }
+table.mapctrl th#mcttl { text-align: center; padding: 0px 0px 0px 0px; }
+table.mapctrl td.mcolors { text-align: center; width: 8%; vertical-align:middle }
+#mcown { color: #7FFF7F; }
+#mcally { color: #7F7FFF; }
+#mcother { color: #CFCFCF; }
+#mcprot { font-style: italic; }
+#neb1 { color: #AF1F1F; }
+#neb2 { color: #DF3F3F; }
+#neb3 { color: #EF7F7F; }
+#neb4 { color: #FF9F9F; }

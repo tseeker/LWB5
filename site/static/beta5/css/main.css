@@ -1,0 +1,124 @@
+body {
+	background-image: url("__STATICURL__/beta5/pics/background.jpg");
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+* {
+	font-family: Arial, sans-serif;
+}
+
+pre {
+	font-family: monospace;
+}
+
+body, p, td, h6, h4 { font-weight: normal; }
+th, h5, h3, h2, h1 { font-weight: bold; }
+th, h1, h2, h3, h4, h5, h6 { font-style: italic; }
+body, p, td { font-style: normal; }
+body, p, td, h6, h5, h4, h3, h2, h1 { text-decoration: none; }
+body, p, td, th, h6, h5, h4, h3, h2, h1 { margin: 0px; }
+
+h1 { padding: 0px 0px 5px 10px; }
+h2 { padding: 0px 0px 3px 15px; }
+h3 { padding: 0px 0px 2px 20px; }
+h4 { padding: 0px 0px 2px 22px; }
+h5 { padding: 0px 0px 1px 24px; }
+h6 { padding: 0px 0px 0px 25px; }
+p { padding: 0px 0px 10px 30px; }
+
+a {
+	text-decoration: underline;
+	font-weight: normal;
+	font-style: italic;
+}
+
+img {
+	padding: 0px;
+	margin: 0px;
+	border: 0px
+}
+img.icon {
+	height: 32px;
+	width: 32px;
+}
+img.fleet {
+	height: 30px;
+	width: 60px;
+}
+img.planetsmall {
+	height: 30px;
+	width: 30px;
+}
+img.planetlarge {
+	height: 80px;
+	width: 80px;
+}
+
+table {
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+table.list {
+	width: 98%;
+	margin: 0 auto 0 auto;
+}
+
+table.list a {
+	text-decoration: none;
+	font-weight: bold;
+	font-style: italic;
+}
+table.list a:hover {
+	text-decoration: underline;
+}
+
+td { vertical-align: top; }
+th { vertical-align: middle; }
+table.list th { vertical-align: bottom; }
+table.list td { vertical-align: middle; }
+
+td.fbutton {
+	text-align: center;
+	padding: 5px 0px 0px 0px;
+}
+td.flink {
+	padding: 0px 5px 0px 0px;
+	text-align: right;
+}
+
+.pc5 { width: 5%; }
+.pc10 { width: 10%; }
+.pc15 { width: 15%; }
+.pc20 { width: 20%; }
+.pc25 { width: 25%; }
+.pc30 { width: 30%; }
+.pc35 { width: 35%; }
+.pc40 { width: 40%; }
+.pc45 { width: 45%; }
+.pc50 { width: 50%; }
+.pc55 { width: 55%; }
+.pc60 { width: 60%; }
+.pc65 { width: 65%; }
+.pc70 { width: 70%; }
+.pc75 { width: 75%; }
+.pc80 { width: 80%; }
+.pc85 { width: 85%; }
+.pc90 { width: 90%; }
+.pc95 { width: 95%; }
+
+.div2 { width: 50%; }
+.div3 { width: 33%; }
+.div4 { width: 25%; }
+.div5 { width: 20%; }
+.div6 { width: 16%; }
+.div8 { width: 12%; }
+.div10 { width: 10%; }
+.div16 { width: 6%; }
+.div20 { width: 5%; }
+
+

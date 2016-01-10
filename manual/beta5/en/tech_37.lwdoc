@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Adaptive Materials</title>
+	<section id="tech_37_desc" title='Description'>
+		New developments in research have allowed our scientists to create materials that adapt to the needs of our civilians, thus providing even more resistant alloys.
+	</section>
+	<section id="tech_37_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Civilian technology</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;300,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases Industrial Factories productivity</li>
+				<li>Increases Military Factories productivity</li>
+				<li>Reduces battle losses</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_37_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_24'>Hardened Alloys</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_53">Self-healing Materials</mlink></li>
+			<li><mlink to="tech_57">Force fields</mlink></li>
+			<li><mlink to="tech_63">Battle Cruisers</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

@@ -1,0 +1,17 @@
+Legacy Worlds registration
+Dear _USER_,
+
+Thank you for registering at Legacy Worlds!
+Before we activate your account, there's just one more step to complete your registration.
+
+You have to connect to the site using the username and password you chose, then validate your account using the confirmation code below.
+Please note that this confirmation code is NOT your password, and you will only need to use it once.
+
+Your Username is: _USER_
+Your Password is: _PASS_
+Your Confirmation Code is: _CCODE_
+
+If you are still having problems signing up, please contact a member of our support staff at webmaster@legacyworlds.com
+
+Thanks!
+The Legacy Worlds staff

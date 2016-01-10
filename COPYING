@@ -1,0 +1,32 @@
+Licensing information
+----------------------
+
+The IRC bot code is based on PHP-IRC (http://www.phpbots.org/) with some
+changes for LW integration. It is distributed under the GNU GPL license.
+
+The main LW code (admin and scripts directories), as well as the CSS and JS
+code (with the exception of the jquery library) in site/static, the planet
+generator and the SQL database structure and associated functions are
+distributed under the GNU GPL license. Same goes for whatever is in the
+misc/ directory.
+
+The outdated copy of the JQuery (http://www.jquery.org) library found in the
+site/static/main/js/ directory is distributed under the MIT license.
+
+Icons used in the site's appearance have been taken and modified from various
+sources. Their respective licenses are mostly unknown.
+
+The game data (including the manual and all files in the sql subdirectory
+which contain actual values - sql/beta5/data/ most notably) remain the
+exclusive property of Deep Clone Development. This data may be copied,
+distributed or used as long as:
+1) the distribution is free,
+2) the distribution is complete and unmodified (it should match the
+contents of the official SVN repository),
+3) no profits are made from using this data.
+Feel free to replace this data with something else entirely to get rid of
+these licensing terms.
+
+
+A copy of the GPLv2 is included in COPYING.GPL ; the MIT license may be found
+in COPYING.MIT.

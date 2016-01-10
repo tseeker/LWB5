@@ -1,0 +1,11 @@
+Legacy Worlds > Password changed
+Dear _USER_,
+
+You requested your password to be changed on the Legacy Worlds web site. This request has been accepted after you entered your confirmation code.
+
+Your new password is: _PASS_
+
+You should change it just after you log on to Legacy Worlds.
+
+Best regards,
+The Legacy Worlds staff

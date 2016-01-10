@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Quantum Encryption</title>
+	<section id="tech_48_desc" title='Description'>
+		Quantum computers have allowed tremendous progress in encryption algorithms. We can now be more efficient in preventing the enemy from disrupting our communications.
+	</section>
+	<section id="tech_48_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Military technology</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;1,500,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases communications efficiency</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_48_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_20'>Quantum Computers</mlink></li>
+			<li><mlink to='tech_45'>Fast Burst Transmission</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_59">Civilian Communication Act</mlink></li>
+			<li><mlink to="tech_62">Interstellar University</mlink></li>
+			<li><mlink to="tech_65">Multiphasic Transmission</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

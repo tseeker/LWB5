@@ -1,0 +1,214 @@
+<?xml version="1.0"?>
+<lwdoc>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Forums</title>
+	<section id="for_intro" title="Introduction">
+		Those forums are very similar to those you might find in any message board. 
+		There are several categories of forums:<ul>
+			<li>Legacy Worlds Forums:- these are used by the staff to make announcements and by layers to report bugs and ask for new features.</li>
+			<li>General Forums:- these are used for general discussions about the game and beyond.</li>
+			<li>Legacy Worlds - Public beta 5:- these are public forums which are specific for Beta 5. They include alliance recruitment forums and such.</li>
+			<li>Alliance specific Forums:- these are the forums of each individual alliance. Their name correspond to the alliance name.</li>
+		</ul>
+	</section>
+	<section id="for_nav" title="Navigation in the forums">
+		The left side panel of the page consists in a navigation menu to move between forums. It lists the following items:<ul>
+			<li>Overview:- this is a link to the forums overview section.</li>
+			<li>Legacy Worlds forums:- this is a link to that category of the forums' pages.</li>
+			<li>General forums:- this is a link to that category of the forums' pages.</li>
+			<li>Legacy Worlds - Public beta 5:- this is a link to that category of the forums' pages.</li>
+			<li>Alliance forums:- this link, corresponding to the alliance name, redirects to the alliance specific forums.</li>
+		</ul>
+		For each category a Latest messages link is displayed. This link allows to access the lastest message view for the forums in the category. Name of forums with new posts you haven't read yet are displayed in bold. The link corresponding to the page you are currently viewing is displayed in italic.
+		<br/>
+		Below this list, a Search the forums link redirects you to the search facility.
+		<br/>
+		At the bottom of the page, a Messages link allows to switch to the messaging system.
+	</section>
+	<section id="for_over" title="Forums Overview Page">
+		For each forums category described in the introduction section of the forum manual page this overview page provides you with a list including:<ul>
+			<li>Category of forums:- the name of the category is a link to the specific page for this category.</li>
+			<li>Nature:- on the right side of the name and between brackets, this indicates if the forum category is general or alliance specific.</li>
+			<li>Forum name:- for each forum is displayed its name. That name is a link to the given forum's page. Below is indicated the forum's description.</li>
+			<li>Topics:- number of topics in the forum.</li>
+			<li>Posts:- number of posts in the forum.</li>
+			<li>Last Post:- name of the player who made the last post in the forum along with the date and time.</li>
+		</ul>
+	</section>
+	<section id="for_read" title="Reading the forums">
+		<section id="for_read_intro" title="Introduction">
+			In order to read the forums you can either use the various last messages view or browse the topics.
+		</section>
+		<section id="for_read_lat" title="Latest messages views">
+			When clicked for the overview page, the Lastest messages link directs you to a view of the last messages in all forums. When clicked under a particular category page it directs you to a view of the last messages in the category.
+			<br/>
+			In all cases the Lastest messages view presents the following items:<ul>
+				<li>Latest Messages in:- indicates what forum category you are viewing the last messages.</li>
+				<li>Navigation panel:- on top and at the bottom of the page it includes:<ul>
+					<li>&lt;- Previous page:- link to the previous page.</li>
+					<li>Posts per page:- you can use that drop down list to choose the number of posts to display on each page.</li>
+					<li>Next page -&gt;:- link to the next page.</li>
+				</ul></li>
+				<li>List of messages:- this list includes for each post:<ul>
+					<li>Forum in which the message has been posted.</li>
+					<li>Title of the message.</li>
+					<li>Posted by:- Author and date and time of the post.</li>
+					<li>Text of the post.</li>
+					<li>Action links:- on the right side of the header of the post various action links directs you to the relevant action pages:<ul>
+						<li>View forum: this link directs you to the forum page in which the message has been posted.</li>
+						<li>View topic: this page directs you to the topic page where all messages in the same thread are displayed.</li>
+						<li>Reply: this link directs you to the reply page.</li>
+						<li>Quote: this link directs you to the reply page with included quotes.</li>
+					</ul></li>
+				</ul></li>
+			</ul>
+		</section>
+		<section id="for_read_bro" title="Browsing">
+			Clicking on the name of a forum directs you to this forum's main page. This page includes:<ul>
+				<li>Forum name</li>
+				<li>New topic:- either the new topic link which directs to the topic creation page or the "Only moderators can create new topics" sentence is displayed according to the forum settings.</li>
+				<li>Posts per page:- the corresponding drop down list allows you to choose how many topics are to be displayed on each page.</li>
+				<li>Page:- when it is required, a drop down list is displayed to allow you to choose what page to go to.</li>
+				<li>Posts list: this list includes for each post:<ul>
+					<li>Topic:- title of the topic. It's a link to the topic display page.</li>
+					<li>Replies:- number of replies to the first post.</li>
+					<li>First post:- author, date and time of the first post in the thread.</li>
+					<li>Last Post:- author, date and time of the last post in the thread.</li>
+				</ul></li>
+			</ul>
+			Clicking on a topic name in the list directs you to the thread page for that specific topic. This page includes:<ul>
+				<li>Topic Name.</li>
+				<li>Posts per page:- use this drop down list to choose how many posts to display on each page.</li>
+				<li>Page:- when relevant, a drop down list is displayed to switch between pages of the posts.</li>
+				<li>List of messages in the thread. For each post the elements displayed are:<ul>
+					<li>Post title.</li>
+					<li>Posted:- time, date and author of the post.</li>
+					<li>Text of the message.</li>
+					<li>Action links:- along the header of the post, those action links directs you to the relevant action pages or perform the requested action.<ul>
+						<li>Reply:- directs you to the reply page.</li>
+						<li>Quote:- directs you to the reply page with included quotes.</li>
+						<li>Edit:- if you are the author of the post this link allows you to go to the edit page. This page is similar to the new topic page except all fields are prefilled with their current contents, thus allowing you to make corrections.</li>
+						<li>Delete:- if you are the author of the post, this link allows you to delete it.</li>
+					</ul></li>
+				</ul></li>
+			</ul>
+		</section>
+	</section>
+	<section id="for_new" title="New topics">
+		If you have the rights to do so, a New topic link is displayed at the top of each forum page. Clicking on the link directs you to the new topic form. To post a new topic in the forum currently named at the top of the form, you have to fill in the following items:<ul>
+			<li>Topic title:- use the provided text field to type in the topic title.</li>
+			<li>Text:- use the provided text area to type your message.</li>
+			<li>Options:- two checkboxes that allow you to apply some specific options to the post:<ul>
+				<li>Enable graphical smileys:- checking this checkbox will replace all common text based smileys known to the system by their graphical counterparts.</li>
+				<li>Enable forum tags:- checking this checkbox is necessary to use forum specific tags like those required for quotes, text emphasis and such.</li>
+			</ul></li>
+		</ul>
+		At the bottom of the form three buttons are provided to specify what to do with the text typed in and the options you've selected:<ul>
+			<li>Submit:- click this button to post the new forum topic.</li>
+			<li>Preview:- click this button to get a preview of what the post will look like in the forum.</li>
+			<li>Cancel:- click this button to cancel your changes and go back to the previous page.</li>
+		</ul>
+	</section>
+	<section id="for_repl" title="Replying in a thread">
+		In order to reply in a thread you can use either the Reply or the Quote links that are displayed alongside each post header. The behaviour is slightly different depending on which ones you choose:<ul>
+			<li>Reply:- a form similar to the one for new topics is displayed with a prefilled title that fits the current thread title. See the <strong>New Topic</strong> paragraph of the forum section of the manual for a description of this form use.</li>
+			<li>Quote:- a form similar to the one for new topics is displayed with a prefilled title that fits the current thread title and a prefilled body containing the post you replied to text with special quote forum markers. See the <strong>New Topic</strong> paragraph of the forum section of the manual for a description of this form use. Make sure the Enable forum tags checkbox is checked so that the quote is properly displayed as a quotation.</li>
+		</ul>
+		At the bottom of those forms, the Replying to... section presents the previous messages in the thread as reference.
+	</section>
+	<section id="for_mod" title="Moderation tools">
+		Moderator are provided with the means to enforce the moderation rules described in the General Rules section of the manual. If you have moderation privileges on a given forum, you are provided with a set of moderation tools.
+		<section id="for_mod_del" title="Deleting">
+			If you have moderation privileges, you have access to functionalities which allow you to delete individual posts or complete threads:<ul>
+				<li>Deleting a post: if you have moderation privileges, a "Delete" link is available in the right part of the posts' header. Clicking this link allows you to delete it. If the post is the last remaining one in a thread, the whole toic will be deleted.</li>
+				<li>Deleting a thread: in the threads list of the forum you have moderation privileges on, a checkbox is available in from of of each thread. In order to delete a thread, check the corresponding checkbox to select it. Then click the "Delete" button at the bottom of the page.</li>
+			</ul>
+		</section>
+		<section id="for_mod_stick" title="Switching a thread sticky">
+			A sticky thread is a thread that remains on top of the threads list for the forum, whatever new posts may have been made in other threads. To switch a thread sticky, you have to options:<ul>
+				<li>New topic: if you're writing a new topic, you can make it sticky from the start by checking the "Sticky topic" checkbox at the bottom of the new topic form.</li>
+				<li>Existing topic: in order to switch an existing topic sticky, you first of all have to select it by checking the corresponding checkbox. Then click the "Switch sticky" button at the bottom of the page.</li>
+			</ul>
+			If you want a topic not to be sticky anymore, select it by checking its checkbox and click the "Switch Sticky" button. The topic gets back to normal topic status.
+		</section>
+		<section id="for_mod_move" title="Moving a thread to another forum">
+			If a thread has been posted in the wrong forum, you have the possibility to move it to another forum. In order to do so you first of all have to select the thread by selecting the corresponding checkbox. Then you have to select the destination forum in the forums drop down list at the bottom of the page. The click the "Move" button.
+		</section>
+		<section id="for_mod_edit" title="Editing posts">
+			As moderator you also have the ability to edit posts made by other players. To edit any post, just click the "Edit" link in the post's header. You'll be directed to the post edition form, which is similar to the form for new topics, with prefilled values.
+		</section>
+	</section>
+	<section id="for_sear" title="Searching">
+		A "Search forums" link is provided at the bottom of the left forums panel. Clicking this link directs you to a search form where you can specify your search criteria:<ul>
+			<li>Text: use the provided textfield to type in the search string. The '*' character can be used as a wildcard to search for partial strings.</li>
+			<li>Search in: you can either search in posts titles or whole posts. To choose between the two, select the corresponding radio button.</li>
+			<li>Forum: you can either search in all forums or one specific forum. To define in what forum to search, select the entry you're interested in in the provided drop down list.</li>
+			<li>Sort by: The results of the search can be sorted according to Post Time or Post Title. Use the drop down list to choose which one to use. The sort can also be either ascending or descending. Select the relevant radio button to define the ordering you're interested in.</li>
+			<li>Display results: Results can be displayed as Posts or Topics. Choose the display you want by selecting the corresponding radio button.</li>
+		</ul>
+		Once you are satisfied with your setting, you can click the "Search" button to launch the search process.
+		<br/>
+		The results are displayed as a list very similar to any thread in any forum. The only differences are that each post also includes:
+		<ul>
+			<li>A new header line where the forum in which the post is located is indicated</li>
+			<li>A "View forum" link in the top right part of the header which directs you to the main page of the forum in which the post is</li>
+			<li>A "View topic" link in the top right part of the header which directs you to the page of the thread in which the post is</li>
+		</ul>
+	</section>
+	<section id="for_fancy" title="Posts' fancy lay-out">
+		<section id="for_fancy_intro" title="Introduction">
+			LegacyWorlds' forums include the possibility to apply text modifiers (to get bold text and so on) and can display some smileys with a graphical representation in order for the posts to look nicer.		
+		</section>
+		<section id="for_fancy_smil" title="Graphical smileys">
+			In order for graphical smileys to be displayed, you either have to enable the option in your preferences or enable it on a per post basis, in the post edition form.
+			<br/>
+			Most current smileys have a graphic conterpart: :), :P, ;) and so on.
+		</section>
+		<section id="for_fancy_tag" title="Forum tags">
+			Forums tags allow you to include special items in post or to apply modifiers to texts. Single unit tags are to be used on their own. For tags composed of two elements, the text modifier applies to the text between the two tags.
+			<table>
+				<tr>
+					<th style="width:40%">Tag</th>
+					<th>Meaning</th>
+				</tr>
+				<tr>
+					<td>[b] Text  [/b]</td>
+					<td>"Text" gets displayed in bold.</td>
+				</tr>
+				<tr>
+					<td>[u] Text [/u]</td>
+					<td>"Text" is underlined.</td>
+				</tr>
+				<tr>
+					<td>[i] Text [/i]</td>
+					<td>"Text" is displayed in italic.</td>
+				</tr>
+				<tr>
+					<td>[quote] Text [/quote]</td>
+					<td>"Text" is displayed as a note without title.</td>
+				</tr>
+				<tr>
+					<td>[quote=name] Text [/quote]</td>
+					<td>"Text" is diplayed as a note, with title ("name said:").</td>
+				</tr>
+				<tr>
+					<td>[sep]</td>
+					<td>A horizontal bar is drawn to replace the tag.</td>
+				</tr>
+				<tr>
+					<td>[item] Text [/item]</td>
+					<td>"Text" is displayed as a bullet-point item.</td>
+				</tr>
+				<tr>
+					<td>[link=url] Text [/link]</td>
+					<td>"Text" is displayed as a link that points to the "url" URL.</td>
+				</tr>
+				<tr>
+					<td>[code] Text [/code]</td>
+					<td>"Text" is displayed as a fixed size font block. This can be used to insert ASCII art for instance.</td>
+				</tr>
+			</table>
+		</section>
+	</section>
+</lwdoc>

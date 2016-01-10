@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Hyperspace Basics</title>
+	<section id="tech_2_desc" title='Description'>
+		Sir! Our scientists have made major progress in understanding the basics behind Hyperspace theory. Those basic hyperspace capabilities are the very beginning of a new area in space flight and allow a wide range of new experiments.
+	</section>
+	<section id="tech_2_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Fundamental research</li>
+			<li><b>Optional:</b> No</li>
+			<li><b>Cost:</b> &amp;euro;15,000</li>
+			<li><b>Effects:</b> N/A</li>
+		</ul>
+	</section>
+	<section id='tech_2_dep' title='Dependencies'>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_6">Cruisers</mlink></li>
+			<li><mlink to="tech_16">Quantum Gravitation</mlink></li>
+			<li><mlink to="tech_46">Hyperspace Beacon</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<lwdoc>
+        <version>beta5</version>
+	<language>en</language>
+	<title>Fleets</title>
+	<section id="fleet_intro" title="Introduction">
+		<i>Fleets</i> are one of the <i>major elements in LegacyWorlds</i>, since they allow you to <mlink to="fleets_moving">travel the universe</mlink>, <mlink to="battle_ownchange">conquer new planets</mlink> and <i>defend yourself</i> against enemies.
+		<i>Fleets</i> are sets of <mlink to="ships">ships</mlink> you can use either to <mlink to="battles">>defend yourself</mlink> or <mlink to="battles">attack other planets</mlink>. Each <i>fleet</i> can be composed of <mlink to="ships">ships</mlink> of several <mlink to="ship_cat_list">different categories</mlink>. Those <i>fleets</i> can be <mlink to="fleets_moving">moved from planet to planet</mlink> according to a particular <mlink to="move_gen_compute">set of rules</mlink>. When faced with <i>enemy fleets</i> they of course engage in <mlink to="battles">battle</mlink>.
+		<br/>
+		In order to have <i>fleets</i> you first of all have to possess the required <mlink to="tech_list">technologies</mlink>. You also have to <mlink to="emp_conc_fact_mil">build them</mlink>. 
+		<br/>
+		Fleets building is covered more precisely in the following manual sections:<ul>
+			<li><mlink to="emp_conc_fact_mil">Military factories section of the empire manual page</mlink></li>
+			<li><mlink to="ipp_own_bw">Building warefare section of the individual planet page manual page</mlink></li>
+			<li><mlink to="pop_qb">Quickbuilder section of the planets overview manual page</mlink></li>
+		</ul>
+		<br/> 
+		<i>Fleets</i> being <i>one of the major concepts to grasp in LegacyWorlds</i>, various <i>fleets related topics</i> will be studied in more details in <i>different subsections of the manual</i>. Those subsections are presented in the next paragraph.
+	</section>
+	<section id="fleet_sec" title="Fleets related topics">
+		<section id="flect_sec_ship" title="Ships" linkto="ships">
+			<i>Fleets</i> are composed of <mlink to="ships">ships</mlink>. It sounds only natural to start with <mlink to="ships">ships</mlink>. This section of the manual will present all topics linked with <mlink to="ship_cat">ships categories</mlink> and <i>caracteristics</i>.
+		</section>
+		<section id="fleet_sec_over" title="Fleets page" linkto="fleets_page">
+			The <mlink to="fleets_page">Fleets page</mlink> is the main entry point to <i>manage fleets</i>. This part of the manual will present this page more deeply. The <mlink to="fleets_page">fleet page</mlink> consists in three different sections:<ul>
+				<li><mlink to="fp_filter">Top part</mlink>: it includes a set of <mlink to="fp_filter">filters</mlink></li>
+				<li><mlink to="fp_list">Middle Part</mlink>: it's the actual <mlink to="fp_list">fleets list</mlink>. It's either a complete list or the result of the choices you've made with the <mlink to="fp_filter">filters</mlink></li>
+				<li><mlink to="fleets_actions">Bottom Part</mlink>: it's the <mlink to="fleets_actions">Action section</mlink> of the <mlink to="fleets_page">fleet page</mlink>, where you can actually act on the fleets.</li>
+			</ul>
+			The <mlink to="fleets_page">fleets page manual section</mlink> will describe each part of the page.
+		</section>
+		<section id="fleet_sec_act" title="Fleets Actions" linkto="fleets_actions">
+			Once you have <i>selected at least one fleet</i> in the <mlink to="fp_list">fleets list</mlink> of the <mlink to="fleets_page">fleets page</mlink>, a list of links, corresponding to <i>different actions you can perform with the fleets, is displayed</i>. This list include a selection among the total list of possible actions, depending on the circumstances. Those <mlink to="fleets_actions">actions</mlink> will be presented in the <mlink to="fleets_actions">Fleets actions</mlink> part of the manual.
+		</section>
+		<section id="fleet_sec_battle" title="Battles" linkto="battles">
+			The main goal of <i>fleets</i> is, obviously, to <mlink to="battles">fight</mlink>. The different <i>rules surrounding the battle</i> is the topic of the <mlink to="battles">Battles section</mlink> of the manual. 
+		</section>
+	</section>
+
+	<section file="ships.lwdoc"/>
+	<section file="fleets_page.lwdoc"/>
+	<section file="fleets_actions.lwdoc"/>
+	<section file="battles.lwdoc"/>
+</lwdoc>

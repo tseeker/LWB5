@@ -1,0 +1,235 @@
+table.fctrl { width: 89%; padding: 5px 5% 0px 5%; }
+table.fsearch { width: 89%; padding: 0px 5% 5px 5%; }
+table.fctrl td { width: 16%; text-align: center; }
+table.fctrl select { width: 98%; }
+table.fsearch td { width: 100%; text-align: center; }
+div#fmain { margin: 0px 0px 34px 0px; }
+
+div.factions {
+	position: fixed;
+	background-color: black;
+	width: 100%; height: 32px;
+	bottom: 0px;
+	padding: 0; margin: 0;
+}
+table.factions { height: 100%; }
+table.factions th { width: 10%; vertical-align: middle; }
+table.factions td { vertical-align: middle; }
+
+table.planet {
+	width: 95%;
+	margin: 0px 2% 20px 2%;
+	padding: 0px 0px 0px 0px;
+	border: 1px solid #3F3F3F;
+	border-collapse: collapse;
+}
+table.planet td {
+	padding: 0px 0px 0px 0px;
+	border: 1px solid #3F3F3F;
+	border-collapse: collapse;
+}
+tr.phdr td.name {
+	font-size: larger;
+	vertical-align: middle;
+}
+tr.phdr td.pinf {
+	width: 15%;
+	text-align: center;
+	vertical-align: middle;
+}
+tr.phdr td.pimg { width: 21px; height: 21px; vertical-align: middle; }
+table.planet tr td.noflt {
+	text-align: center;
+	padding: 12px 0px 12px 0px;
+}
+img.pimg { width: 20px; height: 21px; border: 0px; }
+
+table.fltl, table.mfltl, table.wfltl {
+	width: 100%;
+}
+table.fltl, table.fltl td, table.fltl th, table.mfltl, table.mfltl td, table.mfltl th, table.wfltl, table.wfltl td, table.wfltl th {
+	border: 1px solid #3F3F3F;
+	border-collapse: collapse;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+table.fltl td, table.mfltl td, table.wfltl td { vertical-align: middle; }
+
+table.fltl .fsel { width: 20px; text-align: center; }
+table.fltl .fown { width: 15%; text-align: left; }
+table.fltl .fname { width: auto; text-align: left; }
+table.fltl .fhs { width: 5%; text-align: center; }
+table.fltl .fshp { width: 8%; text-align: center; }
+table.fltl .fpwr { width: 8%; text-align: center; }
+table.fltl .fstat { width: 10%; text-align: right; }
+table.fltl .fdest { width: 10%; text-align: center; }
+table.fltl .fstd { width: 6%; text-align: center; }
+
+table.mfltl .fsel { width: 20px; text-align: center; }
+table.mfltl .fown { width: 15%; text-align: left; }
+table.mfltl .fname { width: auto; text-align: left; }
+table.mfltl .fhs { width: 5%; text-align: center; }
+table.mfltl .fshp { width: 8%; text-align: center; }
+table.mfltl .fpwr { width: 8%; text-align: center; }
+table.mfltl .fstat { width: 10%; text-align: center; }
+table.mfltl .fstd, table.mfltl .feta, table.mfltl .floc, table.mfltl .fdest { text-align: center; }
+
+table.wfltl .fsel { width: 20px; text-align: center; }
+table.wfltl .fown { width: 15%; text-align: left; }
+table.wfltl .fname { width: auto; text-align: left; }
+table.wfltl .fhs { width: 5%; text-align: center; }
+table.wfltl .fshp { width: 8%; text-align: center; }
+table.wfltl .fpwr { width: 8%; text-align: center; }
+table.wfltl .fstat { width: 10%; text-align: center; }
+table.wfltl .floc, table.wfltl .ftime, table.wfltl .floss { text-align: center; }
+
+table.wfltl:hover td a, table.wfltl:hover td, table.mfltl:hover td a, table.mfltl:hover td, table.fltl tr:hover td, table.fltl tr:hover td a { color: white; }
+tr.flown td, tr.flown td a, b.own { color: #33CC33; }
+tr.flally td, tr.flally td a { color: #6666FF; }
+tr.flenemy td, tr.flenemy td a, b.enemy { color: #FF3300; }
+
+table.scmd {
+	margin: 0% 2% 0% 2%;
+	width: 95%;
+}
+table.scmd th {
+	width: 150px;
+	text-align: left;
+}
+table.scmd td.sbut {
+	padding: 0px 0px 0px 90px;
+}
+
+table.oself, table.oavaf {
+	margin: 10px 20px 10px 20px;
+	width: 96%;
+}
+table.oavaf, table.oavaf td, table.oavaf th, table.oself, table.oself td, table.oself th {
+	border: 1px solid #3F3F3F;
+	border-collapse: collapse;
+	padding: 0px 0px 0px 0px;
+}
+table.oavaf tr:hover td, table.oself tr:hover td { color: white; }
+table.oself td { vertical-align: middle; }
+
+table.oself .fown { width: 15%; text-align: left; }
+table.oself .fname { width: auto; text-align: left; }
+table.oself .fhs { width: 5%; text-align: center; }
+table.oself .fshp { width: 25%; text-align: center; }
+table.oself .fpwr { width: 8%; text-align: center; }
+table.oself .ftraj { width: 30%; text-align: center; }
+
+table.oavaf .fown { width: 15%; text-align: left; }
+table.oavaf .fname { width: auto; text-align: left; }
+table.oavaf .fhs { width: 5%; text-align: center; }
+table.oavaf .fshp { width: 25%; text-align: center; }
+table.oavaf .fpwr { width: 8%; text-align: center; }
+table.oavaf .fco { width: 25%; text-align: left; }
+
+td#chord { width: 80%; text-align: left; }
+td#chordc {
+	width: 20%;
+	text-align: right;
+	vertical-align: top;
+	padding: 0px 20px 0px 0px;
+}
+
+td#sdmap {
+	width: 270px;
+	padding: 10px 5px 0px 5px;
+	border-style: solid;
+	border-color: white;
+	border-width: 0px 0px 0px 1px;
+}
+p.sdbut { padding: 20px 0px 0px 40px; }
+
+span.prot {
+	border-style: none;
+	border-width: 0px;
+	padding: 0px;
+	margin: 0px
+}
+span.prot table {
+	background-color: #00274f
+}
+
+table.smap {
+	border: 1px solid white;
+	width: 194px;
+	height: 194px;
+	margin: 0px auto 0px auto;
+}
+table.smap td { vertical-align: middle; }
+p.smapi {
+	text-align: center;
+	padding: 10px 0px 0px 0px;
+}
+
+table.gmap {
+	width: 260px;
+	height: 260px;
+	margin: 0px auto 0px auto;
+}
+table.gmap, table.gmap td {
+	border-collapse: collapse;
+	border: 1px solid white;
+}
+table.gmmap, table.gmmap td { border: 0; }
+table.gmmap td { vertical-align: middle; }
+td.gmcor { width: 32px; height: 32px; }
+td.gmvm, td.gmhm { vertical-align: middle; text-align: center; }
+td.gmvm { height: 32px; }
+td.gmhm { width: 32px; }
+td.gmun { height: 32px; text-align: center; }
+table#mapctr {
+	width: auto;
+	margin: 0px auto 0px auto;
+}
+p.mapbt {
+
+	text-align: center;
+	padding: 20px 0px 0px 0px;
+}
+
+td.sys1 { background-image: url("__STATICURL__/beta5/pics/nebula1.png"); }
+td.sys2 { background-image: url("__STATICURL__/beta5/pics/nebula2.png"); }
+td.sys3 { background-image: url("__STATICURL__/beta5/pics/nebula3.png"); }
+td.sys4 { background-image: url("__STATICURL__/beta5/pics/nebula4.png"); }
+td.mimg { height: 32px; width: 32px; padding: 0; margin: 0; }
+img.mimg { height: 32px; width: 32px; border: 0; }
+td.ptype1 { color: #6666FF; font-weight: bold; }
+td.ptype2 { color: #33CC33; font-weight: bold; }
+td.ptype3 { color: #AFAF1F; font-style: italic; }
+td.ptype4 { color: #AF1F1F; height: 32px; text-align: center; }
+td.ptype5 { color: #DF3F3F; height: 32px; text-align: center; }
+td.ptype6 { color: #EF7F7F; height: 32px; text-align: center; }
+td.ptype7 { color: #FF9F9F; height: 32px; text-align: center; }
+
+table.ftraj {
+	margin: 10px 20px 10px 20px;
+	width: 96%;
+}
+table.ftraj tr:hover td { color: white; }
+table.ftraj .tname { text-align: left; width: 20%; }
+table.ftraj .ttype { text-align: center; width: 20%; }
+table.ftraj .tstat { text-align: left; }
+span.ot1 { color: #AFAF1F; }
+span.ot2 { color: #AF1F1F; }
+span.ot3 { color: #DF3F3F; }
+span.ot4 { color: #EF7F7F; }
+span.ot5 { color: #FF9F9F; }
+
+table.fslist {
+	margin: 10px 20px 10px 20px;
+	width: 96%;
+}
+table.fslist, table.fslist td, table.fslist th {
+	border: 1px solid #3F3F3F;
+	border-collapse: collapse;
+	padding: 0px 0px 0px 0px;
+}
+table.fslist tr td { color: #33CC33; }
+table.fslist tr:hover td { color: white; }
+table.fslist .fname { text-align: left; width: auto; }
+table.fslist .fshp { text-align: center; width: 8%; }
+table.fslist .fpwr { text-align: center; width: 15%; }

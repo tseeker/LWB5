@@ -1,0 +1,218 @@
+<?xml version="1.0"?>
+<lwdoc>
+        <version>beta5</version>
+	<language>en</language>
+	<title>Technology</title>
+	<section id="tech_intro" title="Introduction">
+		<i>Technology</i> allows you to improve your <mlink to="empire">empire</mlink> as a whole. This manual section convers all <i>technology related topics</i> such as:<ul>
+			<li><mlink to="tech_topic">Research topics</mlink>: this paragraph describes <mlink to="tech_topic_graph">all technologies</mlink> and the way they are <mlink to="tech_topic_cat">organised</mlink> in the <mlink to="tech_topic_graph">technology graph</mlink></li>
+			<li><mlink to="tech_proc">Research process</mlink>: this part of the page introduces you to the way <mlink to="tech_proc">research progresses</mlink>, from <mlink to="tech_proc_unk">unknown technologies</mlink> to <mlink to="tech_proc_impl">technologies in use</mlink> in your <mlink to="empire">empire</mlink></li>
+			<li><mlink to="tech_law">Laws</mlink>: this section explains how some <i>special technologies</i> allow you to influence the way things are handled in your <mlink to="empire">empire</mlink> through the <mlink to="tech_law">legal system</mlink></li>
+			<li><mlink to="tech_budg">Research budget</mlink>: this paragraph deals with the <i>influence</i> you might have on <i>what is being researched</i> by setting a particular <mlink to="tech_budg">budget</mlink></li>
+			<li><mlink to="tech_diplo">Diplomacy</mlink>: the last part of the manual page introduce the topic of <mlink to="tech_diplo">technology exchanges</mlink> that are covered in more details <mlink to="tech_exchange">here</mlink>, as part of the <mlink to="diplomacy">diplomacy manual page</mlink></li>
+		</ul>
+	</section>
+	<section id="tech_topic" title="Research topics">
+		<section id="tech_topic_intro" title="Introduction">
+			In the LegacyWorlds <mlink to="universe">universe</mlink> a set of <i>technologies</i> are available for the players to <i>research</i>. Each of those <mlink to="tech_list">technologies</mlink> may or may not have an <i>influence on some game parameters</i>. 
+			<br/>
+			<i>Technologies</i> are organised according to two <i>different systems</i>:<ul>
+				<li><mlink to="tech_topic_cat">Research Categories</mlink>: technologies are organised according to the <i>class of parameters they influence</i></li>
+				<li><mlink to="tech_topic_graph">Dependencies Graph</mlink>: technologies usually <i>depend on one another</i> which means you need to possess technology A to be able to research technology B. Those <i>dependencies</i> correspond to <i>links between technologies</i> and the whole set of technologies along with those links compose the <mlink to="tech_topic_graph">technology graph</mlink></li>
+			</ul>
+			Both <i>classification systems</i> are presented in more details in the following paragraphs along with a list of <mlink to="tech_list">all available technologies</mlink>.
+		</section>
+		<section id="tech_topic_cat" title="Categories">
+			<section id="tech_topic_cat_intro" title="Introduction">
+				The various <mlink to="tech_list">research topics</mlink> available in the game are organised in <i>three categories</i>:<ul>
+					<li><mlink to="tech_topic_cat_fund">Fundamental research</mlink></li>
+					<li><mlink to="tech_topic_cat_mil">Military resarch</mlink></li>
+					<li><mlink to="tech_topic_cat_civ">Civilian research</mlink></li>
+				</ul>
+				The next paragraphs will cover <i>each category</i> more precisely.
+			</section>
+			<section id="tech_topic_cat_fund" title="Fundamental research">
+				<i>Fundamental research</i> has as its primary objective the <i>advancement of knowledge</i>. It is exploratory by nature. It is conducted without any practical end in mind, although it may have unexpected results pointing to practical applications. Through theory generation, fundamental research provides the foundation for further, sometimes applied research.
+				<br/>
+				Technologies in the <i>fundamental category</i> are basic technologies or theories that are important for your scientists to make further progress in their studies. They <i>don't necessarily provide any improvement</i> in your <mlink to="empire">empire</mlink> but they may be <i>required by other studies</i>.
+				<br/>
+				In general <mlink to="techl_fund">fundamental technologies</mlink> have an influence on the game such as:<ul>
+					<li><i>Increasing research output</i></li>
+					<li><i>Providing access to new fields of research</i> without any real influence on game parameters</li>
+					<li>Wide range of <i>influences on various military or civilian parameters</i>: in those cases the technologies were flagged as fundamental because of their exploratory nature</li>
+				</ul>
+				A list of all <mlink to="techl_fund">fundamental technologies</mlink> is available <mlink to="techl_fund">here</mlink>.
+			</section>
+			<section id="tech_topic_cat_mil" title="Military research">
+				<i>Military research</i> consists in <i>applied research</i>. Applied research is done to solve specific, practical questions; its primary aim is not to gain knowledge for its own sake. Applied research in the military field provides technologies with <i>direct military applications</i>. 
+				<br/>
+				Those <mlink to="techl_mil">military technologies</mlink> usually consist in:<ul>
+					<li><mlink to="ship_cat_list">new kinds of ships</mlink></li>
+					<li><mlink to="ships">improvements on those ships</mlink></li>
+					<li>technologies providing a <i>better defense</i> of your <mlink to="empire">empire</mlink></li>
+					<li>technologies providing means to <i>better attack</i> an enemy <mlink to="planet">planet</mlink> or <mlink to="alliance">alliance</mlink></li>
+					<li>means to <i>increase factories production</i></li>
+				</ul>
+				A list of all <mlink to="techl_mil">military technologies</mlink> is available <mlink to="techl_mil">here</mlink>.
+			</section>
+			<section id="tech_topic_cat_civ" title="Civilian research">
+				<i>Civilian research</i> consists in <i>applied research</i>. Applied research is done to solve specific, practical questions; its primary aim is not to gain knowledge for its own sake. Applied research in the civilian field provide technologies with <i>direct civilian applications</i>. 
+				<br/>
+				<i>Civilian technologies</i> usually consists in:<ul>
+					<li>new means to <i>host more citizen</i> on one planet</li>
+					<li>means to <i>increase the happiness</i> of the unhabitants of your <mlink to="empire">empire</mlink></li>
+					<li>improvement of the <i>population growth</i></li>
+					<li>technologies <i>increasing factories efficiency</i></li>
+				</ul>
+				A list of all <mlink to="techl_civ">civilian technologies</mlink> is available <mlink to="techl_civ">here</mlink>.
+			</section>
+		</section>
+		<section id="tech_topic_graph" title="Technology graph">
+			<section id="tech_topic_graph_intro" title="Introduction">
+				The research topics are also organised in a <i>dependency graph</i>. It means you may need to have researched some other topics before being able to research another new one. A list of all research topics is provided <mlink to="techl_all">here</mlink>. 
+				<br/>
+				Clicking on the same of one <i>technology</i> in the list directs you to the <i>individual manual page for the technology</i>. This page is described in more details in the next paragraph.
+			</section>
+			<section id="tech_topic_graph_pag" title="Technology description page">
+				<section id="tech_topic_graph_pag_intro" title="Introduction">
+					The <i>individual page</i> of a technology is split into several <i>sections</i>:<ul>
+						<li><i>Top part</i></li>
+						<li><i>Description</i></li>
+						<li><i>Details</i></li>
+						<li><i>Dependencies</i></li>
+					</ul>
+					The next paragraphs will describe each section.
+				</section>
+				<section id="tech_topic_graph_pag_top" title="Top part">
+					The top part of the individual page of a technology provides:<ul>
+						<li>The <i>name</i> of the research topic as <i>title</i> of the page</li>
+						<li><i>Links</i> to the other sections of the page in a <i>Contents</i> list</li>
+					</ul>
+				</section>
+				<section id="tech_topic_graph_pag_desc" title="Description">
+					This section presents the <i>description of the technology</i> as it appears in-game. This description correspond to an approximation of the technology's effects.
+				</section>
+				<section id="tech_topic_graph_pag_det" title="Details">
+					This section of the page provides <i>details</i> about the technology, including:<ul>
+						<li><mlink to="tech_topic_cat">Category</mlink>: this indicates in what <mlink to="tech_topic_cat">category</mlink> this topic belongs (<mlink to="tech_topic_cat_civ">civilian</mlink>, <mlink to="tech_topic_cat_mil">military</mlink> or <mlink to="tech_topic_cat_fund">fundamental</mlink>) and if it's a <mlink to="tech_law">law</mlink> or a <i>standard technology</i></li>
+						<li><i>Optional</i>: research topics are <i>mandatory</i> (this field's value is <i>No</i>) if you are sure to have them in the subsection of the technologies tree you have access to. Other topics (you may not have them in your part of the graph) are <i>optional</i> (field set to <i>Yes</i>)</li>
+						<li><i>Cost</i>: price you have to pay to <mlink to="tech_proc_impl">implement the technology</mlink></li>
+						<li><i>Effects</i>: <i>influence</i> of the technology of enacting the law <i>on game parameters</i></li>
+					</ul>
+				</section>
+				<section id="tech_topic_graph_pag_dep" title="Dependencies">
+					This part of the page allows you to figure out where the technology is placed in the technology dependencies graph by providing:<ul>
+						<li><i>Depends on</i>: technologies you have to implement prior to being able to research this one</li>
+						<li><i>Required by</i>: technologies that you can't research if you haven't first implemented this one</li>
+					</ul>
+				</section>
+			</section>
+		</section>
+		<section id="tech_topic_list" title="Technology list">
+			The technology list allows you to browse available technologies, following the dependency graph. You can view the list of <mlink to="techl_fund">fundamental research topics</mlink>, <mlink to="techl_mil">military technologies</mlink> or <mlink to="techl_civ">civilian technologies</mlink>. If you care for a nice headache, you can take a look at the <mlink to="techl_all">complete list</mlink> as well. The lists are all sorted in alphabetical order.
+		</section>		
+	</section>
+	<section id="tech_proc" title="Research process">
+		<section id="tech_proc_intro" title="Introduction">
+			During the research process research points are used in the various research categories to advance in the research process of various technologies. Along the way technologies <i>go through various steps</i>:<ul>
+				<li><mlink to="tech_proc_unk">Unknown Technologies</mlink>: technologies that are available in game but that your researchers haven't studied enough yet</li>
+				<li><mlink to="tech_proc_for">Forseen Breakthroughs</mlink>: research topics your scientists are working on and are close to completion</li>
+				<li><mlink to="tech_proc_new">New technologies</mlink>: technologies your scientists have discovered but that aren't in use in your empire yet</li>
+				<li><mlink to="tech_proc_impl">Implemented technologies</mlink>: technologies currently in use in your empire</li>
+			</ul>
+			The next paragraphs will describe each stage and the associated features more closely.
+		</section>
+		<section id="tech_proc_unk" title="Unknown technologies">
+			<i>Unknow technologies</i> are technologies that are available in game. They may be unkown to you for <i>several reasons</i>:<ul>
+				<li>Your researchers are working on them but they <i>aren't advanced enough in the research process</i> for the technologies to be listed as <mlink to="tech_proc_for">forseen breakthroughs</mlink></li>
+				<li>You <u>don't have the required dependencies</u> <mlink to="tech_proc_impl">implemented</mlink> yet and your researchers can't work on those subjects yet because they aren't advanced enough technologically</li>
+				<li>Those technologies <i>aren't part of the technology graph section you have access to</i>. You'll have to acquire them through <mlink to="tech_diplo">diplomatic exchanges</mlink></li>
+			</ul>
+			<i>Unknown technologies aren't displayed</i> in the <i>Topics</i> section of the <i>Rsearch page</i> contrary to technologies at other research stages.
+		</section>
+		<section id="tech_proc_for" title="Forseen Breakthroughs">
+			<i>Forseen breakthroughs</i> are research topics your scientists are <i>currently working on</i>. Technologies appear in this list when the required <i>dependencies have been fulfilled</i> and that <i>at least 75%</i> of the required research points have been consumed. 
+			<br/>
+			Both <i>technologies</i> and <mlink to="tech_law">laws</mlink> appear in this list but once completed each category (<i>technologies</i> or <mlink to="tech_law">laws</mlink>) is displayed in the relevant section of the page: <i>Topics</i> for <i>standard technologies</i> and <i>Laws</i> for <mlink to="tech_law">laws</mlink>.
+			<br/>
+			Technologies you acquired through <mlink to="tech_diplo">diplomatic exchanges</mlink> get also added to the list with <i>75% of research completion</i>.
+			<br/>
+			<i>Forseen breakthroughs</i> are displayed in a single list for all categories in the <i>Topics</i> section of the <i>Research page</i>. For each technology is displayed:<ul>
+				<li><i>Technology</i>: only the <i>name</i> of the technology is basically displayed. <i>Clicking on its name</i> allows to display the <i>description</i> or hide it by clicking it again</li>
+				<li><i>Type</i>: <mlink to="tech_topic_cat">category</mlink> in which the technology is classified (<mlink to="tech_topic_cat_mil">Military</mlink>, <mlink to="tech_topic_cat_civ">Civilian</mlink> or <mlink to="tech_topic_cat_fund">Fundamental</mlink>)</li>
+				<li><i>Cost</i>: price to pay to <mlink to="tech_proc_impl">implement</mlink> the technology</li>
+			</ul>
+		</section>
+		<section id="tech_proc_new" title="New technologies">
+			<i>New technologies</i> are technologies that your scientists have completely discovered. It means that your empire <i>possesses the knowledge associated</i> with the technology. But they <i>can't be used</i> in your <mlink to="empire">empire</mlink> and there effects aren't applied until they are <mlink to="tech_proc_impl">implemented</mlink>.
+			<br/>
+			<i>New technologies</i> discovered by your scientists are displayed in the <i>New technologies</i> list of the <i>Topics</i> section of the <i>Technology page</i>. 
+			<br/>
+			<i>New technologies</i> are listed on the <i>Topics</i> section of the <i>Technology page</i> below the <i>New technologies</i> title. The list includes:<ul>
+				<li><i>Technology</i>: only the <i>name</i> of the technology is basically displayed. <i>Clicking on its name</i> allows to display the <i>description</i> or hide it by clicking it again</li>
+				<li><i>Type</i>: <mlink to="tech_topic_cat">category</mlink> in which the technology is classified (<mlink to="tech_topic_cat_mil">Military</mlink>, <mlink to="tech_topic_cat_civ">Civilian</mlink> or <mlink to="tech_topic_cat_fund">Fundamental</mlink>)</li>
+				<li><i>Cost</i>: price to pay to <mlink to="tech_proc_impl">implement</mlink> the technology</li>
+				<li><mlink to="tech_proc_impl">Implement technology</mlink>: <i>clicking</i> this link <i>pays the required fee</i> to <mlink to="tech_proc_impl">implement the technology</mlink> and start using it in your empire</li>
+			</ul>
+		</section>
+		<section id="tech_proc_impl" title="Implemented technologies">
+			<i>Implementing technologies</i> implies paying a <i>fixed fee</i> to upgrade <i>planetary improvements</i> and <mlink to="fleets">fleets</mlink> so that they use the new technology.
+			<br/>
+			Once you have chosen to <i>implement a technology</i>, it becomes available for use in your <mlink to="empire">empire</mlink>. Its effects are applied on all your <mlink to="planets">planets</mlink> and <mlink to="fleets">fleets</mlink> and so on.
+			<br/>
+			<i>Implemented technologies</i> are listed at the bottom of the <i>Topics</i> section of the <i>Technology page</i>. This list is <i>split in three columns</i> , one for each research category(<mlink to="tech_topic_cat_mil">Military</mlink>, <mlink to="tech_topic_cat_civ">Civilian</mlink> or <mlink to="tech_topic_cat_fund">Fundamental</mlink>). As for the other lists, only the <i>name</i> of the technology is displayed and <i>clicking its name</i> allows to <i>show / hide the description</i>. 
+		</section>
+	</section>
+	<section id="tech_law" title="Laws">
+		<section id="tech_law_bas" title="Basic principle">
+			Some research topics don't provide you with <i>standard technologies</i> that you can <mlink to="tech_proc_impl">implement</mlink> so that they can be used in your <mlink to="empire">empire</mlink>. They provides you with access to <i>laws</i>.
+			<br/>
+			The <i>legal system</i> in LegacyWorlds is quite simple. Once the <mlink to="tech_budg">research points</mlink> required to research a <i>law</i> have been consumed the law doesn't get listed among the <mlink to="tech_proc_new"> new technologies</mlink> but among the <i>available laws</i> in the <i>Laws section</i> of the <i>Research page</i>. <i>Laws</i> can be <i>enacted and revoked</i> and have an <mlink to="empire">empire</mlink> wide influence. Using the <i>legal system</i> allows you to give <i>general directions</i> to your <mlink to="empire">empire</mlink>'s development, depending on the effects of the laws you have enacted or revoked.
+			<br/>
+			<i>Enacting a law</i> has some <i>beneficial effects</i> but also some <i>drawbacks</i> that have to be carefully weighted before enacting it. Enacting a law represents also a <i>finantial cost</i> and it <i>can't be revoked for a 5 days</i> period of time once enacted.
+		</section>
+		<section id="tech_law_avai" title="Available laws">
+			Check out the list of <mlink to="techl_laws">available laws</mlink>, sorted alphabetically for your browsing pleasure.
+		</section>	
+		<section id="tech_law_status" title="Laws status">
+			Once it has been discovered, a law can have <i>two different status</i> and can be moved from one category to another at will but <i>with a 5 days delay</i> between each action and a <i>cost</i>. Those two status are:<ul>
+				<li><i>Enacted laws</i>: laws you have chose to enact are listed in this category. Their effects are currently being applied in your empire. You can choose to <i>revoke it by clicking the relevant link</i></li>
+				<li><i>Available laws</i>: newly dicovered laws and laws that you have previously revoked are listed here. They aren't used in your empire but you can choose to <i>enact them by clicking the relevant link</i> in order to benefit from their effect. Of course you have to <i>have enough money</i> to pay for the enacting fee to enact the law</li>
+			</ul>
+		</section>
+	</section>
+	<section id="tech_budg" title="Research budget">
+		<section id="tech_budg_bas" title="Basic principle">
+			Each <mlink to="ticks_tick">day tick</mlink> you get granted a certain amount of <i>research points</i> depending on <i>your empire's total population</i>. You have the possibility to <i>balance the amount of research points used</i> in each research category: <mlink to="tech_topic_cat_mil">Military</mlink>, <mlink to="tech_topic_cat_civ">Civilian</mlink> or <mlink to="tech_topic_cat_fund">Fundamental</mlink>. 
+			<br/>
+			But keep in mind that:<ul>
+				<li>you might <i>need technologies in one category</i> in order <i>to achieve some breakthroughs in the others</i></li>
+				<li><i>Research points</i> are <i>used primarily in the areas you have set them to be used for</i>. If it is impossible to use all of them in those categories given current implemented technologies, those research points will be assigned in other categories until it is impossible to discover new technologies</li>
+				<li>If <i>no new technologies can be researched</i>, <i>remaining research points are lost</i></li>
+			</ul>
+		</section>
+		<section id="tech_budg_contr" title="Controls">
+			For each <mlink to="tech_topic_cat">research category</mlink> you are provided with <i>5 buttons to balance your research budget</i>, the total remaning automatically at 100%:<ul>
+				<li><i>double left arrow</i>: decrease the percentage of research points for this category by 10. The two others are increased so that the total remains at 100%</li>
+				<li><i>left arrow</i>: decrease the percentage of research points for this category by 1. The two others are increased so that the total remains at 100%</li>
+				<li><i>right arrow</i>: increase the percentage of research points for this category by 1. The two others are decreased so that the total remains at 100%</li>
+				<li><i>double right arrow</i>: increase the percentage of research points for this category by 10. The two others are decreased so that the total remains at 100%</li>
+				<li><i>lock</i>: clicking once on a lock has for effect that this category isn't influenced by the changes made on the other categories. The research points percentage for it remains locked at its current value. Clicking once again on it removes the lock and the category is once again taken into account in the calculations to keep the total percentage of research points at 100%</li>
+			</ul>
+		</section>
+	</section>
+	<section id="tech_diplo" title="Diplomacy">
+		<section id="tech_diplo_why" title="Why exchange technologies?">
+			At the beginning of the game, each player gets assigned a <i>subsection of the <mlink to="tech_topic_graph">technology graph</mlink></i>. This subset consists usually of <i>about half the total graph</i>. It is the list of technologies that is basically accessible to the player, that is to say that his scientists can research and discover on their own.
+			<br/>
+			The subset of the <mlink to="tech_topic_graph">technology graph</mlink> assigned to each player is <i>generated randomly</i> and always <i>includes complete branches of the tree</i>. That is to say no technology is included for which the player can't research the required dependencies.
+			<br/>
+			Technologies that <i>aren't in your predefined subset</i> of the <mlink to="tech_topic_graph">technology graph</mlink> have to be <mlink to="diplo_res">obtained from other players</mlink>.
+		</section>
+		<section id="tech_diplo_pract" title="Practical technologies exchanges">
+			In order to <mlink to="diplo_res">acquire technologies</mlink> that your <mlink to="empire">empire</mlink> can't research you have to acquire them by using the <mlink to="diplo_res">Diplomacy tool</mlink> of the <i>Research page</i>.  See <mlink to="diplo_res">this</mlink> manual section for more details.
+		</section>
+	</section>
+
+	<section file="tech_list.lwdoc" />
+</lwdoc>

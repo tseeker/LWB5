@@ -1,0 +1,272 @@
+<?xml version="1.0"?>
+<lwdoc>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Empire</title>
+	<section id="emp_into" title="Introduction">
+		Your <i>empire</i> is composed of a set of <mlink to="planets">planets</mlink>. Starting at first with one it will grow through <mlink to="battles">conquest</mlink> of uninhabited planets or enemy ones. The overall <mlink to="technology">technological advance</mlink> of your empire can be improved through <mlink to="technology">>research</mlink>. The <mlink to="fleets">fleets</mlink> you build will provide it with <i>defenses</i> against hostiles and help with its <mlink to="battles">expansion</mlink>. Of course all of this costs <mlink to="money">money</mlink>.
+		<br/>
+		In order to manage your <i>empire</i> you have to understand a set of <mlink to="emp_conc">basic concepts</mlink> that are discribed in the next section of this manual page.
+		<br/>
+		The last section introduces the set of <mlink to="emp_page">game pages</mlink> that allow <i>empire management</i> in game and provides links to manual sections discribing those pages more precisely.
+	</section>
+	<section id="emp_conc" title="Basic Concepts">
+		<section id="emp_conc_plan" title="Planets">
+			<section id="emp_conc_plan_intro" title="Introduction">
+				The individual elements composing your <i>empire</i> are <mlink to="planets">planets</mlink>. Those <mlink to="planets">planets</mlink> are identified by a <i>name</i> and are located at a specific <mlink to="maps">set of coordinates</mlink> in the galaxy in which the game take place. At the beginning of the <mlink to="accga_gm">game</mlink> you are provided with a single <mlink to="planet">planet</mlink>. 
+			</section>
+			<section id="emp_conc_plan_acqu" title="Acquiring new planets">
+				It is up to you to get your <i>empire growing</i> by <mlink to="battle_ownchange">conquering</mlink> or <mlink to="market_buy">buying</mlink> other <mlink to="planets">planets</mlink>. Those <mlink to="planets">planets</mlink> are either considered <i>neutral</i> (they aren't owned by any real player) or they might <i>belong to another player</i>. In order to <mlink to="battle_ownchange">conquer another planet</mlink> you have to <mlink to="fleets_moving.lwdoc">send fleets</mlink> to that <mlink to="planet">planet</mlink> in sufficient quantity to <i>destroy its defenses</i>. Your <mlink to="fleets">fleets</mlink> also have to include a sufficient amount of <mlink to="ship_cat_ga">GA ships to control its population</mlink> so that it joins your <i>empire</i>.
+				<br/>
+				In order to <mlink to="buy_pub_buy_plan">buy a planet</mlink> you have to look at the <mlink to="marketplace">marketplace</mlink> and make a tempting enough offer so that its current owner agrees to sell it to you.
+				<br/>
+				Your friends can also <mlink to="buy_dir">give you planets</mlink>.
+			</section>
+		</section>
+		<section id="emp_conc_pop" title="Population">
+			<section id="emp_conc_pop_intro" title="Introduction">
+				What makes <i>great empires</i> is their <i>citizens</i>. The <i>population</i> of a given <mlink to="planet">planet</mlink> represents the <i>number of inhabitants</i> of the <mlink to="planet">planet</mlink>. The <i>population size</i> of a <mlink to="planet">planet</mlink> has an influence on the <mlink to="money">base income</mlink> of the <mlink to="planet">planet</mlink> and its <mlink to="emp_conc_happ">happiness</mlink>. 
+			</section>
+			<section id="emp_conc_pop_grow" title="Population growth">
+				<i>Population growth</i> is essential: the more population the more <mlink to="emp_conc_fact">factories</mlink> and <mlink to="ship_cat">turrets</mlink> you can build without facing an <mlink to="emp_conc_happ">happiness decrease</mlink>. Each <mlink to="planet">planet</mlink>'s <i>population increases</i> every <mlink to="ticks_tick">day tick</mlink>. 
+				<br/>
+				The population increase <i>calculation</i> is influenced by several factors including:<ul>
+					<li>the <mlink to="emp_conc_happ">planet's happiness</mlink></li>
+					<li>the <mlink to="emp_conc_pop_lim">maximum population the planet can hold</mlink></li>
+					<li><mlink to="technology">technologies</mlink> you possess</li>
+				</ul>
+				The following <mlink to="tech_list">technologies and laws</mlink> have an influence on <i>population growth</i>:<ul>
+					<li><mlink to="tech_10">Advanced Hospitals</mlink></li>
+					<li><mlink to="tech_33">Corpse Reanimation</mlink></li>
+					<li><mlink to="tech_34">Forced Human Cloning</mlink></li>
+					<li><mlink to="tech_30">Nurishment Purification</mlink></li>
+				</ul>
+			</section>
+			<section id="emp_conc_pop_lim" title="Population limit">
+				The <i>population</i> a given <mlink to="planet">planet</mlink> can hold is <i>limited</i>. The limit is <i>flexible around a fixed value</i>. At first the <i>maximum population</i> of a <mlink to="planet">planet</mlink> is <i>around 10,000</i> population units. <mlink to="technology">Technologies</mlink> can <i>increase</i> this value. Each <mlink to="tech_list">technology</mlink> increasing the maximum population size of a planet <i>adds around 10,000</i> to the limit. Those <mlink to="tech_list">technologies are</mlink>:<ul>
+					<li><mlink to="tech_35">Arcologies</mlink></li>
+					<li><mlink to="tech_83">Self-sustained Arcologies</mlink></li>
+					<li><mlink to="tech_73">Singularity Housing</mlink></li>
+				</ul>
+				Since there are 3 <mlink to="technology">technologies</mlink>, the <i>ultimate limit</i> lies <i>around 40,000</i>.
+			</section>
+		</section>
+		<section id="emp_conc_happ" title="Happiness">
+			<section id="emp_conc_happ_intro" title="Introduction">
+			 	One major factor in LegacyWorlds is <i>happiness</i>. It reflect the overall satisfaction of your citizens. Be careful to keep them happy or they might <mlink to="emp_conc_revo">revolt</mlink>. Just as <mlink to="emp_conc_pop_grow">population growth</mlink> and <mlink to="emp_conc_pop_lim">maximum size</mlink>, <i>happiness</i> is influenced by <i>several factors</i>, that are presented in the floowing paragraphs of the manual.
+			</section>
+			<section id="emp_conc_happ_plan" title="Total number of planets">
+				Citizens like when the <i>attention of their leader</i> is focused on them and solely on them. As the consequence, the <i>happiness</i> on each <mlink to="planet">planet</mlink> will <i>decrease as your empire grows</i>. The <i>more planets</i> you have in your empire the <i>harder</i> it will be too keep a high happiness. Theoritically the <i>happiest empire</i> would be one composed of a <i>single planet</i>.
+			</section>
+			<section id="emp_conc_happ_fact" title="Number of factories">
+				People don't like to be unemployed but they don't want to be overworked either. Therefore the <i>number</i> of <mlink to="emp_conc_fact">factories</mlink> on your <mlink to="planets">planets</mlink> has to be monitored. Up to one certain number of <mlink to="emp_conc_fact">factories</mlink> <i>happiness</i> will <i>increase</i>, but if you <i>add more</i> it will start to <i>decrease</i>. The <i>"ideal"</i> number of <mlink to="emp_conc_fact">factories</mlink> depends on the planet's <mlink to="emp_conc_pop">population</mlink>.
+			</section>
+			<section id="emp_conc_happ_turr" title="Number of turrets">
+				People like to feel safe but they don't enjoy a police state. As a consequence the <i>amount of turrets</i> has also to be right depending on the planet <mlink to="emp_conc_pop">population</mlink>. Just like with <mlink to="emp_conc_fact">factories</mlink> increasing the number of <i>turrets</i> on one <mlink to="planet">planet</mlink> will <i>increase its happiness</i> up to a point where it will <i>start having a negative effect</i>. The <i>"ideal" number of turrets</i> also depends on the planet's <mlink to="emp_conc_pop">population</mlink>.
+			</section>
+			<section id="emp_conc_happ_flee" title="Fleets">
+				Both your <i>total amount</i> of <mlink to="fleets">fleets</mlink> and the <i>size</i> of the <mlink to="fleets">fleet</mlink> stationned on one <mlink to="planet">planet</mlink> have an influence on <i>happiness</i>:<ul>
+					<li><i>Total fleet size</i>: your total fleet size is <i>compared to the average total fleet size</i> in your protection zone. If it is <i>higher</i> you get a happiness <i>bonus</i>, and a <i>malus</i> if it's <i>lower</i>.</li>
+					<li><i>Fleet stationned on a planet</i>: having a fleet stationned on a planet also <i>increases its happiness</i>. This <i>happiness bonus</i> is linked to the <i>percentage of your total fleet</i> that is stationned on that particular <mlink to="planet">planet</mlink></li>
+				</ul>
+			</section>
+			<section id="emp_conc_happ_tech" title="Technologies and laws">
+				<mlink to="tech_topic_stat">Technologies</mlink> you possess and <mlink to="tech_law">laws</mlink> you have enacted (or revoked) might also have an influence on <i>happiness</i>. Some increase happiness and other decrease it.
+				<br/>
+				<mlink to="technology">Technologies and laws</mlink> <i>increasing happiness</i> are:<ul>
+					<li><mlink to="tech_18">Advanced Communications</mlink></li>
+					<li><mlink to="tech_56">Ban Biological Drones</mlink></li>
+					<li><mlink to="tech_32">Biosphere Protection Pact</mlink></li>
+					<li><mlink to="tech_59">Civilian Communication Act</mlink></li>
+					<li><mlink to="tech_7">Civilian Transportation Act</mlink></li>
+					<li><mlink to="tech_31">Green Production</mlink></li>
+					<li><mlink to="tech_13">Legalize Space Weed</mlink></li>
+					<li><mlink to="tech_12">Safe Recreational Drugs</mlink></li>
+					<li><mlink to="tech_81">Wormholes</mlink></li>
+				</ul>
+				<mlink to="technology">Technologies and laws</mlink> <i>decreasing happiness</i> are:<ul>
+					<li><mlink to="tech_55">Biological Drones</mlink></li>
+					<li><mlink to="tech_34">Forced Human Cloning</mlink></li>
+					<li><mlink to="tech_69">Global Defense Bill</mlink></li>
+					<li><mlink to="tech_5">Martial law</mlink></li>
+					<li><mlink to="tech_76">Wild Capitalism</mlink></li>
+					<li><mlink to="tech_87">Wormhole Lockdown</mlink></li>
+				</ul>
+			</section>
+			<section id="emp_conc_happ_gam" title="Game actions">
+				Several decisions you might make in game might have an effect on the overall <i>happiness</i> of your <i>empire</i>, such as:<ul>
+					<li><i>Destroying a planet</i> with a <mlink to="tech_88">WormHole SuperNova</mlink> <i>decreases the happiness</i> of <i>all</i> the remaning planets of the empire</li>
+					<li><mlink to="market_sell">Giving away / selling planets</mlink> <i>decreases the happiness</i> of <i>all</i> your remaining planets</li>
+				</ul>
+				In those cases an happiness <i>malus</i> is applied <i>immediately</i> following the game action. This <i>malus decreases slowly over time</i> until the situation goes back to normal.
+			</section>
+		</section>
+		<section id="emp_conc_revo" title="Revolt">
+			<section id="emp_conc_revo_intro" title="Introduction">
+			When a <mlink to="planet">planet</mlink>'s <mlink to="emp_conc_happ">happiness</mlink> gets <i>too low</i>, there is a high <i>probability</i> the <mlink to="emp_conc_pop">population</mlink> might <i>revolt</i>. When citizens <i>revolt</i> on a given <mlink to="planet">planet</mlink>, they go on <i>strike</i> and stop working in <mlink to="emp_conc_fact">factories</mlink>, <i>riots</i> occure and <i>material destruction</i> have to be deplored.
+			</section>
+			<section id="emp_conc_revo_cond" title="Revolt conditions">
+				When the <mlink to="emp_conc_happ">happiness</mlink> of a <mlink to="planet">planet</mlink> gets <i>below 20%</i>, the planet gets in a status where a <i>revolt is possible</i>. The <i>lower the happiness</i> the <i>higher the probability</i> a revolt could occure.
+				<br/>
+				Each <mlink to="ticks_tick">hour tick</mlink> the <mlink to="planet">planet</mlink> is tested for <i>revolt</i> and in some cases the <i>revolt</i> actually happens. The event is more likely if the revolt probability is high that is to say if the <mlink to="emp_conc_happ">happiness</mlink> is very low.
+			</section>
+			<section id="emp_conc_revo_outcome" title="Outcome of a revolt">
+				What does it mean that a <mlink to="planet">planet</mlink> is revolting? It means that the citizens are quite unhappy with the way they are governed and that they express it. They go on <i>strike</i> and stop working in the <mlink to="emp_conc_fact">factories</mlink>. <mlink to="mon_ppl">No income</mlink> gets out of <mlink to="emp_conc_fact_ind">industrial factories</mlink> and <mlink to="emp_conc_fact_mil">military factories</mlink>' <i>production is halted</i>. They also <i>riot</i> which causes <i>material destructions</i>: <mlink to="ship_cat">turrets</mlink> and <mlink to="emp_conc_fact">factories</mlink> are their targets and their <i>number decreases</i>.
+				<br/>
+				<i>Destroying</i> <mlink to="emp_conc_fact">factories</mlink> and <mlink to="ship_cat">turrets</mlink> changes the <mlink to="emp_conc_happ">happiness</mlink> value of the <mlink to="planet">planet</mlink>. With luck, a single <i>revolt</i> episode might get the <mlink to="planet">planet</mlink>'s <mlink to="emp_conc_happ">happiness</mlink> above 20%. If not there is still a probability it will <i>revolt</i> each <mlink to="ticks_tick">hour tick</mlink> until the situation is corrected.
+			</section>
+		</section>
+		<section id="emp_conc_cor" title="Corruption">
+			<section id="emp_conc_cor_intro" title="Introduction">
+				As in every society, when a <mlink to="planet">planet</mlink> has been run by the same government for some time, a <i>corruption system</i>> starts appearing. People resort to bribery to gain an advantage over other people, individuals use goverment money to achieve their own personal goals.
+			</section>
+			<section id="emp_conc_cor_inc" title="Corruption increase">
+				In LegacyWorlds, each new <mlink to="planet">planet starts</mlink> with a <i>corruption level of 0%</i>. As soon as it get into the <i>control of a player</i> corruption level <i>starts rising</i>. The <i>rate of increase</i> is linked to the number of <mlink to="emp_conc_fact">factories</mlink> on the <mlink to="planet">planet</mlink>: the <i>more</i> <mlink to="emp_conc_fact">factories</mlink> the <i>faster it grows</i>. As soon as the <i>corruption</i> level of a <mlink to="planet">planet</mlink> reaches <i>10%</i>, the <mlink to="emp_conc_fact">factories</mlink> on the <mlink to="planet">planet</mlink> start <i>losing efficiency</i>: <mlink to="mon_ppl">income</mlink> is reduced and <mlink to="emp_conc_fact_mil">military factories</mlink> build <i>slowlier</i> as government officials use public money and factory workers to build swimming pools in their gardens.
+			</section>
+			<section id="emp_conc_cor_dec" title="Corruption decrease">
+			A <mlink to="planet">planet</mlink> with a high <i>corruption</i> level can see its <i>corruption level decrease</i> if it remains <i>neutral for some time</i>. The only option to restore a planet to a decent corruption level is to <i>abandon it and wait</i>. 
+			</section>
+		</section>
+		<section id="emp_conc_fact" title="Factories">
+			<section id="emp_conc_fact_intro" title="Introduction">
+				Two kinds of <i>factories</i> are available:<ul>
+					<li><mlink to="emp_conc_fact_ind">Industrial factories</mlink> contribute to you empire's <mlink to="mon_ppl">income</mlink></li>
+					<li><mlink to="emp_conc_fact_mil">Military factories</mlink> allow to <mlink to="ipp_own_bw">build warefare</mlink></li>
+				</ul>
+				<mlink to="technology">Technologies</mlink> have an influence on <mlink to="emp_conc_fact_tech">factories productivity and production</mlink>. This manual section will cover all those topics.
+			</section>
+			<section id="emp_conc_fact_ind" title="Industrial factories">
+				<i>Industrial factories</i> produces goods from raw materials. Those goods are sold within the empire and beyond its borders, which generates <mlink to="money">money</mlink>. As a consequence the <i>more industrial factories</i> you have the <i>more money</i> you make. But there are workers in factories and they won't be too happy to have to work 3 jobs to get the planetary economy running. So there is a <i>limit</i> to the number of factories you can build without risking a <mlink to="emp_conc_revo">revolt</mlink>.
+				<br/>
+				<i>Industrial factories</i> can be built from the <mlink to="ipp_own_if">individual page</mlink> of each planet you own on from the <mlink to="pop_qb">quick builder</mlink> facility on the <mlink to="planets">planets page</mlink>.
+			</section>
+			<section id="emp_conc_fact_mil" title="Military factories">
+				<i>Military factories</i> are specialised factories producing <mlink to="ship_cat">ships and turrets</mlink>. The <i>speed</i> at wich items are built depends on the <i>number of military factories</i> on the <mlink to="planet">planet</mlink>. The <i>more factories</i> you have the <i>faster</i> it will go. But there are workers in factories and they won't be too happy to have to work 3 jobs to get the planetary weapon industry. So there is a <i>limit</i> to the number of factories you can build without risking a <mlink to="emp_conc_revo">revolt</mlink>.
+				<br/>
+				<i>Military factories</i> can be built from the <mlink to="ipp_own_if">individual page</mlink> of each planet you own on from the <mlink to="pop_qb">quick builder</mlink> facility on the <mlink to="planets">planets page</mlink>.
+				<br/>
+				The items <i>available</i> for construction in <i>military factories</i> depend on the <mlink to="technology">technologies</mlink> you possess. The following <mlink to="tech_list">technologies</mlink> provide you with new <mlink to="ship_cat">ships categories</mlink> to build:<ul>
+					<li><mlink to="tech_63">Battle Cruisers</mlink></li>
+					<li><mlink to="tech_6">Cruisers</mlink></li>
+					<li><mlink to="tech_1">Fighters</mlink></li>
+				</ul>
+			</section>
+			<section id="emp_conc_fact_tech" title="Technological influence on factories">
+				Several <mlink to="technology">technologies and laws</mlink> have either a positive or negative <i>influence on factories productivity</i>. They can either affect <i>only industrial</i> factories or <i>only military</i> factories or <i>both</i>. 
+				<br/>
+				<mlink to="tech_list">Technologies and laws</mlink> increasing productivity are:<ul>
+					<li><mlink to="tech_37">Adaptive Materials</mlink></li>
+					<li><mlink to="tech_78">Anti-matter Generators</mlink></li>
+					<li><mlink to="tech_75">Automated Factories</mlink></li>
+					<li><mlink to="tech_4">Bio-engineering</mlink></li>
+					<li><mlink to="tech_55">Biological Drones</mlink></li>
+					<li><mlink to="tech_29">Cloning Vats</mlink></li>
+					<li><mlink to="tech_69">Global Defense Bill</mlink></li>
+					<li><mlink to="tech_24">Hardened Alloys</mlink></li>
+					<li><mlink to="tech_74">Intelligent Materials</mlink></li>
+					<li><mlink to="tech_5">Martial law</mlink></li>
+					<li><mlink to="tech_9">Nanotechnologies</mlink></li>
+					<li><mlink to="tech_36">Robotics</mlink></li>
+					<li><mlink to="tech_8">Room Temperature Superconductors</mlink></li>
+					<li><mlink to="tech_53">Self-healing Materials</mlink></li>
+					<li><mlink to="tech_76">Wild Capitalism</mlink></li>
+					<li><mlink to="tech_87">Wormhole Lockdown</mlink></li>
+				</ul>
+				<mlink to="tech_list">Technologies and laws</mlink> decreasing productivity are:<ul>
+					<li><mlink to="tech_56">Ban Biological Drones</mlink></li>
+					<li><mlink to="tech_32">Biosphere Protection Pact</mlink></li>
+					<li><mlink to="tech_69">Global Defense Bill</mlink></li>
+					<li><mlink to="tech_31">Green Production</mlink></li>
+					<li><mlink to="tech_23">Increased Research Grants</mlink></li>
+					<li><mlink to="tech_13">Legalize Space Weed</mlink></li>
+					<li><mlink to="tech_5">Martial law</mlink></li>
+					<li><mlink to="tech_43">Science Golden Age</mlink></li>
+					<li><mlink to="tech_76">Wild Capitalism</mlink></li>
+					<li><mlink to="tech_81">Wormholes</mlink></li>
+				</ul>
+			</section>
+		</section>
+		<section id="emp_conc_res" title="Research">
+			<section id="emp_conc_res_intro" title="Introduction">
+				At first your <i>empire</i> possesses a few <i>basic technologies</i> that allow for space travel and production. But in order to progress in the game you have to <i>acquire new technologies</i>, either by <mlink to="tech_topic_stat">researching them</mlink> inside your empire or by <mlink to="tech_exchange">diplomatic exchanges</mlink>.
+			</section>
+			<section id="emp_conc_res_out" title="Research output">
+				Each <mlink to="ticks_tick">day tick</mlink> the <mlink to="planets">planets</mlink> in your <i>empire</i> generate a certain amount of <i>research points</i>. This <i>research output</i> is linked to the <mlink to="planets">planets</mlink>' <mlink to="emp_conc_pop">population</mlink>. The number of points generated for each population unit can be modified by <mlink to="tech_list">technologies and laws</mlink> such as:<ul>
+					<li><mlink to="tech_42">Biological Computers</mlink> (increase)</li>
+					<li><mlink to="tech_23">Increased Research Grants</mlink> (increase)</li>
+					<li><mlink to="tech_62">Interstellar University</mlink> (increase)</li>
+					<li><mlink to="tech_17">Miniaturised Particle Colliders</mlink> (increase)</li>
+					<li><mlink to="tech_15">Nano-scale Computers</mlink> (increase)</li>
+					<li><mlink to="tech_20">Quantum Computers</mlink> (increase)</li>
+					<li><mlink to="tech_43">Science Golden Age</mlink> (increase)</li>
+					<li><mlink to="tech_76">Wild Capitalism</mlink> (decrease)</li>
+				</ul>
+				Those points are then used to research <mlink to="tech_topic_stat">new technologies</mlink> according to your <mlink to="tech_budg">research budget</mlink> as set on the <mlink to="technology">research page</mlink>.
+			</section>
+			<section id="emp_conc_res_acq" title="Acquiring technologies">
+				<mlink to="tech_list">Technologies</mlink> that are in the part of the <mlink to="tech_topic_graph">technology graph</mlink> that <i>you can access</i> get naturally researched using your <i>reseach points</i>.
+				<br/>
+				<mlink to="tech_list">Technologies</mlink> that <i>aren't in that part</i> of the <mlink to="tech_topic_graph">graph</mlink> have to be acquired using the <mlink to="tech_exchange">technology exchange</mlink> tool in the <mlink to="tech_exchange">diplomacy section</mlink> of the <mlink to="technology">research page</mlink>. See the <mlink to="tech_exchange">relevant section of the manual</mlink> for more details.
+			</section>
+		</section>
+		<section id="emp_conc_cash" title="Money">
+			<section id="emp_conc_cash_intro" title="Introduction">
+				In game <mlink to="money">money</mlink> has nothing to do with real money. It's an <i>imaginary currency</i> even if the sign used correspond to the euro sign (yes, yes, we're europeans...). <mlink to="money">Money</mlink> is the main mean used in LegacyWorlds to acquire items, be it by <mlink to="ipp_own_bw">building</mlink> them or <mlink to="market_buy">from other players</mlink>.
+			</section>
+			<section id="emp_conc_cash_make" title="Making money">
+				There are several ways to gain <mlink to="money">money</mlink>:<ul>
+					<li>Each <mlink to="planet">planet</mlink> has a <i>base income</i> linked with its <mlink to="emp_conc_pop">population</mlink></li>
+					<li><mlink to="emp_conc_fact_ind">Industrial factories</mlink> also provide <i>income</i>. See the <mlink to="emp_conc_fact_ind">relevant section</mlink> of the manual to know more about this topic.</li>
+					<li>You can also <mlink to="market_sell">sell planets and fleets</mlink>, through the <mlink to="marketplace">marketplace</mlink> facility</li>
+					<li>You can also receive <mlink to="mon_cf">cash donations</mlink> from other players</li>
+				</ul>
+				Several <mlink to="tech_list">technologies</mlink> have an influence on your <i>income</i>. 
+				<br/>
+				Basically all <mlink to="tech_list">technologies</mlink> increasing the productivity of <mlink to="emp_conc_fact_ind">industrial factories</mlink> increase you total <i>income</i>. See the <mlink to="emp_conc_fact">factories</mlink> section of this page to learn more about them.
+				<br/>
+				Some other <mlink to="tech_list">technologies</mlink> have a <i>direct influence</i> on your income:<ul>
+					<li><mlink to="tech_21">Economy Globalisation</mlink> (increase)</li>
+					<li><mlink to="tech_23">Increased Research Grants</mlink> (decrease)</li>
+					<li><mlink to="tech_76">Wild Capitalism</mlink> (increase)</li>
+				</ul>
+			</section>
+			<section id="emp_conc_cash_use" title="Using money">
+				This <mlink to="money">money</mlink> can be used in various means:<ul>
+					<li><mlink to="money">Money</mlink> is necessary to build <i>planetary improvements</i> like <mlink to="ipp_own_po">factories</mlink> and <mlink to="ship_cat">turrets</mlink>. Each item has a specific <i>cost</i></li>
+					<li>You also have to buy the <mlink to="ipp_own_bw">ships you build</mlink>. Each <mlink to="ship_cat">category of ships</mlink> has a particular <i>price</i>.</li>
+					<li>In order to <mlink to="tech_topic_stat">implement a new technology</mlink> that you have discovered you have to pay a certain <i>fee</i></li>
+					<li><mlink to="money">Money</mlink> can also be used to <mlink to="market_buy">buy fleets and planets</mlink> from other players</li>
+					<li>You can also <mlink to="mon_cf">give money</mlink> to friends</li>
+					<li>A part of your <mlink to="mon_ppl">income</mlink> is automatically diverted to pay for the upkeep of <mlink to="mon_ppl">factories</mlink>, <mlink to="mon_fue">fleets</mlink> and <mlink to="mon_ppl">turrets</mlink></li>
+				</ul>
+			</section>
+		</section>
+	</section>
+	<section id="emp_page" title="Empire pages">
+		<section id="emp_page_ovp" title="Empire Overview Page" linkto="empire_overview">
+		This <mlink to="empire_overview">page</mlink> provides you with a status of your <i>empire</i> at a glance along with <i>shortcuts</i> to the most important items you might be interested in viewing. It is split into several sections, providing insights about your <mlink to="planets">planets</mlink>, <mlink to="technology">research progress</mlink>, <mlink to="money">finantial situation</mlink> and <mlink to="fleets">fleets</mlink> status.
+		</section>
+		<section id="emp_page_mon" title="Money Page" linkto="money">
+			This <mlink to="money">page</mlink> provides your with an overview of the <mlink to="money">finantial situation</mlink> of your <i>empire</i>. It is split into several sections that are detailed in a <mlink to="money">specific manual page</mlink>.
+		</section>
+		<section id="emp_page_pop" title="Planets Overview Page" linkto="planets">
+			This <mlink to="planets">page</mlink> provides you with a general overview of all your <mlink to="pop_cp">planets</mlink> at once along with a <mlink to="pop_qb">quick builder facility</mlink>. A link in the top right corner of the page allows to switch between two views:<ul>
+				<li><mlink to="pop_cp">List of controlled planets only</mlink></li>
+				<li><mlink to="pop_qb">Quickbuilder facility and list of controlled planets</mlink></li>
+			</ul>
+			Each of those two elements are described in other paragraphs of the <mlink to="planets">corresponding manual section</mlink>.
+		</section>
+		<section id="emp_page_ipp" title="Individual Planet Page" linkto="planet">
+		This <mlink to="planet">page</mlink> is the management center for any <mlink to="ipp_own">individual planet</mlink> you own or an <mlink to="ipp_pil">information page for other stellar objects</mlink>.
+		</section>
+		<section id="emp_bap" title="Beacons and Probes" linkto="probes">
+			Some <mlink to="tech_list">technologies</mlink> in game provide you with the ability to build other spatial objects than just <mlink to="fleets">fleets</mlink>: <mlink to="probes">probes and beacons</mlink> are just that and <mlink to="probes">this manual page</mlink> will provide you with all you need to know about them.
+		</section>
+	</section>
+
+	<section file="empire_overview.lwdoc"/>
+	<section file="money.lwdoc"/>
+	<section file="planets.lwdoc"/>
+	<section file="planet.lwdoc"/>
+	<section file="probes.lwdoc"/>
+</lwdoc>

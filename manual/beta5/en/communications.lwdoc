@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<lwdoc>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Communications</title>
+	<section id="com_intro" title="Introduction">
+		There are two major means of communication in LegacyWorlds: a messaging system and forums. These allow you to keep in touch with other players both inside your own alliance and outside of it.
+	</section>
+	<section id="com_page" title="Communications Overview Page" linkto="communications_page">
+		This page sums up your current status towards the messaging system and the forums. It allows to see at a glance where to read and where you attention is needed when things come to communications. This manual page describes the contents of this page.
+	</section>
+	<section id="com_msg" title="Messaging System" linkto="messages">
+		The Messaging System in Legacy Worlds is very similar to a simple mail client. It allows for folder creation to manage and store messages and offers a linear or threaded view of messages. In the bottom left part of the messaging system pages there is a link that allows you to switch to the forums. The various features are described in more details in the Messaging System section of the manual.
+	</section>
+	<section id="com_for" title="Forums" linkto="forums">
+		Those forums are very similar to those you might find in any message board. 
+		There are several categories of forums:<ul>
+			<li>Legacy Worlds Forums:- these are used by the staff to make announcements and by layers to report bugs and ask for new features.</li>
+			<li>General Forums:- these are used for general discussions about the game and beyond.</li>
+			<li>Legacy Worlds - Public beta 5:- these are public forums which are specific for Beta 5. They include alliance recruitment forums and such.</li>
+			<li>Alliance specific Forums:- these are the forums of each individual alliance. Their name correspond to the alliance name.</li>
+		</ul>
+		Forum features and forum categories are described more precisely in the Forums section of the manual.
+	</section>
+
+	<section file="communications_page.lwdoc"/>
+	<section file="messages.lwdoc"/>
+	<section file="forums.lwdoc"/>
+</lwdoc>

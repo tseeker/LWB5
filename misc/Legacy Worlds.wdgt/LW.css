@@ -1,0 +1,109 @@
+body {
+	margin: 0;
+}
+
+#mainDiv {
+	position: absolute;
+	top: 35px;
+	left: 7px;
+	width: 307px;
+	height: 290px;
+	margin: 0;
+	padding: 0;
+}
+
+#debugLink {
+	position: absolute;
+	top: 326px;
+	left: 30px;
+	width: 271px;
+	height: 14px;
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+}
+
+#debugDiv {
+	display: none;
+	position: absolute;
+	top: 35px;
+	left: 7px;
+	width: 307px;
+	height: 290px;
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-size: 12px;
+	z-index: 1;
+	border: 1px solid #7f7f7f;
+}
+
+#debugTable {
+	width: 301px;
+	height: 284px;
+	margin: 3px;
+	padding: 0;
+	border: 0px;
+}
+
+#debugTable td {
+	color: white;
+	font-size: 12px;
+}
+
+tr#dbgHdr {
+	height: 14px;
+}
+
+#mainTable {
+	width: 305px;
+	height: 288px;
+	margin: 1px;
+	padding: 0;
+	border: 1px solid #7f7f7f;
+	border-collapse: collapse;
+}
+
+#mtTitle {
+	text-align: center;
+	vertical-align: middle;
+	height: 30px;
+	font-size: 18px;
+	color: white;
+	font-weight: bold;
+}
+
+#mtMenu {
+	text-align: center;
+	vertical-align: middle;
+	height: 30px;
+	border: 1px solid #7f7f7f;
+	font-size: 12px;
+	color: white;
+}
+
+#mtContents {
+	color: white;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 13px;
+}
+
+a, a:active, a:visited {
+	text-decoration: underline;
+	font-style: italic;
+	color: white;
+}
+
+.table {
+	margin: 0% 4%;
+	width: 96%;
+	border: 0;
+}
+
+.table td {
+	color: white;
+	font-size: 13px;
+}

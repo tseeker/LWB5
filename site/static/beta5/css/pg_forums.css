@@ -1,0 +1,177 @@
+/** MENU **/
+
+td.mmenu {
+	width: 20%;
+	padding: 0px 0px 0px 30px;
+}
+
+td.mmenu a, td.mmenu a:visited {
+	font-style: normal;
+	text-decoration: none;
+	color: #C0C0C0;
+}
+
+td.mmenu a:hover {
+	text-decoration: underline;
+}
+
+td.mmenu i { color: white; }
+
+td.mmenu table th {
+	text-align: left;
+}
+
+td.mmenu table td.mmspc {
+	width: 20px;
+}
+
+td.mmenu table th a, td.mmenu table th a:visited {
+	color: inherit;
+	font-weight: bold;
+	font-style: italic;
+}
+
+
+table.fcat {
+	padding: 3px 20px 3px 20px;
+	margin: 10px 0px 10px 0px;
+}
+
+table.fcat th.hdr {
+	text-align: left;
+	width: 85%;
+}
+
+table.fcat tr.hdr td, table.fcat tr.hdr th {
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	border-color: white;
+}
+
+table.fcat td.ctype {
+	text-align: right;
+	width: 15%;
+	padding: 0px 10px 0px 0px;
+}
+
+table.fcat th.hdr a {
+	color: inherit;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+}
+
+table.fcat th.hdr a:hover {
+	text-decoration: underline;
+}
+
+table.fcf th { padding: 0px 0px 5px 0px; }
+
+table.fcf td.fst {
+	width: 32px;
+}
+
+table.fcf .fnm {
+	width: auto;
+	text-align: left;
+}
+
+table.fcf .fnt, table.fcf .fnp {
+	width: 60px;
+	text-align: center;
+}
+
+table.fcf .flp {
+	width: 200px;
+	text-align: center;
+}
+
+table.fcf .flpl {
+	width: 250px;
+	text-align: center;
+}
+
+/* FORUM DISPLAY */
+
+td.maar { text-align: right; vertical-align: middle; padding: 0px 8px 0px 0px; }
+
+table.fcmd { padding: 15px 0px 15px 0px; }
+table.fcmd td { width: 33%; text-align: center; }
+
+table.ftop { padding: 0px 20px 0px 20px; }
+table.ftop th { padding: 0px 0px 5px 0px; border-color: white; border-style: solid; border-width: 0px 0px 1px 0px; }
+table.ftop td { padding: 5px 0px 5px 0px; border-color: white; border-style: solid; border-width: 0px 0px 1px 0px; vertical-align: top; }
+table.ftop tr:hover td { color: white; }
+table.ftop tr:hover td.fem { color: inherit; }
+table.ftop td.fem { padding: 15px 0px 0px 0px; text-align: center; font-weight: bold; border-style: none; }
+table.ftop .tpic { width: 32px; text-align: center; vertical-align: middle; }
+table.ftop .tnm { width: auto; text-align: left; }
+table.ftop .trp { width: 60px; text-align: center; }
+table.ftop .tps { width: 200px; text-align: center; }
+
+/* POST FORM */
+
+table.fpost { width: auto; }
+table.fpost th { text-align: right; padding: 0px 10px 0px 0px; width: 20%; vertical-align: top; }
+table.fpost th.hdprev { text-align: center; padding: 0px 0px 15px 0px; width: auto; }
+table.fpost th.err { text-align: left; padding: 0px 0px 10px 0px; width: auto; }
+table.fpost td#jszone { width: 120px; }
+table.fpost td.prev { border-style: solid; border-width: 1px; border-color: white; padding: 4px 4px 4px 4px; }
+
+/* TOPIC VIEW */
+
+table.ftp {
+	margin: 10px 20px 10px 0px;
+	border-collapse: collapse;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #3F3F3F;
+}
+table.ftp th {
+	text-align: left;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #3F3F3F;
+	font-size: larger;
+	font-style: normal;
+}
+table.ftp th.pfor { font-size: smaller; }
+table.ftp td {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #3F3F3F;
+}
+table.ftp td.cmd { width: 150px; text-align: center }
+table.ftp td.edit { text-align: right; font-style: italic; }
+div.fsig { padding: 12px 0px 0px 0px; }
+div.fsig, div.fsig * { color: #5F5F5F; }
+div.fsig hr { height: 1px; color: #3F3F3F; background-color: #3F3F3F; border: 0; }
+
+td.ftd1 { width: 2%; }
+td.ftd2 { width: 4%; }
+td.ftd3 { width: 6%; }
+td.ftd4 { width: 8%; }
+td.ftd5 { width: 10%; }
+td.ftd6 { width: 12%; }
+td.ftd7 { width: 14%; }
+td.ftd8 { width: 16%; }
+td.ftd9 { width: 18%; }
+td.ftd10 { width: 20%; }
+td.ftd11 { width: 22%; }
+td.ftd12 { width: 24%; }
+td.ftd13 { width: 26%; }
+td.ftd14 { width: 28%; }
+td.ftd15 { width: 30%; }
+td.ftd16 { width: 32%; }
+td.ftd17 { width: 34%; }
+td.ftd18 { width: 36%; }
+td.ftd19 { width: 38%; }
+td.ftd20 { width: 40%; }
+
+
+blockquote.quote {
+	margin: 5px;
+	padding: 10px;
+	border: 1px solid #7f7f7f;
+	background-color: #3f3f3f;
+}

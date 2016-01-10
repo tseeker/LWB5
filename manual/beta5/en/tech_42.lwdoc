@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Biological Computers</title>
+	<section id="tech_42_desc" title='Description'>
+		Our scientists have found a way to integrate intelligent lifeforms into our computers, thus improving calculation capabilities. Upgrading our computers, though expensive, should allow our current research projects to reach completion faster.
+	</section>
+	<section id="tech_42_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Civilian technology</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;1,500,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases research output</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_42_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_20'>Quantum Computers</mlink></li>
+			<li><mlink to='tech_28'>Sentient Lifeform Engineering</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_43">Science Golden Age</mlink></li>
+			<li><mlink to="tech_62">Interstellar University</mlink></li>
+			<li><mlink to="tech_74">Intelligent Materials</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

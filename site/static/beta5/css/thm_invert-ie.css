@@ -1,0 +1,93 @@
+/** MENU BAR **/
+
+table.topmenu {
+	empty-cells: show;
+	width: auto;
+	height: 32px;
+}
+
+table.topmenu tr td {
+	vertical-align: middle;
+	text-align: left;
+	width: auto;
+}
+
+td.icons {
+	text-align: right;
+	width: 162px;
+	height: 32px;
+}
+td.icons img {
+	width: 32px;
+	height: 32px;
+	border: 0px;
+}
+td#msgicon { width: 32px; height: 32px; }
+
+
+/** MENU ELEMENTS **/
+
+ul.tmenu, ul.tmenu li.tmenu
+{
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	width: 100%;
+	height: 100%;
+}
+ul.tmenu { margin: 0px 12px 0px 0px; }
+li.tmenu { padding: 0px 0px 0px 12px; }
+
+ul.tmenu li.tmenu a.tmenu {
+	padding: 3px 12px 4px 12px;
+	font-weight: bold;
+	text-decoration: none;
+	font-style: normal;
+}
+
+table.topmenu ul.tmenu li.tmenu {
+	width: 100%;
+}
+
+table.topmenu ul.tmenu ul.tmenu {
+	top: 100%;
+	left: 0;
+	width: 110%;
+}
+
+ul.tmenu li.tmenu {
+	position: relative;
+	z-index: 9;
+}
+
+ul.tmenu { list-style: none; }
+li.tmenu ul.tmenu { position: absolute; }
+ul.tmenu ul.tmenu { display: none; }
+
+
+/** PLAYER INFO **/
+
+table.player {
+	width: 99%;
+	margin: 5px auto 5px auto;
+}
+
+table.player td { vertical-align: middle; }
+table.player td.player {
+	width: 33%;
+	font-style: italic;
+	font-weight: bold;
+}
+table.player td.player b { font-style: normal; }
+table.player td.funds {
+	width: 34%;
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+}
+table.player td.funds b { font-style: normal; }
+table.player td.stime {
+	width: 33%;
+	text-align: right;
+}

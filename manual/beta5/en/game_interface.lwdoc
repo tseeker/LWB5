@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<lwdoc>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Game Interface</title>
+	<section id="gi_gen" title="Generalities">
+		<section id="gi_gen_desc" title="Description">
+			Each in game page is split into three sections:<ul>
+				<li><i>Top banner</i>: you'll find there the main menu of the game</li>
+				<li><i>Banner</i>: here is located the title of the page you're currently on</li>
+				<li><i>Page body</i>: the actual contents of the page are there. On all pages, a <i>Help</i> link on the top right corner of the page directs you to the relevant manual section</li>
+			</ul>
+		</section>
+		<section id="gi_gen_refresh" title="Refreshing pages">
+			Most pages are <i>automatically</i> refreshed <i>except the forums</i>' pages. As a consequence it's useless to reload the pages on a regular basis: the game does it for you.
+		</section>
+	</section>
+	<section id="gi_out" title="Logging out">
+		In each <mlink to="accga_gm">game</mlink> you are playing the <i>top menu</i> includes a link or button which takes you back to your <mlink to="accga_acc">account</mlink>'s page. But be careful: getting back to your <mlink to="accga_acc">account</mlink>'s page doesn't mean you have actually logged out from LegacyWorlds. If you want to benefit from features available to your allies when you're offline, make sure you have also logged out from your <mlink to="accga_acc">account</mlink>, by clicking on the <i>Log</i> Out link on your <mlink to="accga_acc">account</mlink>'s page or by using the <i>Log out</i> link in the <mlink to="gi_menu">menu</mlink>.
+	</section>
+	<section id="gi_menu" title="Main menu">
+		<section id="gi_menu_intro" title="Introduction">
+			The main menu consists in the menu bar on top of all in game pages. This game menu allows you to access all in game pages and features for the current <mlink to="accga_gm">game</mlink> you're playing. Several <mlink to="preferences">game themes</mlink> are available and the main menu lay-out depends on the <mlink to="preferences">theme</mlink> you've selected in your <mlink to="preferences">preferences</mlink>. A description of the menu depending on those <mlink to="preferences">themes</mlink> is provided in the following paragraphs.
+		</section>
+		<section id="gi_menu_def" title="Default theme: LegacyWorlds Beta 5">
+			<section id="gi_menu_def_intro" title="Introduction">
+				The menu bar is split into two sections:<ul>
+					<li><i>Top part</i>: this section of the menu bar provides general informations about the player and the game</li>
+					<li><i>Bottom part</i>: this section of the menu bar provides you with menu entried linking with all the game pages along with icons for major shortcuts</li>
+				</ul>
+				The following sections of the manual will describe more precisely those two parts of the menu bar.
+			</section>
+			<section id="gi_menu_def_top" title="Top part">
+				The top part of the menu includes a set of data about the player and the current game, including:<ul>
+					<li><i>Player</i>: Name of the player</li>
+					<li><mlink to="alliance">Alliance</mlink>: if the player belongs to an <mlink to="alliance">alliance</mlink> the <mlink to="alliance">alliance</mlink> tag is displayed between brackets</li>
+					<li><mlink to="money">Current funds</mlink>: amount of cash the player has in bank</li>
+					<li><i>Server Time</i>: current time and date of the server, which is set to "Coordinated Universal Time" (abbreviated UTC)</li>
+				</ul>
+			</section>
+			<section id="gi_menu_def_bott" title="Bottom Part">
+				<section id="gi_menu_def_bott_intro" title="Introduction">
+					The bottom part of the menu bar includes a set of menu entries for game pages as long as icons for major shortcuts. Those entries include:<ul>
+						<li><mlink to="overview_page">Overview</mlink></li>
+						<li><mlink to="empire">Empire</mlink></li>
+						<li><mlink to="diplomacy">Diplomacy</mlink></li>
+						<li><mlink to="universe">Universe</mlink></li>
+						<li><mlink to="communications">Communications</mlink></li>
+						<li><i>Shortcut Icons</i></li>
+					</ul>
+					The next sections of the manual will present each entry in more details.
+				</section>
+				<section id="gi_menu_def_bott_over" title="Overview">
+					The <mlink to="overview">Overview</mlink> menu entry directs you to the <mlink to="overview_page">overview page</mlink> which presents at a glance all important data about your <mlink to="empire">empire</mlink> and Legacy Worlds' <mlink to="universe">universe</mlink>. This menu entry also includes three <i>submenu entries</i>:<ul>
+						<li><mlink to="preferences">Preferences</mlink>: this entry directs you to the <mlink to="preferences">Preferences</mlink> page where you can set up <mlink to="pref_game">game specific preferences</mlink></li>
+						<li><mlink to="home_page">My Account</mlink>: this entry directs you to your <mlink to="accga_acc">account</mlink>'s main page, leaving the current <mlink to="accga_gm">game</mlink> but <i>not logging you out</i> of LegacyWorlds</li>
+						<li><i>Log out</i>: this links logs you out of the <mlink to="accga_gm">game</mlink></li>
+					</ul>
+				</section>
+				<section id="gi_menu_def_bott_emp" title="Empire">
+					The <mlink to="empire">Empire</mlink> entry directs you to the <mlink to="empire_overview">Empire page</mlink> which presents at a glance all important <mlink to="empire">empire</mlink> related information. This menu entry also includes several <i>submenu entries</i>:<ul>
+						<li><mlink to="planets">Planets</mlink>: this entry directs you to the <mlink to="planets">planets overview page</mlink> which presents the <mlink to="pop_cp">list of all your planets</mlink> and a <mlink to="pop_qb">quick builder</mlink> facility. This entry also include as many <i>submenu entries</i> as you have <mlink to="planets">planets</mlink>. Each submenu entry directs you to the <mlink to="planet">individual planet page</mlink> for that particular <mlink to="planet">planet</mlink></li>
+						<li><mlink to="fleets">Fleets</mlink>: this entry directs you to the <mlink to="fleets">fleets management page</mlink> which presents all your <mlink to="fleets">fleets</mlink> and allows you to control their <mlink to="fleets_moving">movements</mlink> and other <mlink to="fleets_actions">fleets related actions</mlink></li>
+						<li><mlink to="probes">Beacons</mlink>: this entry directs you to the <mlink to="probes">Probes and Beacons page</mlink> where you can manage those features</li>
+						<li><mlink to="technology">Research</mlink>: this entry directs you to the <mlink to="technology">main research page</mlink> where you can manage <mlink to="technology">research</mlink>. It also includes four <i>submenu entries</i> corresponding to the various sections of the <mlink to="technology">research page</mlink>:<ul>
+							<li><mlink to="tech_topic">Topics</mlink>: to manage <mlink to="tech_topic">research topics</mlink></li>
+							<li><mlink to="tech_law">Laws</mlink>: to manage <mlink to="tech_law">laws</mlink></li>
+							<li><mlink to="tech_budg">Budget</mlink>: to manage <mlink to="tech_budg">research budget</mlink></li>
+							<li><mlink to="diplo_res">Diplomacy</mlink>: to manage <mlink to="diplo_res">research exchanges</mlink></li>
+						</ul></li>
+						<li><mlink to="money">Money</mlink>: this entry directs you to the <mlink to="money">Money page</mlink>, where is collected all information about the <mlink to="money">finantial status</mlink> of your <mlink to="empire">empire</mlink></li>
+					</ul>
+				</section>
+				<section id="gi_menu_def_bott_diplo" title="Diplomacy">
+					The <mlink to="diplomacy">Diplomacy</mlink> entry directs you to the <mlink to="diplomacy_page">main Diplomacy page</mlink> which provides you with a <mlink to="diplomacy">diplomatic status</mlink> of your <mlink to="empire">empire</mlink>. This entry also includes four <i>submenu entries</i>:<ul>
+						<li><mlink to="alliance">Alliance</mlink>: this entry directs you to the <mlink to="alliance">main alliance page</mlink> where you can <mlink to="alliance_manage">manage</mlink> and <mlink to="alliance">access</mlink> alliance related data</li>
+						<li><mlink to="marketplace">Marketplace</mlink>: this entry directs you to the <mlink to="marketplace">marketplace page</mlink>, where is managed everything emplying <mlink to="market_sell">selling</mlink> or <mlink to="market_buy">buying</mlink> stuffs</li>
+						<li><mlink to="enemies">Enemies</mlink>: this entry directs you to the <mlink to="ennemies">Enemies page</mlink> where you can manage <mlink to="enemies">enemies lists</mlink></li>
+						<li><mlink to="allies">Trusted Allies</mlink>: this entry directs you to the <mlink to="allies">Trusted Allies page</mlink> where you can manage a <mlink to="allies">trusted allies list</mlink></li>
+					</ul>
+				</section>
+				<section id="gi_menu_def_bott_uni" title="Universe">
+					The <mlink to="universe">Universe</mlink> entry directs you to the main <mlink to="universe_page">Universe page</mlink> which displays at a glance major facts about Legacy Worlds' <mlink to="universe">universe</mlink>. This entry also includes four <i>submenu entries</i>:<ul>
+						<li><mlink to="maps">Maps</mlink>: this entry directs you to the <mlink to="maps">main Maps pages</mlink> which present a display of the galaxy. It also includes three <i>submenu entries</i>:<ul>
+							<li><mlink to="map_pla">Planets</mlink>: this entry directs you to a <mlink to="maps">map page</mlink> with a <i>grid diplay</i> and <mlink to="planets">planets</mlink> identified by their <i>name</i></li>
+							<li><mlink to="map_all">Alliance</mlink>: this entry directs you to a <mlink to="maps">map page</mlink> with a <i>grid diplay</i> and <mlink to="planets">planets</mlink> identified by their <mlink to="alliance">alliance</mlink> <i>tag</i></li>
+							<li><mlink to="map_lst">Listing</mlink>: this entry directs you to a <mlink to="maps">map</mlink> presented in a <i>list</i></li>
+						</ul></li>
+						<li><mlink to="ticks">Ticks</mlink>: this entry directs you to the <mlink to="ticks">main Ticks page</mlink> which presents the various <mlink to="ticks_tick">ticks</mlink> in the game</li>
+						<li><mlink to="rankings">Rankings</mlink>: this entry directs you to the <mlink to="rankings">main Rankings page</mlink> which provided various <mlink to="rankings">rankings</mlink> for <i>players</i> and <mlink to="rank_all">alliances</mlink></li>
+						<li><mlink to="main">Manual</mlink>: this entry directs you to this <mlink to="main">manual main entry</mlink></li>
+					</ul>
+				</section>
+				<section id="gi_menu_def_bott_comm" title="Communications">
+					The <mlink to="communications">Communications</mlink> entry directs you to the <mlink to="communications_page">main Communications page</mlink> which provides you with major data about your <mlink to="messages">messages</mlink> and <mlink to="forums">forums</mlink>. It also includes three <i>submenus entries</i>:<ul>
+						<li><mlink to="msg_comp">Compose a message</mlink>: this entry directs you to the the <mlink to="msg_comp">compose page</mlink> of the <mlink to="messages">messaging system</mlink> where you can write a <mlink to="msg_comp">new message</mlink> to be sent</li>
+						<li><mlink to="msg_fold">Folders</mlink>: this entry directs you to the <mlink to="msg_fold">folders page</mlink> of the <mlink to="messages">messaging system</mlink> where you can <mlink to="msg_fold">manage</mlink> and <mlink to="msg_msg_acc">access</mlink> you folders. This entry also includes submenu entries:<ul>
+							<li><i>Inbox</i>: to go directly to your inbox folder</li>
+							<li><mlink to="msg_int">Transmissions</mlink>: to go directly to your Internal Transmissions folder</li>
+							<li><i>Sent</i>: to go directly to your Sent folder</li>
+							<li><i>A submenu entry for each custom folder</i>: to go directly to the given folder's contents page</li>
+						</ul></li>
+						<li><mlink to="forums">Forums</mlink>: this entry directs you to the <mlink to="forums">main forums page</mlink> where you can access all the <i>general forums</i> and your <mlink to="amanag_forum">alliance forums</mlink></li>
+					</ul>
+				</section>
+				<section id="gi_menu_def_bott_ic" title="Icons">
+					On the <i>right part of the page</i>, a <i>set of icons</i> provide <i>shortcuts</i> to some important pages:<ul>
+						<li><i>Planet icon</i>: the link on that icon directs you to the <mlink to="planets">planets management page</mlink></li>
+						<li><i>Ships icon</i>: the link on that icon directs you to the <mlink to="fleets">fleets management page</mlink></li>
+						<li><i>Map icon</i>: the link on that icon directs you to the <mlink to="maps">maps page</mlink></li>
+						<li><i>Alliance icon</i>: the link on that icon directs you to the <mlink to="alliance">alliance page</mlink></li>
+						<li><i>Log out icon</i>: the link on that icon <i>logs you out</i></li>
+					</ul>
+				</section>
+			</section>
+		</section>
+		<section id="gi_menu_rev" title="Beta 5 Reversed">
+			This theme is very <i>similar to the LegacyWorlds Beta 5</i> one and contains exactly the <i>same data</i>. The only difference is that the <i>two parts are inverted</i>: the menu bar is above the player and game information instead of being below them.	
+		</section>
+		<section id="gi_menu_class" title="LegacyWorlds Classic">
+			<section id="gi_menu_class_intro" title="Introduction">
+				The LegacyWorlds Classic theme correspond to the <i>theme used in Beta 1-4</i>. It consists in a <i>table</i> containing <i>three rows</i> of links. The next sections wil describe the contains of each row.
+			</section>
+			<section id="gi_menu_class_top" title="Top row">
+				The top row contains four cells corresponding to the four following links:<ul>
+					<li><mlink to="overview">Overview</mlink>: the <mlink to="overview">Overview</mlink> link directs you to the <mlink to="overview_page">overview page</mlink> which presents at a glance all important data about your <mlink to="empire">empire</mlink> and Legacy Worlds' <mlink to="universe">universe</mlink></li>
+					<li><mlink to="fleets">Fleets</mlink>: this link directs you to the <mlink to="fleets">fleets management page</mlink> which presents all your <mlink to="fleets">fleets</mlink> and allows you to control their <mlink to="fleets_moving">movements</mlink> and other <mlink to="fleets_actions">fleets related actions</mlink></li>
+					<li><mlink to="alliance">Alliance</mlink>: this link directs you to the <mlink to="alliance">main alliance page</mlink> where you can <mlink to="alliance_manage">manage</mlink> and <mlink to="alliance">access</mlink> alliance related data</li>
+					<li><mlink to="messages">Messages</mlink>: this link directs you to the <mlink to="messages">messaging system page</mlink> where you can write a <mlink to="msg_comp">new message</mlink> to be sent, <mlink to="msg_fold">manage</mlink> and <mlink to="msg_msg_acc">access</mlink> your messages folders</li>
+				</ul>
+			</section>
+			<section id="gi_menu_class_mid" title="Middle row">
+				The middle row contains four cells corresponding to the four following links:<ul>
+					<li><mlink to="planets">Planets</mlink>: this link directs you to the <mlink to="planets">planets overview page</mlink> which presents the <mlink to="pop_cp">list of all your planets</mlink> and a <mlink to="pop_qb">quick builder</mlink> facility</li>
+					<li><mlink to="technology">Research</mlink>: this link directs you to the <mlink to="technology">main research page</mlink> where you can manage <mlink to="technology">research</mlink></li>
+					<li><mlink to="marketplace">Marketplace</mlink>: this link directs you to the <mlink to="marketplace">marketplace page</mlink>, where is managed everything emplying <mlink to="market_sell">selling</mlink> or <mlink to="market_buy">buying</mlink> stuffs</li>
+					<li><mlink to="forums">Forums</mlink>: this link directs you to the <mlink to="forums">main forums page</mlink> where you can access all the <i>general forums</i> and your <mlink to="amanag_forum">alliance forums</mlink></li>	
+				</ul>
+			</section>
+			<section id="gi_menu_class__bot" title="Bottom row">
+				The bottom row contains eight cells corresponding to the eight following links:<ul>
+					<li><mlink to="money">Money</mlink>: this link directs you to the <mlink to="money">Money page</mlink>, where is collected all information about the <mlink to="money">finantial status</mlink> of your <mlink to="empire">empire</mlink></li>
+					<li><mlink to="probes">Beacons</mlink>: this link directs you to the <mlink to="probes">Probes and Beacons page</mlink> where you can manage those features</li>
+					<li><mlink to="maps">Maps</mlink>: this link directs you to the <mlink to="maps">main Maps pages</mlink> which present a display of the galaxy</li>
+					<li><mlink to="rankings">Rankings</mlink>: this link directs you to the <mlink to="rankings">main Rankings page</mlink> which provided various <mlink to="rankings">rankings</mlink> for <i>players</i> and <mlink to="rank_all">alliances</mlink></li>
+					<li><mlink to="enemies">Enemies</mlink>: this link directs you to the <mlink to="ennemies">Enemies page</mlink> where you can manage <mlink to="enemies">enemies lists</mlink></li>
+					<li><mlink to="allies">Trusted Allies</mlink>: this link directs you to the <mlink to="allies">Trusted Allies page</mlink> where you can manage a <mlink to="allies">trusted allies list</mlink></li>
+					<li><mlink to="preferences">Preferences</mlink>: this link directs you to the <mlink to="preferences">Preferences</mlink> page where you can set up <mlink to="pref_game">game specific preferences</mlink></li>
+					<li><i>Log out</i>: this links logs you out of the <mlink to="accga_gm">game</mlink></li>
+				</ul>
+			</section>
+		</section>
+	</section>
+</lwdoc>

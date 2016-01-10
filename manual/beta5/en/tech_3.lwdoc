@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Advanced Materials</title>
+	<section id="tech_3_desc" title='Description'>
+		Sir! Our scientists just discovered new production methods that will allow us to create hardened materials! Our factories must be upgraded in order to start producing those new alloys.
+	</section>
+	<section id="tech_3_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Civilian technology</li>
+			<li><b>Optional:</b> No</li>
+			<li><b>Cost:</b> &amp;euro;20,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Reduces battle losses</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_3_dep' title='Dependencies'>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_8">Room Temperature Superconductors</mlink></li>
+			<li><mlink to="tech_9">Nanotechnologies</mlink></li>
+			<li><mlink to="tech_17">Miniaturised Particle Colliders</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

@@ -1,0 +1,192 @@
+<?xml version="1.0"?>
+<lwdoc>
+        <version>beta5</version>
+	<language>en</language>
+	<title>Ships</title>
+	<section id="ship_intro" title="Introduction">
+		<mlink to="fleets">Fleets</mlink> are composed of <i>ships</i>. It sounds only natural to start with <i>ships</i>. This section of the manual will present the different <mlink to="ship_cat">ships categories and caracteristics</mlink> and how to <mlink to="ship_build">build ships</mlink>.
+	</section>
+	<section id="ship_cat" title="Ships Categories">
+		<section id="ship_cat_intro" title="Introduction">
+			In LegacyWorlds, <i>several categories of ships and military devices</i> are available:<ul>
+				<li><i>Turrets</i></li>
+				<li><i>GA ship</i></li>
+				<li><i>Fighter</i></li>
+				<li><i>Cruiser</i></li>
+				<li><i>Battle cruiser</i></li>
+			</ul>
+			Each category of ships has <i>particularities and special abilities</i> which makes it unique and more efficient for one purpose or another. The rest of this manual section will present those <i>ships categories</i> and <i>ships carateristics</i>.
+		</section>
+		<section id="ship_cat_list" title="Ship categories List">
+			There different categories of ships are listed in the table below.
+			<table>
+				<tr>
+					<th>Name</th>
+					<th>Description</th>
+					<th>Class</th>
+					<th>Initial Power</th>
+					<th>Haul Size</th>
+					<th>Room used</th>
+					<th>Initial Speed</th>
+					<th>Upkeep</th>
+					<th>Build Price</th>
+				</tr>
+				<tr>
+					<td><i>Turret</i></td>
+					<td>Stationary Defense</td>
+					<td>N/A</td>
+					<td>10</td>
+					<td>N/A</td>
+					<td>N/A</td>
+					<td>N/A	</td>
+					<td>20</td>
+					<td>400</td>
+				</tr>
+				<tr>
+					<td><i>GA ship</i></td>
+					<td>Simple transport vessel for ground troups</td>
+					<td>System Ship	</td>
+					<td>5</td>
+					<td>N/A</td>
+					<td>3</td>
+					<td>1</td>
+					<td>40</td>
+					<td>750</td>
+				</tr>
+				<tr>
+					<td><i>Fighter</i></td>
+					<td>Small attack ship</td>
+					<td>System Ship</td>
+					<td>10</td>
+					<td>N/A</td>
+					<td>1</td>
+					<td>1</td>
+					<td>50</td>
+					<td>500</td>
+				</tr>
+				<tr>
+					<td><i>Cruiser</i></td>
+					<td>Long range attack and transport vessel</td>
+					<td>Capital Ship</td>
+					<td>40</td>
+					<td>20</td>
+					<td>N/A</td>
+					<td>1</td>
+					<td>500</td>
+					<td>5000</td>
+				</tr>
+				<tr>
+					<td><i>Battle Cruiser</i></td>
+					<td>Heavy long range attack and transport vessel</td>
+					<td>Capital Ship</td>
+					<td>80</td>
+					<td>15</td>
+					<td>N/A</td>
+					<td>2</td>
+					<td>1500</td>
+					<td>15000</td>
+				</tr>
+			</table>
+		</section>
+		<section id="ship_cat_class" title="Ship classes">
+			There are <i>three major categories of military devices</i> in LegacyWorlds. The <i>class</i> of a military device defines its <i>travel abilities</i>. Thoses classes are described in the <i>list below</i>:<ul>
+				<li><i>Turrets</i>: turrets are <i>stationary defenses</i>. As such they <i>can't go anywhere</i>. Isn't it logical?</li>
+				<li><i>System ships</i>: system ships <i>can only fly inside a star system</i>. They <i>have to be transported in the hauls of capital ships</i> in order to travel in <mlink to="move_gen_hypnorm">hyperspace</mlink></li>
+				<li><i>Capital ships</i>: capital ships are <mlink to="move_gen_hypnorm">hyperspace</mlink> capable. This means they <i>can move between several stellar systems</i>. They can also <i>transport system ships in their hauls</i></li>
+			</ul>
+		</section>	
+		<section id="ship_cat_pow" title="Ship Power">
+			<section id="ship_cat_pow_intro" title="Introduction">
+				The <i>power of a ship</i> represents both its <i>firepower</i> and the <i>amount of damage it can sustain</i>. The figures provided are <i>initial figures</i> for <i>basic ships models</i>. Those basic design can be <i>upgraded</i> due to <mlink to="technology">technological advances</mlink>. The next parapgraphs will list <mlink to="tech_list">technologies</mlink> influencing <mlink to="ship_cat_pow_fire">firepower</mlink> and <mlink to="ship_cat_pow_dam">resistance to damage</mlink>.
+			</section>
+			<section id="ship_cat_pow_fire" title="Technologies influencing firepower">
+				<section id="ship_cat_pow_fire_intro" title ="Introduction">
+					The influence <mlink to="technology">technologies</mlink> have on firepower depend on <mlink to="ship_cat_class">ship classes</mlink>. Some <mlink to="technology">technologies</mlink> have an effect on <mlink to="ship_cat_class">all classes</mlink> and other on <mlink to="ship_cat_class">only one class</mlink>.
+				</section>
+				<section id="ship_cat_pow_fire_all" title="All classes">				
+					The following <mlink to="tech_list">technologies</mlink> <i>increase the firepower</i> of all classes of ships:<ul>
+						<li><mlink to="tech_38">Cybernetic Interfaces</mlink></li>
+						<li><mlink to="tech_90">Matter Anti-matter Missiles</mlink></li>
+					</ul>
+					This one <i>decreases</i> it:<ul>
+						<li><mlink to="tech_7">Civilian Transportation Act</mlink></li>
+					</ul>
+				</section>
+				<section id="ship_cat_pow_fire_turr" title="Turrets">
+					These <mlink to="tech_list">technologies</mlink> <i>increase</i> the firepower of turrets and <i>turrets only</i>:<ul>
+						<li><mlink to="tech_61">Automated Turrets</mlink></li>
+						<li><mlink to="tech_85">Biological Turrets</mlink></li>
+						<li><mlink to="tech_68">Sensor Turrets</mlink></li>
+					</ul>
+				</section>
+				<section id="ship_cat_pow_fire_cap" title="Capital Ships">
+					These <mlink to="tech_list">technologies</mlink> <i>increase</i> the firepower of ships of the <i>Capital Ships</i> class:<ul>
+						<li><mlink to="tech_89">Biological Hyperspace Engines</mlink></li>
+						<li><mlink to="tech_71">Biological Propulsion Systems</mlink></li>
+					</ul>
+				</section>
+			</section>
+			<section id="ship_cat_pow_dam" title="Technologies influencing damage resistance">
+				This other set of <mlink to="tech_list">technologies</mlink> <i>increases</i> ships' and turrets' <i>resistance to damage</i>:<ul>
+					<li><mlink to="tech_37">Adaptive Materials</mlink></li>
+					<li><mlink to="tech_77">Adaptive Plating</mlink></li>
+					<li><mlink to="tech_3">Advanced Materials</mlink></li>
+					<li><mlink to="tech_57">Force fields</mlink></li>
+					<li><mlink to="tech_24">Hardened Alloys</mlink></li>
+					<li><mlink to="tech_74">Intelligent Materials</mlink></li>
+					<li><mlink to="tech_51">Medical Bays</mlink></li>
+					<li><mlink to="tech_52">Resurrection tanks</mlink></li>
+					<li><mlink to="tech_53">Self-healing Materials</mlink></li>
+				</ul>
+			</section>
+		</section>
+		<section id="ship_cat_trans" title="Ships transport">
+			<mlink to="ship_cat_class">System ships</mlink> have to be <i>transported into the haul</i> of <mlink to="ship_cat_class">capital ships</mlink> in order to travel in <mlink to="move_gen_hypnorm">hyperspace</mlink>. 
+			<br/>
+			Each type of <mlink to="ship_cat_class">system ship</mlink> has a <i>different size</i>. As such the <i>number of haul spaces</i> they use in <mlink to="ship_cat_class">capital ships</mlink> differ.
+			<br/>
+			Each type of <mlink to="ship_cat_class">capital ship</mlink> has a <i>different haul size</i>. As such the <i>number of system ships they can carry varies</i>.
+			<br/>
+			In order to help you to build <mlink to="move_gen_hypnorm">hyperspace capable fleets</mlink>, the <mlink to="fleets_page">fleet page</mlink> and the <mlink to="fleets_splitting">fleets splitting tool</mlink> display the <i>percentage of fleet haul that is used</i>.
+		</section>
+		<section id="ship_cat_speed" title="Ship speed">
+			The <i>speed of a ship</i> is represented by the <u>maximum distance it can travel in one <mlink to="ticks_tick">hour tick time</mlink></u>. For <i>most ships</i> this distance is <i>1</i> (a ship can travel a whole stellar system in one hour).
+			<br/>
+			The <i>speed</i> of <mlink to="ship_cat_class">capital ships</mlink> can be increased through <mlink to="technology">technological advances</mlink>. Each <mlink to="tech_list">technology</mlink> in the list <i>increases the speed of capital ships by 1</i>:<ul>
+				<li><mlink to="tech_84">Matter Anti-matter Engines</mlink></li>
+				<li><mlink to="tech_41">Space-time folding</mlink></li>
+			</ul>
+		</section>
+		<section id="ship_cat_up" title="Ship upkeep">
+			The <i>upkeep of a ship</i> is the <i>amount of money</i> you have to pay each day <i>to maintain the ship</i>. The <mlink to="mon_fue">Fleet Upkeep Expenses</mlink> section of the <mlink to="money">Money</mlink> manual page covers this topic more thoroughly.
+		</section>
+		<section id="ship_cat_pric" title="Ships build price">
+			The <i>build price</i> of a <mlink to="ship_cat_class">ship class</mlink> is <i>the price you have to pay to build one</i> ship of the category. See the <mlink to="ship_build">next section</mlink> of this manual page to learn more about <mlink to="ship_build">ship building</mlink>.
+		</section>
+		<section id="ship_cat_ga" title="GA ships' planetary control">
+			<i>GA ships</i>, as troups transport ships, are the <u>only ships that can <mlink to="battle_ownchange">take control of a planet</mlink></u>. Each GA ship transports the <i>troups capable to control a certain amount of population</i>. The <i>bigger the population</i>, the <i>more GA ships are required</i> to <mlink to="battle_ownchange">take control of the planet</mlink>. 
+			<br/>
+			At the <i>beginning of the game</i>, the <i>GA ships</i> you can build are able to <i>control 200 population units</i>. This figure can be increased through <mlink to="technology">technology</mlink>. Each <mlink to="tech_list">technology</mlink> in the following list <i>increases the population size a single GA ship can control by 75</i>:<ul>
+				<li><mlink to="tech_39">Exoskeleton</mlink></li>
+				<li><mlink to="tech_26">Nanofiber Armor</mlink></li>
+				<li><mlink to="tech_54">Self-repairing Exoskeleton</mlink></li>
+			</ul>
+		</section>
+	</section>
+	<section id="ship_build" title="Ship Building">
+		<section id="ship_build_tech" title="Technology">
+			In order to <i>build ships</i> you have to possess the required <mlink to="technology">technology</mlink>:<ul>
+				<li>The <mlink to="tech_1">Fighter</mlink> technology allows you to build fighters</li>
+				<li>The <mlink to="tech_6">Cruiser</mlink> technology allows you to build cruisers</li>
+				<li>The <mlink to="tech_63">Battle Cruiser</mlink> technology allows you to build battle cruisers</li>
+			</ul>
+		</section>
+		<section id="ship_build_pract" title="Practical ships building">
+			<i>Ships</i> are built in <mlink to="emp_conc_fact_mil">military factories</mlink>. Both those <i>factories and ships</i> can be built <mlink to="ipp_own_bw">on each planet separately</mlink> or by the means of the <mlink to="pop_qb">quick builder facility</mlink>. In order to know more about those topics, have a look at the following manual sections:<ul>
+				<li><mlink to="emp_conc_fact_mil">Military Factories</mlink>  section of the <mlink to="empire">empire</mlink> manual page</li>
+				<li><mlink to="ipp_own_bw">Building warefare</mlink> section of the <mlink to="planet">individual planet page</mlink> manual page</li>
+				<li><mlink to="pop_qb">Quickbuilder</mlink> section of the <mlink to="planets">planets overview</mlink> manual page</li>
+			</ul>
+		</section>
+	</section>
+</lwdoc>

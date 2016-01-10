@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<lwdoc>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Creating / Joining an Alliance</title>
+	<section id="ajoin_intro" title="Introduction">
+		At the beginning of the game you don't belong to any alliance. You can then choose among several options:<ul>
+			<li>Remain a lone gunman</li>
+			<li>Join an existing alliance</li>
+			<li>Create a new alliance</li>
+		</ul>
+		We'll have a closer look at the two last options in the following paragraphs.
+	</section>
+	<section id="ajoin_join" title="Join an alliance">
+		Before joining an alliance you have to know what the existing alliances are and which ones might be looking for new members. Several means at are your disposal:<ul>
+			<li>The general forums: among the general forums there is a recrutment forum in which alliances which are recruting new members can advertise. You can choose one from there</li>
+			<li>The rankings: on the ranking page, there is an alliance ranking section from which you can pick your future alliance.</li>
+			<li>The maps: there is an alliance display mode for the maps which reveals alliance tags on the map. You can select a neighbouring alliance to send a joining request to.</li>
+		</ul>
+		Once you've selected an alliance to join or in order to choose one you might be interested in getting more data on the alliance. The alliance information section of the alliance page allows you to do just that. 
+		<br/>
+		Once you've made you decision about the alliance you want to join you may send a joining request. It's what the Join an alliance section of the page is for. In order to send a joining request you have to type the alliance tag in the relevant text field and click the Send request button.
+		<br/>
+		The section of the page now present a status on the current sent request. In case you'd change you mind you can click the Cancel Request button to cancel your request.
+		<br/>
+		A message will be sent to your account and stored in the Internal Transmission folder once your joining request is accepted or rejected.
+		<br/>
+		Keep also in mind that you can only send one request at once and can only be member of one alliance at a time.
+	</section>								
+	<section id="ajoin_info" title="Alliance information">
+		Providing the alliance tag in the text field and clicking the display information button reveals:<ul>
+			<li>Alliance name: full length name of the alliance</li>
+			<li>Leader: name of the player leading the alliance</li>
+			<li>Rank: rank of the alliance in the alliance ranking</li>
+			<li>Points: number of points for the alliance in the rankings</li>
+			<li>Planets: total number of planets controlled by members of this alliance</li>
+			<li>Avg. coordinates: average coodinates of the planets controlled by this alliance</li>
+		</ul>
+	</section>
+	<section id="ajoin_creat" title="Create a new alliance">
+		In order to create a new alliance you have to provide two different elements in the relevant text fields of this section of the page:<ul>
+			<li>Alliance tag: it's the short hand used for joining request and diplays on the maps and so on</li>
+			<li>Alliance name: complete name of the alliance</li>
+		</ul>
+		You can now click the Create this alliance button. Your alliance will be created and you'll have a lot to do to manage it, as presented in other sections of this manual.
+	</section>
+</lwdoc>

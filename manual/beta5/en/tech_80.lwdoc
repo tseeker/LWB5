@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Wormhole Collapsing</title>
+	<section id="tech_80_desc" title='Description'>
+		Sir, our scientists have devised a new defense. This technology allows our planets to build counter-measures that will allow them to prevent unwanted hyperspace windows from forming in orbit. This should prevent 10% of an enemy fleet from exiting hyperspace above the planet and delay them in hyperspace for 1 more hour.
+	</section>
+	<section id="tech_80_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Military technology</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;10,000,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Prevents Hyperspace exit</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_80_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_70'>Wormhole Theory</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_86">Localised Wormhole Destabilisation</mlink></li>
+			<li><mlink to="tech_88">Wormhole Supernova</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

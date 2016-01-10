@@ -1,0 +1,115 @@
+<?php
+
+class page_handler {
+	var $needsAuth = true;
+
+	function checkMail($a) {
+		return preg_match(
+			'/^[A-Za-z0-9_\.\-\+]+@([A-Za-z0-9_\.\-\+]+)+\.[A-Za-z]{2,6}/',
+			$a
+		);
+	}
+
+	function checkPassword($op, $np, $cp) {
+		$q = dbQuery("SELECT password FROM account WHERE id=".$_SESSION['userid']);
+		if (!$q) {
+			$this->passError = 1;
+			return;
+		}
+		list($rop) = dbFetchArray($q);
+		if ($rop != $op) {
+			$this->passError = 2;
+		} elseif ($np != $cp) {
+			$this->passError = 3;
+		} elseif (strlen($np) < 4) {
+			$this->passError = 4;
+		} elseif (strlen($np) > 64) {
+			$this->passError = 5;
+		} elseif ($np == $_SESSION['login']) {
+			$this->passError = 6;
+		} else {
+			$p = addslashes($np);
+			$op = addslashes($rop);
+			$q = dbQuery("UPDATE account SET password='$p' WHERE id=".$_SESSION['userid']);
+			dbQuery(
+				"INSERT INTO pass_change (account, old_pass, new_pass) "
+					. "VALUES({$_SESSION['userid']}, '$op', '$p')"
+			);
+			if (!$q) {
+				$this->passError = 1;
+			}
+		}
+	}
+
+	function checkFormData($input) {
+		$pLang = array('fr', 'en');
+		if (in_array($input['lang'], $pLang)) {
+			prefs::set('main/language', $input['lang']);
+		}
+
+		$pCol = array('red','green','blue','yellow','grey','purple');
+		if (in_array($input['col'], $pCol)) {
+			prefs::set('main/colour', $input['col']);
+		}
+
+		if (preg_match('/^[0-4]$/', $input['fs'])) {
+			prefs::set('main/font_size', $input['fs']);
+		}
+
+		if ($this->checkMail($input['mail'])) {
+			dbQuery("UPDATE account SET email='".$input['mail']."' WHERE id=".$_SESSION['userid']);
+		} else {
+			$this->mailError = preg_replace('/"/', '&quot;', $input['mail']);
+		}
+
+		if (preg_match('/^[1-5]0$/', $input['tpp'])) {
+			prefs::set('main/forums_ntopics', $input['tpp']);
+		}
+		if (preg_match('/^[1-5]0$/', $input['mpp'])) {
+			prefs::set('main/forums_nitems', $input['mpp']);
+		}
+		prefs::set('main/smileys', ($input['gsm'] == "1")?"1":"0");
+		prefs::set('main/forum_code', ($input['gft'] == "1")?"1":"0");
+		prefs::set('main/forums_threaded', ($input['fdm'] == "1")?"1":"0");
+		prefs::set('main/forums_reversed', ($input['fmo'] == "1")?"1":"0");
+		prefs::set('main/forums_sig', $input['fsig']);
+
+		if ($input['opass'] != "") {
+			$this->checkPassword($input['opass'], $input['npass'], $input['cpass']);
+		}
+	}
+
+
+	function handle($input) {
+		if ($input['col'] != "") {
+			$this->checkFormData($input);
+		}
+
+		$q = dbQuery("SELECT email FROM account WHERE id=".$_SESSION['userid']);
+		list($email) = dbFetchArray($q);
+		$fs = prefs::get('main/font_size', 2);
+		$col = prefs::get('main/colour', 'red');
+		$tpp = prefs::get('main/forums_ntopics', 20);
+		$mpp = prefs::get('main/forums_nitems', 20);
+
+		$this->data = array(
+			"lang"	=> getLanguage(),
+			"mail"	=> $email,
+			"col"	=> $col,
+			"fs"	=> $fs,
+			"err1"	=> $this->mailError,
+			"err2"	=> $this->passError,
+			"tpp"	=> $tpp,
+			"mpp"	=> $mpp,
+			"gsm"	=> (prefs::get('main/smileys', 1) == 1),
+			"gft"	=> (prefs::get('main/forum_code', 1) == 1),
+			"fdm"	=> (prefs::get('main/forums_threaded', 1) == 1),
+			"fmo"	=> (prefs::get('main/forums_reversed', 1) == 1),
+			"fsig"	=> prefs::get('main/forums_sig', "")
+		);
+
+		$this->output = "settings";
+	}
+}
+
+?>

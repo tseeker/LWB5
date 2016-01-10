@@ -1,0 +1,54 @@
+/** GENERAL ELEMENTS **/
+
+body, p, td, th, h1, h2, h3, h4, h5, h6, a { color: #C0C0C0; }
+h1, h2, h3 { color: #FF3F3F; }
+h4, h5, h6, th { color: #FF5F9F; }
+a, a:visited { color: white; }
+b { color: white; }
+table.list a { color: #C0C0C0; }
+table.list tr:hover td, table.list tr:hover td > * { color: white; }
+
+
+/** STATUS AND MENU BARS **/
+
+table.topframe {
+	background-color: #7F1F1F;
+	border: 1px solid #7F3F3F;
+}
+td.topmenu {
+	background-image: url('__STATICURL__/beta5/pics/ttl/def/red/menubg.png');
+	background-repeat: repeat-x;
+}
+ul ul.tmenu li.tmenu { background-color: #7F1F1F; }
+ul.tmenu li:hover { background-color: #9F3F3F; }
+a.tmenu:hover { background-color: black; }
+ul.tmenu li.tmenu:hover ul.tmenu { border: 1px solid #CF3F3F; }
+td.player, td.funds, td.stime { color: #FFCCCC; }
+td.player b, td.funds b { color: white; }
+
+
+
+/** FORMS **/
+input[type=text],input[type=password],input[type=submit],input[type=reset],input[type=button],select,textarea {
+	border: 1px solid #7F1F1F;
+	color: #FF5F9F;
+	background: black;
+}
+
+input[disabled] { color: #3F3F3F; border: 1px solid #3F3F3F; }
+
+
+/** MAP COLORS **/
+
+table.map li:hover, table.map li:hover a { color: white; }
+
+.mcown { color: #33CC33; }
+a.mcown:visited { color: #33CC33; }
+.mcally { color: #6666FF; }
+a.mcally:visited { color: #6666FF; }
+.mcprot { color: #AFAFAF; background-color: black; }
+a.mcprot:visited { background-color: black; }
+.mcpally { color: #6666FF; background-color: black; }
+a.mcpally:visited { color: #6666FF; }
+.mcpown { color: #33CC33; background-color: black; }
+a.mcpown:visited { color: #33CC33; }

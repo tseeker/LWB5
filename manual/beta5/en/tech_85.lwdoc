@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Biological Turrets</title>
+	<section id="tech_85_desc" title='Description'>
+		Building our turrets with intelligent materials should allow us to take advantage of their sentience to gain in accuracy and fire power.
+	</section>
+	<section id="tech_85_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Military technology</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;8,000,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases turret power</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_85_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_61'>Automated Turrets</mlink></li>
+			<li><mlink to='tech_74'>Intelligent Materials</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

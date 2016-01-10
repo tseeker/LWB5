@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Safe Recreational Drugs</title>
+	<section id="tech_12_desc" title='Description'>
+		Recent progress in the field of farming has allowed our scientists to develop safe recreational drugs such as the so-called &quot;Space weed&quot;. This will improve commerce and make the population happier, since these drugs can be used instead of traditional anaesthetics in our hospitals.
+	</section>
+	<section id="tech_12_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Civilian technology</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;80,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases happiness</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_12_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_11'>High-efficiency Hydroponics</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_13">Legalize Space Weed</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

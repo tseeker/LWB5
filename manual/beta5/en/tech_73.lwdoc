@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Singularity Housing</title>
+	<section id="tech_73_desc" title='Description'>
+		Using the principles of Space-time folding, our engineers have improved our arcology design. Hyperspace and force-field generators must be integrated into our existing arcologies in order to allow our planets to house even more citizens.
+	</section>
+	<section id="tech_73_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Civilian technology</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;3,800,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases planet maximum population</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_73_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_35'>Arcologies</mlink></li>
+			<li><mlink to='tech_41'>Space-time folding</mlink></li>
+			<li><mlink to='tech_57'>Force fields</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_83">Self-sustained Arcologies</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Wormhole Theory</title>
+	<section id="tech_70_desc" title='Description'>
+		Going even further than space-time folding, our scientists have written a theory that, when put into practice, would allow us to manipulate wormholes. Of course further studies are required to reach any real application.
+	</section>
+	<section id="tech_70_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Fundamental research</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;5,000,000</li>
+			<li><b>Effects:</b> N/A</li>
+		</ul>
+	</section>
+	<section id='tech_70_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_41'>Space-time folding</mlink></li>
+			<li><mlink to='tech_62'>Interstellar University</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_80">Wormhole Collapsing</mlink></li>
+			<li><mlink to="tech_81">Wormholes</mlink></li>
+			<li><mlink to="tech_82">Subspace Data conduit</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

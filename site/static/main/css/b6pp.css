@@ -1,0 +1,47 @@
+#cframe h1 {
+	font-size: 16pt;
+	margin: 5px 0px;
+}
+
+#cframe h2 {
+	margin: 5px 0px 5px 10px;
+	font-size: 14pt;
+}
+
+#cframe h3 {
+	margin: 5px 0px 5px 20px;
+	font-size: 12pt;
+	font-variant: small-caps;
+}
+
+#cframe ul { list-style-type: square; }
+#cframe li { font-size: 10pt; }
+#cframe li:first-letter {
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+#cframe p {
+	margin: 5px 10px 5px 30px;
+	text-align: justify;
+	text-indent: 10px;
+	font-size: 10pt;
+}
+#cframe p:first-letter {
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+#cframe table {
+	border-collapse: collapse;
+	border: 1px solid #ffffff;
+	margin: 10px 0px;
+}
+
+#cframe th, #cframe td {
+	border: 1px solid #7f7f7f;
+	text-align: center;
+	padding: 3px 1px;
+}
+#cframe th { vertical-align: bottom }
+#cframe td { vertical-align: top }

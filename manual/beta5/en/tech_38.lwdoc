@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Cybernetic Interfaces</title>
+	<section id="tech_38_desc" title='Description'>
+		Sir! Our scientists have found a way to interface the human brain with a machine. This new technology allows a direct interface between electronic and biological systems, making our ships more reactive to their pilots' commands.
+	</section>
+	<section id="tech_38_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Military technology</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;500,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases fleet power</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_38_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_4'>Bio-engineering</mlink></li>
+			<li><mlink to='tech_15'>Nano-scale Computers</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_39">Exoskeleton</mlink></li>
+			<li><mlink to="tech_71">Biological Propulsion Systems</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Phase Neutraliser</title>
+	<section id="tech_64_desc" title='Description'>
+		Applying temporal mechanics to communications, our scientists have managed to find better ways to disrupt enemy data flows, thus reducing their chances of accurate data being sent to their allies.
+	</section>
+	<section id="tech_64_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Military technology</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;5,000,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases jamming capabilities</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_64_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_40'>Temporal Mechanics</mlink></li>
+			<li><mlink to='tech_49'>Entropy Generator</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_86">Localised Wormhole Destabilisation</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

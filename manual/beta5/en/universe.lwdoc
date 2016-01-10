@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<lwdoc>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Universe</title>
+	<section id="uni_intro" title="Introduction">
+		Legacy Worlds' <i>universe</i> includes everything related to <i>places, time and people</i> involved at the scene where the game takes place. As such universe menu item directs you to the set of pages describing all those topics, including:<ul>
+			<li><mlink to="universe_page">Universe Overview page"</mlink>: this page offers you at a glance all required information about the <i>game universe</i></li>
+			<li><mlink to="maps">Maps</mlink>: the game takes place in a <i>galaxy</i> far far away where the suvivors from the Earth's annihilation are trying to rebuild their civilisation. <mlink to="maps">Maps</mlink> of the area are available as part of the universe data</li>
+			<li><mlink to="ticks">Ticks</mlink>: Legacy Worlds being a <i>tick based game</i>, information about the <mlink to="ticks_tick">various ticks</mlink> is also part of the universe. That would be the time dimension of the universe</li>
+			<li><mlink to="rankings">Rankings</mlink>: there are also people in this universe, the <i>players</i>. The various <mlink to="rankings">rankings</mlink> of the players are also present in the universe section of the game</li>
+			<li><i>Manual</i>: The <i>rules regulating the way the game works</i> are also part of the universe. That's why the manual you're reading now is placed here</li>
+		</ul>
+	</section>
+	<section id="uni_over" title="Universe Overview Page" linkto="universe_page">
+		This page provides you with a <i>status of Legacy Worlds' universe</i> at a glance along with <i>shortcuts</i> to the most important items you might be interested in viewing. It is split into several sections that are described more precisely in the <mlink to="universe_page">corresponding manual section</mlink>.
+	</section>
+	<section id="uni_maps" title="Maps" linkto="maps">
+		Legacy Worlds' galaxy is <i>split in a grid</i>. Each square in the grid represent a <i>stellar system</i> or a <i>portion of a nebula</i>. Each square contains <i>6 elements</i>, either 6 planets or 6 nebula sectors.
+		<br/>
+		In order to help you navigate your ships in that galaxy <mlink to="maps">three kinds of maps are available.</mlink>
+		<br/>
+		<mlink to="maps_com">Common navigation features</mlink> are also available for all kinds of maps to help you browse them. 
+		<br/>
+		All those features are explained in details in the <mlink to="maps">maps manual section</mlink>.
+	</section>
+	<section id="uni_ticks" title="Ticks" linkto="ticks">
+		Legacy Worlds is a <i>tick based game</i>. As such different <mlink to="ticks_tick">kinds of ticks</mlink> happen <i>at different time intervals</i> and play a different role in the game dynamics. More precisions on <mlink to="ticks">ticks</mlink> are given in the <mlink to="ticks">Ticks manual</mlink> section.
+	</section>
+	<section id="uni_rank" title="Rankings" linkto="rankings">
+		<mlink to="rankings">Rankings</mlink> are a way to keep track of the <i>various players' progress</i> in the game and to <i>compare their strength</i>. There are different kinds of <mlink to="rankings">rankings</mlink> which are presented in the various sections of the <mlink to="rankings">Rankings manual page</mlink>.
+	</section>
+
+	<section file="universe_page.lwdoc"/>
+	<section file="maps.lwdoc"/>
+	<section file="ticks.lwdoc"/>
+	<section file="rankings.lwdoc"/>
+</lwdoc>

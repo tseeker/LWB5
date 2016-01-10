@@ -1,0 +1,102 @@
+body {background-color="#000000";
+	background-image="images/background.jpg";
+    font-family: Bookman Old Style;
+    color:#C0C0C0}
+A:link{color: #CC3300}
+
+A:visited{color: #CC3300}
+
+h1 {font-size: 14pt;
+	font-family: Bookman Old Style;
+    color: #CC3300;
+    font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+    margin-bottom:0px;
+    margin-top:0px }
+h2 {font-size: 14pt;
+	font-family: Bookman Old Style;
+    color: #CC3300;
+    font-style: italic;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+    margin-top:0px;
+    margin-bottom:0px}
+h3 {font-size: 14pt;
+	font-family: Bookman Old Style;
+    color: #CC3300;
+    font-style: italic}
+h4 {font-size: 12pt;
+	font-family: Bookman Old Style;
+    color: #CC3300;
+    font-style: italic;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+    margin-bottom:0px;
+    margin-top:0px }
+h6 {font-size:12pt;
+	color: #FFFFFF;
+    font-weight: bold
+    text-decoration: underline;
+    margin-bottom:0px;
+    margin-top:0px}
+
+em {color: #FFFFFF;
+	font-style: normal}
+em.i{font-style: italic}
+
+em.green {color: #33CC33;
+	font-style: normal;
+    font-weight: bold}
+
+em.red {color: #FF3300;
+	font-style: normal;
+    font-weight: bold}
+
+em.blue {color: #6666FF;
+	font-style: normal;
+    font-weight: bold}
+
+p	{margin-bottom:0px;
+     margin-top:0px;}
+
+p.green{color: #33CC33;
+	font-weight: bold}
+
+p.blue{color: #6666FF;
+	font-weight: bold}
+
+p.red {color: #FF3300;
+	font-weight: bold}
+
+p.darkend {color: #808080;
+	font-weight: normal}
+
+td {font-size: 12pt;
+	font-family: Bookman Old Style;
+    color: #C0C0C0;
+    font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none}
+
+th {font-size: 12pt;
+	font-family: Bookman Old Style;
+    color: #CC3300;
+    font-style: italic;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none}

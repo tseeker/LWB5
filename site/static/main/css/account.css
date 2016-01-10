@@ -1,0 +1,69 @@
+#tabs {
+	width: 100%;
+	margin: 0px 0px 10px 0px;
+	height: 30px;
+}
+
+#tabs a {
+	display: block;
+	position: absolute;
+	top: 0px;
+	width: 140px;
+	background-color: #1f1f1f;
+	border: 1px solid #3f3f3f;
+	padding: 5px;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+	font-size: 10pt;
+}
+
+#tabs a:hover {
+	background-color: #5f5f5f;
+	border-color: white;
+}
+
+#tabs a.selected {
+	background-color: #3f3f3f;
+	border-color: #5f5f5f;
+	font-weight: bold;
+}
+
+#tab-games { left: 88px; }
+#tab-vacation { left: 243px; }
+#tab-quit { left: 398px; }
+
+#cframe .acctab h1 {
+	font-size: 12pt;
+}
+#cframe .acctab p {
+	padding: 0px 0px 10px 10px;
+}
+#cframe .acctab table {
+	width: 570px;
+	margin: 0px 0px 10px 30px;
+	font-size: 11pt;
+}
+
+#cframe .acctab table a { background-color: #1f1f1f; text-decoration: none }
+#cframe .acctab table a:hover { background-color: #3f3f3f; text-decoration: underline }
+
+.gname {
+	width: 300px;
+	text-align: left;
+}
+
+.acctab .input {
+	width: 200px;
+	margin: 10px 0px 10px 40px;
+}
+
+#cframe .acctab#quit h1 {
+	background-color: red;
+}
+
+#cframe .acctab#quit p#header {
+	padding: 10px;
+	background-color: #ff7f7f;
+	color: white;
+}

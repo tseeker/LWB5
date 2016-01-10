@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Nanotechnologies</title>
+	<section id="tech_9_desc" title='Description'>
+		Sir! Our scientists have made major progress in miniaturisation. With this technology our researchers have gained the capability to work at the &quot;nano&quot; level.
+	</section>
+	<section id="tech_9_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Civilian technology</li>
+			<li><b>Optional:</b> No</li>
+			<li><b>Cost:</b> &amp;euro;40,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases Industrial Factories productivity</li>
+				<li>Increases Militart Factories productivity</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_9_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_3'>Advanced Materials</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_15">Nano-scale Computers</mlink></li>
+			<li><mlink to="tech_24">Hardened Alloys</mlink></li>
+			<li><mlink to="tech_26">Nanofiber Armor</mlink></li>
+			<li><mlink to="tech_27">Lifeform Engineering</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

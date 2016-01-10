@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Sentient Lifeform Engineering</title>
+	<section id="tech_28_desc" title='Description'>
+		Sir! Our biologists have finally managed to create intelligent lifeforms from scratch, thus opening a brand new field of studies.
+	</section>
+	<section id="tech_28_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Fundamental research</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;800,000</li>
+			<li><b>Effects:</b> N/A</li>
+		</ul>
+	</section>
+	<section id='tech_28_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_27'>Lifeform Engineering</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_42">Biological Computers</mlink></li>
+			<li><mlink to="tech_55">Biological Drones</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

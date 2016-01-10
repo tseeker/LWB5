@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Force fields</title>
+	<section id="tech_57_desc" title='Description'>
+		Our scientists have found a way to create force fields. The direct military application is the addition of shields to our current fleets, which will reduce losses.
+	</section>
+	<section id="tech_57_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Fundamental research</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;1,500,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Reduces battle losses</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_57_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_22'>Hyperspace Theory</mlink></li>
+			<li><mlink to='tech_37'>Adaptive Materials</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_72">Mass Anti-matter Production</mlink></li>
+			<li><mlink to="tech_73">Singularity Housing</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

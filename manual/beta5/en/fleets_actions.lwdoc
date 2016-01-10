@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<lwdoc>
+        <version>beta5</version>
+	<language>en</language>
+	<title>Fleets Actions</title>
+	<section id="fa_intro" title="Introduction">
+		Once you have <i>selected at least one fleet</i> in the <mlink to="fp_list">fleets list</mlink>, a <i>list of links</i>, corresponding to <i>different actions</i> you can perform with the fleets, is <i>displayed at the bottom</i> of the <mlink to="fleets_page">fleets page</mlink>. This list include a <i>selection among the total list of possible actions</i>, depending on the circumstances.
+	</section>
+	<section id="fa_act_clear" title="Clear selection">
+		Once you have <i>selected a set of fleets</i> with the corresponding checkboxes, you may want to <i>unselect them all at once</i> without having to <i>click on all the checkboxes</i> one at a time. This feature does just that: click on this link to <i>unselect all selected fleets</i>.
+	</section>
+	<section id="fa_act_rename" title="Rename">
+		Clicking on this link <i>opens an alert window</i> where you can <i>type in a new name</i> for the fleet and <i>change it</i>. if <i>several fleets are selected</i> all selected fleets will be <i>renamed with the new name</i>.
+	</section>
+	<section id="fa_act_mov" title="Change orders" linkto="fleets_moving">
+		Clicking on this link directs you to a <mlink to="leets_moving">new page</mlink> where you can <mlink to="leets_moving">manage the movements of the selected fleets</mlink>. This topic is described more thoroughly in the <mlink to="leets_moving">fleets movements section</mlink> of the manual.
+	</section>
+	<section id="fa_act_split" title="Split" linkto="fleets_splitting">
+		Clicking on this link directs you to a <mlink to="fleets_splitting">new page</mlink> where you can define how to <mlink to="fleets_splitting">split the fleet</mlink>. This topic is described more closely in the <mlink to="fleets_splitting">splitting fleets section</mlink> of the manual.
+	</section>
+	<section id="fa_act_merge" title="Merge">
+		Clicking this link <i>opens an alert box</i> where you can <i>type in the name of the new merged fleet</i> and <i>validation</i> actually <i>merges the fleets</i>. 
+		<br/>
+		Of course the fleets have to be <i>at the same location</i>. If fleets <i>on several locations</i> are selected, only <i>possible merges are performed</i>.
+		<br/>
+		The only other requirement is that <i>all fleets have to be available</i>. For instance you <i>can't merge fleets unavailable</i> because of battle but this action <i>can be performed on moving fleets</i>.
+	</section>
+	<section id="fa_act_sell" title="Sell" linkto="sell_put_fleet">
+		Clicking this link directs you to a <mlink to="sell_put_fleet">fleets sale page</mlink> which is described more closely in the <mlink to="marketplace">marketplace section</mlink> of the manual.
+	</section>
+	<section id="fa_act_dis" title="Disband">
+		Clicking this link <i>opens a confirmation alert box</i>. If you <i>validate</i> the action the <i>selected fleets will disappear</i> from the game.
+	</section>
+
+	<section file="fleets_moving.lwdoc"/>
+	<section file="fleets_splitting.lwdoc"/>
+</lwdoc>

@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<lwdoc>
+        <version>beta5</version>
+	<language>en</language>
+	<title>Forum Moderation Rules</title>
+	<section id="fmod_intro" title="Introduction">
+		In order for players to get to know each others and to play better as members of an alliance or simply of the LegacyWorlds community the game is set with some internal forums. Those forums are a tool for you to use and as all tools allowing people to say what they have to say some simple rules apply.
+		<br/>
+		So far we've always had a policy of free speech but as everyone knows one's freedom ends where begins someone else's freedom.
+		<br/>
+		As a consequence:<ol>
+			<li>Public forums are moderated by the staff and a set of volunteers appointed by staff members</li>
+			<li>Alliance forums are to be moderated by the alliance's leader and eventually other alliance members appointed by the alliance leader. If posts / threads that don't comply with the moderation rules are brought to the staff's attention, the alliance's leader will be held personally responsible. This means the same punishment will be applied to the alliance's leader as to the offender</li>
+		</ol>
+	</section>
+	<section id="fmod_rule" title="Moderation Rules">
+		<section id="fmod_rule_intro" title="Introduction">
+			Those rules apply to:<ol>
+				<li>Posts in public forums</li>
+				<li>Posts in alliance forums</li>
+				<li>Forum Signatures</li>
+				<li>Private Messages if their contents are brought to the staff's attention</li>
+			</ol>
+			If you have any questions or concerns regarding these rules, feel free to contact either Tseeker or Ju or Sycophant or El_Cristoph.
+			<br/>
+			The actual rules follow.
+		</section>
+		<section id="fmod_rule_post" title="Posting">
+			Offensive, vulgar, obscene, threatening, or hateful posts will not be allowed. As this has already been stated in the general rules in the manual, the server being hosted in France, those are considered as criminal offenses according to french law. Not that any of us would like to report you to the police, but people hosting public websites can be held responsible for what is being posted and you wouldn't want your dear staff to end up in jail if someone was to report it, would you?
+			<br/>
+			Posts that violate include, but are not limited to:<ul>
+				<li>Posting insults</li>
+				<li>Posting unrespectful comments towards other players because of their colour, their gender, their faith, their nationality, their religion, their opinions, their social behaviour and so on</li>
+				<li>Posting pornographic or obscene material</li>
+				<li>Posting links to pornographic or obscene pictures, stories, movies or material</li>
+				<li>Posting links to a website that is potentially damaging to your system or personal details by accessing it</li>
+				<li>Threatening another player</li>
+				<li>Repeated Flames</li>
+			</ul>
+			This is quite objective, but as always the Moderators have final say on the matter. This rule generally applies to trolls. We're not here to babysit you, folks, and we're not going to ban someone because they insulted you once.
+		</section>
+		<section id="fmod_rule_spam" title="Spam">
+			Unsolicited and/or multiple posting of threads/replies for the purposes of advertising or multiple posts with little to no content within a short period of time will not be allowed. No, we're not going to delete a post from a valid forum member advertising his or her new website *if done only once*. Members should not clutter the forum with useless posts, pushing posts with actual content off the front page. "Useless" is subjective, and up to the mod's discretion.
+		</section>
+		<section id="fmod_rule_length" title="Unreasonable Length/Size of Posts">
+			Long strings of text without line breaks(Ex.typing 100 D's with no spaces) can throw off the formatting of the page. If you intend to use a long string, please add line breaks. Anything larger tends to throw off the formatting of the entire page, and can really play havoc with those of us who use the smaller resolutions.
+		</section>
+		<section id="fmod_rule_forum" title="Posting in the Correct Forum">
+			Yes, we all know the general forum gets the most visitors. However, if your question/comment is about Bugs, please direct it to the Bugs forum. The same goes for eclectic etc. Threads found in the wrong forum will be moved.
+		</section>
+	</section>
+	<section id="fmod_punish" title="Punishment system">
+		Each violation contains a progression of penalties. They are ordered in such a way as that number 1 will be the reprisal for the first offense in that category, number 2 will be the next step up should you become a repeat offender, etc. Please note that depending on the severity of the action, as determined by the administrative staff, the progression of penalties may be completely bypassed where the result is immediate, permanent suspension from the forums and even the game.
+		<ol>
+			<li>Warning: A verbal warning from the mods, over either the messaging system, the e-mail address listed for your account, or through a response to the offending post</li>
+			<li>Probation: You are placed on probation. We will watch you, any further offense will result in immediate suspension. The admins and mods will keep track of probationary members</li>
+			<li>Suspension: You are suspended from the forums for one week. After one week you will again be in a probationary state, if you should commit the violation again, you will be banned immediately</li>
+			<li>Banning: Self-explanatory. You are banned from the forums. We will notify you by e-mail or private message if you have these methods available should this situation arise. If you do not have these methods available to us, it becomes your responsibilty to contact one of the mods for an explanation as to why you are banned. Banned members will be kept track of</li>
+		</ol>
+		Note also that should one person consistently collect warnings for numerous offenses yet not progress beyond the warning stage in any one of them, moderators reserve the right to determine an appropriate penalty for the number and severity of warnings. This should not be a game to see how many warnings you can collect without being punished.
+	</section>
+	<section id="fmod_compl" title="Complaints">
+		Moderators and staff members are human beings just like you. They have feelings and are due to:<ul>
+			<li>punish more severely some particular offenses because they consider them as more important</li>
+			<li>punish more severely some players because they have hard feelings towards them</li>
+		</ul>
+		As a consequence we consider you should have the right to complain if you consider you've been treated unfairly. To do so you should contact the staff and explain the situation. In such cases there are two options:<ol>
+			<li>either the staff considers the person who punished you went too far and the punishment will be lifted. The moderator will be flagged as having gone too far once</li>
+			<li>the staff agrees with the person who punished you and no further step will be taken except you'll be flagged as having complained for no valid reason once</li>
+		</ol>
+		Those flags will be used to help in the moderation system:<ol>
+			<li>If a moderator punishes players for no reason more than 5 times, he'll be removed from the moderation team</li>
+			<li>If you complain for no valid reason more than 5 times you'll be definitively banned from the forums</li>
+		</ol>
+		Moderating forums is a difficult task and everything should be done so that everyone can have faith in the moderating system, be him moderator or a simple player...
+	</section>
+</lwdoc>

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<lwdoc>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Diplomacy</title>
+	<section id="diplo_intro" title="Introduction">
+		Diplomacy covers a lot of concepts concerning in game interactions of players outside of the direct communication means. The major element is the alliance system which allows players to build up teams. The diplomatic section of the game allows you also to manage list of enemy and trusted players. Diplomacy is also a way to acquire technologies you can't research on your own and to exchange planets and fleets through the marketplace. The main Diplomacy page provides an overview of all these topics.
+	</section>
+	<section id="diplo_page" title="Main Diplomacy Page" linkto="diplomacy_page">
+		This page provides an overview of your alliance if your part of one along with an overview of your allies and enemies and of your messaged. It includes shortcuts for the major elements in this area. The different sections of the page are the topic of the corresponding manual section.
+	</section>
+	<section id="diplo_alliance" title="Alliance" linkto="alliance">
+		An alliance is a group of players who have decided to team up and work together to be stronger in the game. Alliance related topics are detailed in the Alliance section of the manual.
+	</section>
+	<section id="diplo_enem" title="Enemies" linkto="enemies">
+		This page allows you to keep a list of enemy players and alliance. This topic is discussed in more details in the Enemies manual section.
+	</section>
+	<section id="diplo_tall" title="Trusted allies" linkto="allies.lwdoc">
+		In Legacy Worlds you can entrust other players with control of your fleets while you're not online. This page is presented in the manual in the Trusted Allies section.
+	</section>
+	<section id="diplo_res" title="Research exchanges" linkto="tech_exchange">
+		As the complete technological tree isn't available to one given player, you'll have to acquire some technologies from other players through diplomatic exchanges in order to obtain technologies you don't have access to. This feature is the topic of this manual section.
+	</section>	
+	<section id="diplo_market" title="Marketplace">
+		They might not be diplomatic relations per se but economic relations might be considered as a first step towards establishing more solid agreements. As such the marketplace is the place where you can buy or accept and sell or give fleets and planets in LegacyWorlds. 
+	</section>
+
+	<section file="diplomacy_page.lwdoc"/>
+	<section file="alliance.lwdoc"/>
+	<section file="enemies.lwdoc"/>
+	<section file="allies.lwdoc"/>
+	<section file="tech_exchange.lwdoc"/>
+	<section file="marketplace.lwdoc"/>
+</lwdoc>

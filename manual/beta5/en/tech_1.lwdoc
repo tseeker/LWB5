@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Fighters</title>
+	<section id="tech_1_desc" title='Description'>
+		Sir! We have successfully researched a new type of ship, the Fighter! These ships are faster and more efficient at combating enemy ships than our current Ground Assault ships.
+	</section>
+	<section id="tech_1_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Military technology</li>
+			<li><b>Optional:</b> No</li>
+			<li><b>Cost:</b> &amp;euro;50,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Provides the ability to build ships of the Fighter class</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_1_dep' title='Dependencies'>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_5">Martial law</mlink></li>
+			<li><mlink to="tech_6">Cruisers</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+<lwdoc>
+        <version>beta5</version>
+	<language>en</language>
+	<title>Fleets Movements</title>
+	<section id="move_gen" title="General concepts">
+		<section id="move_gen_hypnorm" title="Hyperspace versus normal space">
+			<section id="move_gen_hypnorm_intro" title="Introduction">
+				When coming to <i>fleets movements</i> in LegacyWorlds, <i>two different kinds of "space"</i> have to be considered:<ul>
+					<li><mlink to="move_gen_hypnorm_norm">normal space</mlink></li>
+					<li><mlink to="move_gen_hypnorm_hyp">hyperspace</mlink></li>
+				</ul>
+				Both types will be covered in the next parapgraphs.
+			</section>
+			<section id="move_gen_hypnorm_norm" title="Normal Space">
+			<i>Normal space</i> can be considered as the <i>"real world" space</i>, where stars, planets and other stellar objects are located. It's the space in which <mlink to="ship_cat_class">system ships</mlink> can travel with their <i>sub-light engines</i>. But <i>moving from one stellar system to another with that kind of engines would take centuries</i> and researchers in LegacyWorlds had to find <i>other means to allow space exploration</i> to be more practical. That's where <mlink to="move_gen_hypnorm_hyp">hyperspace travel</mlink> gets in.
+			</section>
+			<section id="move_gen_hypnorm_hyp" title="Hyperspace">
+			The scientists in the LegacyWorlds <mlink to="universe">universe</mlink> soon realised space could also be apprehended <i>on another plane</i> that they called <i>hyperspace</i>. Hyperspace could be considered as <i>another dimension</i>, adjacent to the real one, where the <i>distances between spatial bodies are significantly distorted</i>. As a consequence, <i>hyperspace travel is much faster than travel in normal space</i>. The main drawbacks are that:<ul>
+				<li><i>jumping between hyperspace and normal space used tremendous amounts of energy</i> which implies some <i>specialised engines to open hyperspace windows</i></li>
+				<li>the <i>lay-out of hyperspace is fluctuating</i> and <i>impossible to cartography</i>. As a consequence <i>moving ships</i> following a defined trajectory <i>reach their destination without problem</i>. But <i>ships stationned in hyperspace can derive from their location</i> and lose clear knowlegde of their position and <i>get definitively lost</i>, unless they have a <i>static point of reference</i> in the form of a <mlink to="probes">hyperspace beacon</mlink></li>
+			</ul>
+			</section>
+		</section>
+		<section id="move_gen_compute" title="Movement computation">
+			<section id="move_gen_compute_intro" title="Introduction">
+				<i>Movement computation</i> is the process that allows to define the <i>position of a moving fleet</i>. The <i>exact rules</i> behind this computation include general rules that are valid for all ravel types and others <i>depend on the type of space</i> the fleets are moving in. Rules for all movements, <mlink to="move_gen_compute_norm">normal space</mlink> and <mlink to="move_gen_compute_hyp">hyperspace</mlink> travel are the topics of the next two paragraphs.
+			</section>
+			<section id="move_gen_compute_gen" title="General rules">
+				All <i>space travels</i> are regulated according to <i>those rules</i> along with <i>rules specific to the type of travel</i>. These <i>general rules</i> are listed below:<ul>
+					<li><i>Movement computation and current position</i> of every moving fleets is <i>calculated every minute</i>. This allows for an <i>almost real time</i> effect of fleets movements</li>
+					<li>In case of a <i>change in the destination of a fleet</i>, the <i>new trajectory</i> is calculated using its <i>current location as starting point</i></li>
+					<li>Fleets <i>passing by a planet can't be spotted by its owner</i> unless they get into orbit around the planet</li>
+					<li><i>Fleets' speed</i> is influenced by the <i>type of objects</i> they pass by: <i>nebulas and planetary remains reduce the speed</i> of <mlink to="ships">ships</mlink> crossing their orbits</li>
+				</ul>
+			</section>
+			<section id="move_gen_compute_norm" title="Normal space travel rules">
+				<i>Normal space travel</i> is regulated by the <i>following rules</i>:<ul>
+					<li>Fleets <i>always travel in normal space inside a given stellar system</i> unless the fleet is <i>hyperspace capable</i> and an <i>hyperspace stand-by delay</i> has been set. In such a case the fleets <i>travel in hyperspace</i> but the <i>travel time remains the same</i> as for normal space travel</li>
+					<li>Between two stellar objects a fleet <i>follows the most direct trajectory between the two</i></li>
+					<li>The fleet always <i>crosses all the orbits between the two stellar objects</i> (its origin nd its destination). As a consequence moving from the first orbit to the 6th takes much longer than from the first to the second</li>
+					<li>Travelling <i>from one orbit to the orbit immediately next to it</i> takes <i>12 min</i>. The time to travel between two planets inside the same is then a multiple of 12, the <i>multiplication factor depending on the number of orbits to cross</i></li>
+				</ul>	
+			</section>
+			<section id="move_gen_compute_hyp" title="Hyperspace travel rules">
+				<i>Hyperspace travel</i> is regulated by the <i>following rules</i>:<ul>
+					<li>When going <i>beyond the limits of a stellar system or a nebula</i>, a fleet has to <i>travel through hyperspace</i>. Fleets that aren't hyperspace capable can't go beyond the limits of a stellar system</li>
+					<li>When <i>leaving a stellar system</i>, a fleet has to <i>cross all orbits between its starting point and the edges of the system</i> before travelling  to the next one</li>
+					<li>A fleet moving <i>between two stellar systems</i> follows the <i>most direct path to the destination</i> system</li>
+					<li>When <i>entering its destination system</i> a fleet <i>crosses again the necessary orbits until it reaches its destination planet</i></li>
+					<li><i>Whatever the origin and destination orbits</i> in the stellar system are <i>the time to go from one system to another is always the same</i></li>
+					<li><i>Hyperspace travel speed</i> can be increased through <mlink to="technology">technologies</mlink>. This topic is covered in the <mlink to="ship_cat_speed"> ship speed</mlink> of the <mlink to="ships">ships</mlink> section of the manual</li>
+				</ul>
+			</section>
+		</section>
+	</section>
+	<section id="move_pract" title="Practial fleet sending">
+		<section id="move_pract_access" title="Accessing the page">
+			There are <i>two different means</i> to <i>access the fleets' orders page</i>:<ul>
+				<li>On the <mlink to="planet">individual page</mlink> of each planet, planetary remains or nebula square, a <i>Send Fleets</i> link is available <i>below the name</i> of the stellar object. <i>Clicking this link</i> directs you to a <i>specific page</i> where you can <i>select the fleets you want to send to that particular location</i> and set up some <i>parameters for the movement</i> of the fleet</li>
+				<li>On the main <mlink to="fleets_page">fleet page</mlink>, when at least <i>one fleet is selected</i>, a <i>Change orders</i> link is displayed in the bottom <mlink to="fleets_actions">Actions section</mlink> of the page. <i>Clicking this link</i> also directs you to the <i>fleets' order change page</i></li>
+			</ul>
+		</section>
+		<section id="move_pract_order" title="Fleets' orders page">
+			<section id="move_pract_order_intro" title="Introduction">
+				The page includes some <i>actions links</i> and <i>three different sections</i>:<ul>
+					<li><mlink to="move_pract_order_change">New orders</mlink>: to define the <mlink to="move_pract_order_change">orders</mlink> you want the <i>selected fleets to perform</i></li>
+					<li><mlink to="move_pract_order_selec">Selected fleets</mlink>: this list displays all <mlink to="move_pract_order_selec">fleets selected</mlink> to perform the <mlink to="move_pract_order_change">action</mlink> defined in the <mlink to="move_pract_order_change">New orders</mlink> section</li>
+					<li><mlink to="move_pract_order_avai">Available fleets</mlink>: this lists includes <i>all fleets you can control</i> (bet it yours or those of your <mlink to="allies">off-line trusted allies</mlink>) which could <mlink to="move_pract_order_change">follow the orders</mlink></li>
+				</ul>
+			</section>
+			<section id="move_pract_order_change" title="Changing orders">
+				<section id="move_pract_order_change_intro" title="Introduction">
+					In this part of the page you can define three kinds of orders:<ul>
+						<li><mlink to="move_pract_order_change_des">Destination</mlink>: to choose where to <i>send the fleet</i></li>
+						<li><mlink to="move_pract_order_change_hy">Hyperspace stand-by orders</mlink>: to get a fleet to <i>stand-by in hyperspace</i></li>
+						<li><mlink to="move_pract_order_change_mod">Fleet mode</mlink>: to define the <i>mode</i> the fleet will be in <i>upon arrival</i></li>
+					</ul>
+					Each type of order willl be <i>detailed in the next paragraphs</i>.
+				</section>
+				<section id="move_pract_order_change_des" title="Destination">
+					The <i>Destination</i> line first defines the <i>fleet's destination</i> if any has already been set. The destination is <i>preset</i> for instance for <i>moving fleets</i> or when you access the page from the <i>Send Fleets</i> link of an <mlink to="planet">individual stellar object page</mlink>. 
+					<br/>
+					To <i>change the destination</i> you have to click the <i>Set destination</i> link. You'll get directed to a <i>new page</i> describing <i>current destination</i> if any and providing a <i>destination selection tool</i>. This tool consists in a <i>minimap</i> and <i>several means to change the system</i> it is centered on:<ul>
+						<li><i>Minimap</i>: this minimap is <i>centered on</i> the system in which is located <i>your first planet</i> and <i>displays one stellar system</i> at a time. <i>Arrows</i> are diplayed around the minimap if the <i>selected fleets are hyperspace capable</i> or if you have hyperspace capable fleets in case no particular fleet is selected yet. Using the <i>arrows around the map</i> allows you to <i>change the focus of the minimap</i> and move around that system</li>
+						<li><i>Centre on coordinates</i>: you can <i>center the minimap</i> on a particular stellar system <i>based on its coordinates</i>. To do you you have to <i>select the relevant radio button</i> and <i>type the coordinates</i> of the stellar system in the provided <i>textfields</i>. Clicking the <i>Move</i> button <i>centers</i> the map on this system</li>
+						<li><i>Centre on own/allied planet</i>: you can also <i>center the minimap</i> on one of <mlink to="planets">your own planets</mlink> or one of your <mlink to="allies">trusted allies' planets</mlink>. To do so, select the <i>relevant radio button</i> and <i>choose the planet</i> you're interested in <i>in the drop down list</i>. Clicking the <i>Move</i> button <i>centers the minimap</i> on the system the planet is located in</li>
+						<li><i>Centre on planet</i>: you can also <i>center the minimap</i> on an stellar body <i>based on its name</i>. In that case select the <i>corresponding radio button</i> and type in the <i>name of the stellar object</i> in the <i>provided textfield</i>. Clicking the <i>Move</i> button <i>centers the minimap</i> on the system the planet is located in</li>
+					</ul>
+					Once you have <i>centered the minimap</i> you have to <i>choose the particular stellar object</i> you want to send your fleet to by <i>clicking its name in the minimap</i>. You can now either <i>validate</i> you destination by clicking the <i>Confirm</i> button or <i>cancel</i> your changes by clicking the <i>Cancel</i> button.
+				</section>
+				<section id="move_pract_order_change_hyp" title="Hyperspace stand-by orders">
+					Fleets <i>around a stellar object</i> can either:<ul>
+						<li><i>orbit it</i> in clear sight <mlink to="move_gen_hypnorm_norm">in normal space</mlink></li>
+						<li><i>stay</i> in its neighbourhood <mlink to="move_gen_hypnorm_hyp">in hyperspace</mlink></li>
+						</ul>
+					The <i>hyperspace stand-by orders</i> line first of all indicates <i>current orders</i>, that is to say <i>for how long</i> a fleet is supposed to <i>stay in hyperspace</i> without moving at its current location or at its destination. 
+					<br/>
+					A <i>Set delay</i> link allows you to <i>define for how long</i> the fleet should <i>remain in <mlink to="move_gen_hypnorm_hyp">hyperspace</mlink></i> either at its current location or once it has reached its destination. Clicking the <i>Set Delay</i> link opens an <i>alert box</i> where you can type in the <i>number of <mlink to="ticks_tick">hour ticks</mlink></i> the fleet should spend in <mlink to="move_gen_hypnorm_hyp">hyperspace</mlink>. For instance a <i>delay of 1</i> means the fleet has to wait <i>until the next</i> <mlink to="ticks_tick">hour tick</mlink> and so on.
+				</section>
+				<section id="move_pract_order_change_mod" title="Fleet mode">
+				The <i>fleet</i> mode might be considered as the <i><mlink to="battles">battle</mlink> readiness of the fleet</i>. It might also be interpreted as the <i>intention of the fleet</i>: <i>hostile</i> or <i>friendly</i>. 
+					<br/>
+					There are two different available modes for fleets in LegacyWorlds:<ul>
+						<li><i>Defense</i>: the fleet will <i>defend the destination</i> stellar object</li>
+						<li><i>Attack</i>: the fleet will <i>attack the destination</i> stellar object, attempting to <mlink to="battle_ownchange">take it over</mlink> if it's a planet</li>
+					</ul>
+					The <i>mode</i> in which the <i>fleet is sent</i> can be <i>changed</i> by using the provided <i>drop down list</i>. You just have to <i>select</i> between <i>Defense</i> and <i>Attack</i> in the list. 
+					<br/>
+					Keep in mind you <i>can't send a fleet in attack mode to one of your own planets</i> but <i>no control</i> is exerced on <i>fleets sent to <mlink to="alliance">alliance</mlink> planets or planets belonging to your <mlink to="allies">trusted allies</mlink></i>.
+					<br/>
+					The <i>mode</i> the fleet will have upon <mlink to="move_arri">arrival at its destination</mlink> <i>isn't necessarily the mode it was sent with</i>. The rules behind this <mlink to="move_arri_mode">mode upon arrival</mlink> topic is discussed more closely in <mlink to="move_arri_mode">this paragraph</mlink>.
+				</section>
+			</section>
+			<section id="move_pract_order_selec" title="Selected fleets">
+				<section id="move_pract_order_selec_intro" title="Introduction">
+				This part of the page presents the <i>list of fleets</i> that are <i>selected to perfom the designed movement</i>. It consists in a <mlink to="move_pract_order_selec_lis">table describing each fleet</mlink> using a <mlink to="move_pract_order_selec_col">colour code</mlink> to represent fleets' ownership. <mlink to="move_pract_order_selec_act">Actions</mlink> can also be performed on the list.
+				</section>
+				<section id="move_pract_order_selec_lis" title="List contents">
+					The table includes <i>for each fleet</i>:<ul>
+						<li><i>Owner</i>: name of the owner of the fleet</li>
+						<li><i>Name</i>: name of the fleet</li>
+						<li><i>Haul</i>: fill rate of the haul of <mlink to="ship_cat_class">capital ships</mlink> carrying <mlink to="ship_cat_class">system ships</mlink>. It's either <i>N/A</i> for <i>system fleets</i> or a <i>percentage</i> for <i>fleets including capital ships</i>. Be careful if the <i>percentage isn't superior to 100%</i>: in that case the fleet <i>isn't <mlink to="move_gen_hypnorm">hyperspace</mlink> capable</i></li>
+						<li><i>Ships (G/F/C/B)</i>: fleet composition, including number of <mlink to="ship_cat_list">GA ships</mlink>, <mlink to="ship_cat_list">Fighters</mlink>, <mlink to="ship_cat_list">Cruisers</mlink> and <mlink to="ship_cat_list">Battle Cruisers</mlink></li>
+						<li><i>Power</i>: the <mlink to="ship_cat_pow">power</mlink> of the total fleet</li>
+						<li><i>Trajectory</i>: this field presents the <i>list of locations the fleets will go close by</i> along its path to its destination. For <i>stationnary fleets</i>, the value is <i>N/A</i>. For <i>moving fleets</i>, the trajectory is represented with a <i>drop down list</i> describing current and future status and locations</li>
+					</ul>
+				</section>
+				<section id="move_pract_order_selec_col" title="Colour code">
+					The <i>usual colour code</i> is used in the list:<ul>
+						<li><i>Green</i>: for your <i>own fleets</i></li>
+						<li><i>Blue</i>: for fleets belonging to <i>off-line players</i> who have you as <mlink to="allies">trusted allies</mlink> and that <i>you can currently control</i></li>
+					</ul>
+				</section>
+				<section id="move_pract_order_selec_act" title="List actions">
+					The only possible action in the list is to <i>remove a fleet</i>. Removing a fleet means that it <i>won't perform the orders</i> as the other fleets in the list. <i>Previous orders</i> for the fleets removed from the list <i>are executed</i>.
+					<br/>
+					In order <i>to remove a fleet</i> from the list you just have to <i>click on its line</i>.
+				</section>
+			</section>
+			<section id="move_pract_order_avai" title="Available fleets">
+				<section id="move_pract_order_avai_intro" title="Introduction">
+				This part of the page presents the list of fleets that are available for selection to perfom the designed movement. It consists in a <mlink to="move_pract_order_avai_lis">table describing each fleet</mlink> using a <mlink to="move_pract_order_avai_col">colour code</mlink> to represent fleets' ownership. <mlink to="move_pract_order_avai_act">Actions</mlink> can also be performed on the list.
+				<br/>
+				The <i>list of fleets</i> depends on the <i>set destination</i>. For instance <i>fleets that aren't hyperspace capable</i> aren't displayed if the defined destination implies <mlink to="move_gen_hypnorm">hyperspace travel</mlink>.
+				</section>
+				<section id="move_pract_order_avai_lis" title="List Contents">
+					The table includes for each fleet:<ul>
+						<li><i>Owner</i>: name of the owner of the fleet</li>
+						<li><i>Name</i>: name of the fleet</li>
+						<li><i>Haul</i>: fill rate of the haul of <mlink to="ship_cat_class">capital ships</mlink> carrying <mlink to="ship_cat_class">system ships</mlink>. It's either <i>N/A</i> for <i>system fleets</i> or a <i>percentage</i> for <i>fleets including capital ships</i>. Be careful if the <i>percentage isn't superior to 100%</i>: in that case the fleet <i>isn't <mlink to="move_gen_hypnorm">hyperspace</mlink> capable</i></li>
+						<li><i>Ships (G/F/C/B)</i>: fleet composition, including number of <mlink to="ship_cat_list">GA ships</mlink>, <mlink to="ship_cat_list">Fighters</mlink>, <mlink to="ship_cat_list">Cruisers</mlink> and <mlink to="ship_cat_list">Battle Cruisers</mlink></li>
+						<li><i>Power</i>: the <mlink to="ship_cat_pow">power</mlink> of the total fleet</li>
+						<li><i>Current orders</i>: the current status of the fleet (<i>defending</i> a planet, <i>moving</i> to a particular destination, <i>attacking</i> a planet and so on)</li>
+					</ul>
+				</section>
+				<section id="move_pract_order_avai_col" title="Colour code">
+					The <i>usual colour code</i> is used in the list:<ul>
+						<li><i>Green</i>: for your <i>own fleets</i></li>
+						<li><i>Blue</i>: for fleets belonging to <i>off-line players</i> who have you as <mlink to="allies">trusted allies</mlink> and that <i>you can currently control</i></li>
+					</ul>
+				</section>
+				<section id="move_pract_order_avai_act" title="List actions">
+					The only possible action in the list is to <i>add a fleet from the available fleets list to the selected fleets list</i>. Adding a fleet to the selected fleets list means that <i>the fleet will follow the same orders</i> as the other selected fleets.
+					<br/>
+					In order <i>to select a fleet</i> you just have to <i>click on its line</i>.
+				</section>
+			</section>
+			<section id="move_pract_order_change_send" title="Sending the fleet">
+				Once you are satisfied with the changes you have made in the different sections of the page you have to <i>validate your orders</i>.
+				<br/>
+				In order <i>to validate your orders</i> you have to click the <i>Confirm</i> link in the <i>top right section</i> of the page. Clicking the link actually <i>sends the fleets</i> and directs you back to the <mlink to="fleets_page">fleets page</mlink>.
+				<br/>
+				In the same area of the page a <i>Cancel</i> link <i>erases your changes</i> and directs you back to the <mlink to="fleets_page">fleets page</mlink>.
+			</section>
+		</section>
+	</section>
+	<section id="move_arri" title="Arriving at destination">
+		<section id="move_arri_orb" title="Getting into orbit">
+			Depending if you have set up an <mlink to="move_pract_order_change_hyp">hyperspace stand-by delay</mlink> or not <i>two cases</i> are possible:<ul>
+				<li><mlink to="move_pract_order_change_hyp">With hyperspace delay</mlink>: the fleet <i>doesn't get out of <mlink to="move_gen_hypnorm_hyp">hyperspace</mlink> into <mlink to="move_gen_hypnorm_norm">normal space</mlink></i> immediately and <i>remains in hyperspace</i> until the defined number of <mlink to="ticks_tick">hours ticks</mlink> have passed by. It then jumps into <mlink to="move_gen_hypnorm_norm">normal space</mlink> and <i>gets into orbit</i>. Getting into orbit is a <i>complicate process</i> which <i>consumes a lot of energy</i>. As such it causes the fleet getting out of <mlink to="move_gen_hypnorm_hyp">hyperspace</mlink> to remain <mlink to="move_arri_unav">unavailable</mlink> at least until the following <mlink to="ticks_tick">hour tick</mlink></li>
+				<li><mlink to="move_pract_order_change_hyp">Without hyperspace delay</mlink>: the fleet <i>directly gets out of <mlink to="move_gen_hypnorm_hyp">hyperspace</mlink></i> if it reached the planet through <mlink to="move_gen_hypnorm_hyp">hyperspace</mlink>, or settles in orbit around the planet if it arrived via <mlink to="move_gen_hypnorm_norm">normal space</mlink>. In any case, the process implies it remains <mlink to="move_arri_unav">unavailable</mlink> at least  until the next <mlink to="ticks_tick">hour tick</mlink></li>
+			</ul>
+		</section>
+		<section id="move_arri_mode" title="Fleets' mode">
+			The <mlink to="move_pract_order_change_mod">mode</mlink> of a <i>fleet getting in orbit</i> around a planet depends on <i>various factors</i>:<ul>
+				<li><i>In most cases</i>: the fleet reaching orbit keeps the <i>same mode as the one it was sent with</i></li>
+				<li><i>You already have fleets on the planet</i>: if your different fleets <i>don't have the same mode</i> (some in attack and some in defense) the fleets get <i>switched to the mode of the fleet with the highest <mlink to="ship_cat_pow">power</mlink></i></li>
+				<li><i>Auto-attack mode</i>: if the owner of the planet has <mlink to="enem_play">you</mlink> or <mlink to="enem_all">your alliance</mlink> in <mlink to="enemies">his enemies list</mlink> whatever fleets you may send to any of his planets get <i>automatically switched to attack mode</i></li>
+			</ul>
+		</section>
+		<section id="move_arri_unav" title="Unavailability time">
+			When a <i>fleet reaches its destination</i> (eventually getting out of hyperspace on it) and starts orbiting it, it remains <i>unavailable</i> for some time. <i>Unavailability time</i> depends on two cases:<ul>
+				<li>Arrival in <i>attack mode</i> or on a planet whose owner has you in his <mlink to="enemies">enemy list (</mlink>be it you as a player or as member of a given alliance): the fleet is <i>unavailable until a <mlink to="ticks_tick">Battle tick</mlink> occurs</i></li>
+				<li><i>Other cases</i>: the fleet is unavailable until next <mlink to="ticks_tick">Hour tick</mlink></li>
+			</ul>
+		</section>
+	</section>
+</lwdoc>

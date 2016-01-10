@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Global Defense Bill</title>
+	<section id="tech_69_desc" title='Description'>
+		This new law goes even further than the Martial Law to cope with the military's will. But our citizens will even less appreciate it.
+	</section>
+	<section id="tech_69_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Law</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;150,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Decreases happiness</li>
+				<li>Decreases Industrial Factories productivity</li>
+				<li>Increases Military Factories productivity</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_69_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_61'>Automated Turrets</mlink></li>
+			<li><mlink to='tech_63'>Battle Cruisers</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

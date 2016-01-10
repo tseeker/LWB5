@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+<lwdoc>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Alliance Management</title>
+	<section id="amanag_intro" title="Introduction">
+		The alliance management pages provide you with useful information about the alliance in the same trend as the alliance information previously described or listings of members and controlled planets. It also offers means to manage members, alliance specific forums and ranks. The various sections of this part of the manual describe those features.	
+	</section>
+	<section id="amanag_main" title="Main page">
+		<section id="alliance_manag_main_intro" title="Introduction">
+			This section present the main elements concerning the alliance along with means to acquire data about other alliances and a way to leave it.
+		</section>
+		<section id="amanag_main_curr" title="Current alliance">
+			This part of the page displays your status inside the alliance (leader or member) along with useful data similar to those displayed in the Alliance Information part. See this manual section for an exact list.
+			<br/>
+			If you are leader of the alliance and have a successor you can choose to step down by clicking the corresponding button in this part of the page. Your successor will automatically become the new leader of the alliance.
+			<br/>
+			The Leave button also allows you to leave the alliance whenever you want.
+		</section>
+		<section id="amanag_main_sett" title="General settings">
+			The leader can change here some general settings for the alliance:<ul>
+				<li>Government: it can be either Dictatorial (members do have access to any voting facility to elect a new leader) or Democratic (members can vote for their leader). The goverment system can be chosen by using the radio button in front of the government system to select.</li>
+				<li>Successor: a member name can be put in the texfield. This member will automatically become the alliance leader if the current one loses all his planets, steps down or leaves the alliance.</li>
+			</ul>
+			Once data are changed in this section, two buttons appear. The Update button allows to take changes into account. The Reset button reverts to previous settings.
+		</section>
+		<section id="amanag_main_info" title="Alliance information">
+			It's the same system as when you have'nt joined an alliance yet.
+		</section>
+	</section>
+	<section id="amanag_list" title="Listings">
+		<section id="amanag_list_intro" title="Introduction">
+			This section provides different listings linked with alliances:<ul>
+				<li>Alliance Planets: lists the planets belonging to the alliance</li>
+				<li>Alliance Members: lists the players who are members of the alliance</li>
+				<li>Planets under Attack: lists the planets which are part of the alliance and currently are under attack</li>
+			</ul>
+			It also offers common features for all lists.
+		</section>
+		<section id="amanag_list_comm" title="Common features">
+			At the top of the page the Listing drop down list allows to switch among listings. 
+			<br/>	
+			You can also chose the number of elements to display per page with the coresponding drop down list. When several pages are necessary a specific drop down list appear to allow you to move between pages.
+			<br/>
+			A search facility is also provided. When it is relevant you can either choose to search a planet or a player name by selected the radio button before the item you're interested in. When filling in the search textfield the listing will be automatically limited to the items containing the string you've typed in wherever it may be in the whole name.
+		</section>
+		<section id="amanag_list_plan" title="Alliance Planets">
+			This lists all planets in the alliance including for each of them:<ul>
+				<li>Coordinates: coordinates of the planets</li>
+				<li>Planet: name of the planet</li>
+				<li>Owner: name of the player who owns the planet</li>
+				<li>Factories: total number of factories on the planet</li>
+				<li>Turrets: total number of turrets on the planet</li>
+			</ul>
+			In this listing, clicking on the title of one column allows to order the list according to the values of that field. Depending on the direction of the arrow which appears the order is ascending or descending. Clicking again on the same title changes the order from ascending to descending and the other way around.
+			<br/>
+			A colour code is used to allow you to see if planets are under attack at a glance; these are displayed in red.
+		</section>
+		<section id="amanag_list_memb" title="Alliance Members">
+			This lists all members in the alliance including:<ul>
+				<li>Name: name of the player</li>
+				<li>Rank: rank of the player inside the alliance; see rank administration of this manual to learn more about the alliance rank system</li>
+			</ul>
+			In this listing, clicking on the title of one column allows to order the list according to the values of that field. Depending on the direction of the arrow which appears the order is ascending or descending. Clicking again on the same title changes the order from ascending to descending and the other way around.
+			<br/>
+			If you have sufficient privileges a checkbox is diplayed before each member name. Checking the box displays some actions features at the bottom of the page including two buttons:<ul>
+				<li>Kick: to kick the selected members out of the alliance</li>
+				<li>Change their rank: to change the rank of the selected members to the rank selected in the drop down list displayed afterwards.</li>
+			</ul>
+		</section>
+		<section id="amanag_list_att" title="Planets under Attack">
+			This lists planets belonging to the alliance which are currently under attack along with useful information such as:<ul>
+				<li>Coordinates: coordinates of the planet under attack</li>
+				<li>Planet: name of the planet under attack</li>
+				<li>Owner: name of the player who owner the planet under attack</li>
+				<li>Def. Power: power of the fleets which defend the planet</li>
+				<li>Att. Power: power of the fleets which attack the planet</li>
+				<li>Defenders: list of names of players who are currently defending the planet</li>
+				<li>Attackers: list of names of players who are currently attacking the planet</li>
+			</ul>
+			For each planet under attack a colour code represents the current defense status compared to enemy fleets:<ul>
+				<li>Green: defending fleets have more than 3 times the enemy average power. It's very likely no support is needed and defending fleets should win</li>
+				<li>Red: attacking fleets have more than 3 times the defending average power. It's very like the defenses will be defeated</li>
+				<li>Grey: the average power difference between defending and attacking fleets isn't that big and the outcome of the battle isn't obvious</li>
+			</ul>
+			In this listing, clicking on the title of one column allows to order the list according to the values of that field. Depending on the direction of the arrow which appears the order is ascending or descending. Clicking again on the same title changes the order from ascending to descending and the other way around.
+			<br/>
+			You have to be aware that the information provided in this listing may not be 100% accurate. Indeed the are influenced by technologies of the communications area and are subject to electronic counter measures (encryption methods and such) as long as electronic counter counter measures (jamming). The accuracy of the data displayed depends both on the level of technology you and the enemy have in the field.
+		</section>
+	</section>
+	<section id="amanag_requ" title="Pending requests">
+		When a player requests to join an alliance for which you can manage pending joining requests a message is sent to your account and stored in the Internal Transmissions folder.
+		<br/>
+		The Pending Requests part of the Alliance page displays the list of pending joining requests. To accept or reject a given player you have to check the checkbox in front of his name and click the relevant button: Accept or Reject.	
+	</section>
+	<section id="amanag_forum" title="Forums administration">
+		<section id="amanag_forum_intro" title="Introduction">
+			This section of the alliance management page allows you to perform administration tasks on the alliance specific forums. You can both create and manage those forums from here.
+		</section>
+		<section id="amanag_forum_creat" title="Create a forum">
+			The Create a forum link in the top right corner of the page directs you to a forum creating form you have to fill in properly in order to create a new forum. Before creating the forum you have to provide the following information:<ul>
+				<li>Forum name: in this textfield you have to type a new name for the future forum</li>
+				<li>New threads: you have to select who will be allowed to create new threads in the forum by clicking the radio button before the option you're interested in. It can be either Everyone or Moderators only</li>
+				<li>Initial position: this drop down list allows you to select where to place the forum in the forum management page compared to the other existing forums</li>
+				<li>Description: in this textarea you can type in a longer description of the forum</li>
+				<li>Forum access: in this section you have to decide for an access level for each of the customised ranks defined for the alliance. In order to do so you have to check the checkbox located before the rank(s) you want to change access for. Three buttons will appear at the bottom of the page to allow you to manage the access level of the given rank(s):<ul>
+					<li>No access: in order to forbid access to that forum to members of this rank click on the Give no access button</li>
+					<li>Standard access: in order to provide access with no extra privileges to the forum for members of that rank click the Give standard access button</li>
+					<li>Moderators: in order to give moderator privileges for that forum to the members of this rank click the Make moderator button</li>
+				</ul>
+				</li>
+			</ul>
+			You can now either click the OK button to create the forum or the Cancel one to cancel your changes.
+		</section>
+		<section id="amanag_forum_manag" title="Manage forums">
+			Once created, all forums are listed in the Alliance Forums page along with:<ul>
+				<li>Name and description: name and description of the forum along with useful links</li>
+				<li>New threads: information about who can create new threads in that forum</li>
+			</ul>
+			Along with each forum name and description a set of links allow to manage them:<ul>
+				<li>Edit: goes back to the forum creation form with prefilled data for the current forum so that you can make changes</li>
+				<li>Delete: allows you to delete the given forum</li>
+				<li>Move down: allows you to move the forum down in the list</li>
+				<li>Move up: allows you to move the forum up in the list</li>
+			</ul>
+		</section>
+	</section>
+	<section id="amanag_rank" title="Ranks admininistration">
+		<section id="alliance_manag_rank_intro" title="Introduction">
+			This section of the alliance management page allows you to both create and manage customised ranks of members of your alliance. These ranks are linked with a set of alliance features that you define here.						
+		</section>
+		<section id="amanag_rank_creat" title="Create a Rank">
+			The Create a rank link at the top right corner of the page directs you to a rank creation for you have to fill in. In order to create a rank you have to provide the following information:<ul>
+				<li>Designation: name of the rank as it will appear in the members' listing</li>
+				<li>List access: this drop down list allows you to select which alliance listing will be displayed for players of this rank. It can be either:<ul>
+					<li>Detailed planet list: all lists are available</li>
+					<li>Planet list: a less complete planet list is displayed</li>
+					<li>Member list: only the member list is available, the planet list is hidden</li>
+					<li>No access: no listing is displayed</li>
+				</ul>
+				</li>
+				<li>List of planets under attack: check this checkbox so that the player can see the list of planets currently under attack</li>
+				<li>Diplomatic contact: use this radio buttons to make members of this rank diplomatic contact for the alliance or not. As diplomatic contact members receive messages sent to the alliance</li>
+				<li>Can vote: use this radio button to allow members of this rank to vote or not in democratic alliances</li>
+				<li>Can apply for presidency: use this radio button to allow members of this rank to apply for presidency or not in democratic alliances</li>
+				<li>Member management: the following items allow you to decide what role in member management the players of this rank will have:<ul>
+					<li>Accept pending requests: use this radio button to allow members of this rank to accept pending joining request</li>
+					<li>Kick members: use this radio button to allow members of this rank to kick members of not. If the Only members of a specific rank option is chosen, a list of all currently existing ranks will be displayed with checkboxes before each rank. Check the boxes before the ranks you want the members of ths rank to be allowed to kick.</li>
+					<li>Change ranks: use this radio button to allow members of this rank to change the rank of other members or not. If the Only members of a specific rank option is chosen, a list of all currently existing ranks will be displayed with checkboxes before each rank. Check the boxes before the ranks you want the members of this rank to be allowed to promote / demote.</li>
+				</ul>
+				</li>
+				<li>Forum access: the following items allow you to decide what forum access the members of the new rank will have:<ul>
+					<li>Forum administrator: use this radio button to make members of the new rank forum administrators. As such they'd have all privileges on all forums and the following items will be hidden</li>
+					<li>Forum access: for each existing forum a radio button allows you to chose an access level for members of the new rank. It can be either No access, User or Moderator.</li>
+				</ul>
+				</li>
+			</ul>
+			Once you've made your modificaction you can either click the Ok button to create the new rank or the cancel button to cancel the changes.
+		</section>
+		<section id="amanag_rank_manag" title="Manage ranks">
+			The Rank Administration page provides a list of all defined ranks for the alliance along with useful links including:<ul>
+				<li>Rank name: name of the rank as defined during its creation</li>
+				<li>Actions: actions which can be performed on the rank. It can be either edit or delete. The default rank Standard member can't be deleted but only edited</li>
+				<li>Members: number of members of this rank in the alliance</li>
+			</ul>
+			For each rank several actions are possible:<ul>
+				<li>[ + ]: clicking on this symbol before the name of the rank displays a short description based on the privileges attached to this rank</li>
+				<li>Edit: clicking on this link directs you to the rank creation page with prefilled values for the current rank so that you can make changes.</li>
+				<li>Delete: this link allows you to delete a rank. If the alliance has members who currently have this rank a drop down list of available ranks is displayed which allows you to choose to what rank to demote the members who have to rank to delete</li>
+			</ul>
+		</section>
+	</section>
+</lwdoc>

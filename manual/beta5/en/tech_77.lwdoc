@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Adaptive Plating</title>
+	<section id="tech_77_desc" title='Description'>
+		Sir! Our scientists have come up with a new way to reduce battle damage. They have integrated intelligent materials in our ships' plating thus offering them better defensive abilities.
+	</section>
+	<section id="tech_77_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Military technology</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;10,000,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Reduces battle losses</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_77_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_58'>Lifeform Energy Manipulation</mlink></li>
+			<li><mlink to='tech_74'>Intelligent Materials</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

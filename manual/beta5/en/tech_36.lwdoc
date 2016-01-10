@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Robotics</title>
+	<section id="tech_36_desc" title='Description'>
+		Recent advances in electronics and new materials have allowed our engineers to design autonomous robots that will help our workers and improve the production of our factories.
+	</section>
+	<section id="tech_36_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Civilian technology</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;600,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases Industrial Factories productivity</li>
+				<li>Increases Military Factories productivity</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_36_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_8'>Room Temperature Superconductors</mlink></li>
+			<li><mlink to='tech_24'>Hardened Alloys</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_50">Surgical Robots</mlink></li>
+			<li><mlink to="tech_55">Biological Drones</mlink></li>
+			<li><mlink to="tech_61">Automated Turrets</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

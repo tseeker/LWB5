@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Corpse Reanimation</title>
+	<section id="tech_33_desc" title='Description'>
+		Sir! Our scientists have established a new technology, Corpse Reanimation! This technology will mean about 60% of our subjects will be able to be brought back to life after death through the use of modified cloning vats. This should lead to a decrease in total death and an increase in workers for our factories.
+	</section>
+	<section id="tech_33_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Civilian technology</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;1,500,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases population growth</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_33_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_29'>Cloning Vats</mlink></li>
+			<li><mlink to='tech_30'>Nourishment Purification</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_52">Resurrection tanks</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

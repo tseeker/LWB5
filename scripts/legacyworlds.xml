@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LegacyWorlds>
+
+	<!-- Global parameters -->
+	<MainParams>
+		<!-- Database connection -->
+		<Param name="dbhost" value="localhost" />
+		<Param name="dbuser" value="legacy" />
+		<Param name="dbpass" value="" />
+		<Param name="dbname" value="legacy" />
+
+		<!-- Cookies -->
+		<Param name="trackname" value="legacy_alpha_trk" />
+		<Param name="sessname" value="legacy_alpha_sid" />
+
+		<!-- Planet generator script -->
+		<Param name="pgenreq" value="/tmp/pgen" />
+
+		<!-- MacOS Dashboard widget -->
+		<Param name="latestWidget" value="1" />
+		<Param name="oldestWidget" value="1" />
+		<Param name="widgetURL" value="http://www.legacyworlds.com/downloads/LegacyWorlds-Dashboard-latest.zip" />
+
+		<!-- Proxy detector -->
+		<Param name="pcheck_server" value="www.legacyworlds.com" />
+		<Param name="pcheck_path" value="/index.php/main/pcheck" />
+		<Param name="pcheck_timeout" value="3" />
+		<Param name="pcheck_threads" value="20" />
+	</MainParams>
+
+	<!-- This part configures the general ticks that are not related to a
+	   - specific game but rather to the maintenance of the system.
+	  -->
+	<MainTicks>
+		<Tick script="day" first="1128754800" interval="86400" />
+		<Tick script="vacation" first="1128756600" interval="21600" />
+		<Tick script="session" first="1128754900" interval="60" />
+		<Tick script="mark" first="1128754902" interval="5" />
+		<Tick script="deathofrats" first="1128754907" interval="300" />
+	</MainTicks>
+
+	<!-- This part describes all available versions of the game's code -->
+	<Versions>
+
+		<!-- Definitions for LegacyWorlds Beta 5 -->
+		<Version id="beta5" playable="1" text="Beta 5">
+			<!-- Public ticks -->
+			<Tick script="hour" public="1">
+				<Name lang="en">Hour Tick</Name>
+				<Description lang="en">
+					This tick is the one occuring the most often in game.
+					It triggers military factories production, happiness
+					level computation for each planet, planet owner changes
+					and revolt parameters as well as updates to fleets
+					waiting in Hyperspace.
+				</Description>
+			</Tick>
+			<Tick script="battle" public="1">
+				<Name lang="en">Battle Tick</Name>
+				<Description lang="en">
+					This tick marks the time for battle outcome calculations.
+				</Description>
+			</Tick>
+			<Tick script="cash" public="1">
+				<Name lang="en">Cash Tick</Name>
+				<Description lang="en">
+					Twice a day this tick implies the generation of your income.
+				</Description>
+			</Tick>
+			<Tick script="day" public="1">
+				<Name lang="en">Day Tick</Name>
+				<Description lang="en">
+					Once a day this tick triggers major updates in your empire,
+					including population growth, research progress update,
+					ranking update, account aging, delays on laws.
+				</Description>
+			</Tick>
+
+			<!-- Background ticks (not visible by the players) -->
+			<Tick script="universe" public="0" />
+			<Tick script="punishment" public="0" />
+			<Tick script="quit" public="0" />
+			<Tick script="sales" public="0" />
+			<Tick script="move" public="0" />
+		</Version>
+
+	</Versions>
+
+	<!-- This part configures the different games running at the moment. -->
+	<Games default="beta5">
+
+		<!-- The Public Beta 5 game. -->
+		<Game id="beta5" version="beta5" namespace="b5" text="Public Beta 5" public="1" canjoin="1">
+			<!-- Game parameters -->
+			<!-- Maximum amount of players (0 for unlimited) -->
+			<Param name="maxplayers" value="0" />
+			<!-- Maximum amount of systems (0 for unlimited) -->
+			<Param name="maxsystems" value="0" />
+			<!-- Partial tech graph (0 for complete tech graph, 1 for partial) -->
+			<Param name="partialtechs" value="1" />
+			<!-- Initial amount of money for players joining the game (0 = default) -->
+			<Param name="initialcash" value="0" />
+			<!-- Universe generator: zone size (0 = default; 1 for 3x3, 2 for 5x5, etc...) -->
+			<Param name="zonesize" value="0" />
+			<!-- Universe generator: probability of a nebula (0 .. 20, -1 = default) -->
+			<Param name="nebulaprob" value="-1" />
+			<!-- Victory conditions:
+			   - 0 = none (permanent round)
+			   - 1 = alliance holds 75% of the planets for 1 week
+			  -->
+			<Param name="victory" value="0" />
+			<Param name="fakebeacons" value="1" />
+			<!-- Protection: amount of day ticks after which players will be protected -->
+			<Param name="prot_after" value="20" />
+			<!-- Protection: amount of day ticks players will be protected for -->
+			<Param name="prot_duration" value="20" />
+
+			<!-- Description -->
+			<Description lang="en">
+				This is the main public game for LegacyWorlds Beta 5.
+			</Description>
+
+			<!-- Configure the game's ticks -->
+			<Tick script="universe" first="1131321720" interval="300" />
+			<Tick script="punishment" first="1133391611" interval="39" />
+			<Tick script="hour" first="1160035200" interval="3600" />
+			<Tick script="battle" first="1160034900" interval="14400" />
+			<Tick script="cash" first="1160031900" interval="43200" />
+			<Tick script="day" first="1160032200" interval="86400" />
+			<Tick script="quit" first="1133391600" interval="50" />
+			<Tick script="sales" first="1133391600" interval="21" />
+			<Tick script="move" first="1131408030" interval="60" />
+		</Game>
+
+	</Games>
+
+</LegacyWorlds>

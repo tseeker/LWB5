@@ -1,0 +1,97 @@
+table.calliance { width: auto; }
+table.calliance td { width: auto; }
+table.calliance td.brd { width: 30px; }
+table.calliance th { text-align: left; width: 140px; }
+table.calliance td.but { padding: 0px 0px 0px 70px; }
+.noleader { color: red; }
+
+td#alpmenu { text-align: center; }
+
+table.prequests {
+	width: 400px;
+}
+.prblk { width: 30px; }
+.prsel { width: 32px; text-align: center; }
+.prplayer { width: 338px; text-align: left; }
+.prbut {
+	padding: 4px 0px 0px 0px;
+	border-width: 1px 0px 0px 0px;
+	border-style: solid;
+	border-color: white;
+}
+th.prsel, th.prplayer {
+	padding: 0px 0px 2px 0px;
+	border-width: 0px 0px 1px 0px;
+	border-style: solid;
+	border-color: white;
+}
+
+table.list#candlist { margin: 0px 5% 0px 5%; width: 89%; }
+table.list#candlist td { vertical-align: middle; }
+table.list#candlist th { vertical-align: bottom; cursor: pointer; }
+.lesel { width: 5%; }
+.lecname { text-align: left; width: 70%;}
+.lecvotes { text-align: center; width: 25%;}
+
+td#lsmsel { text-align: right; }
+td.lspsel1 { width: 50%; text-align: center; }
+td.lspsearch { text-align: center; }
+.picon { width: 32px; }
+.pname { width: auto; text-align: left; }
+.oname { width: 100px; text-align: left; }
+.pcoord { width: 120px; text-align: center; }
+table.list#plnlist { margin: 0px 5% 0px 5%; width: 89%; }
+table.list#plnlist td { vertical-align: middle; }
+table.list#plnlist th { cursor: pointer; }
+tr.attack td { color: red; }
+tr.attack td a { color: red; }
+tr.defence td { color: #7FFF7F; }
+tr.defence td a { color: #7FFF7F; }
+tr.attack td.afriendly, tr.defence td.afriendly, tr td.afriendly { color: #5F9FFF; text-align: center; }
+tr.attack td.aenemy, tr.defence td.aenemy, tr td.aenemy { color: red; text-align: center; }
+table.list tr.deflist td, table.list tr.deflist:hover td { color: #5F9FFF; }
+table.list tr.attlist td, table.list tr.attlist:hover td { color: red; }
+table.list#mbrlist { margin: 0px 5% 0px 5%; width: 89%; }
+table.list#mbrlist th { cursor: pointer; width: 23%; text-align: left; }
+table.list#mbrlist td { vertical-align: middle }
+table.list#mbrlist td.mselect { text-align: right; vertical-align: middle }
+table.list#mbrlist tr td.mbleader { font-weight: bold; color: #7FFF7F; }
+table.list#mbrlist tr:hover td.mbleader { font-weight: bold; color: white; }
+table.list#mbrlist tr td.mbonline { font-weight: bold; color: #7FFF7F; }
+table.list#mbrlist tr:hover td.mbonline { font-weight: bold; color: white; }
+table.list#mbrlist tr td.mboffline { color: #DFFF00; }
+table.list#mbrlist tr:hover td.mboffline { color: white; }
+table.list#mbrlist tr td.mbonvac { font-weight: bold; color: #FF7F7F; }
+table.list#mbrlist tr:hover td.mbonvac { font-weight: bold; color: white }
+
+td#crforum { text-align: right; padding: 0px 10px 0px 0px; }
+table.list#fatbl { margin: 0px 5% 0px 5%; width: 89%; border-collapse: collapse; }
+table.list#fatbl td { vertical-align: top; padding: 5px 0px 5px 0px; border-width: 1px 0px 1px 0px; border-style: solid; border-color: white; }
+table.list#fatbl th { padding: 0px 0px 10px 0px; }
+.faname { width: 80%; text-align: left; }
+.fauserpost { width: 20%; text-align: center; }
+table.list#fatbl tr:hover p { color: white; }
+table#faeacl { margin: 0px 5% 0px 5%; width: 89%; }
+table#faeacl td { text-align: left; width: 30%; }
+table#faeacl td.faaepsel { text-align: center; width: 3%; }
+table#faeacl th { text-align: left; padding: 0px 0px 5px 4%; }
+table#faeacl td#faeab0, table#faeacl td#faeab1, table#faeacl td#faeab2 { text-align: left; padding: 5px 0px 0px 4%; }
+table#feditor th.edheader { width: 150px; text-align: right; padding: 0px 5px 0px 0px; vertical-align: top; }
+table#feditor td#febut { text-align: left; padding: 10px 0px 10px 110px; }
+
+
+table.list#ratbl { margin: 0px 5% 0px 5%; width: 89% }
+table.list#ratbl .rkshow { text-align: center; vertical-align: top; width: 64px; }
+table.list#ratbl .rkname { text-align: left; vertical-align: top; width: auto; }
+table.list#ratbl .rkact { text-align: left; vertical-align: top; width: 128px; }
+table.list#ratbl .rkmembers { text-align: center; vertical-align: top; width: 64px; }
+table.list#ratbl tr:hover p { color: white; }
+table#rankedit th { width: 230px; text-align: right; padding: 1px 5px 1px 0px; vertical-align: top; }
+table#rankedit h1 { padding: 0px 0px 10px 30px; }
+table#rankedit h3 { padding: 10px 0px 5px 30px; }
+table#rankedit td { padding: 1px 0px 1px 0px; }
+table#rankedit td.rebut { text-align: left; padding: 10px 0px 0px 190px; }
+table#rankedit table.rerlist { width: auto; margin: 0px 0px 0px 20px; }
+table#rankedit table.rerlist td { padding: 1px 20px 1px 1px; width: auto; }
+table#rankedit table.reflist { width: auto; }
+table#rankedit table.reflist td { padding: 1px 20px 1px 1px; width: auto; }

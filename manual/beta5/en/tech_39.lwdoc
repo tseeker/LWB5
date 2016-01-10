@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Exoskeleton</title>
+	<section id="tech_39_desc" title='Description'>
+		Sir! Our scientists have managed to improve even further the equipment of our ground troups. With those new exoskeletons we will require to send even less GA ships to get the inhabitants of another planet to share our views..
+	</section>
+	<section id="tech_39_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Military technology</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;700,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases G.A. ship efficiency</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_39_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_26'>Nanofiber Armor</mlink></li>
+			<li><mlink to='tech_38'>Cybernetic Interfaces</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_54">Self-repairing Exoskeleton</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

@@ -1,0 +1,96 @@
+Legacy Worlds Beta 5 source code
+---------------------------------
+
+
+1. Introduction
+
+This file contains information regarding the source code release for Legacy
+Worlds Beta 5 - how the source code is organised and how it may be used.
+
+For licensing information, please read the COPYING file. For the list of
+contributors, please read the AUTHORS file. For stuff that could be done
+considering one had a lot of time to waste, please read the TODO file.
+
+The official SVN repository for the LWB5 code can be found at:
+* https://lwb5.svn.deepclone.co.uk (IPv6 users)
+* https://secure.nocternity.net/deepclone.co.uk/svn/lwb5/ (IPv4 users)
+
+
+2. Organisation of the source code
+
+... admin/		Administration interface scripts
+... ircbot/		IRC bot
+... ircbot/modules/lw/	LWB5-specific code for the IRC bot
+... manual/		Source code (as XML) of the LWB5 manual
+... misc/		Various optional elements
+... planetgen/		Planet generator source code
+... scripts/		Scripts that implement most of the game
+... scripts/game/	Back-end scripts
+... scripts/lib/	Core library
+... scripts/site/	Web front-end
+... site/		Root directory of the public part of the site
+... site/static/	Images, CSS and JavaScript elements
+... sql/		Database creation scripts
+
+
+3. Requirements
+
+In order to run Legacy Worlds, you will need the following software:
+
+* Apache + PHP 5.2
+* (optional) a PHP opcode cache
+* PostgreSQL 8.3 or higher
+* the POVRay raytracer (used for planet generation)
+
+
+4. Installing and running LWB5
+
+These instructions may be erroneous on some points, as I didn't bother to try
+and re-install it myself.
+
+* Set the database users' passwords in sql/00-init.sql
+
+* (optional) Modify sql/30-beta5.sql to select the games that will be created
+on initialisation.
+
+* Create the database by running sql/INSTALL.sql
+
+* Create an administrative user in the main.account table
+
+* Create some system users for the various parts of the LWB5 backend:
+** user "lwbot"; when su'd to, this user should start the IRC bot,
+** user "lwticks"; when su'd to, this user should start scripts/ticks.php
+** user "lwproxy"; when su'd to, this user should start scripts/proxycheck.php
+
+* In addition to the above users, the planet picture generator should run with
+privileges allowing it to write to subdirectories of site/static/beta5/pics/pl/
+
+* Modify scripts/config.inc and scripts/legacyworlds.xml
+** Also modify ircbot/bot.conf to have the bot connect to a server
+
+* Set up the web server:
+** the main site should use the site/ directory,
+** the administration interface should use the admin/ directory; it should be
+protected using HTTP authentication.
+
+Once the installation is complete, it is possible to start (most of) the game
+by running scripts/control.pl with the --start command line argument. However,
+the planet generator script has to be started manually.
+
+
+5. The misc/ subdirectory
+
+The misc/ subdirectory contains two things:
+* the source code of the MacOS dashboard widget,
+* the "forums branch" patch.
+
+The forums branch patch has been created by doing a very quick and dirty merge
+of an old development branch that was mostly abandoned; it contains some
+improvements on the core library - notably a class to prepare database queries
+and some other improvements in the DB query API. Of course, it also includes an
+incomplete rewrite of the in-game forums.
+
+Because I had to merge the branches to generate the patch, and because I didn't
+bother with testing it, the patch is likely to break a lot of things. However
+it may be a good starting point for improving the LWB5 code. See the TODO file
+for more information.

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Automated Factories</title>
+	<section id="tech_75_desc" title='Description'>
+		Sir! Using sentient materials in our factories will allow us to gain production efficiency.
+	</section>
+	<section id="tech_75_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Civilian technology</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;7,000,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases Industrial Factories productivity</li>
+				<li>Increases Military Factories productivity</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_75_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_55'>Biological Drones</mlink></li>
+			<li><mlink to='tech_74'>Intelligent Materials</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_76">Wild Capitalism</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

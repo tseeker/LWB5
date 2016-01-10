@@ -1,0 +1,16 @@
+table.prefs th {
+	text-align: left;
+	padding: 0px 0px 0px 20px;
+	vertical-align: top;
+}
+table.prefs td.psec {
+	text-align: left;
+	padding: 0px 0px 5px 0px;
+}
+td.buttons { text-align: center; padding: 0px 0px 50px 0px; }
+
+table.prefs textarea { width: 75%; }
+table.prefs select { width: 75%; }
+table.prefs .txt { width: 75%; }
+table.prefs .err { font-weight: bold; padding: 0px 0px 0px 30px; }
+table.prefs .note { padding: 0px 0px 0px 30px; }

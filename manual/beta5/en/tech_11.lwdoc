@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>High-efficiency Hydroponics</title>
+	<section id="tech_11_desc" title='Description'>
+		Recent progress in bio-engineering has allowed for new farming techniques, that are safer for the planet and allow for further studies in green technologies.
+	</section>
+	<section id="tech_11_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Fundamental research</li>
+			<li><b>Optional:</b> No</li>
+			<li><b>Cost:</b> &amp;euro;50,000</li>
+			<li><b>Effects:</b> N/A</li>
+		</ul>
+	</section>
+	<section id='tech_11_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_4'>Bio-engineering</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_12">Safe Recreational Drugs</mlink></li>
+			<li><mlink to="tech_30">Nourishment Purification</mlink></li>
+			<li><mlink to="tech_31">Green Production</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

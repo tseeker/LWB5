@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Civilian Communication Act</title>
+	<section id="tech_59_desc" title='Description'>
+		Passing this law will permit civilians access to our militaries' advanced communication networks. Civilians will be happier since they can keep in touch with friends, but this civilian use of military installations could disrupt anti-jamming and jamming systems!
+	</section>
+	<section id="tech_59_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Law</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;120,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases happiness</li>
+				<li>Decreases jamming abilities</li>
+				<li>Decreases communications efficiency</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_59_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_44'>Wide Band Jamming</mlink></li>
+			<li><mlink to='tech_48'>Quantum Encryption</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

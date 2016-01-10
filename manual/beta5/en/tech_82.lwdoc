@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Subspace Data conduit</title>
+	<section id="tech_82_desc" title='Description'>
+		Applying wormhole theory to communications has allowed our scientists to create subspace conduits to transmit data, thus hiding it even better from enemy disruption techniques.
+	</section>
+	<section id="tech_82_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Military technology</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;12,000,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases communications efficiency</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_82_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_65'>Multiphasic Transmission</mlink></li>
+			<li><mlink to='tech_70'>Wormhole Theory</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

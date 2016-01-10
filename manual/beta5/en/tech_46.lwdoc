@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Hyperspace Beacon</title>
+	<section id="tech_46_desc" title='Description'>
+		Placed in hyperspace around our planets this beacon provides an &quot;anchor&quot; for your ships and those of your alliance, thus reducing the losses in fleet stationed in hyperspace.
+	</section>
+	<section id="tech_46_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Military technology</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;1,000,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Provides the ability to build Hyperspace Beacons</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_46_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_2'>Hyperspace Basics</mlink></li>
+			<li><mlink to='tech_45'>Fast Burst Transmission</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_60">Hyperspace Probing Beacon</mlink></li>
+			<li><mlink to="tech_68">Sensor Turrets</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

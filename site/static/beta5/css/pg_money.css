@@ -1,0 +1,56 @@
+table#lstpl .picon {
+	width: 30px;
+	height: 30px;
+}
+
+table#lstpl .pname { 
+	width: auto;
+	text-align: left;
+	padding: 0px 0px 0px 2px;
+}
+
+table#lstpl th {
+	width: 10%;
+	padding: 1px;
+	text-align: right;
+	border-color: white;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+}
+
+table#lstpl th.tdi { border-width: 0px; }
+
+table#lstpl td {
+	text-align: right;
+}
+
+
+table#lstfl th {
+	padding: 1px;
+	text-align: left;
+	width: 36%;
+	border-color: white;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+}
+
+table#lstfl th.tfu {
+	border-width: 0px;
+	width: auto;
+	text-align: right;
+}
+
+table#lstfl td {
+	width: 36%;
+	text-align: left;
+}
+
+table#lstfl .dist {
+	text-align: center;
+	width: 9%;
+}
+
+table#lstfl .upkp {
+	text-align: right;
+	width: 10%;
+}

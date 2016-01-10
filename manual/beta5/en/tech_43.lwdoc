@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Science Golden Age</title>
+	<section id="tech_43_desc" title='Description'>
+		Enacting this law permits us to divert more resources towards research at the expense of other necessities.
+	</section>
+	<section id="tech_43_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Law</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;100,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases research output</li>
+				<li>Decreases Industrial Factories productivity</li>
+				<li>Decreases Military Factories productivity</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_43_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_17'>Miniaturised Particle Colliders</mlink></li>
+			<li><mlink to='tech_42'>Biological Computers</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

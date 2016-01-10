@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Temporal Mechanics</title>
+	<section id="tech_40_desc" title='Description'>
+		The progress of our scientists has enabled us to better understand temporal phenomenons, which should allow for a wide range of new discoveries. Further funding of this area of study is a necessity.
+	</section>
+	<section id="tech_40_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Fundamental research</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;1,000,000</li>
+			<li><b>Effects:</b> N/A</li>
+		</ul>
+	</section>
+	<section id='tech_40_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_22'>Hyperspace Theory</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_41">Space-time folding</mlink></li>
+			<li><mlink to="tech_64">Phase Neutraliser</mlink></li>
+			<li><mlink to="tech_65">Multiphasic Transmission</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

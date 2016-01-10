@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Wormholes</title>
+	<section id="tech_81_desc" title='Description'>
+		This technology applies space-time folding principles to spacebats, allowing your citizens to move freely between the planets in your empire. They will now be living in ecstacy as they will be able to visit their families, friends and dolphins.
+	</section>
+	<section id="tech_81_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Civilian technology</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;10,000,000</li>
+			<li><b>Effects:</b><ul>
+				<li>increases happiness</li>
+				<li>decreases Industrial Factories productivity</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_81_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_70'>Wormhole Theory</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_87">Wormhole Lockdown</mlink></li>
+			<li><mlink to="tech_88">Wormhole Supernova</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

@@ -1,0 +1,102 @@
+table.phdr, table.phdr tr, table.phdr tr td {
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+table.phdr {
+	width: 98%;
+	margin-left: auto;
+	margin-right: auto;
+	left: auto;
+	right: auto;
+}
+
+table.phdr tr td.pimg {
+	height: 80px;
+	width: 80px;
+}
+
+td.pimg img {
+	height: 80px;
+	width: 80px;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+table.phdr tr td.pttl {
+	vertical-align: middle;
+	text-align: left;
+}
+
+table.phdr tr td.psel {
+	width: 40%;
+	vertical-align: middle;
+	text-align: right;
+}
+
+td.pbwlst {
+	vertical-align: top;
+	width: 35%;
+}
+
+td.bqt {
+	vertical-align: top;
+}
+
+td.bqct {
+	vertical-align: top;
+	text-align: center;
+}
+
+td.plnk {
+	text-align: right;
+	vertical-align: middle;
+}
+
+table.bqueue {
+	border-width: 0px 0px 1px 0px;
+	border-style: solid;
+	border-collapse: collapse;;
+	width: 100%;
+	margin: 0px 0px 15px 0px;
+}
+
+table.bqueue tr td, table.bqueue tr th {
+	border-width: 0px 0px 1px 0px;
+	border-style: solid;
+	border-color: white;
+}
+
+table.bqueue tr:hover td {
+	color: white;
+}
+
+
+table.bqueue tr.bqlf td, table.bqueue tr.bqlf th {
+	border-style: none;
+	border: 0px;
+}
+
+table.bqueue td.bqsel { width: 32px; }
+table.bqueue th.bqqt { width: 8%; }
+table.bqueue td.bqqt { text-align: center; }
+table.bqueue th.bqt { width: 42%; text-align: left; }
+
+.phapok { color: #33CC33; }
+.phapmed { color: #337FFF; }
+.phapdgr { color: #CCCC33; }
+.phapbad { color: #CC3333; }
+
+
+table.fbundle {
+	margin: 0px auto 0px auto;
+	width: 95%;
+}
+table.fbundle th { vertical-align: bottom; }
+table.fbundle tr:hover td { color: white; }
+table.fbundle .fbsel { width: 32px; text-align: center; }
+table.fbundle .fbnam { width: auto; text-align: left; }
+table.fbundle .fshp { width: 8%; text-align: center; }
+table.fbundle .fpwr { width: 12%; text-align: center; }

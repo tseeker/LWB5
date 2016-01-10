@@ -1,0 +1,54 @@
+/** GENERAL ELEMENTS **/
+
+body, p, td, a { color: #C0C0C0; }
+h1, h2, h3 { color: #FFCC33; }
+h4, h5, h6, th { color: #FFCC66; }
+a, a:visited { color: white; }
+b { color: white; }
+table.list a { color: #C0C0C0; }
+table.list tr:hover td, table.list tr:hover td > * { color: white; }
+
+
+/** STATUS AND MENU BARS **/
+
+table.topframe {
+	background-color: #996600;
+	border: 1px solid #FFCC00;
+}
+td.topmenu {
+	background-image: url('__STATICURL__/beta5/pics/ttl/def/yellow/menubg.png');
+	background-repeat: repeat-x;
+}
+ul ul.tmenu li.tmenu { background-color: #CC9900; }
+ul.tmenu li:hover { background-color: #FFCC66; }
+a.tmenu:hover { background-color: black; }
+ul.tmenu li.tmenu:hover ul.tmenu { border: 1px solid #FFCC00; }
+td.player, td.funds { color: #FFDDAA; }
+td.stime { color: #E0E0E0; }
+td.player b, td.funds b { color: white; }
+
+
+/** FORMS **/
+input[type=text],input[type=password],input[type=submit],input[type=reset],input[type=button],select,textarea {
+	border: 1px solid #CC9900;
+	color: #FFCC66;
+	background-color: black;
+}
+
+input[disabled] { color: #3F3F3F; border: 1px solid #3F3F3F; }
+
+
+/** MAP COLORS **/
+
+table.map li:hover, table.map li:hover a { color: white; }
+
+.mcown { color: #33CC33; }
+a.mcown:visited { color: #33CC33; }
+.mcally { color: #6666FF; }
+a.mcally:visited { color: #6666FF; }
+.mcprot { color: #AFAFAF; background-color: black; }
+a.mcprot:visited { background-color: black; }
+.mcpally { color: #6666FF; background-color: black; }
+a.mcpally:visited { color: #6666FF; }
+.mcpown { color: #33CC33; background-color: black; }
+a.mcpown:visited { color: #33CC33; }

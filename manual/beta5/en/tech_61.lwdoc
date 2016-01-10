@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Automated Turrets</title>
+	<section id="tech_61_desc" title='Description'>
+		Sir! Including robotics in our turrets will improve their accuracy and firing efficiency. With these new turrets we will be able to better defend our planets.
+	</section>
+	<section id="tech_61_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Military technology</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;500,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases turret power</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_61_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_36'>Robotics</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_68">Sensor Turrets</mlink></li>
+			<li><mlink to="tech_69">Global Defense Bill</mlink></li>
+			<li><mlink to="tech_85">Biological Turrets</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

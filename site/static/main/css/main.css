@@ -1,0 +1,149 @@
+* {
+	font-family: Arial, sans-serif;
+	font-size: 10pt;
+	padding: 0px;
+	margin: 0px;
+	color: white;
+	scrollbar-face-color: #1f1f1f;
+	scrollbar-highlight-color: #1f1f1f;
+	scrollbar-3dlight-color: #3f3f3f;
+	scrollbar-darkshadow-color: #3f3f3f;
+	scrollbar-shadow-color: #1f1f1f;
+	scrollbar-arrow-color: #afafaf;
+	scrollbar-track-color: #1f1f1f;
+}
+
+h1 { font-size: 16pt }
+h2 { font-size: 14pt }
+h3 { font-size: 12pt }
+h4 { font-size: 11pt }
+h5 { font-size: 11pt }
+h6 { font-size: 10pt }
+
+body {
+	background-color: #000;
+	color: #888;
+	overflow: auto;
+}
+
+#extframe {
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	width: 100%;
+	height: 1px
+}
+
+.internal {
+	margin-left: -475px;
+	position: absolute;
+	left: 50%;
+	width: 950px;
+}
+
+#intframe {
+	top: -280px;
+	height: 560px;
+	background-repeat: no-repeat;
+}
+
+#footer {
+	top: 280px;
+	text-align: center;
+	font-size: 8pt;
+	font-style: italic
+}
+
+#footer a, #footer a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+#footer a:hover {
+	text-decoration: underline;
+}
+
+#hbutton {
+	display: block;
+	position: absolute;
+	top: 12px;
+	left: 10px;
+	width: 272px;
+	height: 90px;
+	background-color: transparent;
+}
+
+#hbutton span {
+	display: none;
+}
+
+#version {
+	position: absolute;
+	top: 89px;
+	left: 299px;
+	width: 640px;
+	height: 22px;
+	font-size: 10pt;
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#lbox {
+	position: absolute;
+	top: 9px;
+	left: 399px;
+	width: 530px;
+	height: 60px;
+	text-align: right;
+	font-size: 10pt;
+}
+
+#lbox a {
+	color: white;
+	text-decoration: none;
+	font-style: italic;
+}
+
+#lbox a:hover {
+	text-decoration: underline;
+}
+
+#players {
+	position: absolute;
+	top: 30px;
+	left: 330px;
+	width: 320px;
+	height: 30px;
+	font-weight: bold;
+	font-size: 13pt;
+	text-align: center;
+}
+
+.input {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #afafaf;
+	background-color: #3f3f3f;
+	color: white;
+	font-size: 10pt;
+	margin: 1px 0px
+}
+select.input {
+	width: 75%;
+}
+
+
+#cframe p {
+	color:#CCCCCC;
+}
+
+#cframe ul, #cframe ol {
+	margin: 0px 0px 0px 20px;
+	padding: 0px 0px 0px 10px;
+}
+
+#cframe li {
+	margin: 0px 0px 0px 20px;
+	padding: 0px 0px 0px 0px;
+}

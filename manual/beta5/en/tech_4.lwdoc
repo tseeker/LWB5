@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Bio-engineering</title>
+	<section id="tech_4_desc" title='Description'>
+		Sir! Our scientists worked hard to improve our empire's knowledge of bio-engineering, which will greatly improve the production of basic goods, as well as pave the way for further advances.
+	</section>
+	<section id="tech_4_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Civilian technology</li>
+			<li><b>Optional:</b> No</li>
+			<li><b>Cost:</b> &amp;euro;30,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases Industrial Factories productivity</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_4_dep' title='Dependencies'>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_10">Advanced Hospitals</mlink></li>
+			<li><mlink to="tech_11">High-efficiency Hydroponics</mlink></li>
+			<li><mlink to="tech_38">Cybernetic Interfaces</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

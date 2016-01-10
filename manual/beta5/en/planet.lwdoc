@@ -1,0 +1,215 @@
+<?xml version="1.0"?>
+<lwdoc>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Individual Planet Page</title>
+	<section id="ipp_intro" title="Introduction">
+		General concepts about <mlink to="emp_conc_plan">planets</mlink> are provided in the <mlink to="emp_conc_plan">planet</mlink> section of the <mlink to="empire">empire</mlink> manual page. The manual section you're reading now focuses on the <i>Individual Planet page</i> and presents its contents.
+		<br/>
+		This page is the <i>management page</i> for any <mlink to="ipp_own">individual planet you own</mlink> or an <i>information page</i> for <mlink to="ipp_ot">other stellar objects</mlink>.
+	</section>
+	<section id="ipp_ot" title="Types of stellar objects">
+		<section id="ipp_ot_intro" title="introduction">
+			In LegacyWorlds you can find <i>three kinds of stellar objects</i>. The next paragraphs will describe each type.
+		</section>
+		<section id="ipp_ot_plan" title="Planets">
+			<i>Planets</i> are the basic components of you <mlink to="empire">empire</mlink>. They are the most interesting stellar objects for us and the next two sections of this manual page concern them.
+			<br/>
+			To learn more about basic concepts about planets, see <mlink to="emp_conc_plan">this manual section</mlink>.
+		</section>
+		<section id="ipp_ot_pre" title="Planetary Remains">
+			When a <i>planet</i> has been <i>detroyed</i> by a <mlink to="ech_88">Wormhole Supernova</mlink>, the material the planet is composed of doesn't just disapear. Those are <i>planetary remains</i> which are indicated in <i>yellow</i> on the <mlink to="maps">maps</mlink>. 
+			<br/>
+			You can fly through <i>planetary remains</i> with your <mlink to="fleets">fleets</mlink> and even <i>station there</i> but of course all the junk in the area have a <i>nasty effect</i>: it's quite difficult to navigate among floating rocks and your <mlink to="move_gen_compute">fleets are slowed down</mlink>. This is represented by the <i>opacity level</i> of the <i>planetary remains</i>. 
+			<br/>
+			You can of course access the <mlink to="ipp_pil">corresponding detailed page</mlink> of any <i>grid area of the map</i> occupied by <i>planetary remains</i>. This page will indicate:<ul>
+				<li>the <mlink to="fleets">fleets</mlink> present there if you have yourself some <mlink to="fleets">fleets</mlink> on that particular <i>planetary remains</i></li>
+				<li>the <i>opacity level</i></li>
+			</ul>
+		</section>
+		<section id="ipp_ot_neb" title="Nebulas">
+			In the <mlink to="universe">universe</mlink> everything isn't filled with <i>planetary systems</i>. There are also <i>giant gas clouds</i> called <i>nebulas</i>. The are displayed in <i>shade of red</i> on the <mlink to="maps">maps</mlink>.
+			<br/>
+			Just as for <mlink to="ipp_ot_pre">planetary remains</mlink>, it's quite difficult to navigate through gas clouds and crossing <i>nebulas</i> with a <mlink to="move_gen_compute">fleet slows it down</mlink>. The <mlink to="move_gen_compute">speed of the fleet</mlink> crossing a <i>nebula</i> depends on its <i>opacity</i>: <i>denser</i> the cloud, <i>slower</i> the fleet. 
+			<br/>
+			When looking at the <mlink to="ipp_pil">page of a nebula square</mlink>, you'll see:<ul>
+				<li>the <mlink to="fleets">fleets</mlink> present if you have a <mlink to="fleets">fleet</mlink> at those <i>coordinates</i></li>
+				<li>the <i>opacity level</i> of the square</li>
+			</ul>
+		</section>
+	</section>
+	<section id="ipp_pil" title="Planets - information levels">
+		<section id="ipp_pil_intro" title="introduction">
+			When accessing the <i>individual page</i> of a <i>planet</i>, the amount of <i>information varies</i>. Depending on the status of the planet towards you, the level of information you have access to changes. The next parapgraphs will present the data displayed in each case.
+		</section>
+		<section id="ipp_pil__own" title="Planets you own">
+			In that case you have access to a <mlink to="ipp_own">complete planetary management page</mlink> which is described in the <mlink to="ipp_own">next section</mlink> of this manual page.
+		</section>
+		<section id="ipp_pil_apla" title="Alliance planets with planets list access">
+			In the case of <mlink to="alliance">alliance</mlink> planets when you <i>have access</i> to the <mlink to="amanag_list_plan">planets list</mlink>, the individual planet page of an allied planet includes:<ul>
+				<li><i>Coordinates</i> of the <i>planet</i> on the <mlink to="maps">map</mlink></li>
+				<li><mlink to="alliance">Alliance</mlink> the owner of the <i>planet</i> belongs to (that is your own <mlink to="alliance">alliance</mlink>)</li>
+				<li>Total number of <mlink to="emp_conc_fact">factories</mlink> on the <i>planet</i></li>
+				<li>Total number of <mlink to="ship_cat">Turrets</mlink> on the planet</li>
+				</ul>
+			You have also access to three <i>action links</i>:<ul>
+				<li><mlink to="move_pract">Send Fleets</mlink>: click this link to <mlink to="move_pract">send fleets</mlink> to that particular <i>planet</i>. <mlink to="move_pract">Sending fleets</mlink> is covered in the <mlink to="move_pract">fleets section</mlink> of the manual</li>
+				<li><mlink to="maps">Centre Map</mlink>: clicking this link directs you to the <mlink to="maps">map page</mlink> with a <mlink to="maps">map</mlink> centered on that particular <i>planet</i></li>
+				<li><mlink to="msg_comp">Message</mlink>: clicking this link opens the <mlink to="msg_comp">compose form</mlink> of the <mlink to="messages">messaging system</mlink> with the <i>planet name</i> prefilled as <i>recipient</i>. This allows you to send a <mlink to="messages">private message</mlink> to the <i>planet's owner</i></li>
+			</ul>
+		</section>
+		<section id="ipp_pil_anpla" title="Alliance planets without planet list access">
+			In the case of <mlink to="alliance">alliance</mlink> planets, when you <i>don't have access</i> to the <mlink to="amanag_list_plan">planets list</mlink>, the amount of information provided on the <i>individual planet page</i> is very <i>limited</i>. It is equivalent to the data provided for any <mlink to="ipp_pil_oth">other planet</mlink>.
+		</section>		
+		<section id="ipp_pil_flee" title="Planets you have fleets on">
+			If you have fleets stationed on a planet, the data provided are a bit more extended than for any random planet. You have access to:<ul>
+				<li><i>Coordinates</i> of the <i>planet</i> on the <mlink to="maps">map</mlink></li>
+				<li><mlink to="alliance">Alliance</mlink> the owner of the <i>planet</i> belongs to</li>
+				<li><mlink to="fleets">fleet</mlink> size if any <mlink to="fleets">fleet</mlink> is present</li>
+				<li>Total number of <mlink to="ship_cat">Turrets</mlink> on the planet</li>
+				<li><mlink to="emp_conc_pop">Population</mlink> of the planet</li>
+			</ul>
+			You have also access to three <i>action links</i>:<ul>
+				<li><mlink to="move_pract">Send Fleets</mlink>: click this link to <mlink to="move_pract">send fleets</mlink> to that particular <i>planet</i>. <mlink to="move_pract">Sending fleets</mlink> is covered in the <mlink to="move_pract">fleets section</mlink> of the manual</li>
+				<li><mlink to="maps">Centre Map</mlink>: clicking this link directs you to the <mlink to="maps">map page</mlink> with a <mlink to="maps">map</mlink> centered on that particular <i>planet</i></li>
+				<li><mlink to="msg_comp">Message</mlink>: clicking this link opens the <mlink to="msg_comp">compose form</mlink> of the <mlink to="messages">messaging system</mlink> with the <i>planet name</i> prefilled as <i>recipient</i>. This allows you to send a <mlink to="messages">private message</mlink> to the <i>planet's owner</i></li>
+			</ul>
+		</section>
+		<section id="ipp_pil_apflee" title="Alliance planets you have fleets on">
+			In the case of an <mlink to="alliance">alliance</mlink> planet on which you have <mlink to="fleets">fleets</mlink> stationned the <i>level of information</i> provided consists in a <i>combination</i> of your particular <i>alliance planets case</i> (if you have <mlink to="ipp_pil_apla">planets list access</mlink> or <mlink to="ipp_pil_anpla">not</mlink>) and the <mlink to="ipp_pil_flee">planets you have fleets</mlink> on case.
+		</section>
+		<section id="ipp_pil_oth" title="Other planets">
+			In cases which don't fit in any other category you have access to very few data:<ul> 
+				<li><i>Coordinates</i> of the <i>planet</i> on the <mlink to="maps">map</mlink></li>
+				<li><mlink to="alliance">Alliance</mlink> the owner of the <i>planet</i> belongs to if any</li>
+			</ul>
+			You have also access to three <i>action links</i>:<ul>
+				<li><mlink to="move_pract">Send Fleets</mlink>: click this link to <mlink to="move_pract">send fleets</mlink> to that particular <i>planet</i>. <mlink to="move_pract">Sending fleets</mlink> is covered in the <mlink to="move_pract">fleets section</mlink> of the manual</li>
+				<li><mlink to="maps">Centre Map</mlink>: clicking this link directs you to the <mlink to="maps">map page</mlink> with a <mlink to="maps">map</mlink> centered on that particular <i>planet</i></li>
+				<li><mlink to="msg_comp">Message</mlink>: clicking this link opens the <mlink to="msg_comp">compose form</mlink> of the <mlink to="messages">messaging system</mlink> with the <i>planet name</i> prefilled as <i>recipient</i>. This allows you to send a <mlink to="messages">private message</mlink> to the <i>planet's owner</i></li>
+			</ul>
+		</section>>
+	</section>
+	<section id="ipp_own" title="Planet page for your own planets">
+		<section id="ipp_own_intro" title="Introduction">
+			The <i>individual planet page</i> is the specific <i>management page</i> for a given <i>planet</i>. It provides <i>detailed information</i> on the planet along with a set of <i>controls</i> to <mlink to="ipp_own_gc">navigate among planets</mlink> and <mlink to="ipp_own_pc">manage one given planet</mlink>.
+		</section>
+		<section id="ipp_own_gc" title="General Controls">
+			In the <i>top right corner</i> of the page, some <i>general controls</i> allow you to <i>navigate among planetary pages</i>:<ul>
+				<li>The <i>Select planet</i> drop down list allows you to <i>switch between planets</i>. Selecting the <i>name of another planet</i> you own in the list gets you directly to its <i>individual planet page</i></li>
+				<li>The <i>Planet list</i> link gets you back to the <mlink to="planets">Planets main page</mlink> which lists all your <mlink to="planets">planets</mlink></li>
+			</ul>
+		</section>
+		<section id="ipp_own_pc" title="Planetary Controls">
+			<section id="ipp_own_pc_intro" title="Introduction"> 
+				In the <i>top left part</i> of the page, <i>below the planet name</i>, a list of <i>action links</i> provide <i>planet wide functions</i>. The next paragraphs will detail each link.
+			</section>
+			<section id="ipp_own_pc_send" title="Send Fleets">
+				You can click this link to <mlink to="move_pract">send fleets</mlink> to that particular <i>planet</i>. <mlink to="move_pract">Sending fleets</mlink> is covered in the <mlink to="move_pract">fleets section</mlink> of the manual.
+			</section>
+			<section id="ipp_own_pc_cent" title="Centre Map">
+				Clicking this link directs you to the <mlink to="maps">map page</mlink> with a <mlink to="maps">map</mlink> centered on that particular <i>planet</i>.
+			</section>
+			<section id="ipp_own_pc_aband" title="Abandon">
+				clicking on this link allows you to <i>abandon a planet</i> once you have <i>confirmed the action</i> in the <i>alert box</i> that pops up. The link gets then <i>replaced with the time remaining</i> before the planet is actually out of your control and a <i>Cancel</i> link. Clicking the <i>Cancel</i> link of course <i>stops the abandon process</i>. 
+				<br/>
+				You <i>cannot abandon</i> your planet <i>if you only have one</i>. This link is <i>only displayed</i> if you have <i>at least 2 planets</i>.
+			</section>
+			<section id="ipp_own_pc_ren" title="Rename">
+				Once you've <i>owned</i> a given planet for <i>more than two weeks</i>, a new <i>Rename</i> link appears. Clicking on the link opens an <i>alert box</i> with a <i>textfield</i> where you can type in the <i>new name</i> of the planet. Once you're satisfied with the name you can click the <i>OK</i> button to change the planet's name. the <i>Cancel</i> button of course cancels the change and closes the alert box.
+				<br/>
+				Once you have renamed a planet you have to wait <i>two more weeks</i> before being able to <i>rename it again</i>.
+			</section>
+			<section id="ipp_own_pc_sell" title="Sell/Give">
+				Clicking on this link gets you to a <mlink to="sell_put_pla">particular version of the planet page</mlink> where you can set <i>specific sale/gift parameters</i>. This topic is described more precisely in the <mlink to="sell_put_pla">marketplace</mlink> section of the manual. 
+				<br/>
+				You <i>cannot sell</i> your planet <i>if you only have one</i> or if <i>your account is younger than 10 days</i>. This link is <i>only displayed</i> if <i>your account is older than 10 days</i> and you have <i>at least 2 planets</i>.
+			</section>
+			<section id="ipp_own_pc_blow" title="Blow it up!">
+				Once you have access to the <mlink to="tech_88">Wormhole Supernova</mlink> technology and of course <mlink to="tech_topic_stat">implemented it</mlink>, you can see a new link which allows you to <i>detroy the planet</i> with a <mlink to="tech_88">wormhole Supernova</mlink>. 
+				<br/>
+				Be careful though: citizens of your <mlink to="empire">empire</mlink> may not appreciate that you destroyed one of your planets and this action has a <i>bad, lasting effect</i> on the <mlink to="emp_conc_happ">happiness</mlink> of your <mlink to="emp_conc_pop_grow">population</mlink>.
+			</section>
+		</section>
+		<section id="ipp_own_po" title="Planet Overview">
+			This part of the page provides some <i>facts about the planet</i>, including:<ul>
+				<li><i>Coordinates:</i> coordinates of the <i>planet</i> on the <mlink to="maps">map</mlink></li>
+				<li><mlink to="alliance">Alliance</mlink>: tag of the <mlink to="alliance">alliance</mlink> the <i>planet</i> belongs to</li>
+				<li><mlink to="emp_conc_pop">Population</mlink>: total <mlink to="emp_conc_pop">population size</mlink> of the <i>planet</i></li>
+				<li><mlink to="ship_cat">Turrets</mlink>: number of <mlink to="ship_cat">turrets</mlink> on the <i>planet</i> along with a <i>Destroy</i> link. Clicking this link opens an <i>alert window</i> where you can <i>select a number of turrets to destroy</i></li>
+				<li><mlink to="mon_ppl">Planet Income</mlink>: amount of <mlink to="mon_ppl">money generated</mlink> by the <i>planet</i> each day</li>
+				<li><mlink to="emp_conc_happ">Happiness</mlink>: percentage of <mlink to="emp_conc_happ">happiness</mlink> for the <mlink to="planet">planet</mlink></li>
+				<li><mlink to="emp_conc_cor">Corruption</mlink>: percentage of <mlink to="emp_conc_cor">corruption</mlink> of the <i>planet</i></li>
+				<li><mlink to="emp_conc_fact_ind">Industrial factories</mlink>: number of <mlink to="emp_conc_fact_ind">industrial factories</mlink> on the <mlink to="planet">planet</mlink></li>
+				<li><mlink to="emp_conc_fact_mil">Military factories</mlink>: number of <mlink to="emp_conc_fact_mil">military factories</mlink> on the <mlink to="planet">planet</mlink></li>
+				<li><mlink to="fleets">Fleets</mlink> standing by: in this section the <mlink to="ship_cat_pow">average power of your fleets</mlink> stationed on the <i>planet</i> is indicated in <i>green</i>. <mlink to="ship_cat_pow">Average power of friendly fleets</mlink> is in <i>blue</i> and <mlink to="ship_cat_pow">average power of enemy fleets</mlink> in <i>red</i></li>
+			</ul>
+		</section>
+		<section id="ipp_own_if" title="Industrial Factories">
+			<i>Industrial factories</i> produces goods from raw materials. Those goods are sold within the empire and beyond its borders, which generates <mlink to="money">money</mlink>. As a consequence the <i>more industrial factories</i> you have the <i>more money</i> you make. But there are workers in factories and they won't be too happy to have to work 3 jobs to get the planetary economy running. So there is a <i>limit</i> to the number of factories you can build without risking a <mlink to="emp_conc_revo">revolt</mlink>.
+			<br/>
+			The <i>top part</i> of this section indicates the <i>number of industrial factories</i> currently present on your <i>planet</i>, along with the <i>price to build one new industrial factory</i>. 
+			<br/>
+			<i>Below</i> that section, you can <i>manage factories</i>. To <i>change the number</i> of <i>industrial factories</i> on the planet, use the <i>texfield</i> to indicate an <i>amount of factories to build / destroy</i> and click the relevant <i>button</i>: <i>Increase</i> or <i>Decrease</i>.
+			<br/>
+			You have to be aware that the <i>number</i> of <i>industrial factories you can destroy</i> is <i>limited to 10%</i> of the number <i>you owned 24h before</i> the destruction attempt. For instance if you had 100 industrial factories 24h ago, buit 20 12h ago and try to destroy some now you can destroy up to 30. 
+		</section>
+		<section id="ipp_own_mf" title="Military Factories">
+			<i>Military factories</i> are specialised factories producing <mlink to="ship_cat">ships and turrets</mlink>. The <i>speed</i> at wich items are built depends on the <i>number of military factories</i> on the <i>planet</i>. The <i>more factories</i> you have the <i>faster</i> it will go. But there are workers in factories and they won't be too happy to have to work 3 jobs to get the planetary weapon industry. So there is a <i>limit</i> to the number of factories you can build without risking a <mlink to="emp_conc_revo">revolt</mlink>.
+			<br/>
+			The <i>top part</i> of this section indicates the <i>number of military factories</i> currently present on your <i>planet</i>, along with the <i>price to build one new military factory</i>.
+			<br/>
+			<i>Below</i> that section, you can <i>manage factories</i>. To <i>change the number</i> of <i>military factories</i> on the planet, use the <i>texfield</i> to indicate an <i>amount of factories to build / destroy</i> and click the relevant <i>button</i>: <i>Increase</i> or <i>Decrease</i>.
+			<br/>
+			You have to be aware that the <i>number</i> of <i>military factories you can destroy</i> is <i>limited to 10%</i> of the number <i>you owned 24h before</i> the destruction attempt. For instance if you had 100 military factories 24h ago, buit 20 12h ago and try to destroy some now you can destroy up to 30.
+		</section>
+		<section id="ipp_own_bw" title="Build warefare">
+			<section id="ipp_own_bw_intro" title="Introduction">
+				This part of the page is composed of <i>two sections</i>:<ul>
+					<li>tools to <mlink to="ipp_own_bw_add">add elements</mlink> to a build queue in the <i>left part</i></li>
+					<li><mlink to="ipp_own_bw_man">build queue management</mlink> tools in the <i>right part</i></li>
+				</ul>
+				The next paragraphs will describe their usage.
+			</section>
+			<section id="ipp_own_bw_add" title="Adding items to the queue">
+				In order to <i>build new items</i>, you have to <i>select the type of item</i> you want to build. 
+				<br/>
+				Depending on your <mlink to="technology">technology level</mlink>, different items are available. Basically you can find <mlink to="ship_cat">turrets</mlink> (stationary defenses) and <mlink to="ship_cat">Ground Assault (GA) ships</mlink> (system ships carrying troups which allow them to take control over planets). The following <mlink to="tech_list">technologies</mlink> provide you access to other types of ships:<ul>
+					<li><mlink to="tech_63">Battle Cruisers</mlink></li>
+					<li><mlink to="tech_6">Cruisers</mlink></li>
+					<li><mlink to="tech_1">Fighters</mlink></li>
+				</ul>
+				<br/>
+				<mlink to="ship_cat">Ship types</mlink> are described more precisely in the <mlink to="ships">ships</mlink> part of the manual.
+				<br/>
+				In order to <i>select one item</i>, you have to <i>select the radio button</i> before its <i>name</i>. The <i>cost</i> for one item of each category is indicated <i>along the name</i>. Once you have selected one item, use the <i>Quantity</i> textfield to indicate the <i>number</i> of items to build. Then click the <i>Add</i> button to <i>add the items to the build queue</i>.
+			</section>
+			<section id="ipp_own_bw_man" title="Managing the build queue">
+				<section id="ipp_own_bw_man_intro" title="Introduction">
+					The <i>build queue</i> consist in:<ul> 
+						<li><i>a list of items being built</i></li>
+						<li><i>action buttons</i></li>
+					</ul>
+					The next parapgraphs will cover both topics.
+				</section>
+				<section id="ipp_own_bw_man_list" title="List of items being built">
+					The <i>list of items being buit</i> includes:<ul>
+						<li><i>Qty</i>: <i>number of items</i> in the queue</li>
+						<li><mlink to="ship_cat">Type</mlink>: <mlink to="ship_cat">category</mlink> of items being built</li>
+						<li><i>Time to build - Ind.</i>: <i>individual build time for this bundle of items</i>. The time is <i>rounded up</i> to be expressed in <i>hours</i></li>
+						<li><i>Time to build - Cum.</i>: <i>cumulated build time for all items in the queue up to this one</i>. This cumulative build time is the <i>sum of build times for previous items without rounding</i>. This represents the fact that if the full <mlink to="ticks_tick">hour tick</mlink> time isn't required to finish one item, work starts on the next. As a consequence, <i>cumulative build time</i> may be <i>inferior to the sum of all individual build times</i></li>
+					</ul>
+				</section>
+				<section id="ipp_own_bw_man_act" title="Build queue actions">
+					Available <i>build queue actions</i> are:<ul>
+						<li><i>Up</i>: to <i>move one item up in the queue</i>. To do so, <i>select</i> one item by <i>checking the checkbox</i> on its line and click the <i>Up</i> button.</li>
+						<li><i>Down</i>: to <i>move one item up in the queue</i>. To do so, <i>select</i> one item by <i>checking the checkbox</i> on its line and click the <i>Down</i> button.</li>
+						<li><i>Cancel</i>: to <i>remove one item from the queue</i>. To do so, <i>select</i> one item by <i>checking the checkbox</i> on its line and click the <i>Cancel</i> button.</li>
+						<li><i>Flush</i>: to <i>remove all items in the build queue</i>. To do so, just click the <i>Flush</i> button.</li>
+					</ul>
+					You also have the ability to <i>replace one item in the queue with another</i>. In order to do so, <i>select</i> the <i>item to replace</i> by <i>checking its checkbox</i> in the build queue. Then proceed <i>as if you were to add a new item</i> to the queue but click the <i>Replace</i> button instead of the <i>Add</i> button.
+				</section>
+			</section>
+		</section>
+	</section>
+</lwdoc>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<lwdoc>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Overview</title>
+	<section id="ov_bg" title="Background" linkto="background">
+		After years of internal conflicts and devastating wars humanity has finally achieved its ultimate goal: destroy its home planet, Earth. The only option left for the remaining survivors of the holocaust: flee to the stars in the hope of finding a new home and rebuild their civilisation. Hundreds of ships were launched into deep space looking for suitable planets and searched for years for some capable of sustaining life.
+		<br/>
+		As commandant of a small group of colonists you've finally managed to find a planet matching the required parameters and you're about to start rebuilding on it. It will be up to you to make it grow into a new galactic empire in a hostile universe. To achieve that goal you'll have to find allies among the other Earth refugees who settled in the neighbouring star systems and fight those willing to spoil your hard work.
+		<br/>
+		It will also be up to you to provide your citizens with what they might need and encourage the scientists of the expedition in their research to achieve new technological breakthroughts. It will be up to you to fufill Earth's legacy...
+	</section>
+	<section id="ov_go" title="Game Overview" linkto="game_overview">
+		Legacy Worlds is an online multiplayer intergalactic war game. Your goal as a player: build up an empire and defeat the other players. How to achieve that: through technological advancement, alliances with other players and of course conquests. 
+		<br/>
+		Legacy Worlds is a tick based game. This means events are controlled at given intervals of time called ticks.
+		<br/>
+		Legacy Worlds is a text based game so don't expect any fancy graphics.
+		<br/>
+		At first started as an university project by one of the developers it's now developed by a little team which felt it was a pity to let it go to waste and disappoint its current players. 
+		<br/>
+		This version is Beta 5 and is as the previous ones completely free. 
+	</section>
+	<section id="ov_tut" title="Tutorial" linkto="tutorial">
+		This <mlink to="tutorial">tutorial</mlink> presents a few tips to help you getting started with the game. It's not the ultimate guide to Legacy Worlds and its scope is limited to your first days of gameplay. Becoming the best player in the game will then be up to you.
+	</section>
+	<section id="ov_topics" title="Manual - Topics" linkto="topics">
+		The manual for the game itself is split among a few sections. You can find out more about these topics on the <mlink to="topics">Manual Topics</mlink> page.
+	</section>
+</lwdoc>

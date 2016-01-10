@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<lwdoc>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Manual</title>
+	<section file="overview.lwdoc" />
+	<section file="background.lwdoc" />
+	<section file="game_overview.lwdoc" />
+	<section file="tutorial.lwdoc" />
+	<section file="topics.lwdoc" />
+</lwdoc>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Nourishment Purification</title>
+	<section id="tech_30_desc" title='Description'>
+		Sir! We have successfully researched a new way to improve food, Nourishment purification! This process will give our subjects a healthier lifespan by removing all the nasties in their food.
+	</section>
+	<section id="tech_30_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Civilian technology</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;1,500,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases population growth</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_30_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_10'>Advanced Hospitals</mlink></li>
+			<li><mlink to='tech_11'>High-efficiency Hydroponics</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_33">Corpse Reanimation</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

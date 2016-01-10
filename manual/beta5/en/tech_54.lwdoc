@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Self-repairing Exoskeleton</title>
+	<section id="tech_54_desc" title='Description'>
+		Sir! Incorporating the newest alloys to our soldiers exoskeletons, our scientists have set up self-repairing exoskeletons. Even more efficient against attacking crowds, this new armor generation will reduce even more the number of GA ships required to take control of a foreign planet.
+	</section>
+	<section id="tech_54_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Military technology</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;2,000,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases G.A. ship efficiency</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_54_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_39'>Exoskeleton</mlink></li>
+			<li><mlink to='tech_53'>Self-healing Materials</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

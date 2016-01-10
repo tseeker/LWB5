@@ -1,0 +1,16 @@
+td#rkpsel { text-align: center; padding: 0px 0px 20px 0px; }
+
+table.list { padding: 0% 5% 0% 5%; width: 90%; }
+table.hdr {
+	border-color: white;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	padding: 0px 0px 10px 0px;
+	margin: 0px 0px 10px 0px;
+}
+table.row { padding: 0px; margin: 0px; }
+table.row th { cursor:pointer; }
+.gname { width: 50%; text-align: left; }
+.grank { width: 50%; text-align: center; }
+.dname { width: 40%; text-align: left; }
+.drank { width: 20%; text-align: center; padding: 0px 0px 0px 0px; }

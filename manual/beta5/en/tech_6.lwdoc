@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Cruisers</title>
+	<section id="tech_6_desc" title='Description'>
+		Sir! We have successfully researched a new type of ship, the Cruiser! These are able to travel outside of our solar system thanks to the recent developments in Hyperspace technology, and can carry our current ships in their holds.
+	</section>
+	<section id="tech_6_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Military technology</li>
+			<li><b>Optional:</b> No</li>
+			<li><b>Cost:</b> &amp;euro;500,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Provides the ability to build ships of the Cruiser class</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_6_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_1'>Fighters</mlink></li>
+			<li><mlink to='tech_2'>Hyperspace Basics</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_7">Civilian Transportation Act</mlink></li>
+			<li><mlink to="tech_51">Medical Bays</mlink></li>
+			<li><mlink to="tech_63">Battle Cruisers</mlink></li>
+			<li><mlink to="tech_71">Biological Propulsion Systems</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<lwdoc>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Maps</title>
+	<section id="maps_intro" title="Introduction">
+		LegacyWorlds takes place in a far far away <i>galaxy</i>. The <i>maps</i> allow you to get a grasp on the <i>lay-out of this galaxy</i>. 
+		<br/>
+		This manual section will first of all introduce <mlink to="maps_conc">basic concepts</mlink> about the galaxy and then present the <mlink to="maps_maps">various available maps</mlink> along with the <mlink to="maps_com">associated controls</mlink>.
+	</section>
+	<section id="maps_conc" title="Basic Concepts">
+		<section id="maps_conc_gal" title="Galaxy lay-out">
+			<section id="maps_conc_gal_intro" title="Introduction">
+				A <i>galaxy</i> is a <i>huge gravitationally bound system</i> of stars, interstellar gas and dust, plasma, and (possibly) unseen dark matter. Stars in the galaxy all <i>orbit a common center of gravity</i>.
+				<br/>
+				Representing a galaxy as it should be would be of course <i>very difficult to read</i> as distances between objects are huge compared to the size of the objects. Moreover galaxies aren't exact planes and distances between objects vary from object to object.
+			</section>
+			<section id="maps_conc_gal_grid" title="Galaxy grid">
+				<section id="maps_conc_gal_grid_bas" title="Basic system">
+					<i>For ease of reading</i> and understanding the <i>galaxy</i> in which the game takes place is represented inside a <i>grid</i>, which consists in a <i>distorted view of reality</i>. 
+					<br/>
+					Two objects are in adjacent grid squares because they are relatively close to one another in reality. But it doesn't mean the distances aren't tremendous.
+				</section>
+				<section id="maps_conc_gal_grid_squ" title="Grid squares">
+					<i>Each square</i> in the galaxy grid contains <i>6 objects</i>. Those objects may be <mlink to="emp_conc_plan">planets</mlink>, <mlink to="ipp_ot_pre">planetary remains</mlink> or parts of a <mlink to="ipp_ot_neb">nebula</mlink>. 
+					<br/>
+					Within a planetary system, planets orbit the central star in elliptical orbits. Eah object orbits the star at a different distance. Thus each object is said to be located on a different orbit. Orbits are ordered according to the distance to the star. The first orbit is the closest while the 6th is the furthest. 
+					<br/>
+					Even if no planetary system exists inside a nebula the same orbit system is applied in the game galaxy. As a consequence nebula squares are also split in 6 orbits, representing each one region of the nebula square.
+					<br/>
+					In the grid representation of LegacyWorlds galaxy, the object located on the first orbit is the first one in the list of items in the stellar system grid square and so on.
+				</section>
+			</section>
+			<section id="maps_conc_gal_ex" title="An expanding galaxy">
+			The LegacyWorlds galaxy is also an <i>expanding galaxy</i>. It's still young and contains enough dense molecular clouds to produce new generations of stars, thus increasing its size. The in game universe expansion is <i>triggered by new players joining the game</i> in order to provide them with enough room to settle in.
+			</section>
+		</section>
+		<section id="maps_conc_stel" title="Stellar objects">
+			As mentionned earlier various stellar objects are present in the galaxy:<ul>
+				<li><mlink to="emp_conc_plan">planets</mlink></li>
+				<li><mlink to="ipp_ot_pre">planetary remains</mlink></li>
+				<li><mlink to="ipp_ot_neb">nebula</mlink></li>
+			</ul>
+			All those objects are discussed in mode details in the <mlink to="ipp_ot">Types of stellar objects</mlink> section of the <mlink to="planet">individual planet page</mlink> manual page.
+		</section>
+	</section>
+	<section id="maps_maps" title="Various maps">
+		<section id="maps_maps_intro" title="Introduction">
+			In order to help you navigate your <mlink to="ships">ships</mlink> in LegacyWorlds galaxy <i>three kinds of maps</i> are available:<ul>
+				<li><mlink to="maps_maps_pla">Planets Map</mlink>: this map displays <i>planet names</i> for each planet</li>
+				<li><mlink to="maps_maps_all">Alliance Map</mlink>: this map displays <i>alliances tag</i> for each planet</li>
+				<li><mlink to="maps_maps_lst">Listing</mlink>: this presents the planets in the galaxy as a <i>list</i></li>
+			</ul>
+			<mlink to="maps_com">Common features</mlink> are also available for all kinds of maps.
+		</section>
+		<section id="maps_com" title="Common features">
+			<section id="maps_com_intro" title="Introduction">
+				All maps present two features that work the same in all cases:<ul>
+					<li><mlink to="maps_com_cont">Maps controls</mlink>: these controls allow you to customise the display of the maps</li>
+					<li><mlink to="maps_com_cap">Maps caption</mlink>: the caption explains the various colour codes used on the map</li>
+				</ul>
+				The next paragraphs explain both topics more precisely.
+			</section>
+			<section id="maps_com_cont" title="Maps controls">
+			The common controls <i>at the top of the page</i> allow you to <i>choose the map to display and its parameters</i>. More precisely those features include:<ul>
+				<li><i>Display</i>: the drop down menu allows you to <i>select the type of map</i> you want to see among the three available modes</li>
+				<li><i>Grid size</i>: the drop don menu allows you to <i>change the size of the grid to diplay</i>, from 1 system to 7x7 systems</li>
+				<li><i>Center on</i>: selecting the corresponding radio button or typing something on the same line as a radio button allows you to chose to <i>center the map</i> either on:<ul>
+					<li><i>coordinates</i>: you have to type the <i>X and Y coordinates</i> to center the map on in the two provided textfields</li>
+					<li><i>own planet</i>: the drop down list allows you to select the <i>name of a planet you own</i> on which you want the map to be centered</li>
+					<li><i>planet</i>: type the <i>name of a planet</i> in the provided textfield allows you to center the map on this planet</li>
+				</ul></li>
+			</ul>
+			The <i>Update Diplay</i> button allows to <i>take into account the modifications</i> you might have made on the map parameters.
+			<br/>
+			</section>
+			<section id="maps_com_cap" title="Maps caption">
+			A <i>caption</i> is also presented. the map colours include:<ul>
+				<li><i>Green</i>: your <mlink to="ipp_own">own planets</mlink></li>
+				<li><i>Blue</i>: planets belonging to members of your <mlink to="alliance">alliance</mlink></li>
+				<li><i>White</i>: <i>other planets</i>, that is to say planets belonging to non alliance members, neutral planets and so on</li>
+				<li><i>Yellow</i>: <mlink to="ipp_ot_pre">planetary remains</mlink></li>
+				<li><i>Shades of red</i>: those aren't planets but <mlink to="ipp_ot_neb">nebula squares</mlink>. Each <i>level of red</i> represent an <i>opacity level</i> or <i>opacity class</i> for the corresponding nebula sector. You can't own nebula squares but can travel through them and station fleets on them but the speed of your ships is reduced depending on the opacity of the nebula square</li>
+			</ul>
+			</section>
+		</section>
+		<section id="maps_maps_pla" title="Planet map">
+			<section id="maps_maps_pla_grid" title="Planets Grid">
+				This is the <i>standard display</i>. It includes a grid of the requested size presenting X and Y coordinates. 
+				<br/>
+				On the borders of the grid <i>clicking on arrows</i> allows you to <i>move the focus</i> of the displayed grid on the complete map. <i>Left and right arrows</i> allow you to move <i>along the X axis</i> whereas <i>top and bottom arrows</i> allow you to move <i>along the Y axis</i>.
+			</section>
+			<section id="maps_maps_pla_squ" title="Map squares">
+				<i>In stellar systems</i> are presented for each <mlink to="planet">planet</mlink>:<ul>
+					<li>a <i>planet image</i></li>
+					<li>a <i>planet name</i>: the name is a link to an <mlink to="planet">individual planet page</mlink>. The contents of the individual planet page depends on the <mlink to="ipp_pil">level of information</mlink> you have on the planet, that is to say whether it's yours, belongs to your alliance, you have fleets on it and so on</li>
+				</ul>
+				<i>In nebula squares</i> are displayed:<ul>
+					<li>in <i>shades of red</i> the <i>names</i> of the different nebula sectors</li>
+					<li>the <i>background image</i> depends on the <i>average opacity</i> of the nebula square</li>
+				</ul>
+			</section>
+		</section>
+		<section id="maps_maps_all" title="Alliance map">
+			<section id="maps_maps_all_grid" title="Alliance grid">
+				This display is a <i>specialised</i> one that allow you to grasp where various <mlink to="alliance">alliances</mlink> are <i>settled in</i>. It includes a grid of the requested size presenting X and Y coordinates. 
+				<br/>
+				On the borders of the grid <i>clicking on arrows</i> allows you to <i>move the focus</i> of the displayed grid on the complete map. <i>Left and right arrows</i> allow you to move <i>along the X axis</i> whereas <i>top and bottom arrows</i> allow you to move <i>along the Y axis</i>.	
+			</section>
+			<section id="maps_maps_all_squ" title="Map squares">
+				<i>In stellar systems</i> are presented for each <mlink to="planet">planet</mlink>:<ul>
+					<li>a <i>planet image</i></li>
+					<li> an <mlink to="alliance">alliance</mlink> tag. <i>Untagged planets</i>, that is to say planets which don't belong to any alliance, are presented with <i>empty brackets</i></li>
+				</ul>
+				In nebula squares are displayed:<ul>
+					<li>in <i>shades of red</i> the text <i>N/A</i> for all different nebula sectors</li>
+					<li>the <i>background image</i> depends on the <i>average opacity</i> of the nebula square</li>
+				</ul>
+			</section>
+		</section>
+		<section id="maps_maps_lst" title="Listing">
+			In <i>listing mode</i> planets in the selected area are presented <i>as a list</i> which includes for each <mlink to="planet">planet</mlink>:<ul>
+				<li><i>Coordinates</i>: <i>coordinates</i> of the planet </li>
+				<li><i>Planet</i>: planet <i>image and name</i>. The planet name is a link to an <mlink to="planet">individual planet page</mlink>. The contents of this page depends on the <mlink to="ipp_pil">level of information</mlink> you have on the planet, that is to say whether it's yours, belongs to your alliance, you have fleets on it and so on.</li>
+				<li><i>Tag</i>: tag of the <mlink to="alliance">alliance</mlink> to which the planet belongs. <i>Empty brackets</i> are displayed for <i>untagged planets</i>, that is to say planets which don't belong to any alliance. A <i>-</i> is displayed for <i>nebula sectors</i></li>
+				<li><i>Opacity</i>: it represents the <i>density of matter</i> in the area which influences <mlink to="ship_cat_speed">ships speed</mlink>. The opacity is mostly interesting for <i>nebula sectors</i> where it represents the <i>class</i> of the nebula. It's <i>0 for viable planets</i> and <i>1 for planetary remains</i>, that is to say planets which have been destroyed.</li>
+			</ul>
+			As in all lists <i>clicking on the title</i> of one column allows you to <i>order the items</i> in the list according to the values of that field, either in descending or ascending order. <i>Clicking again</i> on the same title allows to <i>switch between descending and ascending</i> order.
+		</section>
+	</section>
+</lwdoc>

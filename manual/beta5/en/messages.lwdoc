@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<lwdoc>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Messaging System</title>
+	<section id="msg_intro" title="Introduction">
+		The Messaging System in Legacy Worlds is very similar to a simple mail client. It allows for folder creation to manage and store messages and offers a linear or threaded view of messages. In the bottom left part of the messaging system pages there is a link that allows you to switch to the forums.
+	</section>
+	<section id="msg_comp" title="Compose a message">
+		Clicking on the Compose a message link on the Messages page directs you to a message form. You have to fill in the various elements in order to send a 	message:<ul>
+			<li>Message:- the drop down list allow you to select if you want to send the message to:<ul>
+				<li>a player</li>
+				<li>an alliance</li>
+				<li>a planet</li>
+			</ul></li>
+			<li>to:- you have to type in the text field the name of the recipient: player name, planet name or an alliance tag. In case of an alliance the message is sent to members with diplomatic privileges.</li>
+			<li>Subject:- type in the provided text field the subject of the message.</li>
+			<li>Message:- type in the provided textarea the body of the message.</li>
+		</ul>
+		The Send message button allows you to send the message to its recipients.
+	</section>
+	<section id="msg_fold" title="Folder management">
+		<section id="msg_fold_basics" title="Folder management basics">
+			Clicking on the Folders link on the messages page directs you to the folder management section of the page. This pages presents a list of all folders for your account including three default folders:<ul>
+				<li> Inbox:- received messages get stored here.</li>
+				<li>Internal Transmissions:- messages automatically sent by the game get stored here, including diplomatic messages, alliance specific messages and so on.</li>
+				<li>Sent Messages:- messages you have sent get stored in this folder.</li>
+			</ul>
+			The three default folders are permanent folders and can't be deleted.
+		</section>
+		<section id="msg_fold_new" title="Creating folders">
+			You can create a new folder by typing the new folder name in the provided text field and clicking on the Create button. The newly created folder will then be added to the folders list.
+		</section>
+		<section id="msg_fold_manex" title="Managing existing folders">
+			In the folders list a checkbox is displayed in front of each folder. Checking the checkbox allows you to perform actions on the folders. The action section of the page is displayed once you've checked a checkbox and offers:<ul>
+				<li>Flush:- the flush button is available for all folders. Clicking the Flush button empties all selected folders.</li>
+				<li>Delete:- the delete button is only available for custom folders. Clicking the Delete button deletes the selected folders and their contents.</li>
+			</ul>
+		</section>
+	</section>
+	<section id="msg_msg" title="Messages management">
+		<section id="msg_msg_acc" title="Accessing messages in a folder">
+			A list of all folders is displayed in the left part of the page. When unread messages are present in a given folder, the name of the folder is presented in bold with the number of unread messages between parenthesis. Clicking on the name of a folder allows to visualise the list of the messages it contains. This list presents several options:<ul>
+				<li>Messages per page:- the drop down list allows you to choose how many messages to display on each page.</li>
+				<li>Threaded view:- check this checkbox allows you to switch to thread view mode. Leaving the checkbox unchecked presents a linear display.</li>
+				<li>Page:- in case it's required this drop down list appears and allows you to navigate between pages of messages in the given folder.</li>
+			</ul>
+			The list also present various fields for each message:<ul>
+				<li>Subject:- subject of the message.</li>
+				<li>Date:- date and time the message was sent or received.</li>
+				<li>From:- author of the message.</li>
+				<li>To:- recipient of the message.</li>
+			</ul>
+			Clicking on the title of the columns allow you to order the messages according to that field either in descending or ascending order. Clicking several times on the same column header allows to switch betseen ascending and descending order.
+		</section>
+		<section id="msg_msg_act" title="Individual message actions">
+			In order to read a particular message you have to click on its subject. The body of the message is then displayed along with a [ Reply ] link. Clicking again on the subject of the message hides the body of the message again.
+				<br/>
+			Clicking on the reply link when the body of the message is displayed directs you to the Compose a message page with prefilled recipient and subject fields. See the <strong>Compose a message</strong> section of the manual for more information about this process.
+		</section>
+		<section id="msg_msg_act" title="Managing messages">
+			In any given folder, checkboxes are present:<ul>
+				<li>in front of the subject header:- checking this checkbox selects all messages in the folder.</li>
+				<li>in front of each message:- checking this checkbox selects the corresponding message.</li>
+			</ul>
+			Once messages have been selected several actions become available at the bottom of the page:<ul>
+				<li>Delete:- clicking the Delete button deletes selected messages.</li>
+				<li>Move:- clicking the Move button moves the selected messages to the folder chosen in the drop down list.</li>
+			</ul>
+		</section>
+	</section>
+	<section id="msg_int" title="Internal Transmissions">
+		Those are particular messages sent by the game under various circumstances:<ul>
+			<li>Game wide information messages.</li>
+			<li>Alliance wide information messages.</li>
+			<li>Empire specific information messages:- scientific exchange offers etc.</li>
+		</ul>
+	</section>
+</lwdoc>

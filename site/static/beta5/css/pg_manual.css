@@ -1,0 +1,40 @@
+div.mansection {
+	padding: 0px 0px 0px 30px;
+}
+
+div#manual {
+	padding: 10px 0px 0px 20px;
+}
+
+div.mansection, div.mansection * {
+	text-align: justify;
+}
+
+div.mansection table {
+	width: 100%;
+	margin: 10px 0px 10px -30px;
+}
+
+div.mansection td {
+	text-align: left;
+	vertical-align: top;
+	padding: 2px 4px 2px 4px;
+}
+
+div.mansection th {
+	text-align: left;
+	vertical-align: bottom;
+	padding: 2px 4px 2px 4px;
+}
+
+div.mansection table, div.mansection th, div.mansection td {
+	border: 1px solid white;
+	border-collapse: collapse;
+}
+
+div.mansection a {
+	font-style: normal;
+	color: #CCCCCC;
+	font-weight: bold;
+	text-decoration: none;
+}

@@ -1,0 +1,89 @@
+#intframe {
+	background-image: url(__STATICURL__/main/pics/mp-title.jpg);
+}
+
+a.mbutton {
+	display: block;
+	position: absolute;
+	height: 24px;
+	padding: 18px 0px;
+	background-repeat: no-repeat;
+	border-style: none;
+	border-width: 0px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: #ddd;
+	background-position: 0px 0px;
+	font-size: 14pt;
+}
+
+a.mbutton:hover {
+	color: white;
+	background-position: 0px -60px;
+}
+
+a#b0 {
+	top: 159px;
+	left: 319px;
+	width: 310px;
+	background-image: url(__STATICURL__/main/pics/mp-title-b0.png);
+}
+
+a#b1 {
+	top: 220px;
+	left: 242px;
+	width: 232px;
+	background-image: url(__STATICURL__/main/pics/mp-title-b1.png);
+}
+
+a#b2 {
+	top: 220px;
+	left: 475px;
+	width: 232px;
+	background-image: url(__STATICURL__/main/pics/mp-title-b2.png);
+}
+
+a#b3 {
+	top: 280px;
+	left: 242px;
+	width: 232px;
+	background-image: url(__STATICURL__/main/pics/mp-title-b3.png);
+}
+
+a#b4 {
+	top: 280px;
+	left: 475px;
+	width: 232px;
+	background-image: url(__STATICURL__/main/pics/mp-title-b4.png);
+}
+
+a#b5 {
+	top: 340px;
+	left: 242px;
+	width: 232px;
+	background-image: url(__STATICURL__/main/pics/mp-title-b5.png);
+}
+
+a#b6 {
+	top: 340px;
+	left: 475px;
+	width: 232px;
+	background-image: url(__STATICURL__/main/pics/mp-title-b6.png);
+}
+
+#gamedesc {
+	position: absolute;
+	top: 430px;
+	left: 219px;
+	width: 510px;
+	text-align: center;
+	font-size: 10pt;
+	color: white;
+}
+
+#gamedesc a, #gamedesc a:hover, #gamedesc a:visited {
+	font-style: normal;
+	text-decoration: none;
+	color: white;
+}

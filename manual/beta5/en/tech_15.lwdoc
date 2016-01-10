@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Nano-scale Computers</title>
+	<section id="tech_15_desc" title='Description'>
+		Sir, their recent progresses in nanotechnologies has allowed our scientists to create a new generation of computers. This new miniaturised computer allows us to improve research efficiency and opens a brand new field of research.
+	</section>
+	<section id="tech_15_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Civilian technology</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;100,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases research output</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_15_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_8'>Room Temperature Superconductors</mlink></li>
+			<li><mlink to='tech_9'>Nanotechnologies</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_20">Quantum Computers</mlink></li>
+			<li><mlink to="tech_22">Hyperspace Theory</mlink></li>
+			<li><mlink to="tech_38">Cybernetic Interfaces</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

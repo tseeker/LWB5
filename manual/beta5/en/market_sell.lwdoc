@@ -1,0 +1,190 @@
+<?xml version="1.0"?>
+<lwdoc>
+        <version>beta5</version>
+	<language>en</language>
+	<title>Selling and Giving</title>
+	<section id="sell_intro" title="Introduction">
+		In order for exchanges to take place it is obvious that some items for sale are necessary. This part of the manual will cover this topic. It will go through the process of putting planets and fleets on sale, be it publicly or privately, going through the offers you're making or have already made and making gifts.
+	</section>
+	<section id="sell_put" title="Putting on sale">
+		<section id="sell_put_acc" title="Accessing the page">
+			In order to put an item on sale, you first of all have to choose the item. The process is a bit different depending on the type of item you want to sell:<ul>
+				<li>Planets: on the individual page of each planet, a Sell/Give link is displayed below the planet name among other action links. Clicking on this link directs you to the planet sale page</li>
+				<li>Fleets: on the Fleets page, once you have selected the fleet with corresponding checkbox, a Sell link appears among the other action links. Clicking on the link directs you the fleets selling page. It is also possible to sell a fleet bundled with a planet. This topic will be covered along with planets sales</li>
+			</ul>
+		</section>
+		<section id="sell_put_pla" title="Selling a planet">
+			<section id="sell_put_pla_intro" title="Introduction">
+				Once you have clicked on the Sell/Give link of a planet you get directed to a special page with similar items with the individual planet page. This page is split into four sections:<ul>
+					<li>Top planet section</li>
+					<li>Planet Overview</li>
+					<li>Give / Sale Planet</li>
+					<li>Bundled Fleets</li>
+				</ul>
+				The next paragraphs will go through the different sections and their role in the sale process.
+			</section>
+			<section id="sell_put_pla_top" title="Top planet section">
+				This part of the page is almost the same as for the individual planet page. See this section of the manual for more details. The only difference stands with the planetary control links below the planet name. There are only two sale related links:<ul>
+					<li>Confirm Sale: once you are statisfied with the choices you've made in the sale form, click on the link to confirm the sale and make it "official". Clicking the link will open a confirmation alert window where you have to confirm again in order to validate the sale offer</li>
+					<li>Cancel: click on this link to remove all changes you've made to the form and go back to the individual planet page of the planet</li>
+				</ul>
+			</section>
+			<section id="sell_put_pla_over" title="Planet overview">
+				This part of the page is identical to the Planet Overview section of the Individual Planet Page. See this section of the manual for more details.
+			</section>
+			<section id="sell_put_pla_sell" title="Give / sell planet">
+				This part of the page is the actual selling tool. The left part of the page consists in a set of radio buttons corresponding each to one category of sale. Depending on the choice you make, the right part differs because it's specific to the type of sale. The different possible values for the radio button are:<ul>
+					<li>Gift: in the case of a gift you're giving a planet to another player without any finantial compensation. The offer is targetted to a particular player. The data you have to fill in in the right part of the form are:<ul>
+						<li>Offer expires: use this drop down list to select the expiration time between the values Never, 6 hours, 12 hours, 1 day, 2 days, 3 days, 4 days and 5 days</li>
+						<li>Target player: use this text field to type in the name of the player to whom the offer has to be made</li>
+					</ul></li>
+					<li>Direct Sale: in the case of a direct sale, the sale offer is only made to one player but there is a price attached to the planet. The target player is the only other player who is aware of the sale offer. The data you have to fill in in the right part of the form are:<ul>
+                                                <li>Offer expires: use this drop down list to select the expiration time between the values Never, 6 hours, 12 hours, 1 day, 2 days, 3 days, 4 days and 5 days</li>
+                                                <li>Target player: use this text field to type in the name of the player to whom the offer has to be made</li>
+						<li>Price: use this text field to type in the amount of cash you wish to obtain in exchange for the planet</li>
+	                                        </ul></li>
+					<li>Public Sale: in the case of a public sale, the sale offer is made in public and all players can see it. The first player who offers to buy the planet is the one with whom the sale is concluded. The data you have to fill in in the right part of the form are:<ul>
+						<li>Offer expires: use this drop down list to select the expiration time between the values Never, 6 hours, 12 hours, 1 day, 2 days, 3 days, 4 days and 5 days</li>
+						<li>Price: use this text field to type in the amount of cash you wish to obtain in exchange for the planet</li>
+					</ul></li>
+					<li>Auction Sale: in the case of an auction sale, the offer is also publicly available to all players. But you don't define a fix price for the planet. You can only set a minimum bid. The player who has the higher bid when the offer expires buys the planet for the price corresponding to his bid. The data you have to fill in in the right part of the form are:<ul>
+					<li>Offer expires: use this drop down list to select the expiration time between the values 6 hours, 12 hours, 1 day, 2 days, 3 days, 4 days and 5 days, The value Never is invalid in this case.</li>
+					<li>Minimum bid: use this text field to type in the minimum price you want to sell the planet to</li>
+					</ul></li>
+				</ul>
+			</section>
+			<section id="sell_put_pla_bund" title="Bundled fleets">
+				When putting a planet for sell or offering a planet as a gift you have the possibility to also offer the fleets orbiting the planet. The price for the planet then correspond to a bundle price for both the fleet and the planet. That's what this section of the manual is all about.
+				<br/>
+				This part of the page provides a list of all fleets you own that are orbiting the planet. This list includes the following fields:<ul>
+					<li>Name: the current name of the fleet</li>
+					<li>G.A. Ships: the number of GA ships in the fleet</li>
+					<li>Fighters: the number of fighters in the fleet</li>
+					<li>Cruisers: the number of cruisers in the fleet</li>
+					<li>Battle Cruisers:the number of battle cruisers in the fleet</li>
+					<li>Power: the total power of the fleet</li>
+				</ul>
+				In front of each fleet there is a checkbox. Checking the checkbox selects the fleet as having to be sold or given along with the planet. 
+			</section>
+		</section>
+		<section id="sell_put_fleet" title="Selling a fleet">
+			<section id="sell_put_fleet_intro" title="Introduction">
+				Once you have selected fleets on the fleet page and clicked on the Sell link, you get directed to a special fleet selling page. In the top right section of the page are located the page action links:<ul>
+					<li>Cancel: this link is always present and clicking it removed all modifications you might have made and directs you back to the fleets page</li>
+					<li>Confirm: clicking this link validates the offer and you get directed back to the fleets page. It only appears when all form for all locations are filled in properly</li>
+				</ul>
+				<br/>
+				For each set of Planet name / coordinates is displayed:<ul>
+					<li>Selected Fleets: a list of all fleets you have selected for sale at this location</li>
+					<li>Sale details: a form allowing to define the sale parameters</li>
+				</ul>
+			</section>
+			<section id="sell_put_fleet_lis" title="List of fleets to sell">
+				For each location this list presents for each fleet to be sold or given:<ul>
+					<li>Fleet Name: the current name of the fleet</li>
+					<li>G.A. Ships: the number of GA ships in the fleet</li>
+					<li>Fighters: the number of fighters in the fleet</li>
+					<li>Cruisers: the number of cruisers in the fleet</li>
+					<li>Battle Cruisers:the number of battle cruisers in the fleet</li>
+					<li>Power: the total power of the fleet</li>
+				</ul>
+					At the bottom of the list a line presents the total for all fleets at this location.
+			</section>
+			<section id="sell_put_fleet_sell" title="Give / Sell fleet">
+				This part of the page is the actual selling tool. The left part of the page consists in a set of radio buttons corresponding each to one category of sale. Depending on the choice you make, the right part differs because it's specific to the type of sale. The different possible values for the radio button are:<ul>
+					<li>Gift: in the case of a gift you're giving a fleet to another player without any finantial compensation. The offer is targetted to a particular player. The data you have to fill in in the right part of the form are:<ul>
+						<li>Offer expires: use this drop down list to select the expiration time between the values Never, 6 hours, 12 hours, 1 day, 2 days, 3 days, 4 days and 5 days</li>
+						<li>Target player: use this text field to type in the name of the player to whom the offer has to be made</li>
+					</ul></li>
+					<li>Direct Sale: in the case of a direct sale, the sale offer is only made to one player but there is a price attached to the fleet. The target player is the only other player who is aware of the sale offer. The data you have to fill in in the right part of the form are:<ul>
+                                                <li>Offer expires: use this drop down list to select the expiration time between the values Never, 6 hours, 12 hours, 1 day, 2 days, 3 days, 4 days and 5 days</li>
+                                                <li>Target player: use this text field to type in the name of the player to whom the offer has to be made</li>
+						<li>Price: use this text field to type in the amount of cash you wish to obtain in exchange for the fleet</li>
+	                                        </ul></li>
+					<li>Public Sale: in the case of a public sale, the sale offer is made in public and all players can see it. The first player who offers to buy the fleet is the one with whom the sale is concluded. The data you have to fill in in the right part of the form are:<ul>
+						<li>Offer expires: use this drop down list to select the expiration time between the values Never, 6 hours, 12 hours, 1 day, 2 days, 3 days, 4 days and 5 days</li>
+						<li>Price: use this text field to type in the amount of cash you wish to obtain in exchange for the fleet</li>
+					</ul></li>
+					<li>Auction Sale: in the case of an auction sale, the offer is also publicly available to all players. But you don't define a fix price for the fleet. You can only set a minimum bid. The player who has the higher bid when the offer expires buys the fleet for the price corresponding to his bid. The data you have to fill in in the right part of the form are:<ul>
+					<li>Offer expires: use this drop down list to select the expiration time between the values 6 hours, 12 hours, 1 day, 2 days, 3 days, 4 days and 5 days, The value Never is invalid in this case.</li>
+					<li>Minimum bid: use this text field to type in the minimum price you want to sell the fleet to</li>
+					</ul></li>
+				</ul>
+			</section>
+		</section>
+	</section>
+	<section id="sell_manag" title="Managing sales">
+		<section id="sell_manag_intro" title="Introduction">
+			All current and past sale and gift offers are listed on the Sent Offer part of the marketplace page. This section is accessible through the Sent Offers link on top of the marketplace page. The rest of this section will detail both lists.
+		</section>
+		<section id="sell_manag_pend" title="Pending Offers">
+			<section id="sell_manag_pend_intro" title="Introduction">
+				The list of pending sale or gift offers can be split into two parts:<ul>
+					<li>Top part: it includes a set of controls that allow you to easily navigate into the list</li>
+					<li>List per se: it's the actual list of pending offers</li>
+				</ul>
+				The next sections of the manual will cover both parts of the list.
+			</section>
+			<section id="sell_manag_pend_cont" title="List controls">
+				On top of the list of pending offers a set of controls offer navigation means into the list.
+				<br/>
+				On the left side of the page, a drop down list allows to select a number of items to display on each page of the list. This number of items can be either 5, 10, 15, 20 or 25. If there are more items in total than this number, the list will be displayed onto several internal pages specific to the list without modifications of the rest of the Sent Offers page.
+				<br/>
+				In the middle of the page is provided a search facility which allows you to search for particular planets on sale or on which fleets are beeing sold. This search system consist in a textfield where you can type in a search string. Any planet which name contains the search string, wherever it may be located in the planet name, will match the search and be displayed.
+				<br/>
+				If there are more items in the list than have to be displayed on each list page, a drop down list appears on the right part of the page. This drop down list allows to select the list page to display.
+			</section>
+			<section id="sell_manag_pend_list" title="The list itself">
+				Below the set of control are listed all pending offers. This list includes for each offer:<ul>
+					<li>Date: the time and date when the offer was made</li>
+					<li>Offer Type: the type of the offer. It can be either Gift, Private Sale, Public Sale or Auction Sale</li>
+					<li>Price: the price at which the offer has been made. This field is N/A for gifts and correspond to the current bid for auction sale</li>
+					<li>Expiration: the date and time when the offer expire</li>
+					<li>To Player: the player to whom the offer has been made. This field is N/A for public and auction sales</li>
+					<li>Details: a sentense describing the item on sale:<ul>
+						<li>For planets: it includes planet name and coordinates, population, number of turrets and factories</li>
+						<li>For fleets: it includes the number of ships of each category along with the total fleet power</li>
+						<li>For planets with bundled fleets: it includes the information provided for both planet and fleets</li>
+					</ul></li>
+					<li>Cancel link: clicking on this link opens a confirmation alert box. Confirming the action in this alert box cancel the offers.</li>
+				</ul>
+				Just as for most lists in game, clicking on the header of one column order the list items according to the value of this flied. Clicking again on the same header changes the ordering from ascending to descending and the other way around.
+			</section>
+		</section>
+		<section id="sell_manag_his" title="History">
+			<section id="sell_manag_his_intro" title="Introduction">
+				The sales or gift offers history can be split into two parts:<ul>
+					<li>Top part: it includes a set of controls that allow you to easily navigate into the list</li>
+					<li>List per se: it's the actual list of offers history</li>
+				</ul>
+				The next sections of the manual will cover both parts of the list.
+			</section>
+			<section id="sell_manag_his_cont" title="List controls">
+				On top of the list of offers history a set of controls offer navigation means into the list.
+				<br/>
+				On the left side of the page, a drop down list allows to select a number of items to display on each page of the list. This number of items can be either 5, 10, 15, 20 or 25. If there are more items in total than this number, the list will be displayed onto several internal pages specific to the list without modifications of the rest of the Sent Offers page.
+				<br/>
+				In the middle of the page is provided a search facility which allows you to search for particular planets or fleets offers. This search system consist in a textfield where you can type in a search string. Any planet which name contains the search string, wherever it may be located in the planet name, will match the search and be displayed.
+				<br/>
+				If there are more items in the list than have to be displayed on each list page, a drop down list appears on the right part of the page. This drop down list allows to select the list page to display.
+			</section>
+			<section id="sell_manag_his_list" title="The list itself">
+				Below the set of control are listed all offers in the history list. This list includes for each offer:<ul>
+					<li>Last Change: the time and date when the last change on the offer has occured. It might be a cancellation of someone accepting the offer for instance</li>
+					<li>Status: the outcome of the offer. The offer may have been cancelled or accepted or the item has been sold</li>
+					<li>Sent: the time and date when the offer was made</li>
+					<li>Offer Type: the type of the offer. It can be either Gift, Private Sale, Public Sale or Auction Sale</li>
+					<li>Price: the price at which the offer has been made. This field is N/A for gifts and correspond to the current bid for auction sale</li>
+					<li>To Player: the player to whom the offer has been made. This field is N/A for public and auction sales</li>
+					<li>Details: a sentense describing the item on sale:<ul>
+						<li>For planets: it includes planet name and coordinates, population, number of turrets and factories</li>
+						<li>For fleets: it includes the number of ships of each category along with the total fleet power</li>
+						<li>For planets with bundled fleets: it includes the information provided for both planet and fleets</li>
+					</ul></li>
+				</ul>
+				Just as for most lists in game, clicking on the header of one column order the list items according to the value of this field. Clicking again on the same header changes the ordering from ascending to descending and the other way around.
+			</section>
+		</section>
+	</section>
+</lwdoc>
+

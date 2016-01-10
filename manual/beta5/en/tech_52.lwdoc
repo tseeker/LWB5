@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Resurrection tanks</title>
+	<section id="tech_52_desc" title='Description'>
+		Our engineers have updated the designs for our capital ships. The medical bays will now integrate the equipment required to raise our pilots from the dead, further reducing battle losses.
+	</section>
+	<section id="tech_52_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Military technology</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;3,000,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Reduces battle losses</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_52_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_33'>Corpse Reanimation</mlink></li>
+			<li><mlink to='tech_51'>Medical Bays</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

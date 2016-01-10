@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<lwdoc>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Enemies</title>
+	<section id="enem_intro" title="Introduction">
+		This page allows you to keep a list of enemy players and alliance. This has for consequence that each time a fleet belonging to one of your enemy arrives at one of your planets it gets automatically switched to attack mode. Moreover it's impossible for them to switch their fleets to defense mode on your planets.
+	</section>
+	<section id="enem_play" title="Player Enemy List">
+		In this section of the page you can add a new enemy to your list by typing its player name in the textfield and clicking the Add button. The player name get displayed in the list below.
+		<br/>
+		A checkbox is displayed before the name of each of the enemy players in your list. Checking those checkboxes make a new button appear. Clicking this Remove selected enemies button allows you to remove the players whose checkbox has be checked from the enemy list.
+	</section>
+	<section id="enem_all" title="Alliance Enemy List">
+		In this section of the page you can add a new enemy to your list by typing its tag in the textfield and clicking the Add button. The alliance tag get displayed in the list below.
+		<br/>
+		A checkbox is displayed before the name of each of the enemy tags in your list. Checking those checkboxes make a new button appear. Clicking this Remove selected enemies button allows you to remove the alliances whose checkbox has be checked from the enemy list.
+	</section>
+</lwdoc>

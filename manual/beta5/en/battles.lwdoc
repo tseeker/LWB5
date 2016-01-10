@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<lwdoc>
+        <version>beta5</version>
+	<language>en</language>
+	<title>Battles</title>
+	<section id="battle_intro" title="Introduction">
+		<i>Battles</i> regulate the way military engagements occure in LegacyWorlds. The next parapgraphs describe how battles are managed in game.
+		When entering into <i>battle mode</i>, fleets remain <i>unavailable</i> until a <mlink to="ticks_tick">battle tick</mlink> has occured on the stellar object they are orbiting.
+	</section>
+	<section id="battle_rul" title="Battle rules">
+		<section id="battle_rul_cond" title="Battle conditions">
+			Battles occure when the following conditions are met:<ul>
+				<li><mlink to="ipp_ot">Location</mlink>: the fleets have to be at the same location. Same location means <i>orbiting the same stellar object</i>. Two fleets <i>in <mlink to="move_gen_hypnorm_hyp">hyperspace</mlink> don't engage in battle</i> because the particular nature of this parallel dimension renders weapons inefficient</li>
+				<li><mlink to="move_pract_order_change_mod">Fleets' mode</mlink>: the <mlink to="move_pract_order_change_mod">modes</mlink> of the fleets have to be different ((one in defense and one in attack at least)</li>
+				<li><mlink to="vacation_mode">Vacation mode</mlink>: in the case of an attack on a planet, the attacked planet has to belong to a player who isn't in <mlink to="vacation_mode">vacation mode</mlink></li>
+				<li><mlink to="planet">Planet</mlink>: a battle also occures when a fleet is in attack mode on a planet, be it defended by <mlink to="fleets">fleets</mlink> or <mlink to="ship_cat_list">turrets</mlink> or not</li>
+			</ul>
+		</section>
+		<section id="battle_rul_comp" title="Battle computations">
+			<i>Battle computations</i> correspond to the calculation of the outcome of a battle. They are regulated by the <i>following rules</i>:<ul>
+				<li><i>Battle computations</i> take place at <mlink to="ticks_tick">Battle ticks</mlink>, every 4 hours</li>
+				<li>The <i>losses</i> of <mlink to="ships_cat_list">ships</mlink> and <mlink to="ship_cat_list">turrets</mlink> for each side are calculating <i>depending on relative average power</i> and <i>fleet composition</i> of each side</li>
+				<li>The <i>primary factor</i> taken into account is the <i>relative <mlink to="ship_cat_pow">power</mlink></i> between attacking and defending <mlink to="fleets">fleets</mlink>. The bigger the difference, the more losses the smaller fleet will sustain and the less losses the bigger fleet will have</li>
+				<li>The <i>number of <mlink to="ships_cat_list">ships of each type</mlink></i> being detroyed depends on <i>fleet composition</i>. The more ships of one category the more will be destroyed</li>
+			</ul>
+		</section>
+	</section>
+	<section id="battle_report" title="Battle reports">
+		Each time a <mlink to="ticks_tick">battle tick</mlink> during which you have been <i>engaged in battle has occured</i>, a <i>battle report</i> is sent in your <mlink to="msg_int">Internal Transmissions</mlink> folder by your <i>Military Advisor</i>. This report includes <i>for each location</i> a description of the <mlink to="fleets">fleets</mlink> in presence and the outcome:<ul>
+			<li><i>Fleet categories</i>: the report includes up to <i>three categories</i> of <mlink to="fleets">fleets</mlink>:<ul>
+				<li><i>own fleets</i> (green)</li>
+				<li><i>friendly fleets</i> (blue)</li>
+				<li><i>enemy fleets</i> (red)</li>
+			</ul></li>
+			<li><i>Fleet composition</i>: for each group of <mlink to="fleets">fleets</mlink> is displayed the <i>composition of the fleet</i> before the battle (<i>Start</i> Column) and the losses (<i>Losses</i> column) for <mlink to="ships_cat_list">each ship category</mlink> present and for <mlink to="ships_cat_list">Turrets</mlink> if any, along with the same data in <mlink to="ship_cat_pow">power of the fleet</mlink></li>
+			<li><i>Comment</i>: at the bottom of the <i>Battle Report</i> the <i>Military Advisor</i> provides some <i>insights on the next move to make</i></li>
+		</ul>
+	</section>
+	<section id="battle_ownchange" title="Planet owner change">
+		<section id="battle_ownchange_intro" title="Introduction">
+			<i>When attacking a planet with sufficient forces</i>, a point is reached where <i>all defenses have been destroyed</i>, be they <mlink to="ships_cat_list">ships</mlink> or <mlink to="ships_cat_list">turrets</mlink>. At the next <mlink to="ticks_tick">hour tick</mlink> is then computed if anyone could <i>take control of the planet</i>. Owner change is decided based on the rules described in the next paragraphs.
+		</section>
+		<section id="battle_ownchange_ga" title="Planetary control">
+			The <i>control over the planet</i> can only <i>change</i> if the <i>ground assault troups have a i<mlink to="ship_cat_ga">sufficient control</mlink> over the population</i>. A single company can't control a whole planet, whatever elite they are, can't they? 
+			<br/>
+			As a consequence a player has to have more <mlink to="ship_cat_ga">GAs ships</mlink> than the number of <mlink to="ship_cat_ga">GA ships</mlink> required to <mlink to="ship_cat_ga">control the population</mlink>, in order <i>to take control of the planet</i>. 
+			<br/>
+			At the <i>beginning of the game</i>, the troups transported in <i>1 GA ship</i> can control <i>200 population units</i>. This number can be increased through <mlink to="technology">technological advances</mlink> such as:<ul>
+				<li><mlink to="tech_39">Exoskeleton</mlink></li>
+                                <li><mlink to="tech_26">Nanofiber Armor</mlink></li>
+                                <li><mlink to="tech_54">Self-repairing Exoskeleton</mlink></li>
+			</ul>
+		</section>
+		<section id="battle_ownchange_play" title="Player gaining control">
+			In some cases, <i>several players</i> with <mlink to="fleets">fleets</mlink> including <mlink to="ship_cat_ga">GA ships</mlink> may be attacking the same <mlink to="planet">planet</mlink> at once. When <i>several players</i> are attacking the same <mlink to="planet">planet</mlink>, <i>control over the planet</i> is given to the one who <i>has the capacity to control the more population</i>.
+			<br/>
+			It doesn't necessarily mean that the player with the more <mlink to="ship_cat_ga">GA ships</mlink> will gain control. Everything depends on the level of <mlink to="technology">technology</mlink> each player involved has.
+		</section>
+	</section>
+</lwdoc>

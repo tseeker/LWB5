@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Hardened Alloys</title>
+	<section id="tech_24_desc" title='Description'>
+		These new improved alloys are more resistant and will allow for less losses in battle as well as future advances in industry research.
+	</section>
+	<section id="tech_24_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Civilian technology</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;100,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases Industrial Factories productivity</li>
+				<li>Increases planetary base income</li>
+				<li>Reduces battle losses</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_24_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_9'>Nanotechnologies</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_25">Experimental Anti-Matter Production</mlink></li>
+			<li><mlink to="tech_35">Arcologies</mlink></li>
+			<li><mlink to="tech_36">Robotics</mlink></li>
+			<li><mlink to="tech_37">Adaptive Materials</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

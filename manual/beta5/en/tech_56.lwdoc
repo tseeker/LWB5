@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Ban Biological Drones</title>
+	<section id="tech_56_desc" title='Description'>
+		To fight the decrease in happiness caused by biological drones, we can enact a law that bans their presence in our empire. This law counters all effects of biological drones and restores factories to their previous level of productivity. 
+	</section>
+	<section id="tech_56_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Law</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;70,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Decreases Industrial Factories productivity</li>
+				<li>Decreases Military Factories productivity</li>
+				<li>Increases happiness</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_56_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_55'>Biological Drones</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

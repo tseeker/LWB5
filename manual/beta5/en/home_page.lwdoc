@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<lwdoc>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Legacy Worlds Home Page</title>
+	<section id="home_intro" title="Introduction">
+		The LegacyWorlds home page consists in three different sections:<ul>
+			<li>a <mlink to="home_cons_top">top banner</mlink> containing a set of links</li>
+			<li>a <mlink to="home_cons_left">left panel</mlink> containing various forms and information</li>
+			<li>a <mlink to="home_cont">middle section</mlink> which consists in the body of the page</li>
+		</ul>
+		The following sections of the manual will present those various items.
+	</section>
+	<section id="home_cons" title="Constant sections">
+		<section id="home_cons_top" title="Top banner">
+			The top banner consists in the set of links that allow you to navigate between the various pages of the external LegacyWorlds web site:<ul>
+				<li><i>Home</i>: to go back to the home page</li>
+				<li><i>Create Account</i>: to go to the account creation form; this link is only present if you're not logged in yet</li>
+				<li><i>Manual</i>: to go to the manual page</li>
+				<li><i>Rankings</i>: to go to the external Rankings page</li>
+			</ul>
+		</section>
+		<section id="home_cons_left" title="Left panel">
+			<section id="home_cons_left_intro" title="Introduction">
+				The left panel can be split into two sections:<ul>
+					<li><i>Top part</i>: it includes account related data</li>
+					<li><i>Bottom part</i>: it presents some rankings or manual browsing facilities</li>
+				</ul>
+			</section>
+			<section id="home_cons_left_top" title="Top part">
+				The top part of this panel includes account related information.
+				<br/>
+				When you are <i>not logged in</i>, it presents three sets of data:<ul>
+					<li><i>login form</i>: in order to log in, type you <i>username</i> and <i>password</i> in the corresponding fields and click on the <i>Log in -></i> button. You will then log in into your account</li>
+					<li> <i>players information</i>: the number of <i>online players</i> and <i>registered players</i> are displayed below the login form</li>
+					<li><i>Terms of use</i>: ait's a link to a special page describing shortly the terms of use for the page</li>
+				</ul>
+				<br/>
+				When you are <i>logged in</i>, this section presents the <i>name of the account</i> with which you have logged in. Below you'll find a link to the <mlink to="pref_acc">account's preferences</mlink> pages and the <i>terms of use</i> page and a <i>Log out</i> link. Clicking on the <i>log out</i> button logs out the account and directs you to a special log out page.
+			</section>
+			<section id="home_cons_left_bottom" title="Bottom part">
+				On most pages, the bottom part of the left panel presents the <i>Top Ten</i> of the Public Beta 5 Overall round <mlink to="rankings">rankings</mlink>, including <i>Player name</i> and corresponding <i>number of Points</i>. 
+				<br/>
+				The very bottom part of the left panel provides the version number of the newest LegacyWorlds game.
+				<br/>
+				On the <mlink to="home_cont_manual">manual page</mlink>, it contains manual <mlink to="home_cont_manual_nav">navigation tools</mlink>, that will be explained along with the <mlink to="home_cont_manual">manual page</mlink>.
+			</section>
+		</section>
+	</section>
+	<section id="home_cont" title="Page related sections">
+		<section id="home_cont_home" title="Home">
+			<section id="home_cont_home_intro">
+				The home page for the game has two different layouts depending if you're logged in or not. Each will be described in the next parapgraphs.
+			</section>
+			<section id="home_cont_home_nlog" title="Inf you are not logged in">
+				If you're <i>not logged in</i>, this page presents a quick introduction to the game. It also provides a link to the website of the team who built the game: <a href="http://www.deepclone.com/">DeepClone Development</a>.
+				<br/>
+				Below this introduction, you can find an <i>Online Games Directories</i> title. This part of the page lists online review of the game on the following websites:<ul>
+					<li><a href="http://www.mpogd.com/games/game.asp?ID=3499">Multiplayer Online Games Directory</a></li>
+					<li><a href="http://www.free-games.com.au/Detailed/1851.html">Free Games</a></li>
+				</ul>
+				The bottom part of the page includes a set of links allow you to access <i>other DeepClone Development games</i> related items:<ul>
+					<li><a href="http://www.f1managerpro.com/">F1 Manager Pro</a>: another online game developed by the team</li>
+					<li><a href="http://www.legacyworlds.com/beta4/">Legacy Worlds Beta 4</a>: this link directs you to the main page of the previous version of the game (beta 4) if you wish to play it. This older version will be kept running for a few more months</li>
+					<li><a href="http://legacygame.proboards44.com/">external forums</a>: since beta 1-4 didn't have any included forums, external forums on a website hosting message boards were created. This link directs you to this external forum.</li>
+				</ul>
+			</section>
+			<section id="home_cont_home_log" title="If you are logged in">
+				<section id="home_cont_home_log_intro" title="Introduction">
+					If you are <i>logged in</i>, this page is split into three sections:<ul>
+						<li>A <mlink to="accga_gm">games</mlink> related section</li>
+						<li>A <mlink to="vacation_mode">vacation mode</mlink> related section</li>
+						<li>A <mlink to="accga_acc_del">closing account</mlink> related section</li>
+					</ul>
+					The next paragraphs will cover all these topics.
+				</section>
+				<section id="home_cont_home_log_gam" title="Games related section">
+						The games related section presents the list of <mlink to="accga_gm">games</mlink> you are currently playing, including:<ul>
+						<li><i>Game name</i>: the name of the <mlink to="accga_gm">game</mlink></li>
+						<li><i>Planets</i>: the number of planets you own in this particular <mlink to="accga_gm">game</mlink></li>
+						<li><i>Cash</i>: the amount of money you own in this <mlink to="accga_gm">game</mlink></li>
+					</ul>
+					Clicking on the name of a <mlink to="accga_gm">game</mlink> will log you in this <mlink to="accga_gm">game</mlink>.
+				</section>
+				<section id="home_cont_home_log_vac" title="Vacation mode section">
+					<mlink to="vacation_mode">Vacation mode</mlink> allows you to take a break from the <mlink to="accga_gm">game</mlink>. Entering <mlink to="vacation_mode">vacation mode</mlink> doesn't deleted your <mlink to="accga_acc">account</mlink> nor your <mlink to="accga_gm">game data</mlink> and you're still able to access the pages of the <mlink to="accga_gm">games</mlink> you're playing. Being on <mlink to="vacation_mode">vacation</mlink> only means that your assets are protected but that you can't perform any game actions. 
+					<br/>
+					This part of the page first of all provides you with some information about your <mlink to="vacation_mode">vacation</mlink> status:<ul>
+						<li><i>number of vacation credits</i>: vacation credits correspond to period of 6h during which you can stay in <mlink to="vacation_mode">vacation</mlink></li>
+						<li><i>Corresponding period of time</i>: the period of time corresponding to your amount of <mlink to="vacation_mode">vacation credits</mlink></li>
+					</ul>
+					Below is displayed a <i>Enter Vacation mode</i> button. Clicking the button starts the process of entering vacation mode which is described more precisely in the <mlink to="vacation_mode">vacation mode section</mlink> of the manual.
+				</section>
+				<section id="home_cont_home_log_acd" title="Closing account section">
+					Closing your account allows you to permanently remove all game data link to your account. 
+					<br/>
+					This part of the page first of all explains what closing the account means. Below is displayed a <i>Close my account</i> button. Clicking the button gets you to the forms that allow you to actually close your account, which is explained more precisely in the <mlink to="accga_acc_clo">closing account</mlink> section of the manual.
+				</section>
+			</section>
+		</section>
+		<section id="home_cont_manual" title="Manual">
+			<section id="home_cont_manual_intro" title="Introduction">
+				Once on the manual page, you have access both to the <mlink to ="home_cont_manual_page">manual itself</mlink> and to a set of <mlink to="home_cont_manual_nav">tools</mlink> in <mlink to="home_cons_left_bottom">the bottom part of the left panel</mlink>. Both will be presented here.
+			</section>
+			<section id="home_cont_manual_page" title="Manual pages">
+				All manual pages are organised in the same fashion:<ul>
+					<li>The <i>title</i> of the manual section is displayed at the <i>top of the page</i></li>
+					<li>Below the title, the <i>contents</i> of the sections are displayed in a <i>bulleted list</i>. Each item in the list is an <i>internal link</i> to the corresponding part of the page</li>
+					<li>The <i>main parts</i> of each section (top level bullets in the contents) are separated by <i>horizontal lines</i></li>
+					<li>In the <i>body</i> of the page, each <i>title</i> is followed with a <i>Top</i> link on the right. Clicking this link will get you back to the <i>top of the page</i></li>
+				</ul>
+			</section>
+			<section id="home_cont_manual_nav" title="Navigation tools">
+				There are three kinds of navigation tools that allow you to browse the manual:<ul>
+					<li>A set of <i>navigation links</i>: those links (<i>Top</i>, <i>Previous</i>, <i>Up</i>, <i>Next</i>) allow you to go back and forth in your navigation session</li>
+					<li>A <i>search facility</i>: type in a <i>keyword</i> in the provided textfield and click on the <i>Search</i> button. This will direct you to a special result page displaying the manual sections including your search string with links to access them.</li>
+					<li>A <i>contents list</i>: This list includes a set of <i>manual topics</i> corresponding each to one manual page. Clicking on one of those topics will display the corresponding page.</li>
+				</ul>
+			</section>
+		</section>
+		<section id="home_cont_rank" title="Rankings">
+			The Rankings page allows you to access all <mlink to="rankings">rankings</mlink> for any LegacyWorlds <mlink to="accga_gm">game</mlink>. The top of the page consists in a form where you can choose the <mlink to="rankings">rankings</mlink> to display, by selecting:<ul>
+				<li><mlink to="accga_gm">Game</mlink>: the first drop down list allows you to select the <mlink to="accga_gm">game</mlink> for which you want to see the <mlink to="rankings">rankings</mlink></li>
+				<li><mlink to="rankings">Rankings</mlink>: the second drop down list allows you to select the type of <mlink to="rankings">rankings</mlink> to display</li>
+			</ul>
+			Clicking the <i>Display Rankings</i> button updates the rankings list in the bottom part of the page. This list includes for each player in the <mlink to="rankings">rankings:</mlink><ul>
+				<li><i>Rank</i>: number of the rank</li>
+				<li><i>Name</i>: name of the player</li>
+				<li><i>Points</i>: number of points the player has for this particular <mlink to="rankings">ranking</mlink></li>
+			</ul>
+		</section>
+	</section>
+
+	<section file="vacation_mode.lwdoc"/>
+</lwdoc>

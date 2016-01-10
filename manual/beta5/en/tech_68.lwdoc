@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Sensor Turrets</title>
+	<section id="tech_68_desc" title='Description'>
+		Sire dude! Equipping our turrets with sensors designed out of our probe technology, we can gain in the accuracy of our aiming, thus becoming more efficient.
+	</section>
+	<section id="tech_68_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Military technology</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;2,000,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases turret power</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_68_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_46'>Hyperspace Beacon</mlink></li>
+			<li><mlink to='tech_61'>Automated Turrets</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

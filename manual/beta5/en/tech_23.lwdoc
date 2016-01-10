@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Increased Research Grants</title>
+	<section id="tech_23_desc" title='Description'>
+		This law allows to divert a higher percentage of income towards research thus allowing faster discoveries but reducing income.
+	</section>
+	<section id="tech_23_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Law</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;30,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases research output</li>
+				<li>Decreases Industrial Factories productivity</li>
+				<li>Decreases planetary base income</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_23_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_17'>Miniaturised Particle Colliders</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Hyperspace Theory</title>
+	<section id="tech_22_desc" title='Description'>
+		Our scientists have developed and tested a complete advanced theory regarding the structure of Hyperspace! We need to upgrade their labs for them to continue researches in this field.
+	</section>
+	<section id="tech_22_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Fundamental research</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;500,000</li>
+			<li><b>Effects:</b> N/A</li>
+		</ul>
+	</section>
+	<section id='tech_22_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_15'>Nano-scale Computers</mlink></li>
+			<li><mlink to='tech_16'>Quantum Gravitation</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_40">Temporal Mechanics</mlink></li>
+			<li><mlink to="tech_49">Entropy Generator</mlink></li>
+			<li><mlink to="tech_57">Force fields</mlink></li>
+			<li><mlink to="tech_60">Hyperspace Probing Beacons</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

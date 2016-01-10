@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<lwdoc>
+        <version>beta5</version>
+	<language>en</language>
+	<title>Accounts</title>
+	<section id="acc" title="Introduction">
+		Along with the good practices, some rules apply to your account in Legacy Worlds. Those are summed up in this section of the manual.
+	</section>
+	<section id="acc_multi" title="Multiple Accounts">
+		As for every game of the kind the general rule is: one account per player and one account only.
+		<br/>
+		Having multiple accounts for one player provides too big an advantage to the player controlling them and it wouldn't be a fair game to allow such a behaviour. It's simply cheating.
+		<br/>
+		There might not be an automated Anti-Multi System in Legacy Worlds for now but the small number of current players allows for the game administration team to check in the game database and spot by hand suspect behaviours. An automated system will be set up in a future Beta so it doesn't cost much to get good habits from the beginning.
+	</section>
+	<section id="acc_share" title="Password sharing">
+		Occasional password sharing among a little group of players is tolerated as long as several accounts are in the control of the same player for only a short period of time. Holding a database or file of allied account information isn't forbidden either as long as the actual use of those data complies with the previous statement.
+		<br/>
+		The "trusted allies" list should provide you with most of the gains you might expect from password sharing. Use this feature...
+	</section>
+	<section id="acc_age" title="Account Age">
+		Depending on their ages, newly created accounts face a certain amount of limitations that are lifted over time:<ul>
+			<li>Your account has to be 10 days old to allow cash transfer</li>
+			<li>Your account has to be 10 days old to allow for diplomatic exchange of technologies</li>
+		</ul>
+	</section>
+	<section id="grule_acc_inact" title="Inactive accounts">
+		Inactive accounts are accounts on which no activity hasn't occured in a certain amount of time. Those accounts will be neutralised. This means they will still exist in the database but won't be involved in any current game anymore. You may be able to reactivate them but you'll have to rejoin all the games you were playing.
+	</section>
+	<section id="grule_acc_priv" title="Privacy Warning">
+		In order to check on suspicious behaviour from some players the game administrators might have to look into the database for insult messages and such. As a consequence you have to be aware that they might read your messages. So be careful about what you may say in those.
+		<br/>
+		You also have to be aware that no messages are actually deleted even if you delete them in-game. They are kept in the database with a "deleted" flag.
+	</section>
+</lwdoc>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Quantum Gravitation</title>
+	<section id="tech_16_desc" title='Description'>
+		These advances in the field of quantum theory will open a new area for further studies.
+	</section>
+	<section id="tech_16_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Fundamental research</li>
+			<li><b>Optional:</b> No</li>
+			<li><b>Cost:</b> &amp;euro;100,000</li>
+			<li><b>Effects:</b> N/A</li>
+		</ul>
+	</section>
+	<section id='tech_16_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_2'>Hyperspace Basics</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_17">Miniaturised Particle Colliders</mlink></li>
+			<li><mlink to="tech_20">Quantum Computers</mlink></li>
+			<li><mlink to="tech_22">Hyperspace Theory</mlink></li>
+			<li><mlink to="tech_25">Experimental Anti-Matter Production</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Quantum Computers</title>
+	<section id="tech_20_desc" title='Description'>
+		Based on the new discoveries in the quantum theory field, these new computers are much more efficient and faster. Equipping our labs will be expensive but the advantages of the increased research speed should be incredible.
+	</section>
+	<section id="tech_20_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Civilian technology</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;500,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases research output</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_20_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_15'>Nano-scale Computers</mlink></li>
+			<li><mlink to='tech_16'>Quantum Gravitation</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_21">Economy Globalisation</mlink></li>
+			<li><mlink to="tech_42">Biological Computers</mlink></li>
+			<li><mlink to="tech_48">Quantum Encryption</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

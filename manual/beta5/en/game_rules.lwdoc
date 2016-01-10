@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<lwdoc>
+        <version>beta5</version>
+	<language>en</language>
+	<title>Game Rules</title>
+	<section id="garule_intro" title="Introduction">
+		As in every game there are rules in LegacyWorlds. Those rules apply to all players and are listed in the following sections of the manual.
+		<br/>
+		Breaking any of those rules has a simple consequence: your account will be deleted and an explanation e-mail will be sent to the e-mail address associated with the account.
+	</section>
+	<section id="garule_multi" title="Multiple accounts">
+		As stated in the general rules, it's forbidden for one person to hold several accounts. If multi accounts are found by the staff all the suspicious accounts will be deleted.
+		<br/>
+		Occasional password sharing is allowed but abusing this authorisation will be met by the same consequence as multiple accounts holding.
+	</section>
+	<section id="garule_access" title="Accessing another player's account without authorisation">
+		Accessing someone else' account without their knowledge nor authorisation is not only illegal, it's cheating.
+		<br/>
+		If any player can be proved to have done so his account will be deleted.
+	</section>
+	<section id="garule_proxy" title="Using an open proxy to connect to the game">
+		Using an open proxy to connect to the game server is not only a security threat for our (TSeeker's and Ju's) network but also a suspicious behaviour from a player. Who would need to hide who he is unless he intends to do something that is against the rules?
+		<br/>
+		As a consequence all accounts connecting from open proxies will be deleted without warning. 
+		<br/>
+		If you have no idea about what I might be talking about the probability this rule concerns you is close to 0 so don't bother....
+	</section>
+	<section id="garule_for" title="Forum behaviour">
+		Forum moderation rules are set up to try and prevent players from having an improper behaviour in the game community. But if those aren't sufficient, harsher measures can be taken.
+		<br/>
+		If a player gets banned more than 5 times from the forums, his account will be deleted.
+	</section>
+	<section id="garule_tool" title="External tools">
+		It is strictly forbidden to create external tools for personal or alliance purposes.
+		<br/>
+		If you are interested in building any tool related to the game, be it an irc bot, an alliance management feature or whatever system that easily allows to perform game related tasks, please contact the staff. We don't disagree with the concept of tools per se as long as they are accessible to all players. A lot of tools ideas are already foreseen for a future beta version or even this one. It would be completely stupid to develop the same thing twice .
+		As a consequence all tools should be either:<ul>
+			<li> built by the game staff and integrated into the game interface so that any player can use them</li>
+			<li> developed by players authorised to do so. In that case, they have to ask an authorisation from the staff so that the same tools aren't developped twice. If the development is authorised they can be granted the means to easily build the tool and host it on the game server if required software is available. The tool will in any case have to be made publicly available to all players, once it has been reviewed and approved by the staff.</li>
+		</ul>
+		Players who develop tools without authorisation will have their account deleted.
+	</section>
+</lwdoc>

@@ -1,0 +1,134 @@
+#intframe {
+	background-image: url(__STATICURL__/main/pics/mp-content.jpg);
+}
+
+#sbox {
+	position: absolute;
+	top: 110px;
+	left: 14px;
+	width: 250px;
+	height: 425px;
+}
+
+#cframe {
+	position: absolute;
+	left: 299px;
+	top: 114px;
+	width: 637px;
+	height: 429px;
+	overflow: auto;
+	background-color: transparent;
+	color: white;
+}
+
+#slbox {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 250px;
+	height: 425px;
+}
+
+#slbox li {
+	position: absolute;
+	width: 250px;
+	height: 415px;
+	top: 0px;
+	list-style: none;
+	font-size: 9pt;
+	background-repeat: no-repeat;
+}
+
+li.slcol span {
+	position: absolute;
+	width: 125px;
+	top: 5px;
+	left: 0px;
+	text-align: center;
+	font-weight: normal;
+}
+
+li#slright div {
+	display: none;
+}
+
+li#slleft {
+	left: 7px;
+	background-image: url(__STATICURL__/main/pics/mp-tab-1.png);
+}
+li#slleft span {
+	font-weight: bold;
+}
+
+li#slright {
+	height: 26px;
+	left: 134px;
+}
+
+#slcontent {
+	display: block;
+	position: absolute;
+	left: 0px;
+	top: 31px;
+	width: 250px;
+	height: 394px;
+	overflow: auto;
+}
+
+a.mbutton {
+	display: block;
+	position: absolute;
+	height: 21px;
+	width: 250px;
+	left: -134px;
+	padding: 18px 0px;
+	background-repeat: no-repeat;
+	border-style: none;
+	border-width: 0px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: #ddd;
+	background-position: 0px 0px;
+	font-size: 12pt;
+}
+
+a.mbutton:hover {
+	color: white;
+	background-position: 0px -57px;
+}
+
+a#b0 {
+	top: 26px;
+	background-image: url(__STATICURL__/main/pics/mp-content-b0.png);
+}
+
+a#b1 {
+	top: 83px;
+	background-image: url(__STATICURL__/main/pics/mp-content-b1.png);
+}
+
+a#b2 {
+	top: 140px;
+	background-image: url(__STATICURL__/main/pics/mp-content-b2.png);
+}
+
+a#b3 {
+	top: 197px;
+	background-image: url(__STATICURL__/main/pics/mp-content-b3.png);
+}
+
+a#b4 {
+	top: 254px;
+	background-image: url(__STATICURL__/main/pics/mp-content-b4.png);
+}
+
+a#b5 {
+	top: 311px;
+	background-image: url(__STATICURL__/main/pics/mp-content-b5.png);
+}
+
+a#b6 {
+	top: 368px;
+	background-image: url(__STATICURL__/main/pics/mp-content-b6.png);
+}

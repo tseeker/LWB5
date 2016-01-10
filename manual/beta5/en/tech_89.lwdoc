@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Biological Hyperspace Engines</title>
+	<section id="tech_89_desc" title='Description'>
+		Sir! Our scientists have found a way to grow and nurture organic hyperspace engines. We will now be able to grow living capital ships, improving our fleets' efficiency.
+	</section>
+	<section id="tech_89_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Military technology</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;10,000,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases Cruiser power</li>
+				<li>Increases Battle Cruiser power</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_89_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_63'>Battle Cruisers</mlink></li>
+			<li><mlink to='tech_71'>Biological Propulsion Systems</mlink></li>
+			<li><mlink to='tech_79'>Biological Subspace Control</mlink></li>
+			<li><mlink to='tech_84'>Matter Anti-matter Engines</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

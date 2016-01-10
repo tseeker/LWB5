@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Self-sustained Arcologies</title>
+	<section id="tech_83_desc" title='Description'>
+		Sir! By combining their expertise in hyperspace theory and biological engineering, our scientists have found a way to create &quot;grown&quot; housing that will provide room and nourishment for our citizens. This will allow us to sustain more people on our planets.
+	</section>
+	<section id="tech_83_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Civilian technology</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;10,000,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases planet maximum population</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_83_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_73'>Singularity Housing</mlink></li>
+			<li><mlink to='tech_74'>Intelligent Materials</mlink></li>
+			<li><mlink to='tech_79'>Biological Subspace Control</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

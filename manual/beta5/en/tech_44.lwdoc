@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Wide Band Jamming</title>
+	<section id="tech_44_desc" title='Description'>
+		This basic jamming technology allows us to try and prevent the planets we attack from transmitting data to their allies. Therefore defensive procedures can potentially be disrupted. 
+	</section>
+	<section id="tech_44_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Military technology</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;500,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases jamming capabilities</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_44_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_18'>Advanced Communications</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_49">Entropy Generator</mlink></li>
+			<li><mlink to="tech_59">Civilian Communication Act</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Wormhole Lockdown</title>
+	<section id="tech_87_desc" title='Description'>
+		This law prevents your citizens from using the planetary gateways, cancelling the effects of the wormhole technology.
+	</section>
+	<section id="tech_87_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Law</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;170,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases Industrial Factories productivity</li>
+				<li>Decreases happiness</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_87_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_81'>Wormholes</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

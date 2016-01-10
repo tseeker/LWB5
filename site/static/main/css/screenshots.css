@@ -1,0 +1,49 @@
+.category {
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	height: 50px;
+	text-align: center;
+}
+
+.catname, .catname a {
+	font-size: 24pt;
+	font-variant: small-caps;
+	color: white;
+	text-decoration: none;
+}
+
+.catpics, .catpics a {
+	color: #aaa;
+	font-size: 12pt;
+	text-decoration: none;
+}
+
+.thumbnail {
+	position: absolute;
+	width: 33%;
+	height: 110px;
+	text-align: center;
+}
+
+.thumbpic {
+	width: 100%;
+	text-align: center;
+}
+
+.thumbpic img {
+	border-style: none;
+}
+
+.showpic {
+	position: absolute;
+	width: 100%;
+	top: 90px;
+	left: 0px;
+	height: 110px;
+	text-align: center;
+}
+
+.showpic img {
+	border-style: none;
+}

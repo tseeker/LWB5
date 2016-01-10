@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<lwdoc>
+        <version>beta5</version>
+	<language>en</language>
+	<title>Preferences</title>
+	<section id="pref_intro" title="Introduction">
+		Various elements in Legacy Worlds can be customised. Some preferences are specific to one account and others are in game features that are defined on a per game basis.
+	</section>
+	<section id="pref_acc" title="Account preferences">
+		The account preferences page is available through the Preferences link displayed at the bottom of game selection page you reach when logging in. The account preferences page allows for customisation of the various generic elements presented in the table below.
+		<table>
+			<tr>
+				<th>Element</th>
+				<th>Description</th>
+				<th>Possible values</th>
+			</tr>
+			<tr>
+				<td>E-Mail Address</td>
+				<td>E-Mail Address of the player - used to send account activation data and game related messages</td>
+				<td>Any valid E-Mail address, as long as it hasn't already been used to create another account</td>
+			</tr>
+			<tr>
+				<td>Colour Scheme</td>
+				<td>The colour of the theme to use in game</td>
+				<td><ul>
+					<li>Red</li>
+					<li>Green</li>
+					<li>Blue</li>
+					<li>Grey</li>
+					<li>Purple</li>
+					<li>Yellow</li>
+				</ul></td>
+			</tr>
+			<tr>
+				<td>Language</td>
+				<td>Language in which the game interface and internal messages are displayed</td>
+				<td><ul>
+					<li>English</li>
+					<li>French</li>
+				</ul></td>
+			</tr>
+			<tr>
+				<td>Font Size</td>
+				<td>The font size to use in game</td>
+				<td><ul>
+					<li>Tiny</li>
+					<li>Small</li>
+					<li>Normal</li>
+					<li>Big</li>
+					<li>Huge</li>
+				</ul></td>
+			</tr>
+		</table>
+		Some forum specific preferences can also be set up as presented in the table below.
+		<table>
+			<tr>
+				<th>Element</th>
+				<th>Description</th>
+				<th>Possible values</th>
+			</tr>
+			<tr>
+				<td>Topics/page</td>
+				<td>Number of Forum Topics to display on each page</td>
+				<td><ul>
+					<li>10</li>
+					<li>20</li>
+					<li>30</li>
+					<li>40</li>
+					<li>50</li>
+				</ul></td>
+			</tr>
+			<tr>
+				<td>Graphical smileys</td>
+				<td>This option allows to display or not graphical smileys in forums</td>
+				<td><ul>
+					<li>Disabled</li>
+					<li>Enabled</li>
+				</ul></td>
+			</tr>
+			<tr>
+				<td>Diplay Mode</td>
+				<td>This option allows to switch between threaded and linear vues of a forum topic</td>
+				<td><ul>
+					<li>Linear</li>
+					<li>Threaded</li>
+				</ul></td>
+			</tr>
+			<tr>
+				<td>Messages/page</td>
+				<td>Number of messages in a topic to display on each page</td>
+				<td><ul>
+					<li>10</li>
+					<li>20</li>
+					<li>30</li>
+					<li>40</li>
+					<li>50</li>
+				</ul></td>
+			</tr>
+			<tr>
+				<td>Forum tags</td>
+				<td>This option allows you to define if you want forum tags to be decoded into text modifiers or not</td>
+				<td><ul>
+					<li>Disabled</li>
+					<li>Enabled</li>
+				</ul></td>
+			</tr>
+			<tr>
+				<td>Messaged order</td>
+				<td>Order in which to display the messages according to time</td>
+				<td><ul>
+					<li>Oldest First</li>
+					<li>Newest First</li>
+				</ul></td>
+			</tr>
+			<tr>
+				<td>Signature</td>
+				<td>Message to display at the bottom of the messages you post</td>
+				<td>Any valid chain of characters</td>
+			</tr>
+		</table>
+		The form at the bottom of the page allows you to change your password for your account.
+	</section>
+	<section id="pref_game" title="In Game Preferences">
+		<section id="pref_game_pref" title="Preferences per se">
+			Those preferences are specific to the the current game and are accessible only for inside a game. They influence in game elements only. For Beta 5, the form includes the same elemnts as for the account preferences along with a few more items which are presented in the table below:
+			<table>
+				<tr>
+					<th>Element</th>
+					<th>Description</th>
+					<th>Possible values</th>
+				</tr>
+				<tr>
+					<td>Tooltips</td>
+					<td>Time period during which tooltips have to be displayed</td>
+					<td><ul>
+						<li>Disabled</li>
+						<li>0.5 second</li>
+						<li>1 second</li>
+						<li>1.5 second</li>
+						<li>2 second</li>
+						<li>2.5 second</li>
+						<li>3 second</li>
+					</ul></td>
+				</tr>
+				<tr>
+					<td>Theme</td>
+					<td> The theme to use for the menu bar</td>
+					<td><ul>
+						<li>LegacyWorlds Beta 5</li>
+						<li>Beta 5 Reversed</li>
+						<li>LegacyWorlds Classic</li>
+					</ul></td>
+				</tr>
+			</table>
+		</section>
+		<section id="pref_game_leave" title="Leave game section">
+			The bottom part of the in game preferences page provides you with a form to leave the given game. Clicking on the Leave LegacyWorlds Beta 5 button will start a 24h count down. If you don't click the DO NOT leave LegacyWorlds Beta 5 button within this 24h delay, your game data will be deleted. But note that this won't delete your account. The account still exists but isn't playing that particular game anymore.
+		</section>
+	</section>
+</lwdoc>

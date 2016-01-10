@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Hyperspace Probing Beacon</title>
+	<section id="tech_60_desc" title='Description'>
+		Adding probing systems to hyperspace beacons, this technology allows for early detection of enemy ships stationed in hyperspace around our planets.
+	</section>
+	<section id="tech_60_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Military technology</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;3,000,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Provides the ability to build Hyperspace Probing Beacons</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_60_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_46'>Hyperspace Beacon</mlink></li>
+			<li><mlink to='tech_22'>Hyperspace Theory</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

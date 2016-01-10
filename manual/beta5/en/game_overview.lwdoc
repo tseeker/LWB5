@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<lwdoc>
+        <version>beta5</version>
+	<language>en</language>
+	<title>Game Overview</title>
+	<section id="gover_pres" title="Presentation">
+		Legacy Worlds is an online multiplayer intergalactic war game. Your goal as a player: build up an empire and defeat the other players. How to achieve that: through technological research, alliances with other players and of course conquests.
+		<br/>
+		Legacy Worlds is a tick based game. This means events are controlled at given intervals of time called ticks. 
+		<br/>
+		Legacy Worlds is a text based game so don't expect any fancy graphics.
+	</section>
+	<section id="gover_team" title="The Team">
+		At first started as a University project by one of the developers it's now developed by a little team which felt it was a pity to let it go to waste and disappoint its current players.
+		<br/>
+		The current team includes:<ul>
+			<li>El Christoph: original design and game concept</li>
+			<li>TSeeker: lead developer and game design</li>
+			<li>Ju: game design, game manual, developer</li>
+			<li>Sycophant: game design, random ideas, orthograph fascist</li>
+		</ul>
+	</section>
+	<section id="gover_contrib" title="Contributions">
+		This version is Beta 5 and is as the previous ones completely free. Our goal isn't to make money or even to have players to contribute for the costs implied by hosting an online game. It's to have fun as much as our players.
+		<br/>
+		The server hosting the game is currently lended by one of the developers who also shares his bandwidth with all of you players. The domain name has been purchased by another of the developers.
+	</section>
+</lwdoc>

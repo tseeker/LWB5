@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Localised Wormhole Destabilisation</title>
+	<section id="tech_86_desc" title='Description'>
+		Applying wormhole collapsing technologies in a localised way allows us to disrupt subspace data conduits and other long range communication, rending them less efficient.
+	</section>
+	<section id="tech_86_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Military technology</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;12,000,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases jamming capabilities</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_86_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_64'>Phase Neutraliser</mlink></li>
+			<li><mlink to='tech_80'>Wormhole Collapsing</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

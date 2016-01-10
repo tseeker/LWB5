@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<lwdoc>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Overview Page</title>
+	<section id="ovr_intro" title="Introduction">
+		The overview page provides you with a summary of the situation of your <mlink to="empire">empire</mlink> along with general information about the <mlink to="universe">universe</mlink>.
+		<br/>
+		This overview page exists in two versions:<ul>
+			<li><mlink to="ovr_sh">Short Overview</mlink></li>
+			<li><mlink to="ovr_lg">Complete Overview</mlink></li>
+		</ul>
+		The difference between the two is of course that the <mlink to="ovr_lg">complete overview</mlink> includes more information and more precise data than the <mlink to="ovr_sh">short</mlink> one.
+		<br/>
+		You can <i>switch</i> between <mlink to="ovr_sh">short</mlink> and <mlink to="ovr_lg">complete</mlink> overview by clicking on the <i>link in the top right corner</i> of the page.
+		<br/>
+		The following sections of the manual will describe each of them.
+	</section>
+	<section id="ovr_sh" title="Short Overview">
+		This overview provides you with a few simple facts about your <mlink to="empire">empire</mlink> and the <mlink to="universe">universe</mlink>.
+		<section id="ovr_sh_emp" title="Empire">
+			Among <mlink to="empire">empire</mlink> related data you may find:<ul>
+				<li><mlink to="messages">Messages</mlink>: an update about <i>pending messages</i> along with links to the <i>relevant mail boxes</i> if you have <i>new messages</i>. A link to get directly to the <mlink kto="msg_comp">Compose page</mlink> of the <mlink to="messages">messaging system</mlink> is also provided</li>
+				<li><mlink to="planets">Planets</mlink>: this section sums up the status of your <mlink to="planets">planets</mlink>. It displays the <i>number of planets</i> you own, the total <mlink to="emp_conc_pop">population</mlink> of your <mlink to="empire">empire</mlink> and the total number of <mlink to="emp_conc_fact">factories</mlink> you have built</li>
+				<li><mlink to="fleets">Fleets</mlink>: this section indicates the total average <mlink to="ship_cat_pow">power</mlink> of your <mlink to="fleets">fleets</mlink></li>
+				<li><mlink to="money">Money</mlink>: here is displayed your total <mlink to="mon_dp">daily profit</mlink></li>
+			</ul>
+		</section>
+		<section id="ovr_sh_uni" title="Universe">
+			This section provides a few useful facts about the <mlink to="forums">universe</mlink>:<ul>
+				<li><mlink to="forums">Forums</mlink>: this section informs you if you have <i>unread topics</i> in either general or alliance specific <mlink to="forums">forums</mlink>. It also provides links to the page of each of those <mlink to="forums">forums' categories</mlink></li>
+				<li><mlink to="uover_gal">Planets</mlink>: this section indicates the total number of <mlink to="uover_gal">planets</mlink> in the <mlink to="universe">universe</mlink></li>
+				<li><mlink to="ticks">Next ticks</mlink>: here is provided a countdown to the <mlink to="ticks">next tick</mlink> of each <mlink to="ticks_tick">category</mlink>: battle, cash, day and hour tick.</li>
+				<li><mlink to="rankings">Rankings</mlink>: here are displayed your two major <mlink to="rankings">rankings</mlink>: <mlink to="rank_gen">general</mlink> and <mlink to="rank_rnd">round</mlink> rankings</li>
+			</ul>
+		</section>
+	</section>
+	<section id="ovr_lg" title="Complete Overview">
+		This overview provides you more detailed information about the same topics as the <mlink to="ovr_sh">short overview</mlink>.
+		<section id="ovr_lg_emp" title="Empire">
+			<section id="ovr_lg_emp_msg" title="Messages">
+				Here you will find some information about your <mlink to="messages">messaging system</mlink>'s status. For each of of your default <mlink to="msg_fold">folders</mlink> (<i>Inbox</i>, <mlink to="msg_int">Internal Transmissions</mlink> and <i>Outbox</i>) you will find:<ul>
+					<li><i>Name</i> of the <mlink to="msg_fold">folder</mlink>, consisting in a direct link to that <mlink to="msg_fold">folder</mlink></li>
+					<li><i>Number of messages</i> in the <mlink to="msg_int">folder</mlink></li>
+					<li><i>Number of unread messages</i> in the <mlink to="msg_int">folder</mlink> if any</li>
+				</ul>
+				A <mlink to="msg_comp">Compose</mlink> link which directs you to the <mlink to="msg_comp">compose page</mlink> of the <mlink to="messages">messaging system</mlink> is also available.
+			</section>
+			<section id="ovr_lg_emp_pla" title="Planets">
+				In the <mlink to="planets">Planets</mlink> section of the overview, you will find:<ul>
+					<li><mlink to="planets">Planets owned</mlink>: total number of <mlink to="planets">planets</mlink> in your <mlink to="empire">empire</mlink>, along with the average <mlink to="emp_conc_happ">happiness</mlink></li>
+					<li><mlink to="emp_conc_cor">Average corruption</mlink>: average <mlink to="emp_conc_cor">corruption</mlink> calculated based on <mlink to="emp_conc_cor">corruption</mlink> on each of your <mlink to="planets">planets</mlink></li>
+					<li><mlink to="emp_conc_pop">Total population</mlink>: <mlink to="emp_conc_pop">population</mlink> of your whole <mlink to="empire">empire</mlink> along with a per <mlink to="planet">planet</mlink> average</li>
+					<li><mlink to="emp_conc_fact">Total factories</mlink>: count of all your <mlink to="emp_conc_fact_mil">military</mlink> and <mlink to="emp_conc_fact_ind">industrial</mlink> factories throughtout your whole <mlink to="empire">empire</mlink> along with a per <mlink to="planet">planet</mlink> average</li>
+					<li><mlink to="ship_cat_list">Total turrets</mlink>: total count of the <mlink to="ship_cat_list">turrets</mlink> on all your <mlink to="planets">planets</mlink> with a per <mlink to="planet">planet</mlink> average</li>
+				</ul>
+				This section also include a <mlink to="planets">More Details</mlink> links which directs you to the <mlink to="planets">Planets general page</mlink>.
+			</section>
+			<section id="ovr_lg_emp_flt" title="Fleets">
+				In this section, you will find general information about your <mlink to="fleets">fleets</mlink>:<ul>
+					<li>total <mlink to="ship_cat_pow">fleet power</mlink></li>
+					<li>number of <mlink to="fleets">fleets</mlink> and number of <mlink to="battle">fleets engaged in battle</mlink> if any</li>
+					<li>a <mlink to="fleets_page">More Details</mlink> link to access directly the <mlink to="fleets_page">fleets page</mlink></li>
+				</ul>
+			</section>
+			<section id="ovr_lg_emp_res" title="Research">
+				This part of the complete overview indicates the number of new <mlink to="tech_topic_stat">technologies</mlink> (that is <mlink to="tech_list">technologies</mlink> you <mlink to="tech_topic_stat">haven't implemented</mlink> yet) that you have <mlink to="tech_topic_stat">discovered</mlink>. It also provides a direct link to the <mlink to="technology">Research page</mlink>.
+			</section>
+			<section id="ovr_lg_emp_mon" title="Money">
+				This section consists in a <mlink to="money">finantial fact sheet</mlink> for your <mlink to="mpire">empire</mlink>. It includes:<ul>
+					<li><mlink to="mon_ppl">Income</mlink>: total <mlink to="mon_ppl">daily income</mlink> of your <mlink to="empire">empire</mlink></li>
+					<li><mlink to="mon_fue">Fleet upkeep</mlink>: amount of money you have to spend each day to sustain your <mlink to="fleets">fleets</mlink></li>
+					<li><mlink to="mon_dp">Daily Profit</mlink>: amount of money you actually earn each day, once you have paid for your <mlink to="mon_fue">fleet upkeep</mlink></li>
+				</ul>
+			</section>
+		</section>
+		<section id="ovr_lg_uni" title="Universe">
+			<section id="ovr_lg_uni_for" title="Forums">
+				This section of the <mlink to="universe">Universe</mlink> overview provides you with a summary of the <mlink to="forums">forums</mlink>' status.
+				<br/>
+				It includes a list of the various <mlink to="for_nav">forums categories</mlink> with a <i>view</i> link which directs you to the page of this forums category. All <mlink to="forums">forums</mlink> in each category are listed. For each <mlink to="forums">forum</mlink>:<ul>
+					<li>The <i>name</i> of the <mlink to="forums">forum</mlink> consists in a link to the <mlink to="for_over">forum's main page</mlink></li>
+					<li>Next to the name, the <i>number of topics</i> in the <mlink to="forums">forum</mlink> is indicated</li>
+					<li>If relevant, the <i>number of unread topic or topics</i> with <i>unread posts</i> is displayed</li>
+				</ul>
+			</section>
+			<section id="ovr_lg_uni_uni" title="Universe">
+				Here you will find some data about the <mlink to="universe">universe</mlink> in which everything happens:<ul>
+					<li><i>Total number</i> of <mlink to="planets">planets</mlink></li>
+					<li>Number of grid squares in the <mlink to="universe">universe</mlink> which aren't actually occupied <i>stellar systems</i> with <mlink to="ipp_own">planets</mlink> but by <i>nebulas</i></li>
+				</ul>
+				It also includes some <mlink to="universe">universe</mlink> related links:<ul>
+					<li><mlink to="maps">Maps</mlink>: to access directly the <mlink to="maps">maps page</mlink></li>
+					<li><mlink to="universe_page">More Details</mlink>: to go to the <mlink to="universe_page">Universe main page</mlink></li>
+				</ul>
+			</section>
+			<section id="ovr_lg_uni_tick" title="Next Ticks">
+				As on the <mlink to="ovr_sh">short overview</mlink>, this part includes a countdown to the next <mlink to="ticks">tick</mlink> of each <mlink to="ticks_tick">category</mlink>: Battle tick, Cash tick, Day tick and Hour tick.
+			</section>
+			<section id="ovr_lg_uni_rnk" title="Rankings">
+				In this section, you will find the list of all <mlink to="rankings">rankings</mlink> with <i>your current rank</i> in each <mlink to="rankings">ranking</mlink>. It also provides a direct <mlink to="rankings">More Details</mlink> link to access the <mlink to="rankings">Rankings page</mlink>.
+			</section>
+		</section>
+	</section>
+</lwdoc>

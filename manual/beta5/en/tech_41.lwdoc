@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Space-time folding</title>
+	<section id="tech_41_desc" title='Description'>
+		Sir! Our scientists have pushed the limit of Hyperspace theory! This will allow us to design better, faster ship engines and further advances are to be expected! However, upgrading our fleets as well as our laboratories might be a bit expensive...
+	</section>
+	<section id="tech_41_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Fundamental research</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;2,000,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases capital ships speed</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_41_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_40'>Temporal Mechanics</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_63">Battle Cruisers</mlink></li>
+			<li><mlink to="tech_70">Wormhole Theory</mlink></li>
+			<li><mlink to="tech_73">Singularity Housing</mlink></li>
+			<li><mlink to="tech_79">Biological Subspace Control</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

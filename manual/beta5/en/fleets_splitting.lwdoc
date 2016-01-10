@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<lwdoc>
+        <version>beta5</version>
+	<language>en</language>
+	<title>Splitting Fleets</title>
+	<section id="split_intro" title="Introduction">
+		<i>Any fleet</i> can be <i>split into several different fleets</i>. The exact splitting conditions follow:<ul>
+			<li>Fleets can be split <i>whatever their location is</i> (own, neutral or foreign <mlink to="planet">planets</mlink>, <mlink to="ipp_ot_neb">nebulas</mlink> or <mlink to="ipp_ot_pre">planetary remains</mlink>)</li>
+			<li><mlink to="fleets_moving">Moving fleets</mlink> can be split</li>
+			<li>The only <i>mandatory condition</i> that has to be met is that the fleet's status is <mlink to="move_arri_unav">Available</mlink></li>
+		</ul>
+		In order <i>to split a fleet</i> you have to <i>select it</i> by <i>checking the checkbox</i> on the fleet's line in the <mlink to="fp_list">fleets list</mlink> of the <mlink to="fleets_page">fleets page</mlink>. Then you have to click the <i>split</i> link that appears at the bottom of the <mlink to="fleets_page">fleets page</mlink> among the other <mlink to="fleets_actions">action links</mlink>. You'll get directed to a <i>special fleet splitting page</i>.
+	</section>
+	<section id="split_page" title="The split page">
+		The <i>splitting</i> page is composed of two sections:<ul>
+			<li><i>Top section</i>: this part of the page describes the <i>fleet you are about to split</i>. Its <i>top part</i> indicates the <i>fleet's location</i>. The <i>bottom part</i> consists in an <i>abstract</i> of the <mlink to="fp_list">fleets' list tables</mlink> which only includes the fleet being split</li>
+			<li><i>Bottom section</i>: it's the actual <mlink to="split_split">splitting tool</mlink></li>
+		</ul>
+	</section>
+	<section id="split_split" title="Actual splitting">
+		<section id="split_split_intro" title="Introduction">
+			The <i>New fleets</i> part of the page consists in a <i>form</i> that you have to fill in <i>to split the fleets</i>. This form consists in <i>various items</i>:<ul>
+				<li><mlink to="split_split_type">Split type</mlink>: to choose <i>how</i> the fleet will be split</li>
+				<li><mlink to="split_split_param">Split parameters</mlink>: to define precise splitting <i>caracteristics</i></li>
+				<li><mlink to="split_split_val">Split validation</mlink>: to <i>perform</i> the split</li>
+			</ul>
+			Each topic will be covered in the next parapgraphs.
+		</section>
+		<section id="split_split_type" title="Split type">
+			The <i>split type</i> can be either:<ul>
+				<li><i>Manual</i>: you have to <i>choose precisely the number of ships</i> of each type that you want to include in your new fleets in the corresponding textfields</li>
+				<li><i>Automatic</i>: the system will <i>automatically compute the number of ships</i> to include in each fleet, taking into account the <i>number of fleets</i> you want to create and trying to create fleets <i>with homogeneous compositions</i></li>
+			</ul>
+			In order to <i>select a split type</i>, select the <i>radio button</i> next to its name.
+		</section>
+		<section id="split_split_param" title="Split parameters">
+			The provided form allows to set various <i>split parameters</i> that are listed below:<ul>
+				<li><i>Amount of fleets</i>: use this <i>drop down list</i> to select the <i>number of fleets</i> you want to have once the split is done</li>
+				<li><i>New name</i>: use this <i>textfield</i> to type in the <i>new name</i> of the fleet. If <i>several fleets</i> are created, a <i>number will be added to the name</i> for each fleet</li>
+				<li><i>GA Ships</i>: use this <i>textfield</i> to type in the <i>number of GA ships to include</i> for each new fleets (out of the total in the original fleet). This field is automatically filled in in automatic mode</li>
+				<li><i>Fighters</i> (if you possess the corresponding <mlink to="tech_list">technology</mlink>): use this <i>textfield</i> to type in the <i>number of fighters</i> to include for each new fleets (out of the total in the original fleet). This field is automatically filled in in automatic mode</li>
+				<li><i>Cruisers</i> (if you possess the corresponding <mlink to="tech_list">technology</mlink>): use this <i>textfield</i> to type in the <i>number of Cruisers</i> to include for each new fleets (out of the total in the original fleet). This field is automatically filled in in automatic mode</li>
+				<li><i>Battle Cruisers</i> (if you possess the corresponding <mlink to="tech_list">technology</mlink>): use this <i>textfield</i> to type in the <i>number of Battle Cruisers</i> to include for each new fleets (out of the total in the original fleet). This field is automatically filled in in automatic mode</li>
+				<li><i>Haul used</i>: this field is an <i>informative field</i> that indicates the number of <mlink to="ship_cat_trans">haul spaces</mlink> used by the ships you have included in each fleet. This number has to be <i>inferior or equal to the Haul available</i> value if you want the fleets to be <mlink to="move_gen_hypnorm_hyp">hyperspace capable</mlink></li>
+				<li><i>Haul available</i>: this field is an <i>informative field</i> that indicates the total number of <mlink to="ship_cat_trans">hauls spaces</mlink> provided by the <mlink to="ship_cat_class">capital ships</mlink> included in each fleet. This number has to be <i>superior or equal to the Haul used value</i> in order for the fleets to be <mlink to="move_gen_hypnorm_hyp">hyperspace capable</mlink></li>
+			</ul>
+		</section>
+		<section id="split_split_val" title="Split validation">
+			Once you are satisfied with what you have filled in you can click the <i>Split fleet</i> button to actually <i>split the fleet</i>. 
+			<br/>
+			A <i>Cancel</i> button is also provided to go back to the <mlink to="fleets_page">fleets page</mlink> without making any changes.
+		</section>
+	</section>
+</lwdoc>

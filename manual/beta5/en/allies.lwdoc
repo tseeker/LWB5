@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<lwdoc>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Trusted Allies</title>
+	<section id="tall_bas" title="Basic concepts">
+		In Legacy Worlds you can entrust other players with control of your fleets while you're not online. This page allows you to manage the list of players you want to trust with your fleets in those circumstances along as to know which players might trust you with their fleets.
+	</section>
+	<section id="tall_add" title="Add Ally">
+		Typing the name of a player in the provided textfield in this section of the page and clicking the Add button adds the player to your trusted allies list. You can add up to 5 players to the list.
+	</section>
+	<section id="tall_list" title="Allies List">
+		This list present your trusted allies in an ordered way. The different shades of green represent trust levels. When you're not online the player who can move your first is the first online player in the ordered trusted allies list, that is to say the online player with the higher trust level.
+		<br/>
+		A checkbox is displayed in front of each player name in the list. You have to check the checkbox in front of a name to select the corresponding player. You can perfom several actions on selected players:<ul>
+			<li>Remove: clicking on the Remove button removes the selected player from the trusted allies list</li>
+			<li>Up: clicking on the Up button moves the selected player up in the trusted allies list</li>
+			<li>Down: clicking on the down button moves the selected player down in the trusted allies list</li>
+		</ul>
+	</section>
+	<section id="tall_play" title="Players who trust you">
+		This list present all players who trust you, including:<ul>
+			<li>Player: name of the player who has you in his trusted allies list</li>
+			<li>Trust Level: level of trust at which you are located in this player's list, that is to say your rank in his trusted allies list</li>
+		</ul>
+	</section>
+</lwdoc>

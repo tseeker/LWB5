@@ -1,0 +1,14 @@
+Legacy Worlds registration
+Dear _USER_,
+
+Thank you for coming back to Legacy Worlds!
+There's one step you must complete before your account is re-activated.
+
+You have to connect to the site again using your username and password, then re-validate your account using the confirmation code below.
+
+Your Confirmation Code is: _CCODE_
+
+If you encouter problems during the process, please contact a member of our support staff at staff@legacyworlds.com
+
+Thanks!
+The Legacy Worlds staff

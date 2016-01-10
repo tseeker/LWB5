@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<lwdoc>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Probes and Beacons Page</title>
+	<section id="bap_intro" title="Introduction">
+		Some <mlink to="tech_list">technologies</mlink> in game provide you with the <i>ability to build other spatial objects</i> than just <mlink to="ships">ships</mlink>:<ul>
+			<li><i>Beacons</i>: those are <i>some kind of satellites</i> that can be placed around a <mlink to="planet">planet</mlink>. The basic model is placed in <mlink to="move_gen_hypnorm">hyperspace</mlink> and provides some kind of <i>anchor or fixed reference point</i> for <mlink to="ships">ships</mlink> located in <mlink to="move_gen_hypnorm">hyperspace</mlink> around the <mlink to="planet">planet</mlink>, thus <i>limiting ships losses</i>. More advanced models, with <i>scanning abilities and such</i> will be available <i>in further versions of the game</i>.</li>
+			<li><i>Probes</i>: those <i>small unmanned vessels</i> can be sent to <mlink to="planet">other planets</mlink> to <i>scan</i> for the <mlink to="fleets">fleets</mlink> and other defenses, along with planetary improvements. Those <i>will be available in further versions of the game</i>.</li>
+		</ul>
+	</section>
+	<section id="bap_page" title="Probes and beacons page">
+		This page presents a <i>list</i> of all the <mlink to="planets">planets</mlink> you own along with some <i>beacon related information</i>. For each <mlink to="planet">planet</mlink>, it includes<ul>
+			<li><i>Planet name</i>: the name of the <mlink to="planet">planet</mlink> is a link to the <mlink to="planet">planet's individual page</mlink></li>
+			<li><i>Coordinates</i>: the <mlink to="maps">coordinates</mlink> of the <mlink to="planet">planet</mlink> on the <mlink to="maps">map</mlink></li>
+			<li><i>Beacon information</i>: it's either <i>No beacon</i> if there is no beacon around the <mlink to="planet">planet</mlink>, or the <i>type of beacon</i></li>
+			<li><i>Beacon upgrade information</i>: if you have the <mlink to="tech_list">required technology</mlink> to <i>install or upgrade a beacon</i>, a <i>button</i> is available, to install or upgrade the beacon, <i>at a cost</i>. If not, an <i>information message</i> states <i>there is no upgrade available</i>.</li>
+		</ul>
+	</section>
+</lwdoc>

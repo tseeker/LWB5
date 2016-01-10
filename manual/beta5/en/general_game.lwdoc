@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<lwdoc>
+	<version>beta5</version>
+	<language>en</language>
+	<title>General Game Information</title>
+	<section id="ggi_intro" title="Introduction">
+		 This section of the manual presents some general information about the game including <mlink to="accga_acc">account creation</mlink> and <mlink to="accga_gm">games management</mlink> along with a presentation of the <mlink to="game_interface">main interface</mlink> and <mlink to="overview_page">overview page</mlink>.
+	</section>
+	<section id="ggi_home" title="Legacy Worlds Home page" linkto="home_page">
+		The LegacyWorlds home page consists in four different sections:<ul>
+			<li>a <mlink to="home_cons_top">top banner</mlink> containing a set of links</li>
+			<li>a <mlink to="home_cons_left">left panel</mlink> containing various forms and information</li>
+			<li>a <mlink to="home_cont">middle section</mlink> which consists in the body of the page</li>
+			<li>a <mlink to="home_cons_bottom">bottom banner</mlink> containing another set of links and credits</li>
+		</ul>
+		<mlink to="home_page">This part of the manual</mlink> presents those different sections more precisely.
+	</section>
+	<section id="ggi_accgam" title="Accounts and games" linkto="account_games">
+		Each player in LegacyWorlds has a single <mlink to="accga_acc">account</mlink> which provides him access to all possible <mlink to="accga_gm">games</mlink> he wishes to play. <mlink to="account_games">This section of the manual</mlink> explains in details how to <mlink to="accga_acc_new">create</mlink> and <mlink to="accga_acc_act">activate</mlink> an <mlink to="accga_acc">account</mlink> along with <mlink to="accga_acc_del">account deletion</mlink> and how to <mlink to="accga_gm">manage games</mlink>.
+	</section>
+	<section id="ggi_gen" title="Game interface" linkto="game_interface">
+		Each in game page is split into three sections:<ul>
+			<li><mlink to="gi_menu">Top banner</mlink>: you'll find there the main menu of the game</li>
+			<li><i>Banner:</i> here is located the title of the page you're currently on</li>
+			<li><i>Page body:</i> the actual contents of the page are there</li>
+		</ul>
+		In <mlink to="ggi_gen">this manual section</mlink>, more precision are provided about all those different parts of the interface.
+	</section>
+	<section id="ggi_over" title="Overview page" linkto="overview_page">
+		The <mlink to="overview_page">overview page</mlink> is the first page you get directed to when <mlink to="accga_login">logging into a LegacyWorlds Beta 5 game</mlink>. It provides a <mlink to="ovr_sh">short</mlink> or a <mlink to="ovr_lg">more complete</mlink> display of important facts about what is going on in game.
+	</section>
+
+	<section file="home_page.lwdoc"/>
+	<section file="account_games.lwdoc"/>
+	<section file="game_interface.lwdoc"/>
+	<section file="overview_page.lwdoc"/>
+</lwdoc>

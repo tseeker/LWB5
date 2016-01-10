@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Martial law</title>
+	<section id="tech_5_desc" title='Description'>
+		Sir! We can enact Martial Law to force our people to work in the military's best interest! They probably won't be too happy about it, and our economy might suffer, but who cares? Our military production will be greatly improved!
+	</section>
+	<section id="tech_5_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Law</li>
+			<li><b>Optional:</b> No</li>
+			<li><b>Cost:</b> &amp;euro;5,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases Military Factories productivity</li>
+				<li>Decreases Industrial Factories productivity</li>
+				<li>Decreases happiness</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_5_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_1'>Fighters</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<lwdoc>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Accounts and Games</title>
+	<section id="accga_intro" title="Introduction">
+		Each player in LegacyWorlds has a single <mlink to="accga_acc">account</mlink> which provides him access to all possible <mlink to="accga_gm">games</mlink> he wishes to play. This section of the manual explains in details how to <mlink to="accga_acc_new">create</mlink> and <mlink to="accga_acc_act">activate</mlink> an account along with <mlink to="accga_acc_del">account deletion</mlink> and how to <mlink to="accga_gm">manage games</mlink>.
+	</section>
+	<section id="accga_acc" title="Account management">
+		<section id="accga_acc_new" title="Account creation">
+			From the <mlink to="home_page">game home page</mlink>, clicking on the <i>Create Account</i> link directs you to account creation form. You have to fill in:<ul>
+				<li><i>Username</i>: your in game name</li>
+				<li><i>Language</i>: language in which you want everything to be displayed</li>
+				<li><i>E-mail</i>: a <i>valid</i> e-mail address to be associated with the account. This has to be typed in twice to avoid mistakes</li>
+				<li><i>Password</i>: the password to be used along with your username to access your account. This has to be typed in twice to avoid mistakes</li>
+			</ul>
+			Once your are satisfied with the data you've entered you can click the <i>Create Account</i> Button.
+			<br/>
+			If the account creation process has been successful an <i>e-mail is sent</i> to the provided e-mail address containing:<ul>
+				<li>a <i>reminder</i> about the typed in <i>account information</i></li>
+				<li>information about the <mlink to="accga_acc_act">account activation procedure</mlink></li>
+			</ul>
+		</section>
+		<section id="accga_acc_act" title="Account activation">
+			The <i>e-mail you have received</i> when <mlink to="accga_acc">creating an account</mlink> contains information to activate your account. In order to activate your account you have to look at the <mlink to="home_cons_left_top">top part of the left panel of the home page</mlink>. A logging form is displayed there. In the form, you have to provide:<ul>
+				<li><i>Username</i>: the in game username you've chosen</li>
+				<li><i>Password</i>: the password you've chosen</li>
+			</ul>
+			You can then click the <i>ok</i> button to log in.
+			<br/>
+			A new form is then displayed asking for a <i>confirmation code</i>. This code has been sent to you <i>in the e-mail</i> mentioned above. Type in the code in the provided text field and click on the <i>Confirm account creation</i> button. If you provide the right code you get directed towards the main game selection page.
+		</section>
+		<section id="accga_acc_clo" title="Closing Account">
+			<section id="accga_acc_clo_intro" title="Introduction">
+				<i>Closing your account</i> allows you to <i>delete all game data related to your account</i>. But be careful: <i>it doesn't deleted your account</i> and you can <mlink to="accga_acc_clo_rea">reactivate it</mlink> any time you wish. The next paragraphs will cover those topics more closely.
+			</section>
+			<section id="accga_acc_clo_pro" title="Procedure">
+				<section id="accga_acc_clo_pro_acc" title="Accessing the form">
+					The form to <i>close your account</i> is accessible from the <mlink to="home_cont_home_log_intro">home page of the game when you are logged it</mlink>. In order <i>to access the page</i> you have two options:<ul>
+						<li><i>if you're not logged in</i>, follow the <mlink to="home_cons_left_top">logging in procedure</mlink>. The bottom section of the page displayed in the body of the home page should be about closing your account. Below an introduction about the topic, Is displayed a <i>Close my account</i> button. Clicking the button opens the forms that lead to the path to closing your account</li>
+					<li>if you are logged in and playing a LegacyWorlds game, clicking on the <i>My Account</i> menu item gets you to the logged in home page of the game. As in the previous case below the introduction about the topic, is displayed the <i>Closing my account</i> button. Clicking the button opens the forms that lead to closing your account</li>
+					</ul>
+				</section>
+				<section id="accga_acc_clo_pro_clo" title="Closing the account">
+					<i>Clicking the button</i> opens a new <i>form</i> that you have to fill in in order to <i>close the account</i>. You have to provide the <i>following information</i>:<ul>
+						<li>Your <i>password</i> in the corresponding <i>textfield</i> to make sure you're really you're who you're saying you are</li>
+						<li>Optionally a <i>text area</i> is provided where you can if you wish <i>explain why you're closing your account</i></li>
+					</ul>
+					Below these two fields are displayed two buttons:<ul>
+						<li><i>I really want to close my account</i>: clicking this button starts a countdown to real account closing. You have a 24 to 48h delay to cancel the action</li>
+						<li><i>No, I was just kidding</i>: clicking this button cancels the account closing procedure</li>
+					</ul>
+				</section>
+			</section>
+			<section id="accga_acc_clo_can" title="Cancelling account closing">
+				<section id="accga_acc_clo_can_acc" title="Accessing the form">
+					During the delay to account closing you can still cancel the operation. The form to <i>cancel account closing</i> is accessible from the <mlink to="home_cont_home_log_intro">home page of the game when you are logged it</mlink>. In order <i>to access the page</i> you have two options:<ul>
+						<li><i>if you're not logged in</i>, follow the <mlink to="home_cons_left_top">logging in procedure</mlink>. The bottom section of the page displayed in the body of the home page should be about closing your account. Below an introduction about the topic and information about the time at which the account will be closed, is displayed a <i>Don't close my account</i> button. Clicking the button opens the forms that allow to cancel the closing operation</li>
+					<li>if you are logged in and playing a LegacyWorlds game, clicking on the <i>My Account</i> menu item gets you to the logged in home page of the game. As in the previous case below the introduction about the topic, is displayed the <i>Don't close my account</i> button. Clicking the button opens the forms that allow to cancel the operation</li>
+					</ul>
+				</section>
+				<section id="accga_acc_clo_can_can" title="Cancelling the operation">
+					<i>Clicking the button</i> opens a <i> new page</i> with <i>two buttons</i>:<ul>
+						<li><i>Yes, cancel the countdown</i>: clicking this button cancels account closing</li>
+						<li><i>No, get on with it</i>: clicking this button goes on with the account closing procedure</li>
+					</ul>
+				</section>
+			</section>
+			<section id="accga_acc_clo_abou" title="About closed accounts">
+				You have to be aware of the fact that <i>closing your account doesn't delete your account information from the LegacyWorlds database</i> but <i>only your game data</i>. This prevents anyone from using your player name at your place and impersonate you in game. It also allows you to reactivate your account.
+				<br/>
+				This also means that all information regarding your account and in particular <i>your personal data are permanently stored</i> in the LegacyWorlds database. If you want those <i>information to be erased from the database</i>, please contact the <a href="mailto:staff@legacyworlds.com">staff</a>.
+			</section>
+			<section id="accga_acc_clo_rea" title="Account reactivation">
+				If you want to <i>reactivate your account</i> you only have to log in as usual. <i>Joining a LegacyWorlds game</i> is then all the <mlink to="accga_acc_new">same as for new accounts</mlink>.
+			</section>
+		</section>
+	</section>
+	<section id="accga_login" title="Logging in">
+		In the login form of the <mlink to="home_cons_left_top">left panel of the home page</mlink> you have to fill in:<ul>
+			<li><i>Username</i>: the in game username you've chosen</li>
+			<li><i>Password</i>: the password you've chosen</li>
+		</ul>
+		You can then click the <i>Log in -></i> button to log in.
+	</section>
+	<section id="accga_gm" title="Games management">
+		<section id="accga_gm_intro" title="Introduction">
+			<i>Several LegacyWorlds games</i> may be running at once. You can <i>choose</i> which games you want to play from the main game selection page you reach when logging in. 
+		</section>
+		<section id="accga_gm_join" title="Joining a new game">
+			The game selection list provides informations about current available games, including:<ul>
+				<li><i>Game name</i>: name of the game. This name is a link to join that particular game</li>
+				<li><i>Players</i>: number of players in this game</li>
+				<li><i>Running</i>: if you are not currently playing this game this field presents if the game is running or not thus informing you if you can join in or not</li>
+			</ul>
+			In order to <i>join</i> a particular game click on its name in the games list.
+			<br/>
+			You'll get then directed to a <mlink to="planet">planet</mlink> creation form. This form will allow you to choose the name of your first <mlink to="planet">planet</mlink> in the game. Type in the <mlink to="planet">planet</mlink> name in the provided text field and click the <i>ok</i> button to validate your input. You can now start taking care of your newborn <mlink to="empire">empire</mlink> in this game.
+		</section>
+		<section id="accga_gm_play" title="Playing a game you've joined">
+			A list of current games you are playing is also provided. This list presents:<ul>
+				<li><i>Game name</i>: name of the game. This name is a link to play that particular game</li>
+				<li><mlink to="planets">Planets</mlink>: number of <mlink to="planet">planets</mlink> in your <mlink to="empire">empire</mlink> in this game</li>
+				<li><mlink to="money">Cash</mlink>: amount of <mlink to="money">money</mlink> you have in this particular game</li>
+			</ul>
+			In order to <i>play a particular game</i> click on its name in the list. You'll get directed to the <mlink to="overview_page">overview page</mlink> for this particular game.
+		</section>
+	</section>
+</lwdoc>

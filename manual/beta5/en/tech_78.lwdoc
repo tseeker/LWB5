@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Anti-matter Generators</title>
+	<section id="tech_78_desc" title='Description'>
+		Sir! Our scientists have designed a new way to produce energy. Equipping our factories with these anti-matter generators will improve our productivity.
+	</section>
+	<section id="tech_78_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Civilian technology</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;4,000,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases Industrial Factories productivity</li>
+				<li>Increases Military Factories Productivity</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_78_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_53'>Self-healing Materials</mlink></li>
+			<li><mlink to='tech_72'>Mass Anti-matter Production</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_90">Matter Anti-matter Missiles</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

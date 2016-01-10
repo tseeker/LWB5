@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<lwdoc>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Rankings</title>
+	<section id="rank_intro" title="Introduction">
+		Rankings are a way to keep track of the various players' progress in the game and to compare their strength. There are different kinds of rankings which are presented in the various sections of the Rankings page.
+		<br/>
+		On top of the Rankings page various links allow you to navigate beween the different rankings pages:<ul>
+			<li>Summary: this page provides you wil a general overview of your own rankings</li>
+			<li>General Rankings: this page presents a list of all players for the general ranking</li>
+			<li>Detailed Rankings: this page offers a list of all players for the various rankings composing the general ranking</li>
+			<li>Alliance Rankings: this page offers a view of all alliances and their ranking</li>
+			<li>Overall Round Rankings: this page presents a list of all players for the overall round ranking</li>
+			<li>Inflicted Damage Rankings: this page presents a list of all players for the inflicted damage ranking</li>
+		</ul>
+	</section>
+	<section id="rank_sum" title="Summary">
+		This page provides you wil a general overview of your own rankings. For each ranking your rank and the corresponding amount of points are provided. It includes:<ul>
+			<li>General ranking: this ranking corresponds to a combination of your civilisation, military and financial rankings. It represents your current advancement in the game.</li>
+			<li>Overall Round Ranking: this ranking is calculated based on your previous general rankings. It allows for a long term estimate of your strength and advancement.</li>
+			<li>Civilization Ranking: this ranking represents the advancement level of the society in your empire. It takes into account technology level, population and happiness.</li>
+			<li>Military Ranking: this ranking allows to assess the military strength of your empire. Its calculation is based on the number of turrets and military factories you own along with your fleet fire power.</li>
+			<li>Financial Ranking: this ranking correspond to the economic health of your empire. It takes into account your banked cash, your empire's income and the number of industrial factories you own.</li>
+		</ul>
+	</section>
+	<section id="rank_gen" title="General Rankings">
+		This page provides you with the general rankings for all players. General rankings consists of a combination of civilisation, military and financial rankings, thus providing a current image of each player's strength and advancement in the game.
+		<br/>
+		The top part of the page includes some navigation facilities:<ul>
+			<li>Number of players per page: the left drop down list allows you to choose how many players you want displayed on each page.</li>
+			<li>Page to display: when relevant, a drop down list which allows you to switch between pages is displayed.</li>
+			<li>Search feature: when filling in the search textfield the listing will be automatically limited to the items containing the string you've typed in, wherever it may be in the whole player name.</li>
+		</ul>
+		<br/>
+		The bottom part of the page consists of the listing itself, containing:
+		<ul>
+			<li>Player Name: name of the corresponding player</li>
+			<li>Rankings/Points: rank in the rankings for the player along with the corresponding amont of points</li>
+		</ul>
+		In this list your own name is displayed in bold. Clicking on the columns titles allows for sorting according to the corresponding field. Clicking again on the same title switches between ascending and descending sorts.
+	</section>
+	<section id="rank_det" title="Detailed Rankings">
+		This page provides you with the detailed rankings for all players. Detailed rankings consists of civilisation, military and financial rankings, thus providing a current detailed image of each player's strength and advancement in each field.
+		<br/>
+		The top part of the page includes some navigation facilities:<ul>
+			<li>Number of players per page: the left drop down list allows you to choose how many players you want displayed on each page.</li>
+			<li>Page to display: when relevant, a drop down list which allows you to switch between pages is displayed.</li>
+			<li>Search feature: when filling in the search textfield the listing will be automatically limited to the items containing the string you've typed in, wherever it may be in the whole player name.</li>
+		</ul>
+		<br/>
+		The bottom part of the page consists of the listing itself, containing:
+		<ul>
+			<li>Player Name: name of the corresponding player</li>
+			<li>Civilisation Rankings/Points: rank in the rankings for the player along with the corresponding amont of points</li>
+			<li>Military Rankings/Points: rank in the rankings for the player along with the corresponding amont of points</li>
+			<li>Financial Rankings/Points: rank in the rankings for the player along with the corresponding amont of points</li>
+		</ul>
+		In this list your own name is displayed in bold. Clicking on the columns titles allows for sorting according to the corresponding field. Clicking again on the same title switches between ascending and descending sorts.
+	</section>
+	<section id="rank_all" title="Alliance Rankings">
+		This page provides you with the rankings for all alliances. Alliance rankings provide a current image of each alliance's strength and advancement in the game.
+		<br/>
+		The top part of the page includes some navigation facilities:
+		<ul>
+			<li>Number of alliances per page: the left drop down list allows you to choose how many alliances you want displayed on each page.</li>
+			<li>Page to display: when relevant, a drop down list which allows you to switch between pages is displayed.</li>
+			<li>Search feature: when filling in the search textfield the listing will be automatically limited to the items containing the string you've typed in, wherever it may be in the whole alliance tag.</li>
+		</ul>
+		<br/>
+		The bottom part of the page consists of the listing itself, containing:<ul>
+			<li>Alliance Name: name of the corresponding alliance</li>
+			<li>Rankings/Points: rank in the rankings for the alliance along with the corresponding amont of points</li>
+		</ul>
+	</section>
+	<section id="rank_rnd" title="Overall Round Rankings">
+		This page provides you with the overall round rankings for all players. Overall round rankings are calculated based on previous general rankings for each player. It allows for a long term estimate of strength and advancement in the game.
+		<br/>
+		The top part of the page includes some navigation facilities:<ul>
+			<li>Number of players per page: the left drop down list allows you to choose how many players you want displayed on each page.</li>
+			<li>Page to display: when relevant, a drop down list which allows you to switch between pages is displayed.</li>
+			<li>Search feature: when filling in the search textfield the listing will be automatically limited to the items containing the string you've typed in, wherever it may be in the whole player name.</li>
+		</ul>
+		<br/>
+		The bottom part of the page consists of the listing itself, containing:<ul>
+			<li>Player Name: name of the corresponding player</li>
+			<li>Rankings/Points: rank in the rankings for the player along with the corresponding amont of points</li>
+		</ul>
+		In this list your own name is displayed in bold. Clicking on the columns titles allows for sorting according to the corresponding field. Clicking again on the same title switches between ascending and descending sorts.
+	</section>
+	<section id="rank_idr" title="Inflicted Damage Rankings">
+		This page provides you with the inflicted damage ranking for all players. Inflicted Damage Rankings are based on fleet power destroyed by the player's fleets. 
+		<br/>
+		The top part of the page includes some navigation facilities:<ul>
+			<li>Number of players per page: the left drop down list allows you to choose how many players you want displayed on each page.</li>
+			<li>Page to display: when relevant, a drop down list which allows you to switch between pages is displayed.</li>
+			<li>Search feature: when filling in the search textfield the listing will be automatically limited to the items containing the string you've typed in, wherever it may be in the whole player name.</li>
+		</ul>
+		The bottom part of the page consists of the listing itself, containing:<ul>
+			<li>Player Name: name of the corresponding player</li>
+			<li>Rankings/Points: rank in the rankings for the player along with the corresponding amont of points</li>
+		</ul>
+		In this list your own name is displayed in bold. Clicking on the columns titles allows for sorting according to the corresponding field. Clicking again on the same title switches between ascending and descending sorts.
+	</section>
+</lwdoc>

@@ -1,0 +1,10 @@
+table.lsallies { width: auto; }
+.spacer { width: 30px; }
+table.lsallies td.al0 { color: #00FF00; }
+table.lsallies td.al1 { color: #3FDF3F; }
+table.lsallies td.al2 { color: #6FBF6F; }
+table.lsallies td.al3 { color: #9F9F9F; }
+table.lsallies td.al4 { color: #CF7FCF; }
+.raname { text-align: left; width: auto; }
+.ralevel { text-align: center; width: 25%; }
+.rasel { text-align: center; width: 32px; }

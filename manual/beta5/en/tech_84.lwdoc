@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Matter Anti-matter Engines</title>
+	<section id="tech_84_desc" title='Description'>
+		Sir! Our scientists have found a new application for matter anti-matter reactions: propulsion systems! This new line of engines should increase our ships efficiency greatly.
+	</section>
+	<section id="tech_84_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Military technology</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;5,000,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases capital ship speed</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_84_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_72'>Mass Anti-matter Production</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_89">Biological Hyperspace Engines</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

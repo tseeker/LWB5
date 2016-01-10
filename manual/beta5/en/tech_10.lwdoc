@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Advanced Hospitals</title>
+	<section id="tech_10_desc" title='Description'>
+		Sir! We have successfully researched a new public service! We hope that these &quot;Advanced Hospitals&quot; will improve the health of our subjects so that they are less likely to bite the dust at an unprofitable moment.
+	</section>
+	<section id="tech_10_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Civilian technology</li>
+			<li><b>Optional:</b> No</li>
+			<li><b>Cost:</b> &amp;euro;50,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases population growth</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_10_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_4'>Bio-engineering</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_14">Cloning Techniques</mlink></li>
+			<li><mlink to="tech_30">Nourishment Purification</mlink></li>
+			<li><mlink to="tech_50">Surgical Robots</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

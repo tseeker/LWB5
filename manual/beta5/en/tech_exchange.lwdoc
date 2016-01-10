@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<lwdoc>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Research Exchanges</title>
+	<section id="resex_intro" title="Introduction">
+		As the complete technological tree isn't available to one given player, you'll have to acquire some technologies from other players through diplomatic exchanges in order to obtain technologies you don't have access to. 
+		<br/>
+		Technologies exchanges are managed through the Diplomacy section of the research page. It is accessible by clicking the "Diplomacy" link on top of the Research page.
+		<br/>
+		In order to use this feature you have to match the following criteria:<ul>
+			<li>Your account has to be more than 10 days old.</li>
+			<li>Technologies can only be exchanged between players in the same protection zone.</li>
+			<li>You haven't already sent an offer within the last 24h.</li>
+		</ul>
+	</section>
+	<section id="resex_offer" title="Offering scientific assistance">
+		The top part of the "Diplomacy" section of the research page allows you to send scientific assistance offers to other players. You can provide this assistance by two different means:<ul>
+			<li>Research assistance: by selecting the corresponding radio button, you'll offer part of your own research points to the player you're making the offer to. The number of research points offered is the smallest number between half of the target's.</li>
+			<li>A particular technology: by selecting the other radio button and choosing a technology in the provided drop down list you'll offer this technology to the target player.</li>
+		</ul>
+		You also have to choose the player you're making the offer to. Use the textfield next to "player" to type in his name. You can also define an amount of money to ask for in compensation by typing in the amount of cash you want in return in the corresponding textfield. Leaving the field blank corresponds to a gift.
+		<br/>
+		To validate your offer click the "Send" button. You can also cancel your changes by clicking the "Cancel" button.
+	</section>
+	<section id="resex_accept" title="Accepting scientific assistance">
+		Each time another player sends you a scientific assistance offer, an Internal Transmission by your Scientific Advisor is sent to your mailbox. In this message, a "More Details" link directs you to the "Diplomacy" section of the Research Page. Details of the offer are displayed in the "Received Assistance Offers" section of the page.	
+		<br/>
+		For each offer is displayed:<ul>
+			<li>Sender</li>
+			<li>Date and time of the offer</li>
+			<li>Nature of the offer</li>
+			<li>Your current status toward that particular offer. In particular it indicates if you have already discovered the technology or already accepted an offer within the last 24h...</li>
+			<li>Buttons to either accept the offer or decline it (Accept" and Decline" button)</li>
+		</ul>
+		Be careful that you can only accept one offer within 24h. Scientific assistance offers also expire on their own after 24h.
+	</section>
+	<section id="resex_hist" title="History">
+		The bottom right part of the "Diplomacy" section of the Research page also includes an History of previous research assistance offers. For each offer this history includes:<ul>
+			<li>Sender</li>
+			<li>Nature of the offer</li>
+			<li>Time and date of the offer</li>
+			<li>The action that has been take towards the offer: accepted, declined or expired</li>
+		</ul>
+	</section>
+</lwdoc>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Green Production</title>
+	<section id="tech_31_desc" title='Description'>
+		These new production methods are safer for planetary ecology, making the population happier but slightly reducing factory productivity.
+	</section>
+	<section id="tech_31_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Civilian technology</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;400,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases happiness</li>
+				<li>Decreases Industrial Factories productivity</li>
+				<li>Decreases Military Factories productivity</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_31_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_11'>High-efficiency Hydroponics</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_32">Biosphere Protection Pact</mlink></li>
+			<li><mlink to="tech_35">Arcologies</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

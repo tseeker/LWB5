@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Wild Capitalism</title>
+	<section id="tech_76_desc" title='Description'>
+		This law allows the industrial sector to use any means necessary to increase profit. As a consequence, base planetary income and industrial factory benefits are increased but military factories, research and happiness suffer from it.
+	</section>
+	<section id="tech_76_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Law</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;200,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases planetary base income</li>
+				<li>Increases Industrial Factories productivity</li>
+				<li>Decreases Military Factories productivity</li>
+				<li>Decreases research output</li>
+				<li>Decreases happiness</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_76_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_21'>Economy Globalisation</mlink></li>
+			<li><mlink to='tech_75'>Automated Factories</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

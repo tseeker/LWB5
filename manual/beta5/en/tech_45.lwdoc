@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Fast Burst Transmission</title>
+	<section id="tech_45_desc" title='Description'>
+		This new technology renders our stellar and interstellar communications less prone to jamming and interception.
+	</section>
+	<section id="tech_45_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Military technology</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;500,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases communications efficiency</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_45_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_18'>Advanced Communications</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_46">Hyperspace Beacon</mlink></li>
+			<li><mlink to="tech_48">Quantum Encryption</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

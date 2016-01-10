@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<lwdoc hide='1'>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Miniaturised Particle Colliders</title>
+	<section id="tech_17_desc" title='Description'>
+		These new and small particle colliders increase research in many areas, increasing lab outputs.
+	</section>
+	<section id="tech_17_det" title='Details'>
+		<ul>
+			<li><b>Category:</b> Fundamental research</li>
+			<li><b>Optional:</b> Yes</li>
+			<li><b>Cost:</b> &amp;euro;100,000</li>
+			<li><b>Effects:</b> <ul>
+				<li>Increases research output</li>
+			</ul></li>
+		</ul>
+	</section>
+	<section id='tech_17_dep' title='Dependencies'>
+		<b>Depends on:</b><ul>
+			<li><mlink to='tech_3'>Advanced Materials</mlink></li>
+			<li><mlink to='tech_16'>Quantum Gravitation</mlink></li>
+		</ul>
+		<b>Required by:</b><ul>
+			<li><mlink to="tech_23">Increased Research Grants</mlink></li>
+			<li><mlink to="tech_43">Science Golden Age</mlink></li>
+		</ul>
+	</section>
+</lwdoc>

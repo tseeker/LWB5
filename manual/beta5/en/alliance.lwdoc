@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<lwdoc>
+	<version>beta5</version>
+	<language>en</language>
+	<title>Alliance</title>
+	<section id="alliance_bas" title="Basic concepts">
+		An alliance is a group of players who have decided to team up and work together to be stronger in the game. An alliance is identified by its tag, which usual consists of a short hand for its name. An alliance has a leader and is composed of members of different custom ranks. Depending on the privileges attached to their rank members have access to various types of features on the alliance page. An alliance can be either a democracy (members can vote for their leader) or a dictature (no voting system). Alliance specific forums can also be created by members of sufficient rank and their access to members can be restricted according to their rank.
+	</section>
+	<section id="alliance_join" title="Creating / joining an alliance" linkto="alliance_create">
+		At the beginning of the game you don't belong to any alliance. You can then choose among several options:<ul>
+			<li>Remain a lone gunman</li>
+			<li>Join an existing alliance</li>
+			<li>Create a new alliance</li>
+		</ul>
+		We'll have a closer look at the two last options in the corresponding manual section.
+	</section>
+	<section id="alliance_memb" title="As member of an alliance">
+		The internal organisation of an alliance is usually set up by its leadership and we won't cover those matters in this manual. 
+		<br/>
+		As member of an alliance and depending on your rank inside the alliance you may have access to various alliance management features. You are invited to read the manual sections covering the features you have access to to learn more about them.
+	</section>
+	<section id="alliance_manag" title="Alliance management" linkto="alliance_manage">
+		The alliance management pages provide you with useful information about the alliance in the same trend as the alliance information previously described or listings of members and controlled planets. It also offers means to manage members, alliance specific forums and ranks. The various sections of this part of the manual describe those features.	
+	</section>
+
+	<section file="alliance_create.lwdoc"/>
+	<section file="alliance_manage.lwdoc"/>
+</lwdoc>
